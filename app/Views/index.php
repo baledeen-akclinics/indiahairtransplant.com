@@ -247,7 +247,7 @@
   <div class="container">
 
     <h2 class="results-title">Meet the Founder – Dr. Kapil Dua</h2>
-<p style="text-align: center; color: #ffffff;">(Renowned Hair Transplant Surgeon in India)</p>
+    <p style="text-align: center; color: #ffffff;">(Renowned Hair Transplant Surgeon in India)</p>
     <div class="results-divider" aria-hidden="true">
       <span class="line"></span>
       <span class="cross">✚</span>
@@ -264,13 +264,13 @@
       <div class="cs-content">
 
         <p class="cs-text">
-         Dr. Kapil Dua is the Founder of IHT Clinic (India Hair Transplant) and <a href="https://akclinics.com/">AK Clinics</a>, and is widely recognised as one of India’s most experienced and respected hair transplant surgeons. With over 20 years of surgical experience, His approach emphasises natural results, patient safety, and long-term outcomes.
+          Dr. Kapil Dua is the Founder of IHT Clinic (India Hair Transplant) and <a href="https://akclinics.com/">AK Clinics</a>, and is widely recognised as one of India’s most experienced and respected hair transplant surgeons. With over 20 years of surgical experience, His approach emphasises natural results, patient safety, and long-term outcomes.
         </p>
 
         <p class="cs-text">
-         Dr. Dua is widely recognised for his leadership in advancing ethical, surgeon-performed hair restoration practices in India. Beyond clinical practice, he has contributed significantly to the global hair restoration community through leadership and academic roles with international organisations. He has participated in professional committees and authored multiple chapters in leading textbooks on hair transplantation, reflecting a strong commitment to advancing surgical standards, education, and evidence-based practice.</p>
-                <p class="cs-text">
-        Under his guidance, IHT Clinic follows a patient-first, medical approach where each procedure is planned based on the individual’s hair loss pattern, donor area condition, and long-term restoration goals. Results are allowed to develop naturally over time, with a clear focus on safety, transparency, and ethical care.</p>
+          Dr. Dua is widely recognised for his leadership in advancing ethical, surgeon-performed hair restoration practices in India. Beyond clinical practice, he has contributed significantly to the global hair restoration community through leadership and academic roles with international organisations. He has participated in professional committees and authored multiple chapters in leading textbooks on hair transplantation, reflecting a strong commitment to advancing surgical standards, education, and evidence-based practice.</p>
+        <p class="cs-text">
+          Under his guidance, IHT Clinic follows a patient-first, medical approach where each procedure is planned based on the individual’s hair loss pattern, donor area condition, and long-term restoration goals. Results are allowed to develop naturally over time, with a clear focus on safety, transparency, and ethical care.</p>
 
         <ul class="feature-list">
           <li>20+ Years of Surgical Experience</li>
@@ -459,7 +459,7 @@
   </div>
 </section>
 
-
+<!-- Service Section -->
 <?= $this->include('partials/service') ?>
 
 <section class="htw-sec">
@@ -489,7 +489,7 @@
         <p class="htw-text">
           Just like any other medical procedure, proper planning is the most crucial step in a hair transplant, as it sets the roadmap for safe surgery and better results. At IHT, the hair transplant process begins with understanding the patient’s concerns, followed by a medical evaluation of hair loss and careful treatment planning. This approach helps achieve natural-looking results while protecting long-term hair stability.
         </p>
-       <ul class="feature-list">
+        <ul class="feature-list">
           <li>Initial Discussion with Patient Advisor to Understand hair loss concerns and expectations</li>
           <li>Detailed assessment of hair loss pattern, donor area strength, and future hair loss risk by the doctors</li>
           <li>Custom hairline design, graft requirement calculation, and donor area management.</li>
@@ -497,12 +497,12 @@
           <li>Setting realistic expectations and planning results that develop naturally over time.</li>
         </ul>
 
-       <!-- <div class="htw-cta-box">
+        <!-- <div class="htw-cta-box">
           <p class="htw-cta-text">Still have doubts and queries?</p>
           <a class="htw-cta-btn" href="tel:09779944207">Call 09779944207</a>-->
-        </div>
       </div>
     </div>
+  </div>
   </div>
 </section>
 
@@ -524,7 +524,7 @@
           </figcaption>
         </figure>
         <div class="benefit-content">
-         <!-- <h3 class="benefit-sub">Sustained improvement</h3> -->
+          <!-- <h3 class="benefit-sub">Sustained improvement</h3> -->
           <p class="benefit-text">Unlike temporary solutions, a hair transplant offers a permanent approach to baldness by restoring natural hair growth in thinning and bald areas.</p>
         </div>
       </article>
@@ -547,11 +547,11 @@
         <figure class="benefit-media">
           <img src="<?= base_url('assets/images/minimal-downtime.jpg') ?>" alt="Minimal downtime">
           <figcaption class="benefit-ribbon">
-                  <span class="ribbon-title">Minimal Downtime</span>
+            <span class="ribbon-title">Minimal Downtime</span>
           </figcaption>
         </figure>
         <div class="benefit-content">
-           <!-- <h3 class="benefit-sub">Back to routine fast</h3> -->
+          <!-- <h3 class="benefit-sub">Back to routine fast</h3> -->
           <p class="benefit-text">With modern techniques, most patients can return to routine daily activities within a short recovery period.</p>
         </div>
       </article>
@@ -564,7 +564,7 @@
           </figcaption>
         </figure>
         <div class="benefit-content">
-         <!--   <h3 class="benefit-sub">Designed to suit you</h3> -->
+          <!--   <h3 class="benefit-sub">Designed to suit you</h3> -->
           <p class="benefit-text">Surgeon-planned hairline design ensures results that suit your facial features and continue to look natural as you age.</p>
         </div>
       </article>
@@ -577,210 +577,208 @@
   </div>
 </section>
 
+<!-- Location Section -->
 <?= $this->include('partials/location') ?>
 
-
 <section class="results-section faq-sec faq--light">
-<div class="container">
-  <h2 class="results-title">Frequently Asked Questions - Hair Transplant in India</h2>
-  <div class="results-divider">
-    <span class="line"></span><span class="cross">+</span><span class="line"></span>
+  <div class="container">
+    <h2 class="results-title">Frequently Asked Questions - Hair Transplant in India</h2>
+    <div class="results-divider">
+      <span class="line"></span><span class="cross">+</span><span class="line"></span>
+    </div>
+
+    <div class="faq-list" id="faqList">
+      <article class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>Is hair transplant in India safe?</span>
+          <i class="faq-ico" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a" hidden>
+          Yes, when performed by an experienced hair transplant surgeon with proper hygiene protocols. Safety depends on surgeon involvement, sterile standards, and correct planning.
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>How much does a hair transplant cost in India?</span>
+          <i class="faq-ico" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a" hidden>
+          <a href="<?= base_url('hair-transplant-cost') ?>">Hair transplant cost in India</a> typically ranges from Rs. 60,000 to Rs. 4,50,000 but the final cost varies based on graft count, technique (FUE/Bio-FUE), surgeon expertise, and OT standard. A precise estimate is possible only after evaluating hair loss pattern and donor area strength.
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>Is hair transplant cost in India calculated per graft?</span>
+          <i class="faq-ico" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a" hidden>
+          Many clinics quote per-graft pricing, but the final cost also depends on the technique used, the complexity of the case, and who performs the key surgical steps so it is important to ask what is included in the package.
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>How many grafts do I need for a hair transplant?</span>
+          <i class="faq-ico" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a" hidden>
+          It depends on baldness level, donor capacity, hair calibre, and density goals. Many cases fall around 1,500–3,500+ grafts, but the final plan is decided after a doctor’s assessment.
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>Which technique is better in India: FUE or Bio-FUE?</span>
+          <i class="faq-ico" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a" hidden>
+          Both FUE and Bio-FUE are effective when planned correctly. The “better” technique depends on individual scalp condition, hair loss pattern, and medical assessment, not a one-size-fits-all choice.
+          <ul>
+            <li><strong>FUE</strong> is suitable for standard cases with good donor density.</li>
+            <li><strong>Bio-FUE</strong> is a customised approach that focuses on improved graft handling, hydration, and healing, and may be preferred in selected cases.</li>
+          </ul>
+
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>Who is the right candidate for a hair transplant?</span>
+          <i class="faq-ico" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a" hidden>
+          You may be a suitable candidate if you:
+          <ul>
+            <li>Are generally between 25–65 years of age</li>
+            <li>Have a stable pattern of hair loss</li>
+            <li>Have a healty donor area</li>
+            <li>Have realistic expectations about density and coverage</li>
+          </ul>
+          <p>Final suitability depends on the type of hair loss, donor availability, scalp condition, and future hair loss progression, assessed during consultation.</p>
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>How long does recovery take after a hair transplant?</span>
+          <i class="faq-ico" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a" hidden>
+          Most people return to desk work in 2–4 days. Scabs usually shed by day 10–14. Exercise and heavy sweating are typically restricted for a short period as advised by the doctor.
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>When will I see hair transplant results?</span>
+          <i class="faq-ico" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a" hidden>
+          Most visible hair transplant growth begins after 3 to 4 months. Noticeable improvement is usually seen between 6 to 9 months, while full results may continue to develop up to 12 months or longer depending on the case.</div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>Are hair transplant results permanent?</span>
+          <i class="faq-ico" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a" hidden>
+          Transplanted follicles are typically resistant to hair loss, but existing non-transplanted hair can continue to thin with age. Long-term results depend on proper planning and donor management.
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          <span>How do I choose the best hair transplant clinic in India?</span>
+          <i class="faq-ico" aria-hidden="true"></i>
+        </button>
+        <div class="faq-a" hidden>
+          Look for experienced surgeons, medically compliant OT standards, transparent counselling, documented before-after cases, and clear aftercare. Avoid clinics that promise guaranteed density or “too cheap” packages.
+        </div>
+      </article>
+    </div>
   </div>
-
-  <div class="faq-list" id="faqList">
-    <article class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        <span>Is hair transplant in India safe?</span>
-        <i class="faq-ico" aria-hidden="true"></i>
-      </button>
-      <div class="faq-a" hidden>
-        Yes, when performed by an experienced hair transplant surgeon with proper hygiene protocols. Safety depends on surgeon involvement, sterile standards, and correct planning.
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        <span>How much does a hair transplant cost in India?</span>
-        <i class="faq-ico" aria-hidden="true"></i>
-      </button>
-      <div class="faq-a" hidden>
-        <a href="<?= base_url('hair-transplant-cost') ?>">Hair transplant cost in India</a> typically ranges from Rs. 60,000 to Rs. 4,50,000 but the final cost varies based on graft count, technique (FUE/Bio-FUE), surgeon expertise, and OT standard. A precise estimate is possible only after evaluating hair loss pattern and donor area strength.
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        <span>Is hair transplant cost in India calculated per graft?</span>
-        <i class="faq-ico" aria-hidden="true"></i>
-      </button>
-      <div class="faq-a" hidden>
-        Many clinics quote per-graft pricing, but the final cost also depends on the technique used, the complexity of the case, and who performs the key surgical steps so it is important to ask what is included in the package.
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        <span>How many grafts do I need for a hair transplant?</span>
-        <i class="faq-ico" aria-hidden="true"></i>
-      </button>
-      <div class="faq-a" hidden>
-        It depends on baldness level, donor capacity, hair calibre, and density goals. Many cases fall around 1,500–3,500+ grafts, but the final plan is decided after a doctor’s assessment.
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        <span>Which technique is better in India: FUE or Bio-FUE?</span>
-        <i class="faq-ico" aria-hidden="true"></i>
-      </button>
-      <div class="faq-a" hidden>
-      Both FUE and Bio-FUE are effective when planned correctly.  The “better” technique depends on individual scalp condition, hair loss pattern, and medical assessment, not a one-size-fits-all choice.
-      <ul>
-          <li><strong>FUE</strong> is suitable for standard cases with good donor density.</li>
-           <li><strong>Bio-FUE</strong> is a customised approach that focuses on improved graft handling, hydration, and healing, and may be preferred in selected cases.</li>
-      </ul>
-
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        <span>Who is the right candidate for a hair transplant?</span>
-        <i class="faq-ico" aria-hidden="true"></i>
-      </button>
-      <div class="faq-a" hidden>
-      You may be a suitable candidate if you:
-              <ul>
-          <li>Are generally between 25–65 years of age</li>
-           <li>Have a stable pattern of hair loss</li>
-           <li>Have a healty donor area</li>
-           <li>Have realistic expectations about density and coverage</li>
-      </ul>
-      <p>Final suitability depends on the type of hair loss, donor availability, scalp condition, and future hair loss progression, assessed during consultation.</p>
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        <span>How long does recovery take after a hair transplant?</span>
-        <i class="faq-ico" aria-hidden="true"></i>
-      </button>
-      <div class="faq-a" hidden>
-        Most people return to desk work in 2–4 days. Scabs usually shed by day 10–14. Exercise and heavy sweating are typically restricted for a short period as advised by the doctor.
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        <span>When will I see hair transplant results?</span>
-        <i class="faq-ico" aria-hidden="true"></i>
-      </button>
-      <div class="faq-a" hidden>
-     Most visible hair transplant growth begins after 3 to 4 months. Noticeable improvement is usually seen between 6 to 9 months, while full results may continue to develop up to 12 months or longer depending on the case.</div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        <span>Are hair transplant results permanent?</span>
-        <i class="faq-ico" aria-hidden="true"></i>
-      </button>
-      <div class="faq-a" hidden>
-        Transplanted follicles are typically resistant to hair loss, but existing non-transplanted hair can continue to thin with age. Long-term results depend on proper planning and donor management.
-      </div>
-    </article>
-
-    <article class="faq-item">
-      <button class="faq-q" aria-expanded="false">
-        <span>How do I choose the best hair transplant clinic in India?</span>
-        <i class="faq-ico" aria-hidden="true"></i>
-      </button>
-      <div class="faq-a" hidden>
-        Look for experienced surgeons, medically compliant OT standards, transparent counselling, documented before-after cases, and clear aftercare. Avoid clinics that promise guaranteed density or “too cheap” packages.
-      </div>
-    </article>
-  </div>
-</div>
 </section>
 
 <section>
 
 
-    <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
-      <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
-        <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
-        <p class="fa-row"><strong>Updated on:</strong> March 26, 2026</p>
-      </div>
-    </aside>
-  
+  <aside class="faq-author faq-author--ak">
+    <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+    <div class="fa-meta">
+      <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+      <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
+      <p class="fa-row"><strong>Updated on:</strong> March 26, 2026</p>
+    </div>
+  </aside>
+
 </section>
 
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
+  {
+    "@context": "https://schema.org",
+    "@graph": [
 
-    {
-      "@type": "MedicalClinic",
-      "name": "IHT Clinic",
-      "url": "https://indiahairtransplant.com/",
-      "logo": "https://indiahairtransplant.com/assets/images/main_logo.png",
-      "telephone": "+91-9779944207",
+      {
+        "@type": "MedicalClinic",
+        "name": "IHT Clinic",
+        "url": "https://indiahairtransplant.com/",
+        "logo": "https://indiahairtransplant.com/assets/images/main_logo.png",
+        "telephone": "+91-9779944207",
 
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "IN"
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "IN"
+        },
+
+        "medicalSpecialty": [
+          "http://schema.org/Dermatologic"
+        ],
+
+        "availableService": [{
+            "@type": "MedicalProcedure",
+            "name": "FUE Hair Transplant"
+          },
+          {
+            "@type": "MedicalProcedure",
+            "name": "Bio-FUE Hair Transplant"
+          }
+        ]
       },
 
-      "medicalSpecialty": [
-        "http://schema.org/Dermatologic"
-      ],
-
-      "availableService": [
-        {
-          "@type": "MedicalProcedure",
-          "name": "FUE Hair Transplant"
-        },
-        {
-          "@type": "MedicalProcedure",
-          "name": "Bio-FUE Hair Transplant"
-        }
-      ]
-    },
-
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Is hair transplant safe?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Hair transplant is safe when performed by an experienced doctor with proper planning and medical standards."
+      {
+        "@type": "FAQPage",
+        "mainEntity": [{
+            "@type": "Question",
+            "name": "Is hair transplant safe?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hair transplant is safe when performed by an experienced doctor with proper planning and medical standards."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How much does hair transplant cost in India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hair transplant cost in India depends on graft requirement, technique, and clinic standards. Final cost is decided after consultation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When will I see results after hair transplant?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Hair growth usually starts after a few months, with visible improvement between 6 to 9 months."
+            }
           }
-        },
-        {
-          "@type": "Question",
-          "name": "How much does hair transplant cost in India?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Hair transplant cost in India depends on graft requirement, technique, and clinic standards. Final cost is decided after consultation."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "When will I see results after hair transplant?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Hair growth usually starts after a few months, with visible improvement between 6 to 9 months."
-          }
-        }
-      ]
-    }
+        ]
+      }
 
-  ]
-}
+    ]
+  }
 </script>
 
 <!-- Footer File Include -->

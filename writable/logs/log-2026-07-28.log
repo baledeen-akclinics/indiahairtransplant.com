@@ -566,3 +566,5 @@ in APPPATH/Views/index.php on line 465.
 11 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
 12 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
 13 SYSTEMPATH/rewrite.php(44): require_once('/var/www/html/indiahairtransplant.com/public/index.php')
+INFO - 2026-07-28 06:30:17 --> REDIRECTED ROUTE at https://localhost:8080/faqs
+INFO - 2026-07-28 06:30:22 --> REDIRECTED ROUTE at https://localhost:8080/

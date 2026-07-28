@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/x-icon" href="<?= base_url('assets/images/iht-favicon.ico') ?>">
-<link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/images/iht-favicon.ico') ?>">
+<link rel="icon" type="image/x-icon" href="<?= base_url('favicon.ico') ?>">
+<link rel="shortcut icon" type="image/x-icon" href="<?= base_url('favicon.ico') ?>">
 
 <!-- Meta File Include -->
 <?= $this->include('partials/meta') ?>
