@@ -1,0 +1,187 @@
+/* =========================================================
+   BLOG CATEGORY PAGE — blog-category.css
+   Upload to: /assets/blog-category.css
+   Loaded after blog.css in blog-category.php
+   ========================================================= */
+
+/* -------------------------------------------------------
+   BREADCRUMB
+   ------------------------------------------------------- */
+.cat-breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--bl-muted);
+  margin-bottom: 10px;
+}
+
+.cat-breadcrumb a {
+  color: var(--bl-muted);
+  transition: color .18s;
+}
+
+.cat-breadcrumb a:hover { color: var(--bl-brand); }
+
+.cat-breadcrumb span[aria-hidden] { opacity: .45; }
+
+/* -------------------------------------------------------
+   ACTIVE PILL
+   ------------------------------------------------------- */
+.pill--active,
+.pill[aria-current="page"] {
+  border-color: var(--bl-brand);
+  background: rgba(241,94,55,.10);
+  color: var(--bl-brand);
+  font-weight: 600;
+}
+
+/* -------------------------------------------------------
+   VIEW ALL LINK inside section heading
+   ------------------------------------------------------- */
+.cat-view-all {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--bl-brand);
+  border-bottom: 1px solid rgba(241,94,55,.30);
+  margin-left: 10px;
+  transition: border-color .18s;
+  vertical-align: middle;
+}
+
+.cat-view-all:hover { border-color: var(--bl-brand); }
+
+/* -------------------------------------------------------
+   COUNT + PAGE INFO
+   ------------------------------------------------------- */
+.cat-count {
+  font-size: 13px;
+  color: var(--bl-muted);
+  background: rgba(15,23,42,.05);
+  border: 1px solid var(--bl-border);
+  border-radius: 999px;
+  padding: 5px 14px;
+  white-space: nowrap;
+}
+
+.cat-page-info {
+  font-size: 13px;
+  color: var(--bl-muted);
+  font-weight: 400;
+  margin-left: 8px;
+}
+
+/* -------------------------------------------------------
+   CARD GRID — 3 columns, all articles visible (no scroller)
+   ------------------------------------------------------- */
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+/* Cards in grid mode — remove the flex scroller width */
+.cat-grid .blog-card {
+  flex: none;
+  width: 100%;
+}
+
+/* -------------------------------------------------------
+   PAGINATION
+   ------------------------------------------------------- */
+.cat-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--bl-border);
+  flex-wrap: wrap;
+}
+
+.pg-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 18px;
+  border-radius: 10px;
+  border: 1px solid var(--bl-border);
+  background: #fff;
+  color: var(--bl-ink);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(16,24,40,.05);
+  transition: border-color .18s, color .18s, background .18s;
+}
+
+.pg-btn:hover {
+  border-color: var(--bl-brand);
+  color: var(--bl-brand);
+  background: rgba(241,94,55,.04);
+}
+
+.pg-btn.pg-disabled {
+  opacity: .38;
+  pointer-events: none;
+  cursor: default;
+  box-shadow: none;
+}
+
+.pg-numbers {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pg-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  height: 38px;
+  padding: 0 6px;
+  border-radius: 10px;
+  border: 1px solid var(--bl-border);
+  background: #fff;
+  color: var(--bl-ink);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: border-color .18s, color .18s, background .18s;
+}
+
+.pg-num:hover {
+  border-color: var(--bl-brand);
+  color: var(--bl-brand);
+  background: rgba(241,94,55,.04);
+}
+
+.pg-num.pg-current {
+  border-color: var(--bl-brand);
+  background: var(--bl-brand);
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 4px 12px rgba(241,94,55,.28);
+}
+
+.pg-ellipsis {
+  color: var(--bl-muted);
+  padding: 0 4px;
+  font-size: 14px;
+}
+
+/* -------------------------------------------------------
+   RESPONSIVE
+   ------------------------------------------------------- */
+@media (max-width: 980px) {
+  .cat-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .cat-grid { grid-template-columns: 1fr; }
+
+  .pg-btn { padding: 8px 14px; font-size: 13px; }
+  .pg-num { min-width: 34px; height: 34px; font-size: 13px; }
+}

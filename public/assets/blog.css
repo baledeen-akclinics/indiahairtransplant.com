@@ -1,0 +1,424 @@
+/* =========================================================
+   BLOG LISTING PAGE — blog.css
+   Load AFTER style.css (already loaded via header)
+   ========================================================= */
+
+/* -------------------------------------------------------
+   TOKENS — scoped prefix --bl- avoids conflict with root
+   ------------------------------------------------------- */
+:root {
+  --bl-brand:  #f15e37;
+  --bl-bg:     #f6f8fb;
+  --bl-ink:    #0f172a;
+  --bl-muted:  #64748b;
+  --bl-card:   #ffffff;
+  --bl-border: rgba(15,23,42,.12);
+  --bl-radius: 16px;
+  --bl-shadow: 0 14px 40px rgba(16,24,40,.08);
+}
+
+/* -------------------------------------------------------
+   PAGE WRAPPER
+   ------------------------------------------------------- */
+.blog-main {
+  background: var(--bl-bg);
+  min-height: 60vh;
+}
+
+/* -------------------------------------------------------
+   HERO — two column: headline left, search right
+   ------------------------------------------------------- */
+.bm-hero {
+  padding: 30px 0 16px;
+  background: var(--bl-bg);
+}
+
+.bm-hero .hero-top {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 18px;
+  align-items: start;
+}
+
+.bm-hero h1 {
+  margin: 0 0 10px;
+  font-size: clamp(26px, 3vw, 38px);
+  line-height: 1.12;
+  color: var(--bl-ink);
+}
+
+.bm-hero .sub {
+  margin: 0;
+  color: var(--bl-muted);
+  max-width: 72ch;
+  line-height: 1.55;
+  font-size: 15px;
+}
+
+.hero-search {
+  align-self: start;
+  justify-self: end;
+  width: min(520px, 100%);
+  padding-top: 8px;
+}
+
+.searchbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid var(--bl-border);
+  border-radius: 14px;
+  padding: 10px 10px;
+  box-shadow: 0 10px 24px rgba(16,24,40,.06);
+}
+
+.search-ico svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--bl-muted);
+  display: block;
+}
+
+.searchbox input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+  background: transparent;
+  color: var(--bl-ink);
+  font-family: inherit;
+}
+
+.search-btn {
+  border: 1px solid rgba(241,94,55,.25);
+  background: rgba(241,94,55,.10);
+  color: var(--bl-ink);
+  border-radius: 10px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 13.5px;
+  font-family: inherit;
+  white-space: nowrap;
+  transition: border-color .18s, background .18s;
+}
+
+.search-btn:hover {
+  border-color: rgba(241,94,55,.45);
+  background: rgba(241,94,55,.18);
+}
+
+.search-hint {
+  margin: 8px 0 0;
+  color: var(--bl-muted);
+  font-size: 12.5px;
+  line-height: 1.4;
+}
+
+/* -------------------------------------------------------
+   TOPICS — category pill row
+   ------------------------------------------------------- */
+.bm-topics {
+  padding: 14px 0 10px;
+  background: var(--bl-bg);
+}
+
+.bm-topics .section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+
+.bm-topics .section-head h2 {
+  margin: 0;
+  font-size: 18px;
+  color: var(--bl-ink);
+}
+
+.bm-topics .section-note {
+  margin: 0;
+  color: var(--bl-muted);
+  font-size: 13px;
+}
+
+.pill-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pill {
+  padding: 9px 14px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid var(--bl-border);
+  font-size: 13px;
+  color: var(--bl-ink);
+  transition: border-color .18s, color .18s;
+  cursor: pointer;
+}
+
+.pill:hover {
+  border-color: rgba(241,94,55,.35);
+  color: var(--bl-brand);
+}
+
+/* -------------------------------------------------------
+   SCROLLABLE CARD SECTIONS
+   ------------------------------------------------------- */
+.bm-block {
+  padding: 22px 0;
+  background: var(--bl-bg);
+}
+
+.block-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.block-head h2 {
+  margin: 0;
+  font-size: 18px;
+  color: var(--bl-ink);
+}
+
+/* Arrow buttons */
+.scroll-arrows {
+  display: flex;
+  gap: 10px;
+}
+
+.sc-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  border: 1px solid var(--bl-border);
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(16,24,40,.07);
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 1;
+  color: var(--bl-ink);
+  display: grid;
+  place-items: center;
+  transition: border-color .18s;
+}
+
+.sc-btn:hover {
+  border-color: rgba(241,94,55,.35);
+}
+
+/* Horizontal scroller — no visible scrollbar */
+.scroller {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 2px;
+}
+
+.scroller::-webkit-scrollbar {
+  height: 0;
+}
+
+/* -------------------------------------------------------
+   BLOG CARD
+   ------------------------------------------------------- */
+.blog-card {
+  flex: 0 0 320px;
+  background: var(--bl-card);
+  border: 1px solid var(--bl-border);
+  border-radius: var(--bl-radius);
+  overflow: hidden;
+  box-shadow: var(--bl-shadow);
+  scroll-snap-align: start;
+  transition: box-shadow .22s ease, transform .22s ease;
+}
+
+.blog-card:hover {
+  box-shadow: 0 22px 54px rgba(16,24,40,.13);
+  transform: translateY(-3px);
+}
+
+.card-thumb {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: #e2e8f0;
+}
+
+.card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .38s ease;
+}
+
+.blog-card:hover .card-thumb img {
+  transform: scale(1.05);
+}
+
+.card-tag {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  background: rgba(15,23,42,.75);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.card-body {
+  padding: 14px 16px 18px;
+}
+
+.card-body h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.card-body h3 a {
+  color: var(--bl-ink);
+  transition: color .18s;
+}
+
+.card-body h3 a:hover {
+  color: var(--bl-brand);
+}
+
+.card-meta {
+  margin: 0 0 8px;
+  color: var(--bl-muted);
+  font-size: 12px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.card-desc {
+  margin: 0;
+  color: var(--bl-muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* -------------------------------------------------------
+   SEARCH FILTER UTILITY
+   ------------------------------------------------------- */
+.is-hidden {
+  display: none !important;
+}
+
+/* -------------------------------------------------------
+   RESPONSIVE
+   ------------------------------------------------------- */
+@media (max-width: 980px) {
+  .bm-hero .hero-top {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-search {
+    justify-self: start;
+    width: 100%;
+  }
+
+  .blog-card {
+    flex-basis: 290px;
+  }
+}
+
+@media (max-width: 620px) {
+  .blog-card {
+    flex-basis: 270px;
+  }
+
+  .bm-hero h1 {
+    font-size: 24px;
+  }
+}
+
+/* -------------------------------------------------------
+   NO RESULTS STATE
+   ------------------------------------------------------- */
+.blog-no-results {
+  padding: 48px 0 56px;
+  background: var(--bl-bg);
+}
+
+.no-results-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.no-results-inner svg {
+  width: 52px;
+  height: 52px;
+  color: var(--bl-muted);
+  opacity: .55;
+}
+
+.no-results-inner h3 {
+  margin: 0;
+  font-size: 18px;
+  color: var(--bl-ink);
+}
+
+.no-results-inner p {
+  margin: 0;
+  color: var(--bl-muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.no-results-clear {
+  margin-top: 4px;
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: 1px solid rgba(241,94,55,.30);
+  background: rgba(241,94,55,.08);
+  color: var(--bl-ink);
+  font-size: 14px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background .18s, border-color .18s;
+}
+
+.no-results-clear:hover {
+  background: rgba(241,94,55,.16);
+  border-color: rgba(241,94,55,.45);
+}
+
+/* -------------------------------------------------------
+   CATEGORY "VIEW ALL" LINK in section headings (index.php)
+   ------------------------------------------------------- */
+.cat-view-all {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--bl-brand);
+  border-bottom: 1px solid rgba(241,94,55,.30);
+  margin-left: 10px;
+  transition: border-color .18s;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.cat-view-all:hover {
+  border-color: var(--bl-brand);
+}
