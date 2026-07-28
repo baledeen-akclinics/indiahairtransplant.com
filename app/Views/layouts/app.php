@@ -1,4 +1,4 @@
-<?= $this->include('layouts/header') ?>
+<?= $this->include('layouts/header', ['bodyClass' => $bodyClass ?? '']) ?>
 
 <?= $this->renderSection('content') ?>
 

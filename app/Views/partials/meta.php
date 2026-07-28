@@ -368,7 +368,7 @@ switch ($url) {
             $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/blog/transplant-techniques/" />';
             break;
 
-        case 'blog/recovery-aftercare':
+        case 'blog/recovery-and-aftercare':
             $metaHtml  = '<title>Hair Transplant Recovery &amp; Aftercare Guide | IHT Blog</title>';
             $metaHtml .= '<meta name="description" content="Week-by-week hair transplant recovery guide — shock loss, washing instructions, dos and don\'ts, and realistic growth timelines after your procedure in India.">';
             $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/blog/recovery-aftercare/" />';
@@ -398,7 +398,7 @@ switch ($url) {
             $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/blog/womens-hair-loss/" />';
             break;
 
-        case 'blog/results-recovery':
+        case 'blog/results-and-case-studies':
             $metaHtml  = '<title>Hair Transplant Results &amp; Before After | IHT Blog</title>';
             $metaHtml .= '<meta name="description" content="Honest articles on hair transplant results — what to expect at 3, 6 and 12 months, graft survival rates, success factors, and how to evaluate clinic outcomes.">';
             $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/blog/results-recovery/" />';
@@ -414,6 +414,12 @@ switch ($url) {
             $metaHtml .= '<meta name="description" content="When can you go to the gym after a hair transplant? IHT\'s medical team shares the week-by-week exercise timeline, what activities to avoid, and why Indian patients need extra caution.">';
             $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/blog/gym-after-hair-transplant" />';
             break;
+        case 'blog/kapil-sharma-hair-transplant':
+            $metaHtml  = '<title>Kapil Sharma Hair Transplant: Hairline Journey & What It Suggests</title>';
+            $metaHtml .= '<meta name="description" content="A medical look at Kapil Sharma\'s hairline transformation, what it may suggest about hair restoration, and what patients in India can realistically expect from treatment.">';
+            $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/blog/kapil-sharma-hair-transplant" />';
+            break;
+        
         case 'blog/hair-transplant-clinic-in-delhi':
             $metaHtml  = '<title>Hair Transplant in Delhi: What to Know Before You Choose a Clinic</title>';
             $metaHtml .= '<meta name="description" content="Planning a hair transplant in Delhi? IHT covers candidacy, techniques, cost breakdown, surgeon credentials to verify, and Delhi-specific aftercare tips before you book.">';

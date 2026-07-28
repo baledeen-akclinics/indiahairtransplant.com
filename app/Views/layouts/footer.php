@@ -152,6 +152,7 @@
 
 <script src="<?= base_url('assets/main.js?=9'); ?>"></script>
 <script src="<?= base_url('assets/popup-form.js?=5'); ?>"></script>
+<?= $this->renderSection('scripts') ?>
 </body>
 
 </html>

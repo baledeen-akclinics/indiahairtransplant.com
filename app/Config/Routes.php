@@ -10,6 +10,13 @@ $routes->get('/', 'HomeController::index');
 $routes->post('form-handler', 'FormController::handle');
 $routes->options('form-handler', 'FormController::handle');
 
+
+$routes->get('blog', 'BlogController::index');
+$routes->get('blog/', 'BlogController::index');
+$routes->get('blog-sitemap.xml', 'BlogController::sitemap');
+$routes->get('blog/(:segment)', 'BlogController::resolve/$1');
+$routes->get('blog/(:segment)/', 'BlogController::resolve/$1');
+
 // All converted content pages (slug => app/Views/pages/{slug}.php)
 $pages = [
     'about-us',

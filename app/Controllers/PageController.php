@@ -22,6 +22,12 @@ class PageController extends BaseController
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound($slug);
         }
 
-        return view($view);
+        $bodyClasses = [
+            'contact-us' => 'page-contact',
+        ];
+
+        return view($view, [
+            'bodyClass' => $bodyClasses[$slug] ?? '',
+        ]);
     }
 }
