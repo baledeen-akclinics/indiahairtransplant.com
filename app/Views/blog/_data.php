@@ -157,7 +157,19 @@ $iht_categories = [
 
 
 $iht_posts = [
-    
+
+    [
+    'slug'          => '/blog/kapil-sharma-hair-transplant',
+    'category_slug' => 'results-and-case-studies',
+    'title'         => 'Kapil Sharma Hair Transplant: His Hairline Journey and What It Tells Us',
+    'desc'          => 'From thinning frontal hairline to noticeably fuller hair &mdash; what does Kapil Sharma\'s visible transformation tell us about hair restoration options in India?',
+    'img'           => '/assets/images/blog/kapil-sharma-hair-transplant.webp',
+    'alt'           => 'Kapil Sharma hair transplant hairline journey',
+    'tag'           => 'Celebrity',
+    'date'          => 'Jul 10, 2026',
+    'read_time'     => '8 min read',
+  ],
+
     [
     'slug'          => '/blog/hair-transplant-clinic-in-delhi',
     'category_slug' => 'hair-transplant',

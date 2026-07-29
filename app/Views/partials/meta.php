@@ -415,8 +415,8 @@ switch ($url) {
             $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/blog/gym-after-hair-transplant" />';
             break;
         case 'blog/kapil-sharma-hair-transplant':
-            $metaHtml  = '<title>Kapil Sharma Hair Transplant: Hairline Journey & What It Suggests</title>';
-            $metaHtml .= '<meta name="description" content="A medical look at Kapil Sharma\'s hairline transformation, what it may suggest about hair restoration, and what patients in India can realistically expect from treatment.">';
+            $metaHtml  = '<title>Kapil Sharma Hair Transplant: His Hairline Journey and What It Tells Us</title>';
+            $metaHtml .= '<meta name="description" content="Fans have noticed Kapil Sharma\'s changing hairline for years. We examine what his transformation suggests and what hair restoration options are available in India today.">';
             $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/blog/kapil-sharma-hair-transplant" />';
             break;
         
