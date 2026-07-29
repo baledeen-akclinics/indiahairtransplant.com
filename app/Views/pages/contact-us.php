@@ -1,6 +1,9 @@
 <?= $this->extend('layouts/app') ?>
 
 <?= $this->section('content') ?>
+<?= $this->section('styles') ?>
+<link rel="stylesheet" href="<?= base_url('assets/css/contact-us.css') ?>">
+<?= $this->endSection() ?>
 
 <section class="page-hero">
   <div class="container wrap">
@@ -27,17 +30,69 @@
         </p>
 
         <form id="contactForm" novalidate>
+          <input type="hidden" id="source_url" name="source_url">
+          <input type="hidden" id="source_id" name="source_id" value="website">
+
+<input type="hidden" id="campaign_id" name="campaign_id" value="120212345678901234">
+<input type="hidden" id="campaign_name" name="campaign_name" value="Website">
+
+<input type="hidden" id="ad_id" name="ad_id" value="1">
+<input type="hidden" id="ad_name" name="ad_name" value="1">
+
+<input type="hidden" id="form_id" name="form_id" value="website-contact-form">
+<input type="hidden" id="form_name" name="form_name" value="Contact Us">
           <div class="cfield">
-            <input type="text" id="contact_name" name="name" placeholder="Name*" required>
-          </div>
+    <input
+        type="text"
+        id="contact_name"
+        name="name"
+        placeholder="Name*"
+        required
+    >
+    <small id="nameError" style="color:red;display:none;"></small>
+</div>
 
           <div class="cfield">
-            <input type="email" id="contact_email" name="email" placeholder="Email*" required>
-          </div>
+    <input
+        type="email"
+        id="contact_email"
+        name="email"
+        placeholder="Email*"
+        required
+    >
+    <small id="emailError" style="color:red;display:none;"></small>
+</div>
+<div class="cfield procedure-search-wrapper">
 
+    <input
+        type="text"
+        id="procedure_search"
+        placeholder="Search Procedure*"
+        autocomplete="off"
+    >
+
+    <input
+        type="hidden"
+        id="procedure_category"
+        name="procedure_category"
+    >
+
+    <span id="clearProcedure" class="clear-procedure">&times;</span>
+
+    <div id="procedure_dropdown" class="procedure-dropdown"></div>
+
+</div>
           <div class="cfield">
-            <input type="tel" id="contact_phone" name="phone" placeholder="Phone*" required>
-          </div>
+    <input
+        type="tel"
+        id="contact_phone"
+        name="phone"
+        placeholder="Phone*"
+        maxlength="10"
+        required
+    >
+    <small id="phoneError" style="color:red;display:none;"></small>
+</div>
 
           <div class="cfield">
             <select id="contact_location" name="city" required>
@@ -119,52 +174,9 @@
 
 <?= $this->section('scripts') ?>
 <script>
-document.getElementById('contactForm').addEventListener('submit', function (e) {
-  e.preventDefault();
-
-  var statusEl = document.getElementById('contactFormStatus');
-  var name = document.getElementById('contact_name').value.trim();
-  var email = document.getElementById('contact_email').value.trim();
-  var phone = document.getElementById('contact_phone').value.trim();
-  var city = document.getElementById('contact_location').value.trim();
-  var message = document.getElementById('contact_message').value.trim();
-  var phoneDigits = phone.replace(/\D/g, '');
-
-  if (!name || !email || !city || !/^[6-9]\d{9}$/.test(phoneDigits)) {
-    statusEl.style.display = 'block';
-    statusEl.style.color = '#b45309';
-    statusEl.textContent = 'Please fill in all required fields with a valid phone number.';
-    return;
-  }
-
-  statusEl.style.display = 'block';
-  statusEl.style.color = '#64748b';
-  statusEl.textContent = 'Sending...';
-
-  fetch('<?= base_url('form-handler') ?>', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      action: 'save_lead',
-      name: name,
-      email: email,
-      phone: phoneDigits,
-      city: city,
-      concern: 'not-sure',
-      source_url: window.location.href + (message ? ' | Message: ' + message : ''),
-    }),
-  })
-  .then(function (r) { return r.json(); })
-  .then(function () {
-    statusEl.style.color = '#15803d';
-    statusEl.textContent = 'Thank you. Our team will contact you shortly.';
-    document.getElementById('contactForm').reset();
-  })
-  .catch(function () {
-    statusEl.style.color = '#15803d';
-    statusEl.textContent = 'Thank you. Our team will contact you shortly.';
-    document.getElementById('contactForm').reset();
-  });
-});
+const API_BASE_URL = "<?= env('api.baseURL') ?>";
+const FORM_HANDLER_URL = "<?= base_url('form-handler') ?>";
 </script>
+
+<script src="<?= base_url('assets/js/contact-us.js') ?>"></script>
 <?= $this->endSection() ?>

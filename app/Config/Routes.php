@@ -10,7 +10,7 @@ $routes->get('/', 'HomeController::index');
 $routes->post('form-handler', 'FormController::handle');
 $routes->options('form-handler', 'FormController::handle');
 
-
+$routes->post('contact-submit', 'ContactController::submit');
 $routes->get('blog', 'BlogController::index');
 $routes->get('blog/', 'BlogController::index');
 $routes->get('blog-sitemap.xml', 'BlogController::sitemap');

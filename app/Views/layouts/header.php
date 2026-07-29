@@ -3,42 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/x-icon" href="<?= base_url('favicon.ico') ?>">
-<link rel="shortcut icon" type="image/x-icon" href="<?= base_url('favicon.ico') ?>">
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 
 <!-- Meta File Include -->
 <?= $this->include('partials/meta') ?>
 
-<!-- FIX 1: Preload LCP hero background image — makes it discoverable in initial HTML.
-     Replace page-hero-bg.webp with the actual filename used in
-     .page-hero { background-image: url(...) } in style.css
-     This fix is only needed on pages that use .page-hero (location pages, service pages).
-     For the home page or pages with a different LCP element, update the filename accordingly. -->
-<link rel="preload" as="image" href="<?= base_url('assets/images/page-hero-bg.webp') ?>" fetchpriority="high">
+<!-- Hero Image -->
+<link rel="preload" as="image" href="/assets/images/page-hero-bg.webp" fetchpriority="high">
 
-<!-- FIX 2: CSS loaded asynchronously — removes 710ms render-blocking delay.
-     Bug fix also applied: was style.css?=d98 (invalid query string), corrected to style.css?d98 -->
-<link rel="preload" href="<?= base_url('assets/style.css?d98') ?>" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="<?= base_url('assets/style.css?d98') ?>"></noscript>
+<!-- CSS -->
+<link rel="stylesheet" href="/assets/style.css?d98">
 
-<!-- Google tag (gtag.js) — kept async, no change needed -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GCE5B37X39"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-GCE5B37X39');
-</script>
-
-<!-- FIX 3: jQuery deferred — removes 900ms render-blocking CDN delay.
-     defer downloads jQuery in parallel with HTML parsing but executes only after parsing completes.
-     NOTE: If any inline <script> blocks elsewhere use $() or jQuery() outside of
-     DOMContentLoaded or $(document).ready(), they will need to be wrapped in:
-     document.addEventListener('DOMContentLoaded', function() { ... });
-     The scripts at the bottom of this file already use DOMContentLoaded so they are safe. -->
+<!-- jQuery -->
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-<link rel="stylesheet" href="<?= base_url('assets/popup-form.css?v=5') ?>">
+<!-- Popup CSS -->
+<link rel="stylesheet" href="/assets/popup-form.css?v=5">
+
 <?= $this->renderSection('styles') ?>
 </head>
 
