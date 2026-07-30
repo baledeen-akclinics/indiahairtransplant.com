@@ -33,63 +33,73 @@ class ContactController extends BaseController
                 'label' => 'Procedure',
                 'rules' => 'required'
             ],
-            'source_url' => 'required',
-            'source_id' => 'required',
-            'campaign_id' => 'required',
-            'campaign_name' => 'required',
-            'form_id' => 'required',
-            'form_name' => 'required'
+            'source_url'   => 'required',
+            'source_id'    => 'required',
+            'campaign_id'  => 'required',
+            'campaign_name'=> 'required',
+            'form_id'      => 'required',
+            'form_name'    => 'required'
         ];
 
-        if (! $this->validateData($data, $rules)) {
+        if (!$this->validateData($data, $rules)) {
             return $this->response
                 ->setStatusCode(ResponseInterface::HTTP_UNPROCESSABLE_ENTITY)
                 ->setJSON([
-                    'status' => false,
+                    'status'  => false,
                     'message' => 'Validation failed.',
-                    'errors' => $this->validator->getErrors()
+                    'errors'  => $this->validator->getErrors()
                 ]);
         }
 
         $client = Services::curlrequest();
 
         try {
-$url = rtrim(env('api.baseURL'), '/') . '/leads';
-            $response = $client->post(
-              $url,
-                [
-                    'headers' => [
-                        'Accept'       => 'application/json',
-                        'Content-Type' => 'application/json',
-                        'X-CSRF-TOKEN' => '' // Agar API token de to yahan dalna
-                    ],
-                    'json' => [
-                        'name'                 => $data['name'],
-                        'email'                => $data['email'],
-                        'mobile_country_code'  => '91',
-                        'mobile'               => $data['phone'],
-                        'city'                 => $data['city'],
-                        'source_id'            => $data['source_id'],
-                        'source_url'           => $data['source_url'],
-                        'description'          => $data['message'] ?? $data['concern'],
-                        'campaign_id'          => $data['campaign_id'],
-                        'campaign_name'        => $data['campaign_name'],
-                        'ad_id'                => $data['ad_id'] ?: null,
-                        'ad_name'              => $data['ad_name'] ?: null,
-                        'form_id'              => $data['form_id'],
-                        'form_name'            => $data['form_name'],
-                    ]
-                ]
-            );
 
-            return $this->response->setStatusCode($response->getStatusCode())
-                                  ->setJSON(json_decode($response->getBody(), true));
+            $url = rtrim(env('api.baseURL'), '/') . '/campaign-leads';
+
+            $response = $client->post($url, [
+
+                'http_errors' => false,
+
+                'headers' => [
+                    'Accept'       => 'application/json',
+                    'Content-Type' => 'application/json',
+                    'X-CSRF-TOKEN' => ''
+                ],
+
+                'json' => [
+                    'name'                  => $data['name'],
+                    'email'                 => $data['email'],
+                    'mobile_country_code'   => '91',
+                    'mobile'                => $data['phone'],
+                    'city'                  => $data['city'],
+                    'source_id'             => $data['source_id'],
+                    'source_url'            => $data['source_url'],
+                    'description'           => $data['message'] ?? $data['concern'],
+                    'campaign_id'           => $data['campaign_id'],
+                    'campaign_name'         => $data['campaign_name'],
+                    'ad_id'                 => $data['ad_id'] ?: null,
+                    'ad_name'               => $data['ad_name'] ?: null,
+                    'form_id'               => $data['form_id'],
+                    'form_name'             => $data['form_name'],
+                   'procedure_category_id' => (int) $data['concern']
+                ]
+            ]);
+
+            return $this->response->setJSON([
+                'status'      => true,
+                'status_code' => $response->getStatusCode(),
+                'body'        => json_decode($response->getBody(), true),
+                'raw'         => $response->getBody()
+            ]);
 
         } catch (\Throwable $e) {
 
             return $this->response->setStatusCode(500)->setJSON([
-                'status' => false,
-                'message' => $e->getMessage()
+                'status'  => false,
+                'message' => $e->getMessage(),
+                'file'    => $e->getFile(),
+                'line'    => $e->getLine()
             ]);
 
         }

@@ -160,6 +160,9 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     statusEl.style.display = "block";
     statusEl.style.color = "#64748b";
     statusEl.textContent = "Sending...";
+console.log("Procedure Search:", document.getElementById("procedure_search").value);
+console.log("Procedure Hidden:", document.getElementById("procedure_category").value);
+console.log("Procedure Variable:", procedure);
 
     fetch("/contact-submit", {
 
@@ -204,8 +207,8 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
             statusEl.textContent = response.message || "Thank you. Our team will contact you shortly.";
 
             document.getElementById("contactForm").reset();
-            document.getElementById("procedure_search").value = "";
-            document.getElementById("procedure_category").value = "";
+            // document.getElementById("procedure_search").value = "";
+            // document.getElementById("procedure_category").value = "";
             document.getElementById("source_url").value = window.location.href;
 
         } else {
@@ -344,15 +347,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     div.className = "procedure-item";
                     div.textContent = item.name;
 
-                  div.addEventListener("click", function () {
+                div.addEventListener("click", function () {
 
-                            input.value = item.name;
-                            hidden.value = item.name;
+    input.value = item.name;   // User ko name dikhega
+    hidden.value = item.id;    // Hidden field me ID save hogi
 
-                            dropdown.style.display = "none";
-                            clearBtn.style.display = "flex";
+    dropdown.style.display = "none";
+    clearBtn.style.display = "flex";
 
-                        });
+});
                     dropdown.appendChild(div);
 
                 });

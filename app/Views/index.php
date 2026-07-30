@@ -417,7 +417,7 @@
     </div>
   </div>
 </section>
-
+<!-- 
 <section class="journey-sec">
   <div class="container">
 
@@ -457,7 +457,8 @@
 
     </div>
   </div>
-</section>
+</section> -->
+<?= $this->include('partials/hair-transplant-cost') ?>
 
 <!-- Service Section -->
 <?= $this->include('partials/service') ?>
