@@ -1,0 +1,27 @@
+
+.form-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .error-message {
+        color: #dc3545;
+        font-size: 13px;
+        min-height: 18px;
+        margin-top: 4px;
+    }
+.form-status{
+    margin-top:15px;
+    text-align:center;
+    font-size:15px;
+    font-weight:600;
+    display:none;
+}
+
+.form-status.success{
+    color:#15803d;
+}
+
+.form-status.error{
+    color:#dc2626;
+}

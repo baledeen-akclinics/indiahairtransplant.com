@@ -562,47 +562,8 @@
   </div>
 </section>
 
-<section class="journey-sec">
-  <div class="container">
 
-    <h2 class="results-title journey-title">Know Your Hair Transplant Cost in India</h2>
-    <div class="results-divider journey-divider" aria-hidden="true">
-      <span class="line"></span><span class="cross">✚</span><span class="line"></span>
-    </div>
-
-    <div class="journey-box" role="form" aria-label="Hair Transplant Cost Calculator">
-
-      <div class="scale-row" role="group" aria-label="Select your baldness stage">
-        <button type="button" class="scale-item active" aria-pressed="true">
-          <img src="<?= base_url('assets/images/grade-1.webp') ?>" alt="Stage 1"></button>
-        <button type="button" class="scale-item"><img src="<?= base_url('assets/images/Grade-2.webp') ?>" alt="Stage 2"></button>
-        <button type="button" class="scale-item"><img src="<?= base_url('assets/images/Grade-3.webp') ?>" alt="Stage 3"></button>
-        <button type="button" class="scale-item"><img src="<?= base_url('assets/images/Grade-4.webp') ?>" alt="Stage 4"></button>
-        <button type="button" class="scale-item"><img src="<?= base_url('assets/images/Grade-5.webp') ?>" alt="Stage 5"></button>
-        <button type="button" class="scale-item"><img src="<?= base_url('assets/images/Grade-6.webp') ?>" alt="Stage 6"></button>
-        <button type="button" class="scale-item"><img src="<?= base_url('assets/images/grade-7.webp') ?>" alt="Stage 7"></button>
-      </div>
-
-      <form class="journey-form journey-form--two" action="#" method="post" novalidate="">
-        <label class="vh" for="jn">Name</label>
-        <input class="jf-input" id="jn" type="text" name="name" placeholder="Enter your name" required="">
-
-        <label class="vh" for="jp">Phone</label>
-        <input class="jf-input" id="jp" type="tel" name="phone" placeholder="Enter 10-digit number" inputmode="numeric" pattern="[0-9]{10}" required="">
-
-        <label class="vh" for="je">Email</label>
-        <input class="jf-input" id="je" type="email" name="email" placeholder="Enter your email" required="">
-
-        <label class="vh" for="jc">City</label>
-        <input class="jf-input" id="jc" type="text" name="city" placeholder="Type your city">
-
-        <button type="submit" class="btn-cta btn--block">Calculate Your Hair Transplant Cost</button>
-      </form>
-
-    </div>
-  </div>
-</section>
-
+<?= $this->include('partials/hair-transplant-cost') ?>
 <!-- <section class="iht-cta-strip">
       <div class="container iht-cta-wrap">
         <p class="iht-cta-text">
