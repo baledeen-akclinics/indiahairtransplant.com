@@ -54,9 +54,9 @@ class ContactController extends BaseController
         $client = Services::curlrequest();
 
         try {
-$url = rtrim(env('api.baseURL'), '/') . '/leads';
+            $url = rtrim(env('api.baseURL'), '/') . '/campaign-leads';
             $response = $client->post(
-              $url,
+                $url,
                 [
                     'headers' => [
                         'Accept'       => 'application/json',
@@ -83,15 +83,13 @@ $url = rtrim(env('api.baseURL'), '/') . '/leads';
             );
 
             return $this->response->setStatusCode($response->getStatusCode())
-                                  ->setJSON(json_decode($response->getBody(), true));
-
+                ->setJSON(json_decode($response->getBody(), true));
         } catch (\Throwable $e) {
 
             return $this->response->setStatusCode(500)->setJSON([
                 'status' => false,
                 'message' => $e->getMessage()
             ]);
-
         }
     }
 }
