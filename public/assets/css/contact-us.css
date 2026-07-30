@@ -49,7 +49,7 @@
     display:none;
     align-items:center;
     justify-content:center;
-    cursor:pointer;
+    cursor: default;
     font-size:18px;
     color:#777;
     background:#fff;
