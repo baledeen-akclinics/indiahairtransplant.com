@@ -101,7 +101,6 @@ class ContactController extends BaseController
                 'file'    => $e->getFile(),
                 'line'    => $e->getLine()
             ]);
-
         }
     }
 }
