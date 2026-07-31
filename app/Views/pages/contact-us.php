@@ -1,9 +1,11 @@
 <?= $this->extend('layouts/app') ?>
 
-<?= $this->section('content') ?>
 <?= $this->section('styles') ?>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css">
 <link rel="stylesheet" href="<?= base_url('assets/css/contact-us.css') ?>">
 <?= $this->endSection() ?>
+
+<?= $this->section('content') ?>
 
 <section class="page-hero">
   <div class="container wrap">
@@ -33,66 +35,48 @@
           <input type="hidden" id="source_url" name="source_url">
           <input type="hidden" id="source_id" name="source_id" value="website">
 
-<input type="hidden" id="campaign_id" name="campaign_id" value="120212345678901234">
-<input type="hidden" id="campaign_name" name="campaign_name" value="Website">
+          <input type="hidden" id="campaign_id" name="campaign_id" value="120212345678901234">
+          <input type="hidden" id="campaign_name" name="campaign_name" value="Website">
 
-<input type="hidden" id="ad_id" name="ad_id" value="1">
-<input type="hidden" id="ad_name" name="ad_name" value="1">
+          <input type="hidden" id="ad_id" name="ad_id" value="1">
+          <input type="hidden" id="ad_name" name="ad_name" value="1">
 
-<input type="hidden" id="form_id" name="form_id" value="website-contact-form">
-<input type="hidden" id="form_name" name="form_name" value="Contact Us">
+          <input type="hidden" id="form_id" name="form_id" value="website-contact-form">
+          <input type="hidden" id="form_name" name="form_name" value="Contact Us">
           <div class="cfield">
-    <input
-        type="text"
-        id="contact_name"
-        name="name"
-        placeholder="Name*"
-        required
-    >
-    <small id="nameError" style="color:red;display:none;"></small>
-</div>
+            <input
+              type="text"
+              id="contact_name"
+              name="name"
+              placeholder="Name*"
+              required>
+            <small id="nameError" style="color:red;display:none;"></small>
+          </div>
 
           <div class="cfield">
-    <input
-        type="email"
-        id="contact_email"
-        name="email"
-        placeholder="Email*"
-        required
-    >
-    <small id="emailError" style="color:red;display:none;"></small>
-</div>
-<div class="cfield procedure-search-wrapper">
-
-    <input
-        type="text"
-        id="procedure_search"
-        placeholder="Search Procedure*"
-        autocomplete="off"
-    >
-
-    <input
-        type="hidden"
-        id="procedure_category"
-        name="procedure_category"
-    >
-
-    <span id="clearProcedure" class="clear-procedure">&times;</span>
-
-    <div id="procedure_dropdown" class="procedure-dropdown"></div>
-
-</div>
+            <input
+              type="email"
+              id="contact_email"
+              name="email"
+              placeholder="Email*"
+              required>
+            <small id="emailError" style="color:red;display:none;"></small>
+          </div>
           <div class="cfield">
-    <input
-        type="tel"
-        id="contact_phone"
-        name="phone"
-        placeholder="Phone*"
-        maxlength="10"
-        required
-    >
-    <small id="phoneError" style="color:red;display:none;"></small>
-</div>
+            <select id="procedure_category" name="procedure_category" required>
+              <option value=""></option>
+            </select>
+          </div>
+          <div class="cfield">
+            <input
+              type="tel"
+              id="contact_phone"
+              name="phone"
+              placeholder="Phone*"
+              maxlength="10"
+              required>
+            <small id="phoneError" style="color:red;display:none;"></small>
+          </div>
 
           <div class="cfield">
             <select id="contact_location" name="city" required>
@@ -126,7 +110,7 @@
         <div class="ci-item">
           <span class="ci-ico">
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1.3 1.3 0 0 1 1.3-.3 10.2 10.2 0 0 0 3.3.5 1.3 1.3 0 0 1 1.3 1.3v3.7a1.3 1.3 0 0 1-1.3 1.3A18.7 18.7 0 0 1 3 5.4 1.3 1.3 0 0 1 4.3 4h3.7A1.3 1.3 0 0 1 9.3 5.3c0 1.1.2 2.2.5 3.3Z" fill="currentColor"/>
+              <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1.3 1.3 0 0 1 1.3-.3 10.2 10.2 0 0 0 3.3.5 1.3 1.3 0 0 1 1.3 1.3v3.7a1.3 1.3 0 0 1-1.3 1.3A18.7 18.7 0 0 1 3 5.4 1.3 1.3 0 0 1 4.3 4h3.7A1.3 1.3 0 0 1 9.3 5.3c0 1.1.2 2.2.5 3.3Z" fill="currentColor" />
             </svg>
           </span>
           <div>
@@ -138,8 +122,8 @@
         <div class="ci-item">
           <span class="ci-ico">
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M4 6h16v12H4z" fill="none" stroke="currentColor" stroke-width="1.6"/>
-              <path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M4 6h16v12H4z" fill="none" stroke="currentColor" stroke-width="1.6" />
+              <path d="m4 7 8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.6" />
             </svg>
           </span>
           <div>
@@ -151,8 +135,8 @@
         <div class="ci-item">
           <span class="ci-ico">
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.6"/>
-              <path d="M12 6v6l4 2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+              <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="1.6" />
+              <path d="M12 6v6l4 2" fill="none" stroke="currentColor" stroke-width="1.6" />
             </svg>
           </span>
           <div>
@@ -174,9 +158,10 @@
 
 <?= $this->section('scripts') ?>
 <script>
-const API_BASE_URL = "<?= env('api.baseURL') ?>";
-const FORM_HANDLER_URL = "<?= base_url('form-handler') ?>";
+  const PROCEDURE_CATEGORIES_URL = "<?= base_url('procedure-categories') ?>";
+  const CONTACT_SUBMIT_URL = "<?= base_url('contact-submit') ?>";
 </script>
 
-<script src="<?= base_url('assets/js/contact-us.js') ?>"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js" defer></script>
+<script src="<?= base_url('assets/js/contact-us.js') ?>" defer></script>
 <?= $this->endSection() ?>
