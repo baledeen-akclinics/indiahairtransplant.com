@@ -100,16 +100,28 @@ class ContactController extends BaseController
         $concern = trim((string) ($data['concern'] ?? ''));
         $description = $message !== '' ? $message . ' | Procedure: ' . $concern : $concern;
 
-        $crmPayload = [
-            'name'                => $data['name'],
-            'email'               => $data['email'],
-            'mobile_country_code' => '91',
-            'mobile'              => $data['phone'],
-            'city'                => $data['city'],
-            'source_id'           => $data['source_id'],
-            'source_url'          => $data['source_url'],
-            'description'         => $description,
-        ];
+       $crmPayload = [
+    'name'                => $data['name'],
+    'email'               => $data['email'],
+    'mobile_country_code' => '91',
+    'mobile'              => $data['phone'],
+    'city'                => $data['city'],
+
+    'source_id'           => $data['source_id'],
+    'source_url'          => $data['source_url'],
+
+    'campaign_id'         => $data['campaign_id'],
+    'campaign_name'       => $data['campaign_name'],
+
+    'ad_id'               => $data['ad_id'] ?? '',
+    'ad_name'             => $data['ad_name'] ?? '',
+
+    'form_id'             => $data['form_id'],
+    'form_name'           => $data['form_name'],
+
+    'concern'             => $data['concern'],
+    'description'         => $description,
+];
 
         $crmSynced = $this->forwardToCrm($crmPayload);
         $emailSent = $this->sendLeadEmail([
@@ -146,7 +158,7 @@ class ContactController extends BaseController
         }
 
         try {
-            $url      = rtrim($apiBase, '/') . '/web/receive';
+           $url = rtrim($apiBase, '/') . '/campaign-leads';
             $response = Services::curlrequest()->post($url, [
                 'headers' => [
                     'Accept'       => 'application/json',

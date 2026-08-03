@@ -1,4 +1,32 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+    const locationInput = document.getElementById("contact_location");
+    const locationError = document.getElementById("locationError");
+    if (locationInput && locationError) {
+
+    locationInput.addEventListener("blur", function () {
+
+        if (this.value === "") {
+
+            locationError.textContent = "Please select clinic location.";
+            locationError.style.display = "block";
+
+        } else {
+
+            locationError.style.display = "none";
+
+        }
+
+    });
+
+}
+
+
+
+
+
+
+
     const sourceUrlInput = document.getElementById("source_url");
     const contactForm = document.getElementById("contactForm");
     const procedureSelect = document.getElementById("procedure_category");
@@ -16,35 +44,57 @@ document.addEventListener("DOMContentLoaded", function () {
     if (window.jQuery && procedureSelect) {
         const $procedureSelect = window.jQuery(procedureSelect);
 
-        $procedureSelect.select2({
-            placeholder: "Search Procedure*",
-            allowClear: true,
-            width: "100%",
-            minimumInputLength: 0,
-            ajax: {
-                url: PROCEDURE_CATEGORIES_URL,
-                dataType: "json",
-                delay: 300,
-                data: function (params) {
-                    return {
-                        q: params.term || ""
-                    };
-                },
-                processResults: function (response) {
-                    const items = (response.data && response.data.procedure_categories) || [];
+$procedureSelect.select2({
+    placeholder: "Search Procedure*",
+    allowClear: true,
+    width: "100%",
+    minimumInputLength: 0,
+    dropdownParent: $(".contact-form"),
 
-                    return {
-                        results: items.map(function (item) {
-                            return {
-                                id: item.name,
-                                text: item.name
-                            };
-                        })
-                    };
-                },
-                cache: true
-            }
-        });
+    ajax: {
+        url: PROCEDURE_CATEGORIES_URL,
+        type: "GET",
+        dataType: "json",
+        delay: 300,
+        cache: true,
+
+        data: function (params) {
+            return {
+                q: params.term || ""
+            };
+        },
+
+        processResults: function (response) {
+
+            console.log("API Response:", response);
+
+            const items = response?.data?.procedure_categories || [];
+
+            const results = items.map(function (item) {
+                return {
+                    id: String(item.id),   // id ko string bana do
+                    text: item.name
+                };
+            });
+
+          
+
+            return {
+                results: results,
+                pagination: {
+                    more: false
+                }
+            };
+        }
+    },
+
+    escapeMarkup: function (markup) {
+        return markup;
+    }
+});
+ $procedureSelect.on("select2:select", function (e) {
+        
+    });
     }
 
     if (nameInput && nameError) {
@@ -128,7 +178,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const email = document.getElementById("contact_email").value.trim();
         const phone = document.getElementById("contact_phone").value.trim();
         const city = document.getElementById("contact_location").value.trim();
-        const procedure = document.getElementById("procedure_category").value.trim();
+        //const procedure = document.getElementById("procedure_category").value.trim();
+        const procedure = document.getElementById("procedure_category").value;
         const message = document.getElementById("contact_message").value.trim();
 
         document.getElementById("source_url").value = window.location.href;
@@ -198,26 +249,46 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(function (response) {
                 return response.json();
             })
-            .then(function (response) {
-                if (response.status) {
-                    statusEl.style.color = "#15803d";
-                    statusEl.textContent = response.message || "Thank you. Our team will contact you shortly.";
+         .then(function (response) {
+    if (response.status) {
 
-                    contactForm.reset();
+        Swal.fire({
+            icon: "success",
+            title: "Success!",
+              text: response.message,
+            confirmButtonColor: "#22c55e"
+        });
 
-                    if (window.jQuery && procedureSelect) {
-                        window.jQuery(procedureSelect).val(null).trigger("change");
-                    }
+        contactForm.reset();
 
-                    document.getElementById("source_url").value = window.location.href;
-                } else {
-                    statusEl.style.color = "#dc2626";
-                    statusEl.textContent = response.message || "Something went wrong.";
-                }
-            })
-            .catch(function () {
-                statusEl.style.color = "#dc2626";
-                statusEl.textContent = "Something went wrong. Please try again.";
-            });
+        if (window.jQuery && procedureSelect) {
+            window.jQuery(procedureSelect).val(null).trigger("change");
+        }
+
+        document.getElementById("source_url").value = window.location.href;
+
+        statusEl.style.display = "none";
+
+    } else {
+
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: response.message || "Something went wrong.",
+            confirmButtonColor: "#c95524"
+        });
+
+    }
+})
+.catch(function () {
+
+    Swal.fire({
+        icon: "error",
+        title: "Error!",
+        text: "Something went wrong. Please try again.",
+        confirmButtonColor: "#c95524"
+    });
+
+});
     });
 });

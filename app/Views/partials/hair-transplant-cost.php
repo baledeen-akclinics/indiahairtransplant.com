@@ -58,7 +58,7 @@
                 <input type="hidden" id="form_name" name="form_name" value="Contact Us">
 
                 <input type="hidden" id="contact_message" name="message" value="">
-                <input type="hidden" id="procedure_category" name="procedure_category" value="Hair Transplant">
+                <input type="hidden" id="procedure_category" name="procedure_category" value="1">
                 <div class="form-group">
                     <label class="vh" for="jn">Name</label>
                     <input class="jf-input" id="jn" type="text" name="name" placeholder="Enter your name">

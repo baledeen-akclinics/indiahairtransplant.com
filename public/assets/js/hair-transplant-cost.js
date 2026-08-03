@@ -105,16 +105,17 @@ statusEl.textContent = "";
 
                 .then(response => response.json())
 
-             .then(function(response) {
-
-    var statusEl = document.getElementById("contactFormStatus");
-
-    statusEl.style.display = "block";
+          .then(function(response) {
 
     if (response.status) {
 
-        statusEl.style.color = "#15803d";
-        statusEl.textContent = response.message || "Thank you. Our team will contact you shortly.";
+        Swal.fire({
+            icon: "success",
+            title: "Success",
+            text: response.message || "Thank you. Our team will contact you shortly.",
+            confirmButtonText: "OK",
+            confirmButtonColor: "#22c55e"
+        });
 
         document.getElementById("costCalculatorForm").reset();
 
@@ -123,20 +124,29 @@ statusEl.textContent = "";
 
     } else {
 
-        statusEl.style.color = "#dc2626";
-        statusEl.textContent = response.message || "Something went wrong.";
+        Swal.fire({
+            icon: "error",
+            title: "Failed",
+            text: response.message || "Something went wrong.",
+            confirmButtonText: "OK",
+            confirmButtonColor: "#ef4444"
+        });
 
     }
 
 })
 
-.catch(function() {
+.catch(function(error) {
 
-    var statusEl = document.getElementById("contactFormStatus");
+    console.error(error);
 
-    statusEl.style.display = "block";
-    statusEl.style.color = "#dc2626";
-    statusEl.textContent = "Something went wrong. Please try again.";
+    Swal.fire({
+        icon: "error",
+        title: "Error",
+        text: "Something went wrong. Please try again.",
+        confirmButtonText: "OK",
+        confirmButtonColor: "#ef4444"
+    });
 
 });
 
