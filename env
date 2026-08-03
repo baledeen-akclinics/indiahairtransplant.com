@@ -25,8 +25,7 @@
 # app_baseURL = ''
 # app.forceGlobalSecureRequests = false
 # app.CSPEnabled = false
-app.baseURL = 'http://localhost/'
-api.baseURL = https://test.intelligible.co.in/api/v1
+
 #--------------------------------------------------------------------
 # DATABASE
 #--------------------------------------------------------------------
