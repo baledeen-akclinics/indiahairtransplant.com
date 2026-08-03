@@ -85,6 +85,9 @@
               <option value="Ludhiana">Ludhiana</option>
               <option value="Bangalore">Bangalore</option>
             </select>
+
+    <small id="locationError"
+           style="color:red;display:none;"></small>
           </div>
 
           <div class="cfield">
@@ -158,6 +161,7 @@
 
 <?= $this->section('scripts') ?>
 <script>
+  const API_BASE_URL = "<?= env('api.baseURL') ?>";
   const PROCEDURE_CATEGORIES_URL = "<?= base_url('procedure-categories') ?>";
   const CONTACT_SUBMIT_URL = "<?= base_url('contact-submit') ?>";
 </script>
