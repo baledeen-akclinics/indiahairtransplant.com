@@ -45,41 +45,58 @@
             </div>
 
             <form id="costCalculatorForm" class="journey-form journey-form--two" action="#" method="post" novalidate>
+                <input type="hidden" id="utm_source" name="utm_source">
+                <input type="hidden" id="utm_medium" name="utm_medium">
+                <input type="hidden" id="utm_campaign" name="utm_campaign">
+                <input type="hidden" id="utm_content" name="utm_content">
+                <input type="hidden" id="utm_term" name="utm_term">
+                <input type="hidden" id="gclid" name="gclid">
+                <input type="hidden" id="fbclid" name="fbclid">
+                <input type="hidden" id="landing_page" name="landing_page">
+                <input type="hidden" id="referrer" name="referrer">
+
                 <input type="hidden" id="source_url" name="source_url">
                 <input type="hidden" id="source_id" name="source_id" value="website">
-
                 <input type="hidden" id="campaign_id" name="campaign_id" value="120212345678901234">
                 <input type="hidden" id="campaign_name" name="campaign_name" value="Website">
-
-                <input type="hidden" id="ad_id" name="ad_id" value="1">
-                <input type="hidden" id="ad_name" name="ad_name" value="1">
-
-                <input type="hidden" id="form_id" name="form_id" value="website-contact-form">
-                <input type="hidden" id="form_name" name="form_name" value="Contact Us">
+                <input type="hidden" id="ad_id" name="ad_id" value="">
+                <input type="hidden" id="ad_name" name="ad_name" value="">
+                <input type="hidden" id="form_id" name="form_id" value="website-cost-calculator-form">
+                <?php
+                  $formPageName = trim((string) ($pageTitle ?? ''));
+                  if ($formPageName === '') {
+                      $slug = trim((string) uri_string(), '/');
+                      $formPageName = $slug !== ''
+                          ? ucwords(str_replace(['-', '_'], ' ', $slug))
+                          : 'Home';
+                  }
+                ?>
+                <input type="hidden" id="form_name" name="form_name" value="<?= esc($formPageName) ?>">
 
                 <input type="hidden" id="contact_message" name="message" value="">
-                <input type="hidden" id="procedure_category" name="procedure_category" value="1">
+                <input type="hidden" id="procedure_category" name="procedure_category" value="Hair Transplant">
+
                 <div class="form-group">
                     <label class="vh" for="jn">Name</label>
-                    <input class="jf-input" id="jn" type="text" name="name" placeholder="Enter your name">
+                    <input class="jf-input" id="jn" type="text" name="name" placeholder="Enter your name" required>
                     <small class="error-message" id="nameError"></small>
                 </div>
 
                 <div class="form-group">
                     <label class="vh" for="jp">Phone</label>
-                    <input class="jf-input" id="jp" type="tel" name="phone" placeholder="Enter 10-digit number">
+                    <input class="jf-input" id="jp" type="tel" name="phone" placeholder="Enter 10-digit number" maxlength="10" required>
                     <small class="error-message" id="phoneError"></small>
                 </div>
 
                 <div class="form-group">
                     <label class="vh" for="je">Email</label>
-                    <input class="jf-input" id="je" type="email" name="email" placeholder="Enter your email">
+                    <input class="jf-input" id="je" type="email" name="email" placeholder="Enter your email" required>
                     <small class="error-message" id="emailError"></small>
                 </div>
 
                 <div class="form-group">
                     <label class="vh" for="jc">City</label>
-                    <input class="jf-input" id="jc" type="text" name="city" placeholder="Type your city">
+                    <input class="jf-input" id="jc" type="text" name="city" placeholder="Type your city" required>
                     <small class="error-message" id="cityError"></small>
                 </div>
 
@@ -87,12 +104,14 @@
                     Calculate Your Hair Transplant Cost
                 </button>
                 <p id="contactFormStatus" role="status" style="display:none;margin:12px 0 0;font-size:14px;"></p>
-
-
             </form>
 
         </div>
     </div>
 </section>
 
+<script>
+  window.CONTACT_SUBMIT_URL = window.CONTACT_SUBMIT_URL || "<?= base_url('contact-submit') ?>";
+</script>
+<script src="<?= base_url('assets/js/utm-lead-attribution.js') ?>"></script>
 <script src="<?= base_url('assets/js/hair-transplant-cost.js') ?>"></script>

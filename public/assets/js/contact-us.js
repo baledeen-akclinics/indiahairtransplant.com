@@ -66,14 +66,15 @@ $procedureSelect.select2({
 
         processResults: function (response) {
 
-            console.log("API Response:", response);
+            
 
             const items = response?.data?.procedure_categories || [];
 
             const results = items.map(function (item) {
+                const label = item.name || item.text || "";
                 return {
-                    id: String(item.id),   // id ko string bana do
-                    text: item.name
+                    id: String(item.id || label),
+                    text: label
                 };
             });
 
@@ -178,11 +179,40 @@ $procedureSelect.select2({
         const email = document.getElementById("contact_email").value.trim();
         const phone = document.getElementById("contact_phone").value.trim();
         const city = document.getElementById("contact_location").value.trim();
-        //const procedure = document.getElementById("procedure_category").value.trim();
-        const procedure = document.getElementById("procedure_category").value;
+        const procedure = document.getElementById("procedure_category").value.trim();
         const message = document.getElementById("contact_message").value.trim();
 
         document.getElementById("source_url").value = window.location.href;
+
+        const attribution = (typeof window.getLeadAttributionCookie === "function")
+            ? window.getLeadAttributionCookie()
+            : null;
+
+        if (attribution) {
+            [
+                "utm_source",
+                "utm_medium",
+                "utm_campaign",
+                "utm_content",
+                "utm_term",
+                "gclid",
+                "fbclid",
+                "landing_page",
+                "referrer"
+            ].forEach(function (field) {
+                const el = document.getElementById(field);
+                if (el && attribution[field]) {
+                    el.value = attribution[field];
+                }
+            });
+
+            if (attribution.utm_campaign) {
+                const campaignNameEl = document.getElementById("campaign_name");
+                if (campaignNameEl) {
+                    campaignNameEl.value = attribution.utm_campaign;
+                }
+            }
+        }
 
         const source_url = document.getElementById("source_url").value.trim();
         const source_id = document.getElementById("source_id").value.trim();
@@ -192,6 +222,15 @@ $procedureSelect.select2({
         const ad_name = document.getElementById("ad_name").value.trim();
         const form_id = document.getElementById("form_id").value.trim();
         const form_name = document.getElementById("form_name").value.trim();
+        const utm_source = document.getElementById("utm_source").value.trim();
+        const utm_medium = document.getElementById("utm_medium").value.trim();
+        const utm_campaign = document.getElementById("utm_campaign").value.trim();
+        const utm_content = document.getElementById("utm_content").value.trim();
+        const utm_term = document.getElementById("utm_term").value.trim();
+        const gclid = document.getElementById("gclid").value.trim();
+        const fbclid = document.getElementById("fbclid").value.trim();
+        const landing_page = document.getElementById("landing_page").value.trim();
+        const referrer = document.getElementById("referrer").value.trim();
         const phoneDigits = phone.replace(/\D/g, "");
 
         if (!consent.checked) {
@@ -243,7 +282,16 @@ $procedureSelect.select2({
                 ad_id: ad_id,
                 ad_name: ad_name,
                 form_id: form_id,
-                form_name: form_name
+                form_name: form_name,
+                utm_source: utm_source,
+                utm_medium: utm_medium,
+                utm_campaign: utm_campaign,
+                utm_content: utm_content,
+                utm_term: utm_term,
+                gclid: gclid,
+                fbclid: fbclid,
+                landing_page: landing_page,
+                referrer: referrer
             })
         })
             .then(function (response) {
