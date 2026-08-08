@@ -32,17 +32,33 @@
         </p>
 
         <form id="contactForm" novalidate>
+          <input type="hidden" id="utm_source" name="utm_source">
+          <input type="hidden" id="utm_medium" name="utm_medium">
+          <input type="hidden" id="utm_campaign" name="utm_campaign">
+          <input type="hidden" id="utm_content" name="utm_content">
+          <input type="hidden" id="utm_term" name="utm_term">
+          <input type="hidden" id="gclid" name="gclid">
+          <input type="hidden" id="fbclid" name="fbclid">
+          <input type="hidden" id="landing_page" name="landing_page">
+          <input type="hidden" id="referrer" name="referrer">
+
           <input type="hidden" id="source_url" name="source_url">
           <input type="hidden" id="source_id" name="source_id" value="website">
-
           <input type="hidden" id="campaign_id" name="campaign_id" value="120212345678901234">
           <input type="hidden" id="campaign_name" name="campaign_name" value="Website">
-
-          <input type="hidden" id="ad_id" name="ad_id" value="1">
-          <input type="hidden" id="ad_name" name="ad_name" value="1">
-
+          <input type="hidden" id="ad_id" name="ad_id" value="">
+          <input type="hidden" id="ad_name" name="ad_name" value="">
           <input type="hidden" id="form_id" name="form_id" value="website-contact-form">
-          <input type="hidden" id="form_name" name="form_name" value="Contact Us">
+          <?php
+            $formPageName = trim((string) ($pageTitle ?? ''));
+            if ($formPageName === '') {
+                $slug = trim((string) uri_string(), '/');
+                $formPageName = $slug !== ''
+                    ? ucwords(str_replace(['-', '_'], ' ', $slug))
+                    : 'Home';
+            }
+          ?>
+          <input type="hidden" id="form_name" name="form_name" value="<?= esc($formPageName) ?>">
           <div class="cfield">
             <input
               type="text"
@@ -166,6 +182,7 @@
   const CONTACT_SUBMIT_URL = "<?= base_url('contact-submit') ?>";
 </script>
 
+<script src="<?= base_url('assets/js/utm-lead-attribution.js') ?>"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js" defer></script>
 <script src="<?= base_url('assets/js/contact-us.js') ?>" defer></script>
 <?= $this->endSection() ?>
