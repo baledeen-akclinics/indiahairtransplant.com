@@ -57,8 +57,8 @@
 
                 <input type="hidden" id="source_url" name="source_url">
                 <input type="hidden" id="source_id" name="source_id" value="website">
-                <input type="hidden" id="campaign_id" name="campaign_id" value="120212345678901234">
-                <input type="hidden" id="campaign_name" name="campaign_name" value="Website">
+                <input type="hidden" id="campaign_id" name="campaign_id" value="">
+                <input type="hidden" id="campaign_name" name="campaign_name" value="">
                 <input type="hidden" id="ad_id" name="ad_id" value="">
                 <input type="hidden" id="ad_name" name="ad_name" value="">
                 <input type="hidden" id="form_id" name="form_id" value="website-cost-calculator-form">
@@ -113,5 +113,5 @@
 <script>
   window.CONTACT_SUBMIT_URL = window.CONTACT_SUBMIT_URL || "<?= base_url('contact-submit') ?>";
 </script>
-<script src="<?= base_url('assets/js/utm-lead-attribution.js') ?>"></script>
-<script src="<?= base_url('assets/js/hair-transplant-cost.js') ?>"></script>
+<script src="<?= base_url('assets/js/utm-lead-attribution.js') ?>?v=<?= @filemtime(FCPATH . 'assets/js/utm-lead-attribution.js') ?: time() ?>"></script>
+<script src="<?= base_url('assets/js/hair-transplant-cost.js') ?>?v=<?= @filemtime(FCPATH . 'assets/js/hair-transplant-cost.js') ?: time() ?>"></script>

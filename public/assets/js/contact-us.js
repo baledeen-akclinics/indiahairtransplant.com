@@ -198,7 +198,8 @@ $procedureSelect.select2({
                 "gclid",
                 "fbclid",
                 "landing_page",
-                "referrer"
+                "referrer",
+                "campaign_id"
             ].forEach(function (field) {
                 const el = document.getElementById(field);
                 if (el && attribution[field]) {
@@ -247,8 +248,6 @@ $procedureSelect.select2({
             !procedure ||
             !source_url ||
             !source_id ||
-            !campaign_id ||
-            !campaign_name ||
             !form_id ||
             !form_name ||
             !/^[6-9]\d{9}$/.test(phoneDigits)
@@ -277,8 +276,8 @@ $procedureSelect.select2({
                 message: message,
                 source_url: source_url,
                 source_id: source_id,
-                campaign_id: campaign_id,
-                campaign_name: campaign_name,
+                campaign_id: campaign_id || null,
+                campaign_name: campaign_name || null,
                 ad_id: ad_id,
                 ad_name: ad_name,
                 form_id: form_id,
@@ -318,11 +317,18 @@ $procedureSelect.select2({
         statusEl.style.display = "none";
 
     } else {
+        var errorText = response.message || "Something went wrong.";
+        if (response.errors && typeof response.errors === "object") {
+            var fieldErrors = Object.values(response.errors).filter(Boolean);
+            if (fieldErrors.length) {
+                errorText = fieldErrors.join(" ");
+            }
+        }
 
         Swal.fire({
             icon: "error",
             title: "Oops...",
-            text: response.message || "Something went wrong.",
+            text: errorText,
             confirmButtonColor: "#c95524"
         });
 

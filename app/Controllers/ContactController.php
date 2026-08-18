@@ -83,8 +83,6 @@ class ContactController extends BaseController
             ],
             'source_url'    => 'required',
             'source_id'     => 'required',
-            'campaign_id'   => 'required',
-            'campaign_name' => 'required',
             'form_id'       => 'required',
             'form_name'     => 'required',
         ];
@@ -103,6 +101,12 @@ class ContactController extends BaseController
         $concern = trim((string) ($data['concern'] ?? ''));
         $description = $message !== '' ? $message . ' | Procedure: ' . $concern : $concern;
 
+        $attr = static function (string $key) use ($data): ?string {
+            $value = trim((string) ($data[$key] ?? ''));
+
+            return $value !== '' ? $value : null;
+        };
+
         $crmPayload = [
             'name'                => $data['name'],
             'email'               => $data['email'],
@@ -113,8 +117,8 @@ class ContactController extends BaseController
             'source_id'           => $data['source_id'],
             'source_url'          => $data['source_url'],
 
-            'campaign_id'         => $data['campaign_id'],
-            'campaign_name'       => $data['campaign_name'],
+            'campaign_id'         => $attr('campaign_id'),
+            'campaign_name'       => $attr('campaign_name'),
 
             'ad_id'               => $data['ad_id'] ?? '',
             'ad_name'             => $data['ad_name'] ?? '',

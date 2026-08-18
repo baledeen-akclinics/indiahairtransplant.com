@@ -15,10 +15,21 @@
     'utm_content',
     'utm_term',
     'gclid',
-    'fbclid'
+    'fbclid',
+    'campaign_id'
   ];
   // Hidden form fields that receive cookie values on submit
-  var FORM_FIELDS = ATTRIBUTION_PARAMS.concat(['landing_page', 'referrer']);
+  var FORM_FIELDS = [
+    'utm_source',
+    'utm_medium',
+    'utm_campaign',
+    'utm_content',
+    'utm_term',
+    'gclid',
+    'fbclid',
+    'landing_page',
+    'referrer'
+  ];
 
   // ============================================================
   // Cookie helpers
@@ -111,6 +122,7 @@
       utm_term: urlParams.utm_term || '',
       gclid: urlParams.gclid || '',
       fbclid: urlParams.fbclid || '',
+      campaign_id: urlParams.campaign_id || '',
       landing_page: window.location.href,
       referrer: document.referrer || '',
       first_visit_time: new Date().toISOString()
@@ -145,6 +157,16 @@
         form.querySelector('#' + fieldName);
       if (input) {
         input.value = data[fieldName];
+      }
+    }
+
+    // Map URL/cookie campaign_id → campaign_id hidden field when present
+    if (data.campaign_id) {
+      var campaignIdInput =
+        form.querySelector('[name="campaign_id"]') ||
+        form.querySelector('#campaign_id');
+      if (campaignIdInput) {
+        campaignIdInput.value = data.campaign_id;
       }
     }
 

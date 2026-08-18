@@ -60,7 +60,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 "gclid",
                 "fbclid",
                 "landing_page",
-                "referrer"
+                "referrer",
+                "campaign_id"
             ].forEach(function (field) {
                 const el = document.getElementById(field);
                 if (el && attribution[field]) {
@@ -106,8 +107,6 @@ document.addEventListener("DOMContentLoaded", function () {
             !procedure ||
             !source_url ||
             !source_id ||
-            !campaign_id ||
-            !campaign_name ||
             !form_id ||
             !form_name ||
             !/^[6-9]\d{9}$/.test(phoneDigits)
@@ -140,8 +139,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 message: message,
                 source_url: source_url,
                 source_id: source_id,
-                campaign_id: campaign_id,
-                campaign_name: campaign_name,
+                campaign_id: campaign_id || null,
+                campaign_name: campaign_name || null,
                 ad_id: ad_id,
                 ad_name: ad_name,
                 form_id: form_id,
