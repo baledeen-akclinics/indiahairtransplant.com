@@ -46,6 +46,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         document.getElementById("source_url").value = window.location.href;
 
+        function hiddenVal(id) {
+            const el = document.getElementById(id);
+            return el ? el.value.trim() : "";
+        }
+
         const attribution = (typeof window.getLeadAttributionCookie === "function")
             ? window.getLeadAttributionCookie()
             : null;
@@ -61,7 +66,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 "fbclid",
                 "landing_page",
                 "referrer",
-                "campaign_id"
+                "campaign_id",
+                "first_touch_source",
+                "first_touch_medium",
+                "first_touch_channel",
+                "first_touch_campaign",
+                "first_touch_referrer",
+                "first_touch_landing_page",
+                "first_touch_at",
+                "last_touch_source",
+                "last_touch_medium",
+                "last_touch_channel",
+                "last_touch_campaign",
+                "last_touch_referrer",
+                "last_touch_landing_page",
+                "last_touch_at"
             ].forEach(function (field) {
                 const el = document.getElementById(field);
                 if (el && attribution[field]) {
@@ -77,25 +96,39 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         }
 
-        const source_url = document.getElementById("source_url").value.trim();
-        const source_id = document.getElementById("source_id").value.trim();
-        const campaign_id = document.getElementById("campaign_id").value.trim();
-        const campaign_name = document.getElementById("campaign_name").value.trim();
-        const ad_id = document.getElementById("ad_id").value.trim();
-        const ad_name = document.getElementById("ad_name").value.trim();
-        const form_id = document.getElementById("form_id").value.trim();
-        const form_name = document.getElementById("form_name").value.trim();
-        const utm_source = document.getElementById("utm_source").value.trim();
-        const utm_medium = document.getElementById("utm_medium").value.trim();
-        const utm_campaign = document.getElementById("utm_campaign").value.trim();
-        const utm_content = document.getElementById("utm_content").value.trim();
-        const utm_term = document.getElementById("utm_term").value.trim();
-        const gclid = document.getElementById("gclid").value.trim();
-        const fbclid = document.getElementById("fbclid").value.trim();
-        const landing_page = document.getElementById("landing_page").value.trim();
-        const referrer = document.getElementById("referrer").value.trim();
-        const message = document.getElementById("contact_message").value.trim();
-        const procedure = document.getElementById("procedure_category").value.trim() || "Hair Transplant";
+        const source_url = hiddenVal("source_url");
+        const source_id = hiddenVal("source_id");
+        const campaign_id = hiddenVal("campaign_id");
+        const campaign_name = hiddenVal("campaign_name");
+        const ad_id = hiddenVal("ad_id");
+        const ad_name = hiddenVal("ad_name");
+        const form_id = hiddenVal("form_id");
+        const form_name = hiddenVal("form_name");
+        const utm_source = hiddenVal("utm_source");
+        const utm_medium = hiddenVal("utm_medium");
+        const utm_campaign = hiddenVal("utm_campaign");
+        const utm_content = hiddenVal("utm_content");
+        const utm_term = hiddenVal("utm_term");
+        const gclid = hiddenVal("gclid");
+        const fbclid = hiddenVal("fbclid");
+        const landing_page = hiddenVal("landing_page");
+        const referrer = hiddenVal("referrer");
+        const first_touch_source = hiddenVal("first_touch_source");
+        const first_touch_medium = hiddenVal("first_touch_medium");
+        const first_touch_channel = hiddenVal("first_touch_channel");
+        const first_touch_campaign = hiddenVal("first_touch_campaign");
+        const first_touch_referrer = hiddenVal("first_touch_referrer");
+        const first_touch_landing_page = hiddenVal("first_touch_landing_page");
+        const first_touch_at = hiddenVal("first_touch_at");
+        const last_touch_source = hiddenVal("last_touch_source");
+        const last_touch_medium = hiddenVal("last_touch_medium");
+        const last_touch_channel = hiddenVal("last_touch_channel");
+        const last_touch_campaign = hiddenVal("last_touch_campaign");
+        const last_touch_referrer = hiddenVal("last_touch_referrer");
+        const last_touch_landing_page = hiddenVal("last_touch_landing_page");
+        const last_touch_at = hiddenVal("last_touch_at");
+        const message = hiddenVal("contact_message");
+        const procedure = hiddenVal("procedure_category") || "Hair Transplant";
         const phoneDigits = phone.replace(/\D/g, "");
         const statusEl = document.getElementById("contactFormStatus");
         const submitUrl = window.CONTACT_SUBMIT_URL || "/contact-submit";
@@ -153,7 +186,21 @@ document.addEventListener("DOMContentLoaded", function () {
                 gclid: gclid,
                 fbclid: fbclid,
                 landing_page: landing_page,
-                referrer: referrer
+                referrer: referrer,
+                first_touch_source: first_touch_source || null,
+                first_touch_medium: first_touch_medium || null,
+                first_touch_channel: first_touch_channel || null,
+                first_touch_campaign: first_touch_campaign || null,
+                first_touch_referrer: first_touch_referrer || null,
+                first_touch_landing_page: first_touch_landing_page || null,
+                first_touch_at: first_touch_at || null,
+                last_touch_source: last_touch_source || null,
+                last_touch_medium: last_touch_medium || null,
+                last_touch_channel: last_touch_channel || null,
+                last_touch_campaign: last_touch_campaign || null,
+                last_touch_referrer: last_touch_referrer || null,
+                last_touch_landing_page: last_touch_landing_page || null,
+                last_touch_at: last_touch_at || null
             })
         })
             .then(function (response) {
