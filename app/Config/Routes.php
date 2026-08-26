@@ -9,10 +9,6 @@ $routes->get('/', 'HomeController::index');
 // Lead form endpoint (legacy: /form-handler.php)
 $routes->post('form-handler', 'FormController::handle');
 $routes->options('form-handler', 'FormController::handle');
-// YouTube → WhatsApp click redirect + WATI webhook
-$routes->get('whatsapp', 'WhatsAppController::redirect');
-$routes->get('whatsapp/webhook', 'WhatsAppController::webhookVerify');
-$routes->post('whatsapp/webhook', 'WhatsAppController::webhook');
 
 $routes->get('procedure-categories', 'ContactController::procedureCategories');
 $routes->post('contact-submit', 'ContactController::submit');
