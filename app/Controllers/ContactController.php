@@ -83,8 +83,6 @@ class ContactController extends BaseController
             ],
             'source_url'    => 'required',
             'source_id'     => 'required',
-            'campaign_id'   => 'required',
-            'campaign_name' => 'required',
             'form_id'       => 'required',
             'form_name'     => 'required',
         ];
@@ -103,6 +101,12 @@ class ContactController extends BaseController
         $concern = trim((string) ($data['concern'] ?? ''));
         $description = $message !== '' ? $message . ' | Procedure: ' . $concern : $concern;
 
+        $attr = static function (string $key) use ($data): ?string {
+            $value = trim((string) ($data[$key] ?? ''));
+
+            return $value !== '' ? $value : null;
+        };
+
         $crmPayload = [
             'name'                => $data['name'],
             'email'               => $data['email'],
@@ -113,8 +117,8 @@ class ContactController extends BaseController
             'source_id'           => $data['source_id'],
             'source_url'          => $data['source_url'],
 
-            'campaign_id'         => $data['campaign_id'],
-            'campaign_name'       => $data['campaign_name'],
+            'campaign_id'         => $attr('campaign_id'),
+            'campaign_name'       => $attr('campaign_name'),
 
             'ad_id'               => $data['ad_id'] ?? '',
             'ad_name'             => $data['ad_name'] ?? '',
@@ -134,7 +138,42 @@ class ContactController extends BaseController
             'fbclid'              => trim((string) ($data['fbclid'] ?? '')),
             'landing_page'        => trim((string) ($data['landing_page'] ?? '')),
             'referrer'            => trim((string) ($data['referrer'] ?? '')),
+
+            'first_touch_source'       => $attr('first_touch_source'),
+            'first_touch_medium'       => $attr('first_touch_medium'),
+            'first_touch_channel'      => $attr('first_touch_channel'),
+            'first_touch_campaign'     => $attr('first_touch_campaign'),
+            'first_touch_referrer'     => $attr('first_touch_referrer'),
+            'first_touch_landing_page' => $attr('first_touch_landing_page'),
+            'first_touch_at'           => $attr('first_touch_at'),
+            'last_touch_source'        => $attr('last_touch_source'),
+            'last_touch_medium'        => $attr('last_touch_medium'),
+            'last_touch_channel'       => $attr('last_touch_channel'),
+            'last_touch_campaign'      => $attr('last_touch_campaign'),
+            'last_touch_referrer'      => $attr('last_touch_referrer'),
+            'last_touch_landing_page'  => $attr('last_touch_landing_page'),
+            'last_touch_at'            => $attr('last_touch_at'),
         ];
+
+        $this->ihtLog('CRM ATTRIBUTION — ' . json_encode([
+            'first_touch_source'       => $crmPayload['first_touch_source'],
+            'first_touch_medium'       => $crmPayload['first_touch_medium'],
+            'first_touch_channel'      => $crmPayload['first_touch_channel'],
+            'first_touch_campaign'     => $crmPayload['first_touch_campaign'],
+            'first_touch_referrer'     => $crmPayload['first_touch_referrer'],
+            'first_touch_landing_page' => $crmPayload['first_touch_landing_page'],
+            'first_touch_at'           => $crmPayload['first_touch_at'],
+            'last_touch_source'        => $crmPayload['last_touch_source'],
+            'last_touch_medium'        => $crmPayload['last_touch_medium'],
+            'last_touch_channel'       => $crmPayload['last_touch_channel'],
+            'last_touch_campaign'      => $crmPayload['last_touch_campaign'],
+            'last_touch_referrer'      => $crmPayload['last_touch_referrer'],
+            'last_touch_landing_page'  => $crmPayload['last_touch_landing_page'],
+            'last_touch_at'            => $crmPayload['last_touch_at'],
+            'utm_source'               => $crmPayload['utm_source'],
+            'utm_medium'               => $crmPayload['utm_medium'],
+            'utm_campaign'             => $crmPayload['utm_campaign'],
+        ], JSON_UNESCAPED_SLASHES));
 
         $crmSynced = $this->forwardToCrm($crmPayload);
         $emailSent = $this->sendLeadEmail([

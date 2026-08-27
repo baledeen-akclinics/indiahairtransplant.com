@@ -153,6 +153,7 @@
 <script src="<?= base_url('assets/main.js?=9'); ?>"></script>
 <script src="<?= base_url('assets/popup-form.js?=5'); ?>"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="<?= base_url('assets/js/utm-lead-attribution.js') ?>?v=<?= @filemtime(FCPATH . 'assets/js/utm-lead-attribution.js') ?: time() ?>"></script>
 <?= $this->renderSection('scripts') ?>
 </body>
 

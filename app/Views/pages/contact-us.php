@@ -41,11 +41,25 @@
           <input type="hidden" id="fbclid" name="fbclid">
           <input type="hidden" id="landing_page" name="landing_page">
           <input type="hidden" id="referrer" name="referrer">
+          <input type="hidden" id="first_touch_source" name="first_touch_source">
+          <input type="hidden" id="first_touch_medium" name="first_touch_medium">
+          <input type="hidden" id="first_touch_channel" name="first_touch_channel">
+          <input type="hidden" id="first_touch_campaign" name="first_touch_campaign">
+          <input type="hidden" id="first_touch_referrer" name="first_touch_referrer">
+          <input type="hidden" id="first_touch_landing_page" name="first_touch_landing_page">
+          <input type="hidden" id="first_touch_at" name="first_touch_at">
+          <input type="hidden" id="last_touch_source" name="last_touch_source">
+          <input type="hidden" id="last_touch_medium" name="last_touch_medium">
+          <input type="hidden" id="last_touch_channel" name="last_touch_channel">
+          <input type="hidden" id="last_touch_campaign" name="last_touch_campaign">
+          <input type="hidden" id="last_touch_referrer" name="last_touch_referrer">
+          <input type="hidden" id="last_touch_landing_page" name="last_touch_landing_page">
+          <input type="hidden" id="last_touch_at" name="last_touch_at">
 
           <input type="hidden" id="source_url" name="source_url">
           <input type="hidden" id="source_id" name="source_id" value="website">
-          <input type="hidden" id="campaign_id" name="campaign_id" value="120212345678901234">
-          <input type="hidden" id="campaign_name" name="campaign_name" value="Website">
+          <input type="hidden" id="campaign_id" name="campaign_id" value="">
+          <input type="hidden" id="campaign_name" name="campaign_name" value="">
           <input type="hidden" id="ad_id" name="ad_id" value="">
           <input type="hidden" id="ad_name" name="ad_name" value="">
           <input type="hidden" id="form_id" name="form_id" value="website-contact-form">
@@ -182,7 +196,7 @@
   const CONTACT_SUBMIT_URL = "<?= base_url('contact-submit') ?>";
 </script>
 
-<script src="<?= base_url('assets/js/utm-lead-attribution.js') ?>"></script>
+<script src="<?= base_url('assets/js/utm-lead-attribution.js') ?>?v=<?= @filemtime(FCPATH . 'assets/js/utm-lead-attribution.js') ?: time() ?>"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js" defer></script>
-<script src="<?= base_url('assets/js/contact-us.js') ?>" defer></script>
+<script src="<?= base_url('assets/js/contact-us.js') ?>?v=<?= @filemtime(FCPATH . 'assets/js/contact-us.js') ?: time() ?>" defer></script>
 <?= $this->endSection() ?>
