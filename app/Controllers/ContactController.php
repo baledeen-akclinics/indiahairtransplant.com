@@ -81,10 +81,7 @@ class ContactController extends BaseController
                 'label' => 'Procedure',
                 'rules' => 'required',
             ],
-            'source_url'    => 'required',
-            'source_id'     => 'required',
-            'form_id'       => 'required',
-            'form_name'     => 'required',
+           
         ];
 
         if (! $this->validateData($data, $rules)) {
@@ -99,7 +96,20 @@ class ContactController extends BaseController
 
         $message = trim((string) ($data['message'] ?? ''));
         $concern = trim((string) ($data['concern'] ?? ''));
-        $description = $message !== '' ? $message . ' | Procedure: ' . $concern : $concern;
+        $procedureName = trim((string) ($data['procedure_name'] ?? ''));
+        $procedureIdRaw = trim((string) ($data['procedure_category_id'] ?? ''));
+        $procedureId    = (ctype_digit($procedureIdRaw) && (int) $procedureIdRaw > 0)
+            ? (int) $procedureIdRaw
+            : null;
+
+        if ($procedureName === '' && $concern !== '' && ! ctype_digit($concern)) {
+            $procedureName = $concern;
+        }
+
+        $concernLabel = $procedureName !== '' ? $procedureName : $concern;
+        $description  = $message !== ''
+            ? ($concernLabel !== '' ? $message . ' | Procedure: ' . $concernLabel : $message)
+            : $concernLabel;
 
         $attr = static function (string $key) use ($data): ?string {
             $value = trim((string) ($data[$key] ?? ''));
@@ -114,30 +124,30 @@ class ContactController extends BaseController
             'mobile'              => $data['phone'],
             'city'                => $data['city'],
 
-            'source_id'           => $data['source_id'],
-            'source_url'          => $data['source_url'],
+            'source_id'           => $data['source_id'] ?? '',
+            'source_url'          => $data['source_url'] ?? '',
 
             'campaign_id'         => $attr('campaign_id'),
             'campaign_name'       => $attr('campaign_name'),
 
-            'ad_id'               => $data['ad_id'] ?? '',
-            'ad_name'             => $data['ad_name'] ?? '',
+            'ad_id'               => $attr('ad_id'),
+            'ad_name'             => $attr('ad_name'),
 
-            'form_id'             => $data['form_id'],
-            'form_name'           => $data['form_name'],
+            'form_id'             => $data['form_id'] ?? '',
+            'form_name'           => $data['form_name'] ?? '',
 
-            'concern'             => $data['concern'],
-            'description'         => $description,
+            'procedure_category_id' => $procedureId,
+            'description'           => $description,
 
-            'utm_source'          => trim((string) ($data['utm_source'] ?? '')),
-            'utm_medium'          => trim((string) ($data['utm_medium'] ?? '')),
-            'utm_campaign'        => trim((string) ($data['utm_campaign'] ?? '')),
-            'utm_content'         => trim((string) ($data['utm_content'] ?? '')),
-            'utm_term'            => trim((string) ($data['utm_term'] ?? '')),
-            'gclid'               => trim((string) ($data['gclid'] ?? '')),
-            'fbclid'              => trim((string) ($data['fbclid'] ?? '')),
-            'landing_page'        => trim((string) ($data['landing_page'] ?? '')),
-            'referrer'            => trim((string) ($data['referrer'] ?? '')),
+            'utm_source'          => $attr('utm_source'),
+            'utm_medium'          => $attr('utm_medium'),
+            'utm_campaign'        => $attr('utm_campaign'),
+            'utm_content'         => $attr('utm_content'),
+            'utm_term'            => $attr('utm_term'),
+            'gclid'               => $attr('gclid'),
+            'fbclid'              => $attr('fbclid'),
+            'landing_page'        => $attr('landing_page'),
+            'referrer'            => $attr('referrer'),
 
             'first_touch_source'       => $attr('first_touch_source'),
             'first_touch_medium'       => $attr('first_touch_medium'),
@@ -154,6 +164,10 @@ class ContactController extends BaseController
             'last_touch_landing_page'  => $attr('last_touch_landing_page'),
             'last_touch_at'            => $attr('last_touch_at'),
         ];
+
+        if ($procedureId === null) {
+            unset($crmPayload['procedure_category_id']);
+        }
 
         $this->ihtLog('CRM ATTRIBUTION — ' . json_encode([
             'first_touch_source'       => $crmPayload['first_touch_source'],
@@ -176,17 +190,8 @@ class ContactController extends BaseController
         ], JSON_UNESCAPED_SLASHES));
 
         $crmSynced = $this->forwardToCrm($crmPayload);
-        $emailSent = $this->sendLeadEmail([
-            'name'    => $data['name'],
-            'phone'   => $data['phone'],
-            'email'   => $data['email'],
-            'city'    => $data['city'],
-            'concern' => $concern,
-            'message' => $message,
-            'source'  => $data['source_url'],
-        ]);
 
-        if (! $crmSynced && ! $emailSent) {
+        if (! $crmSynced) {
             return $this->response->setStatusCode(500)->setJSON([
                 'status'  => false,
                 'message' => 'Something went wrong. Please try again.',

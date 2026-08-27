@@ -181,6 +181,18 @@ $procedureSelect.select2({
         const city = document.getElementById("contact_location").value.trim();
         const procedure = document.getElementById("procedure_category").value.trim();
         const message = document.getElementById("contact_message").value.trim();
+        let procedureName = "";
+
+        if (window.jQuery && procedureSelect) {
+            const selected = window.jQuery(procedureSelect).select2("data");
+            if (selected && selected[0] && selected[0].text) {
+                procedureName = String(selected[0].text).trim();
+            }
+        }
+
+        if (!procedureName && procedureSelect && procedureSelect.selectedIndex >= 0) {
+            procedureName = (procedureSelect.options[procedureSelect.selectedIndex].text || "").trim();
+        }
 
         document.getElementById("source_url").value = window.location.href;
 
@@ -279,10 +291,6 @@ $procedureSelect.select2({
             !email ||
             !city ||
             !procedure ||
-            !source_url ||
-            !source_id ||
-            !form_id ||
-            !form_name ||
             !/^[6-9]\d{9}$/.test(phoneDigits)
         ) {
             statusEl.style.display = "block";
@@ -305,7 +313,9 @@ $procedureSelect.select2({
                 email: email,
                 phone: phoneDigits,
                 city: city,
-                concern: procedure,
+                concern: procedureName || procedure,
+                procedure_category_id: /^\d+$/.test(procedure) ? procedure : null,
+                procedure_name: procedureName || null,
                 message: message,
                 source_url: source_url,
                 source_id: source_id,
