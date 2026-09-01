@@ -306,7 +306,8 @@ $procedureSelect.select2({
         fetch(CONTACT_SUBMIT_URL, {
             method: "POST",
             headers: {
-                "Content-Type": "application/json"
+                "Content-Type": "application/json",
+                "Accept": "application/json"
             },
             body: JSON.stringify({
                 name: name,
@@ -351,7 +352,22 @@ $procedureSelect.select2({
             })
         })
             .then(function (response) {
-                return response.json();
+                return response.text().then(function (text) {
+                    var payload = {};
+                    try {
+                        payload = text ? JSON.parse(text) : {};
+                    } catch (err) {
+                        payload = {};
+                    }
+                    if (typeof payload !== "object" || payload === null) {
+                        payload = {};
+                    }
+                    if (payload.status === undefined && !response.ok) {
+                        payload.status = false;
+                        payload.message = payload.message || "Something went wrong.";
+                    }
+                    return payload;
+                });
             })
          .then(function (response) {
     if (response.status) {
@@ -389,6 +405,8 @@ $procedureSelect.select2({
             confirmButtonColor: "#c95524"
         });
 
+        statusEl.style.display = "none";
+
     }
 })
 .catch(function () {
@@ -399,6 +417,8 @@ $procedureSelect.select2({
         text: "Something went wrong. Please try again.",
         confirmButtonColor: "#c95524"
     });
+
+    statusEl.style.display = "none";
 
 });
     });

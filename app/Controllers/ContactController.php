@@ -94,6 +94,7 @@ class ContactController extends BaseController
                 ]);
         }
 
+        try {
         $message = trim((string) ($data['message'] ?? ''));
         $concern = trim((string) ($data['concern'] ?? ''));
         $procedureName = trim((string) ($data['procedure_name'] ?? ''));
@@ -101,6 +102,11 @@ class ContactController extends BaseController
         $procedureId    = (ctype_digit($procedureIdRaw) && (int) $procedureIdRaw > 0)
             ? (int) $procedureIdRaw
             : null;
+
+        // Older live JS sends the Select2 id in `concern` only.
+        if ($procedureId === null && ctype_digit($concern) && (int) $concern > 0) {
+            $procedureId = (int) $concern;
+        }
 
         if ($procedureName === '' && $concern !== '' && ! ctype_digit($concern)) {
             $procedureName = $concern;
@@ -202,6 +208,14 @@ class ContactController extends BaseController
             'status'  => true,
             'message' => 'Thank you. Our team will contact you shortly.',
         ]);
+        } catch (\Throwable $e) {
+            $this->ihtLog('SUBMIT FAILED: ' . $e->getMessage());
+
+            return $this->response->setStatusCode(500)->setJSON([
+                'status'  => false,
+                'message' => 'Something went wrong. Please try again.',
+            ]);
+        }
     }
 
     private function forwardToCrm(array $payload): bool
@@ -346,7 +360,16 @@ class ContactController extends BaseController
 
     private function ihtLog(string $msg): void
     {
-        $file = WRITEPATH . 'logs/iht-form-log.txt';
-        file_put_contents($file, '[' . date('d-M-Y H:i:s') . '] ' . $msg . PHP_EOL, FILE_APPEND | LOCK_EX);
+        try {
+            $dir = rtrim((string) WRITEPATH, '/\\') . DIRECTORY_SEPARATOR . 'logs';
+            if (! is_dir($dir)) {
+                @mkdir($dir, 0775, true);
+            }
+
+            $file = $dir . DIRECTORY_SEPARATOR . 'iht-form-log.txt';
+            @file_put_contents($file, '[' . date('d-M-Y H:i:s') . '] ' . $msg . PHP_EOL, FILE_APPEND | LOCK_EX);
+        } catch (\Throwable $e) {
+            // Logging must never break form submission.
+        }
     }
 }
