@@ -125,7 +125,7 @@
 </section>
 
 <script>
-  window.CONTACT_SUBMIT_URL = window.CONTACT_SUBMIT_URL || "<?= base_url('contact-submit') ?>";
+  window.CONTACT_FORM_SUBMIT_URL = "<?= base_url('contact-form-submit') ?>";
 </script>
 <script src="<?= base_url('assets/js/utm-lead-attribution.js') ?>?v=<?= @filemtime(FCPATH . 'assets/js/utm-lead-attribution.js') ?: time() ?>"></script>
 <script src="<?= base_url('assets/js/hair-transplant-cost.js') ?>?v=<?= @filemtime(FCPATH . 'assets/js/hair-transplant-cost.js') ?: time() ?>"></script>

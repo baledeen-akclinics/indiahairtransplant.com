@@ -131,7 +131,16 @@ document.addEventListener("DOMContentLoaded", function () {
         const procedure = hiddenVal("procedure_category") || "Hair Transplant";
         const phoneDigits = phone.replace(/\D/g, "");
         const statusEl = document.getElementById("contactFormStatus");
-        const submitUrl = window.CONTACT_SUBMIT_URL || "/contact-submit";
+        const submitUrl = (function (url) {
+            if (!url) return '';
+            try {
+                const parsed = new URL(url, window.location.origin);
+                if (parsed.origin === window.location.origin) return url;
+                return parsed.pathname + parsed.search;
+            } catch (e) {
+                return url;
+            }
+        })(window.CONTACT_FORM_SUBMIT_URL);
 
         if (
             !name ||

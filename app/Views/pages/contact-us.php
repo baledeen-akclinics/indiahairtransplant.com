@@ -193,7 +193,7 @@
 <script>
   const API_BASE_URL = "<?= env('api.baseURL') ?>";
   const PROCEDURE_CATEGORIES_URL = "<?= base_url('procedure-categories') ?>";
-  const CONTACT_SUBMIT_URL = "<?= base_url('contact-submit') ?>";
+  const CONTACT_SUBMIT_URL = "<?= base_url('contact-form-submit') ?>";
 </script>
 
 <script src="<?= base_url('assets/js/utm-lead-attribution.js') ?>?v=<?= @filemtime(FCPATH . 'assets/js/utm-lead-attribution.js') ?: time() ?>"></script>

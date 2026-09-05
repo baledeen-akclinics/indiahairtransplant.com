@@ -1,5 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    function sameOriginApiUrl(url) {
+        if (!url) return "";
+        try {
+            const parsed = new URL(url, window.location.origin);
+            if (parsed.origin === window.location.origin) return url;
+            return parsed.pathname + parsed.search;
+        } catch (e) {
+            return url;
+        }
+    }
+
     const locationInput = document.getElementById("contact_location");
     const locationError = document.getElementById("locationError");
     if (locationInput && locationError) {
@@ -52,7 +63,7 @@ $procedureSelect.select2({
     dropdownParent: $(".contact-form"),
 
     ajax: {
-        url: PROCEDURE_CATEGORIES_URL,
+        url: sameOriginApiUrl(PROCEDURE_CATEGORIES_URL),
         type: "GET",
         dataType: "json",
         delay: 300,
@@ -303,7 +314,7 @@ $procedureSelect.select2({
         statusEl.style.color = "#64748b";
         statusEl.textContent = "Sending...";
 
-        fetch(CONTACT_SUBMIT_URL, {
+        fetch(sameOriginApiUrl(CONTACT_SUBMIT_URL), {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

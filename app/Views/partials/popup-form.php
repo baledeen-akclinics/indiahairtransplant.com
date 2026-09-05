@@ -175,6 +175,7 @@
             </div>
           </div>
 
+          <span class="iht-form-error" id="err_submit" role="alert"></span>
           <div class="iht-popup-nav">
             <button type="button" class="iht-popup-btn iht-btn-ghost" id="ihtStep2Back">
               <svg viewBox="0 0 20 20" fill="currentColor" width="14" height="14" aria-hidden="true"><path fill-rule="evenodd" d="M11.7 15.7a1 1 0 0 1-1.4 0l-5-5a1 1 0 0 1 0-1.4l5-5a1 1 0 0 1 1.4 1.4L7.4 10l4.3 4.3a1 1 0 0 1 0 1.4Z"/></svg>
