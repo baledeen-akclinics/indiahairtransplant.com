@@ -62,34 +62,121 @@
   }
 
   /* ---- COLLECT DATA ---- */
-  function getData(full) {
+  function concernLabel() {
     var concern = document.querySelector('input[name="concern"]:checked');
-    var o = {
-      action:     full ? 'update_lead' : 'save_lead',
-      name:       v('cf_name'),
-      phone:      v('cf_phone'),
-      email:      v('cf_email'),
-      city:       v('cf_city'),
-      source_url: window.location.href,
+    var labels = {
+      'hair-transplant': 'Hair Transplant',
+      'hair-loss': 'Hair Loss Treatment',
+      'prp-gfc': 'PRP / GFC',
+      'not-sure': 'Not Sure'
     };
-    if (full) {
-      o.concern        = concern ? concern.value : '';
-      o.grade          = v('cf_grade');
-      o.preferred_time = v('cf_time');
-    }
-    return o;
+    if (!concern || !concern.value) return 'Hair Consultation';
+    return labels[concern.value] || concern.value;
   }
 
-  /* ---- SEND TO SERVER ---- */
+  function selectedText(id) {
+    var el = document.getElementById(id);
+    if (!el || !el.value || el.selectedIndex < 0) return '';
+    return (el.options[el.selectedIndex].text || '').trim();
+  }
+
+  function getAttribution() {
+    return (typeof window.getLeadAttributionCookie === 'function')
+      ? (window.getLeadAttributionCookie() || {})
+      : {};
+  }
+
+  function getData(full) {
+    var a = getAttribution();
+    var phone = v('cf_phone').replace(/\D/g, '');
+    var procedure = full ? concernLabel() : 'Hair Consultation';
+    var gradeText = full ? selectedText('cf_grade') : '';
+    var timeText = full ? selectedText('cf_time') : '';
+    var messageParts = [];
+    if (gradeText) messageParts.push('Hair Loss Stage: ' + gradeText);
+    if (timeText) messageParts.push('Best Time to Call: ' + timeText);
+
+    return {
+      name: v('cf_name'),
+      email: v('cf_email'),
+      phone: phone,
+      city: v('cf_city'),
+      concern: procedure,
+      procedure_name: procedure,
+      procedure_category_id: null,
+      message: messageParts.join(' | '),
+      grade: gradeText,
+      preferred_time: timeText,
+      source_url: window.location.href,
+      source_id: 'website',
+      campaign_id: a.campaign_id || null,
+      campaign_name: a.campaign_name || a.utm_campaign || null,
+      ad_id: a.ad_id || '',
+      ad_name: a.ad_name || '',
+      form_id: 'website-popup-form',
+      form_name: (document.title || 'Consultation Popup').trim(),
+      utm_source: a.utm_source || '',
+      utm_medium: a.utm_medium || '',
+      utm_campaign: a.utm_campaign || '',
+      utm_content: a.utm_content || '',
+      utm_term: a.utm_term || '',
+      gclid: a.gclid || '',
+      fbclid: a.fbclid || '',
+      landing_page: a.landing_page || window.location.href,
+      referrer: a.referrer || document.referrer || '',
+      first_touch_source: a.first_touch_source || null,
+      first_touch_medium: a.first_touch_medium || null,
+      first_touch_channel: a.first_touch_channel || null,
+      first_touch_campaign: a.first_touch_campaign || null,
+      first_touch_referrer: a.first_touch_referrer || null,
+      first_touch_landing_page: a.first_touch_landing_page || null,
+      first_touch_at: a.first_touch_at || null,
+      last_touch_source: a.last_touch_source || null,
+      last_touch_medium: a.last_touch_medium || null,
+      last_touch_channel: a.last_touch_channel || null,
+      last_touch_campaign: a.last_touch_campaign || null,
+      last_touch_referrer: a.last_touch_referrer || null,
+      last_touch_landing_page: a.last_touch_landing_page || null,
+      last_touch_at: a.last_touch_at || null
+    };
+  }
+
+  /* ---- SEND TO SERVER (same CRM API as Book a Consultation) ---- */
+  function submitUrl() {
+    var url = window.CONTACT_SUBMIT_URL || '';
+    try {
+      var parsed = new URL(url, window.location.origin);
+      if (parsed.origin === window.location.origin) {
+        return url;
+      }
+      return parsed.pathname + parsed.search;
+    } catch (e) {
+      return url;
+    }
+  }
+
   function sendLead(data) {
-    fetch('/form-handler', {
-      method:  'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body:    JSON.stringify(data),
+    var url = submitUrl();
+    return fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify(data)
     })
-    .then(function (r) { return r.json(); })
-    .then(function (j) { console.log('[IHT] Lead sent:', j); })
-    .catch(function (e) { console.error('[IHT] Lead send failed:', e); });
+    .then(function (r) {
+      return r.text().then(function (text) {
+        var payload = {};
+        try { payload = text ? JSON.parse(text) : {}; } catch (e) { payload = {}; }
+        if (typeof payload !== 'object' || payload === null) payload = {};
+        if (payload.status === undefined && !r.ok) {
+          payload.status = false;
+          payload.message = payload.message || 'Something went wrong.';
+        }
+        return payload;
+      });
+    });
   }
 
   /* ---- SUCCESS SCREEN ---- */
@@ -130,7 +217,7 @@
     var em   = document.getElementById('cf_email');
     var city = document.getElementById('cf_city');
 
-    if (!name || name.value.trim().length < 2) {
+    if (!name || name.value.trim().length < 3 || !/^[A-Za-z ]+$/.test(name.value.trim())) {
       err('cf_name', 'err_name', 'Please enter your full name.'); ok = false;
     } else { err('cf_name', 'err_name', ''); }
 
@@ -150,12 +237,15 @@
     return ok;
   }
 
-  /* ---- STEP 1 NEXT — auto-save lead immediately ---- */
+  /* ---- STEP 1 NEXT — save lead immediately so CRM gets the contact even if step 2 is abandoned ---- */
   var s1n = document.getElementById('ihtStep1Next');
   if (s1n) s1n.addEventListener('click', function () {
     if (!validateStep1()) return;
     savedName = v('cf_name');
-    if (!saved) { saved = true; sendLead(getData(false)); }
+    if (!saved) {
+      saved = true;
+      sendLead(getData(false)).catch(function () { saved = false; });
+    }
     goToStep(2);
   });
 
@@ -174,14 +264,29 @@
     if (txt)  txt.hidden   = true;
     if (spin) spin.hidden  = false;
 
-    sendLead(getData(true));
+    err(null, 'err_submit', '');
 
-    setTimeout(function () {
-      if (btn)  btn.disabled = false;
-      if (txt)  txt.hidden   = false;
-      if (spin) spin.hidden  = true;
-      showSuccess(savedName || v('cf_name'));
-    }, 700);
+    sendLead(getData(true))
+      .then(function (res) {
+        if (res && res.status) {
+          saved = true;
+          if (btn)  btn.disabled = false;
+          if (txt)  txt.hidden   = false;
+          if (spin) spin.hidden  = true;
+          showSuccess(savedName || v('cf_name'));
+          return;
+        }
+        if (btn)  btn.disabled = false;
+        if (txt)  txt.hidden   = false;
+        if (spin) spin.hidden  = true;
+        err(null, 'err_submit', (res && res.message) || 'Something went wrong. Please try again.');
+      })
+      .catch(function () {
+        if (btn)  btn.disabled = false;
+        if (txt)  txt.hidden   = false;
+        if (spin) spin.hidden  = true;
+        err(null, 'err_submit', 'Something went wrong. Please try again.');
+      });
   });
 
   /* ---- CONCERN CARD FALLBACK ---- */
@@ -196,7 +301,7 @@
 
   /* ---- LIVE VALIDATION ---- */
   var rules = {
-    cf_name:  { e: 'err_name',  fn: function (x) { return x.trim().length >= 2 ? '' : 'Please enter your full name.'; } },
+    cf_name:  { e: 'err_name',  fn: function (x) { return x.trim().length >= 3 && /^[A-Za-z ]+$/.test(x.trim()) ? '' : 'Please enter your full name.'; } },
     cf_phone: { e: 'err_phone', fn: function (x) { return /^[6-9]\d{9}$/.test(x.replace(/\D/g,'')) ? '' : 'Enter a valid 10-digit number.'; } },
     cf_email: { e: 'err_email', fn: function (x) { return !x || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(x) ? '' : 'Invalid email.'; } },
     cf_city:  { e: 'err_city',  fn: function (x) { return x.trim() ? '' : 'Please enter your city.'; } },

@@ -11,7 +11,9 @@ $routes->post('form-handler', 'FormController::handle');
 $routes->options('form-handler', 'FormController::handle');
 
 $routes->get('procedure-categories', 'ContactController::procedureCategories');
-$routes->post('contact-submit', 'ContactController::submit');
+$routes->post('contact-submit', 'PopupFormController::submit');
+$routes->options('contact-submit', 'PopupFormController::submit');
+$routes->post('contact-form-submit', 'ContactController::submit');
 $routes->get('blog', 'BlogController::index');
 $routes->get('blog/', 'BlogController::index');
 $routes->get('blog-sitemap.xml', 'BlogController::sitemap');
