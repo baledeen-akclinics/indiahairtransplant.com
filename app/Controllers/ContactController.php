@@ -234,6 +234,7 @@ class ContactController extends BaseController
                 'headers' => [
                     'Accept'       => 'application/json',
                     'Content-Type' => 'application/json',
+                    'Auth-Key'     => env('CRM_AUTH_KEY'),
                 ],
                 'json' => $payload,
                 'http_errors' => false,
