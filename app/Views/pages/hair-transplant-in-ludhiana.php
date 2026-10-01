@@ -256,6 +256,7 @@
 
       <h1 class="page-title">Hair Transplant in Ludhiana | FUE & Bio-FUE at IHT Clinic</h1>
       <p class="page-sub">Looking for a trusted hair transplant clinic in Ludhiana? At IHT (India Hair Transplant) Clinic, near Sarabha Nagar and South City, every FUE and Bio-FUE procedure is carefully planned and performed by qualified surgeons, not delegated to technicians.</p>
+      <?= $this->include('partials/hero-consult-cta') ?>
 
       <!-- LCP FIX: Makes hero background image discoverable in initial HTML.
            fetchpriority="high" tells the browser to load this before other images.

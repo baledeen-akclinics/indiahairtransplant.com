@@ -20,7 +20,7 @@
 
       <h1 class="page-title">Hair Loss: Causes, Types and Treatment</h1>
       <p class="page-sub">Noticing thinning hair or increased hair fall? Early diagnosis can help protect your existing hair and slow further hair loss. At India Hair Transplant (IHT), our dermatologists evaluate the cause of hair loss and guide patients to the appropriate treatment options.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

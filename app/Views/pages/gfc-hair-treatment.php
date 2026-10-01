@@ -20,7 +20,7 @@
 
       <h1 class="page-title">GFC Hair Treatment in India</h1>
       <p class="page-sub">Designed for early hair thinning, GFC Therapy for Hair Loss uses Growth Factor Concentrate to nourish follicles, slow hair loss progression, and support natural regrowth as a safe, non-surgical solution.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

@@ -23,7 +23,7 @@
       <p class="page-sub">
         Planning a hair transplant in Amritsar? Start with a medical scalp and donor assessment so graft requirement, technique selection, and density targets are decided safely and realistically.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

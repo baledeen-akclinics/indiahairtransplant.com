@@ -20,7 +20,7 @@
 
       <h1 class="page-title">Beard Hair Transplant in India</h1>
       <p class="page-sub">Beard hair transplant for men seeking a long-term, permanent solution to uneven or no beard growth, with natural results achieved through careful planning and expertise.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

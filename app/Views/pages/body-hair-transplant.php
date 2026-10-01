@@ -20,7 +20,7 @@
 
       <h1 class="page-title">Body Hair Transplant in India</h1>
       <p class="page-sub">Redefining hair restoration for advanced baldness through body hair transplantation, offering a carefully planned solution when scalp donor hair is limited.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

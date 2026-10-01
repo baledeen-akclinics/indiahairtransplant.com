@@ -23,7 +23,7 @@
       <p class="page-sub">
        Looking for a hair transplant in Agra? Choose a clinic where every procedure is carefully evaluated, grafts are planned precisely, and results are designed to look natural and long lasting.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

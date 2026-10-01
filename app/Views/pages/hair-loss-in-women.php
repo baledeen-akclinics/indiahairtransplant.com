@@ -18,6 +18,7 @@
 
       <h1 class="page-title">Hair Loss in Women</h1>
       <p class="page-sub">Noticing increased hair fall, widening of the part line, or reduced hair volume? Hair loss in women can develop gradually and may be linked to genetics, hormonal changes, nutritional issues, or stress. Early diagnosis helps protect follicle health and guide the right treatment plan.</p>
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

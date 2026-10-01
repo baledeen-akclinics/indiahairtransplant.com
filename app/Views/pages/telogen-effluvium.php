@@ -22,6 +22,7 @@
       <p class="page-sub">
         <em>Telogen Effluvium is a temporary hair loss condition characterised by sudden, excessive shedding and diffuse thinning across the scalp. At IHT Clinic, specialists assess the cause and suggest appropriate treatment based on your hair condition.</em>
       </p>
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

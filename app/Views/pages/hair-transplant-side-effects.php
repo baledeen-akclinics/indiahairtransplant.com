@@ -110,6 +110,7 @@
       <p class="page-sub">
         A medically reviewed, honest guide to every common and rare side effect of hair transplant surgery — and what experienced surgeons at IHT do to minimise each one, so you can make an informed decision with realistic expectations.
       </p>
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

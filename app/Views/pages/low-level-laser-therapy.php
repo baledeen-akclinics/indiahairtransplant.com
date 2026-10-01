@@ -20,7 +20,7 @@
 
       <h1 class="page-title">Low-Level Laser Therapy in India</h1>
       <p class="page-sub">Low-Level Laser Therapy (LLLT) or helmet Therapy uses low-intensity laser light to stimulate weakened follicles, improve scalp circulation, and support natural hair regrowth, without surgery or downtime.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

@@ -22,7 +22,7 @@
       <p class="page-sub">
         India’s leading hair transplant clinic, led by world-renowned surgeons, known for delivering natural-looking results using advanced techniques
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

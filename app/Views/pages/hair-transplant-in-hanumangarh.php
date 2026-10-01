@@ -23,7 +23,7 @@
       <p class="page-sub">
         Planning a hair transplant in Hanumangarh? Start with a medical evaluation to confirm the hair loss pattern, donor strength, and realistic graft requirement before deciding on surgery.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

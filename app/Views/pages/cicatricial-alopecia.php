@@ -22,6 +22,7 @@
       <p class="page-sub">
         <em>Patchy hair loss, along with scalp changes such as redness or smooth areas, may indicate scarring alopecia. At India Hair Transplant (IHT), experts assess causes and suggest suitable management approaches.</em>
       </p>
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

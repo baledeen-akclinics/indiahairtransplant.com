@@ -23,7 +23,7 @@
       <p class="page-sub">
         If you are planning a hair transplant in Morinda, start with a medical scalp and donor assessment so graft count, technique, and coverage are decided safely.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

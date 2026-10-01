@@ -24,7 +24,7 @@
 
     <h1 class="page-title">Dandruff: Causes, Symptoms & Treatment</h1>
     <p class="page-sub">Dandruff is a common scalp condition that causes visible flakes and itching. Persistent dandruff may indicate an underlying scalp imbalance that requires proper evaluation and treatment at India Hair Transplant (IHT).</p>
-    <!-- No CTAs here -->
+    <?= $this->include('partials/hero-consult-cta') ?>
   </div>
 </section>
 

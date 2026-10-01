@@ -20,7 +20,7 @@
 
       <h1 class="page-title">Hair Loss in Men</h1>
       <p class="page-sub">Are the early signs of hair loss affecting your confidence? Hair loss in men is often progressive and biologically driven. Understanding male pattern baldness early helps protect follicle health and slow further thinning.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

@@ -387,7 +387,7 @@ $procedureSelect.select2({
             icon: "success",
             title: "Success!",
               text: response.message,
-            confirmButtonColor: "#22c55e"
+            confirmButtonColor: "#f59e0b"
         });
 
         contactForm.reset();

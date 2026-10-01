@@ -23,7 +23,7 @@
       <p class="page-sub">
         Looking for a hair transplant in Jaipur? Start with a proper scalp and donor assessment so graft planning, technique selection, and density targets are decided medically—not as a fixed package.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

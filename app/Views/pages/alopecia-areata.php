@@ -22,6 +22,7 @@
       <p class="page-sub">
         Noticing sudden patches of hair loss on your scalp or beard? It could be alopecia areata, an autoimmune condition that affects hair growth. At <strong>IHT Clinic</strong>, our specialists evaluate patchy hair loss patterns and guide you toward the right treatment options.
       </p>
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

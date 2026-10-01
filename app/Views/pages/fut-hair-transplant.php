@@ -20,7 +20,7 @@
 
       <h1 class="page-title">FUT Hair Transplant in India</h1>
       <p class="page-sub">Struggling with advanced baldness? Explore FUT hair transplant, a proven surgical solution that allows high graft coverage in one session through strip harvesting and surgeon-planned hair restoration.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

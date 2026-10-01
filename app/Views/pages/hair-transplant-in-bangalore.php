@@ -22,7 +22,7 @@
 
       <h1 class="page-title">Hair Transplant in Bangalore</h1>
       <p class="page-sub">Looking for safe hair transplant options in Bangalore? At IHT (India Hair Transplant) Clinic, every procedure is carefully planned and performed by qualified surgeons using advanced hair restoration techniques.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

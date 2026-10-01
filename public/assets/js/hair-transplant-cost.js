@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         title: "Success",
                         text: response.message || "Thank you. Our team will contact you shortly.",
                         confirmButtonText: "OK",
-                        confirmButtonColor: "#22c55e"
+                        confirmButtonColor: "#f59e0b"
                     });
 
                     form.reset();
@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         title: "Failed",
                         text: response.message || "Something went wrong.",
                         confirmButtonText: "OK",
-                        confirmButtonColor: "#ef4444"
+                        confirmButtonColor: "#f59e0b"
                     });
 
                     if (statusEl) {
@@ -254,7 +254,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     title: "Error",
                     text: "Something went wrong. Please try again.",
                     confirmButtonText: "OK",
-                    confirmButtonColor: "#ef4444"
+                    confirmButtonColor: "#f59e0b"
                 });
 
                 if (statusEl) {

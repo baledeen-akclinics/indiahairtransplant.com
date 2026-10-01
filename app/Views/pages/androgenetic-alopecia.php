@@ -20,6 +20,7 @@
 
       <h1 class="page-title">Androgenetic Alopecia</h1>
       <p class="page-sub">Androgenetic alopecia is one of the most common causes of gradual hair thinning in men and women. At <strong>IHT Clinic</strong>, our hair specialists assess the pattern of hair loss and guide patients toward suitable treatment options based on their hair condition and long-term hair restoration goals.</p>
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

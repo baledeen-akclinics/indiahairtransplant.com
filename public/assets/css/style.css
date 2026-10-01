@@ -765,6 +765,19 @@ img{max-width:100%;display:block}
     line-height: 1.7
 }
 
+.iht-about .page-hero-cta,
+.page-hero .page-hero-cta {
+    margin: 16px 0 0
+}
+.iht-about .page-hero-cta .hero-btn,
+.page-hero .page-hero-cta .hero-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer
+}
+
 /* ================================
      MEDIA INTRO (like reference)
   =================================== */

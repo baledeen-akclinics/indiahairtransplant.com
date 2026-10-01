@@ -21,7 +21,7 @@
 
       <h1 class="page-title">Hair Transplant in Delhi</h1>
       <p class="page-sub">Looking for a reliable hair transplant clinic in Delhi? At IHT, every procedure is planned and performed by qualified surgeons with customised hairline design, precise graft placement, and a clear focus on natural density and lasting results.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

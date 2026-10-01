@@ -20,7 +20,7 @@
 
       <h1 class="page-title">Eyebrow Hair Transplant in India</h1>
       <p class="page-sub">A solution for fuller, natural-looking eyebrows with real hair growth that lasts, beyond temporary cosmetic fixes.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

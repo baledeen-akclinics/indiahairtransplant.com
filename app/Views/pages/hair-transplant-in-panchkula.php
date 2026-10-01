@@ -23,7 +23,7 @@
       <p class="page-sub">
         If you are planning a hair transplant in Panchkula, start with a proper scalp and donor assessment so the graft requirement, technique, and coverage plan are decided medically.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

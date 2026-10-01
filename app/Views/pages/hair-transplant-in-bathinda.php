@@ -23,7 +23,7 @@
       <p class="page-sub">
         Planning a hair transplant in Bathinda? Start with a proper medical assessment where your hair loss pattern, donor strength, and realistic graft requirement are evaluated before any surgery is suggested.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

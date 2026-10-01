@@ -18,7 +18,7 @@
       <p class="page-sub">
         A medically planned hair restoration procedure designed to achieve natural hair growth for men and women. At IHT, each hair transplant procedure is planned and performed by experienced surgeons in a sterile operation theatre, following strict safety protocols.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

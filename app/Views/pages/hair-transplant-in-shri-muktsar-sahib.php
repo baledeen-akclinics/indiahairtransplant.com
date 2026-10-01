@@ -23,7 +23,7 @@
       <p class="page-sub">
         Looking for a safe, doctor-performed hair transplant in Shri Muktsar Sahib? At IHT (India Hair Transplant), every case starts with a detailed scalp and donor assessment, followed by a medically planned procedure for natural-looking, long-term results.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 
