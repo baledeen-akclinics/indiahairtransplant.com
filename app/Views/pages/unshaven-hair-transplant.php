@@ -20,7 +20,7 @@
 
       <h1 class="page-title">Unshaven FUE Hair Transplant</h1>
       <p class="page-sub">Unshaven FUE hair transplant in India is a specialised technique that enables hair restoration without shaving the scalp. Preserving existing hair, it helps maintain a natural look during recovery. At India Hair Transplant (IHT), each case is carefully assessed to determine if Unshaven FUE is the suitable option for you.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

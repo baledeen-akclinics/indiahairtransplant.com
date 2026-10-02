@@ -22,7 +22,7 @@
       <p class="page-sub">
      A medically planned solution for male pattern baldness, focused on safety, natural hairlines, and long-term scalp balance through clinical evaluation, graft planning, and surgeon-led execution.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

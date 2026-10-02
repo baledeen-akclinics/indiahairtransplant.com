@@ -24,7 +24,7 @@
 
     <h1 class="page-title">Seborrheic Dermatitis: Causes, Symptoms and Treatment</h1>
     <p class="page-sub">Seborrheic dermatitis is an inflammatory scalp condition that causes greasy flakes, redness, and itching. Persistent scalp irritation may affect scalp health and should be evaluated by specialists at India Hair Transplant (IHT).</p>
-    <!-- No CTAs here -->
+    <?= $this->include('partials/hero-consult-cta') ?>
   </div>
 </section>
 

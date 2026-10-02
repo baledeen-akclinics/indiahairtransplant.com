@@ -22,6 +22,7 @@
       <p class="page-sub">
         Looking for a trusted hair transplant clinic in Noida? At IHT, every procedure is carefully planned and performed by qualified surgeons with customised hairline design, precise graft placement, and long-term donor area preservation.
       </p>
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

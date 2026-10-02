@@ -22,6 +22,7 @@
       <p class="page-sub">
         <em>Do you notice sudden, rapid hair loss within weeks instead of gradual thinning? It could be anagen effluvium. At India Hair Transplant (IHT), our experts carefully evaluate the pattern and cause of quick hair shedding to guide patients toward the most suitable approach for hair recovery and scalp health.</em>
       </p>
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

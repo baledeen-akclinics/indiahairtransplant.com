@@ -20,7 +20,7 @@
 
       <h1 class="page-title">PRP Hair Treatment in India</h1>
       <p class="page-sub">Best non-surgical treatment recommended by doctors for early hair thinning and noticeable hair loss, designed to strengthen follicles and support natural regrowth.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

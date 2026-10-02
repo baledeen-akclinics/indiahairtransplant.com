@@ -20,7 +20,7 @@
 
       <h1 class="page-title">Moustache Transplant in India</h1>
       <p class="page-sub">Restore facial hair naturally to cover scars, correct patchy moustache growth, and achieve balanced definition with permanent results that enhance facial harmony and rebuild confidence over time.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

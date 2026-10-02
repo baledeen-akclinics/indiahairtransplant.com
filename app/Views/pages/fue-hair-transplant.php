@@ -20,7 +20,7 @@
 
       <h1 class="page-title">FUE Hair Transplant in India</h1>
       <p class="page-sub">FUE is one of the most common and safe hair transplant techniques practised today, offering a minimally invasive approach with precise graft extraction, natural-looking results, and supporting long-term hair restoration at IHT Clinic</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

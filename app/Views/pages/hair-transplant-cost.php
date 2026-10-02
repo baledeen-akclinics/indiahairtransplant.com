@@ -22,7 +22,7 @@
       <p class="page-sub">
       Hair transplant cost in India depends on individual hair loss patterns, graft requirements, and the approach used for treatment. At IHT (India Hair Transplant), cost discussions are based on proper assessment and transparent planning, ensuring clarity from the start.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

@@ -20,7 +20,7 @@
 
       <h1 class="page-title">Hair Loss Causes</h1>
       <p class="page-sub">Experiencing increased hair fall or noticing gradual thinning? Hair loss can occur due to several factors including genetics, hormonal changes, nutritional deficiencies, stress, or scalp conditions. At India Hair Transplant (IHT), specialists evaluate the underlying causes of hair loss to help patients understand what may be affecting their hair growth.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

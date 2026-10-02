@@ -24,7 +24,7 @@
 
       <h1 class="page-title">Scalp Psoriasis: Causes, Symptoms and Treatment</h1>
       <p class="page-sub">Scalp psoriasis is a chronic skin condition that leads to thick scaly patches and inflammation on the scalp. Proper diagnosis and scalp care at India Hair Transplant (IHT) can help manage symptoms and protect overall scalp health.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

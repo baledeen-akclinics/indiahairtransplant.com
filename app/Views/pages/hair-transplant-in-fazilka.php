@@ -23,7 +23,7 @@
       <p class="page-sub">
         Planning a hair transplant in Fazilka? Start with a medical assessment that checks your hair loss pattern, donor strength, and realistic graft requirement before any surgery is planned.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

@@ -23,7 +23,7 @@
       <p class="page-sub">
         Planning a hair transplant in Meerut? Choose a clinic where grafts are calculated medically, donor safety is prioritised, and results are designed to look natural and long lasting.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

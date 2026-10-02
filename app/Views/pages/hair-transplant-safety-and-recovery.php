@@ -20,7 +20,7 @@
 
       <h1 class="page-title">Post Hair Transplant Recovery</h1>
       <p class="page-sub">Key safety measures and recovery guidelines play a critical role in hair transplant outcomes.Understanding these aspects helps support safe healing and long-term results.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

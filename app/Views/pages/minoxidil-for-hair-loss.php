@@ -25,7 +25,7 @@
     <p class="page-sub">
       Minoxidil treatment for hair loss is a clinically proven solution for male and female pattern baldness. Learn how minoxidil helps reduce hair thinning, stimulate regrowth, and manage progressive hair loss safely under a dermatologist's guidance.
     </p>
-    <!-- No CTAs here -->
+    <?= $this->include('partials/hero-consult-cta') ?>
   </div>
 </section>
 

@@ -24,7 +24,7 @@
 
       <h1 class="page-title">Scalp Folliculitis: Causes, Symptoms and Treatment</h1>
       <p class="page-sub">Scalp folliculitis occurs when hair follicles become inflamed or infected, often appearing as small bumps or pimples on the scalp. Early evaluation at India Hair Transplant (IHT) helps control inflammation and maintain a healthy scalp environment.</p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

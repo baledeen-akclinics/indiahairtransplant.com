@@ -10,7 +10,7 @@
     <div class="inner">
       <h1 class="hero-title" id="heroTitle">Best Hair Transplant Clinic in India Delivering Natural Results</h1>
       <div class="hero-cta">
-        <a class="hero-btn" href="#analysis">Book Your Free Consultation</a>
+        <a class="hero-btn" href="#" data-popup="consult" role="button">Book Your Free Consultation</a>
       </div>
     </div>
   </div>

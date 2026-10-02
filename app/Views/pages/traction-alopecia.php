@@ -22,6 +22,7 @@
       <p class="page-sub">
         <em>Noticing thinning around your hairline or areas under constant tension? It may be traction alopecia caused by repeated pulling on hair roots. At India Hair Transplant (IHT), early evaluation helps prevent further loss and support natural regrowth.</em>
       </p>
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

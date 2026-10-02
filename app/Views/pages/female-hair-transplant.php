@@ -22,7 +22,7 @@
       <p class="page-sub">
     Expert-led hair transplant, offering advanced, precision-driven hair restoration solutions that address female hair loss with care, accuracy, and naturally balanced outcomes.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 

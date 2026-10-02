@@ -23,7 +23,7 @@
       <p class="page-sub">
         Planning a hair transplant in Kota? The right starting point is medical evaluation—checking hair loss pattern, donor strength, and realistic graft requirement before any surgical decision is made.
       </p>
-      <!-- No CTAs here -->
+      <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 
