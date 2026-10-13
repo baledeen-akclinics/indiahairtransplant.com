@@ -764,8 +764,8 @@
             <a href="tel:09779944207" class="btn-cta" style="background: #f59e0b; color: #121a2c; padding: 14px 32px; border-radius: 12px; font: 800 16px/1 Inter,system-ui,sans-serif; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
               📞 Call 09779944207
             </a>
-            <a href="<?= base_url('contact') ?>" class="btn-cta" style="background: transparent; color: #ffffff; padding: 13px 32px; border-radius: 12px; font: 800 16px/1 Inter,system-ui,sans-serif; text-decoration: none; display: inline-flex; align-items: center; border: 1.5px solid rgba(255,255,255,0.4);">
-              Book a Free Consultation
+            <a href="#" class="btn-cta" data-popup="consult" role="button" style="background: transparent; color: #ffffff; padding: 13px 32px; border-radius: 12px; font: 800 16px/1 Inter,system-ui,sans-serif; text-decoration: none; display: inline-flex; align-items: center; border: 1.5px solid rgba(255,255,255,0.4);">
+              Book Consultation
             </a>
           </div>
 

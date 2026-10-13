@@ -142,12 +142,12 @@
 <?= $this->include('partials/popup-form') ?>
 
 <!-- Floating CTA button — appears after scroll, opens popup -->
-<button class="iht-float-cta" type="button" aria-label="Book free hair consultation">
+<button class="iht-float-cta" type="button" aria-label="Book consultation">
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" width="18" height="18">
     <path d="M8 2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H8l-4 4V4a2 2 0 0 1 2-2Z"/>
     <path d="M12 8v4M12 16h.01" stroke-linecap="round"/>
   </svg>
-  Free Consultation
+  Book Consultation
 </button>
 
 <script>
