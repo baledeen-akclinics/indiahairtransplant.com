@@ -70,7 +70,7 @@
           </div>
 
           <div class="docp-actions">
-            <a href="<?= base_url('contact') ?>" class="docp-btn docp-btn--primary">Book Consultation</a>
+            <a href="#" class="docp-btn docp-btn--primary" data-popup="consult" role="button">Book Consultation</a>
             <a href="tel:+919779944207" class="docp-btn docp-btn--ghost">Call Now</a>
           </div>
         </div>

@@ -473,7 +473,7 @@
               <!-- Inline CTA -->
               <div style="text-align:center; padding:22px 0 6px;">
                 <button data-popup="consult" class="iht-popup-btn iht-popup-btn--primary" style="font:700 15px/1 Inter,system-ui,sans-serif;padding:0 32px;height:46px;border-radius:99px;background:#f59e0b;color:#fff;border:0;cursor:pointer;">
-                  Book a Free Consultation
+                  Book Consultation
                 </button>
               </div>
 
@@ -632,7 +632,7 @@
                 <p>Our surgical team provides honest assessments of your hair loss stage, donor suitability, and realistic outcomes &mdash; no pressure, no sales pitch. Just a thorough medical consultation.</p>
                 <div class="bs-cta-btns">
                   <button data-popup="consult" class="iht-popup-btn btn-primary" style="display:inline-flex;align-items:center;height:44px;padding:0 26px;border-radius:99px;font:700 14px/1 Inter,system-ui,sans-serif;background:#f59e0b;color:#fff;border:0;cursor:pointer;">
-                    Book a Free Consultation
+                    Book Consultation
                   </button>
                   <a href="/hair-transplant-cost" class="btn-outline">View Hair Transplant Cost</a>
                 </div>
