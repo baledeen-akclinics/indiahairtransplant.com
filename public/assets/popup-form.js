@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  var WA = '919779944207';
+  var WA_URL = 'https://wa.akclinics.com/AKC3355';
 
   var backdrop  = document.getElementById('ihtPopupBackdrop');
   if (!backdrop) return;
@@ -192,9 +192,7 @@
     if (nameEl) nameEl.textContent = name;
 
     if (waBtn) {
-      waBtn.href = 'https://wa.me/' + WA + '?text=' + encodeURIComponent(
-        'Hi IHT! I just submitted a consultation request. My name is ' + name + '. Please guide me.'
-      );
+      waBtn.href = WA_URL;
     }
     if (success) success.hidden = false;
   }
