@@ -198,7 +198,7 @@
           </div>
           <h3 class="success-heading">Request Received!</h3>
           <p class="success-msg">Thank you, <strong id="successName"></strong>. Our team will call you within <strong>24 hours</strong>.</p>
-          <a class="iht-wa-btn" id="ihtWaBtn" href="#" target="_blank" rel="noopener noreferrer">
+          <a class="iht-wa-btn" id="ihtWaBtn" href="https://wa.akclinics.com/AKC3355" target="_blank" rel="noopener noreferrer">
             <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1-.2.2-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.6-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.2-.5 0-.2-.1-.4-.2-.5-.1-.2-.6-1.5-.9-2-.2-.5-.5-.5-.7-.5h-.6c-.2 0-.5.1-.7.3C7.5 8 7 9 7 10.2c0 1.2.9 2.4 1 2.6.1.2 1.7 2.6 4.1 3.6.6.2 1 .4 1.4.5.6.2 1.1.2 1.5.1.5-.1 1.7-.7 1.9-1.4.2-.6.2-1.1.1-1.2-.1-.1-.3-.2-.6-.3Zm-5.5 7.6A9.9 9.9 0 0 1 7.1 20l-.3-.2-3.2.8.9-3.1-.2-.3A9.9 9.9 0 1 1 12 22Z"/></svg>
             Chat on WhatsApp
           </a>
