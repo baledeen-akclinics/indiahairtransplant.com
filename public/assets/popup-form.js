@@ -5,7 +5,7 @@
 (function () {
   'use strict';
 
-  var WA = '919779944207';
+  var WA_URL = 'https://wa.akclinics.com/AKC3355';
 
   var backdrop  = document.getElementById('ihtPopupBackdrop');
   if (!backdrop) return;
@@ -15,7 +15,8 @@
   var step1     = document.getElementById('ihtStep1');
   var step2     = document.getElementById('ihtStep2');
   var success   = document.getElementById('ihtPopupSuccess');
-  var floatBtn  = document.querySelector('.iht-float-cta');
+  var floatBtn  = document.querySelector('button.iht-float-cta');
+  var floatWa   = document.querySelector('.iht-float-wa');
   var stepEls   = document.querySelectorAll('.iht-popup-step');
   var lineEls   = document.querySelectorAll('.step-line');
   var waBtn     = document.getElementById('ihtWaBtn');
@@ -191,11 +192,7 @@
     var nameEl = document.getElementById('successName');
     if (nameEl) nameEl.textContent = name;
 
-    if (waBtn) {
-      waBtn.href = 'https://wa.me/' + WA + '?text=' + encodeURIComponent(
-        'Hi IHT! I just submitted a consultation request. My name is ' + name + '. Please guide me.'
-      );
-    }
+    if (waBtn) waBtn.href = WA_URL;
     if (success) success.hidden = false;
   }
 
@@ -331,7 +328,9 @@
     window.addEventListener('scroll', function () {
       if (!ticking) {
         requestAnimationFrame(function () {
-          floatBtn.classList.toggle('is-visible', window.scrollY > 400);
+          var show = window.scrollY > 400;
+          floatBtn.classList.toggle('is-visible', show);
+          if (floatWa) floatWa.classList.toggle('is-visible', show);
           ticking = false;
         });
         ticking = true;

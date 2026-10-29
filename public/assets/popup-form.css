@@ -415,6 +415,20 @@ body.iht-popup-open { overflow: hidden; }
 .iht-float-cta.is-visible { opacity: 1; visibility: visible; transform: translateY(0); }
 .iht-float-cta:hover { background: var(--pop-bd); transform: translateY(-2px); }
 .iht-float-cta svg { width: 16px; height: 16px; }
+.iht-float-bar {
+  position: fixed; bottom: 22px; left: 0; right: 0; z-index: 1500;
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  pointer-events: none;
+}
+.iht-float-bar .iht-float-cta { position: static; }
+.iht-float-bar .iht-float-cta.is-visible { pointer-events: auto; }
+.iht-float-wa {
+  text-decoration: none;
+  background: #25D366;
+  box-shadow: 0 6px 22px rgba(37,211,102,.38);
+}
+.iht-float-wa:hover { background: #1fba59; }
+.iht-float-wa svg { width: 18px; height: 18px; }
 
 /* =======================================================
    RESPONSIVE — MOBILE

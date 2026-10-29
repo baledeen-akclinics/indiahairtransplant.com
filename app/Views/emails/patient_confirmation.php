@@ -19,7 +19,7 @@
         <table cellpadding="0" cellspacing="0">
           <tr>
             <td style="padding-right:8px;"><a href="tel:+919779944207" style="display:inline-block;background:#0f1831;color:#fff;font-size:13px;font-weight:700;padding:9px 14px;border-radius:7px;text-decoration:none;">+91 97799 44207</a></td>
-            <td><a href="https://wa.me/919779944207" style="display:inline-block;background:#25d366;color:#fff;font-size:13px;font-weight:700;padding:9px 14px;border-radius:7px;text-decoration:none;">WhatsApp</a></td>
+            <td><a href="https://wa.akclinics.com/AKC3355" style="display:inline-block;background:#25d366;color:#fff;font-size:13px;font-weight:700;padding:9px 14px;border-radius:7px;text-decoration:none;">WhatsApp</a></td>
           </tr>
         </table>
       </td>

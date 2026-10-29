@@ -38,7 +38,7 @@
      The scripts at the bottom of this file already use DOMContentLoaded so they are safe. -->
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
-<link rel="stylesheet" href="<?= base_url('assets/popup-form.css?v=5') ?>">
+<link rel="stylesheet" href="<?= base_url('assets/popup-form.css?v=8') ?>">
 <?= $this->renderSection('styles') ?>
 </head>
 
