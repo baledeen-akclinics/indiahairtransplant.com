@@ -84,13 +84,21 @@ class ContactController extends BaseController
            
         ];
 
-        if (! $this->validateData($data, $rules)) {
+        $consent = filter_var($data['contact_consent'] ?? false, FILTER_VALIDATE_BOOLEAN);
+
+        if (! $this->validateData($data, $rules) || ! $consent) {
+            $errors = $this->validator->getErrors();
+
+            if (! $consent) {
+                $errors['contact_consent'] = 'Please accept consent to continue';
+            }
+
             return $this->response
                 ->setStatusCode(ResponseInterface::HTTP_UNPROCESSABLE_ENTITY)
                 ->setJSON([
                     'status'  => false,
                     'message' => 'Please fill in all required fields with valid information.',
-                    'errors'  => $this->validator->getErrors(),
+                    'errors'  => $errors,
                 ]);
         }
 
@@ -129,6 +137,7 @@ class ContactController extends BaseController
             'mobile_country_code' => '91',
             'mobile'              => $data['phone'],
             'city'                => $data['city'],
+            'contact_consent'     => $consent,
 
             'source_id'           => $data['source_id'] ?? '',
             'source_url'          => $data['source_url'] ?? '',
@@ -243,6 +252,8 @@ class ContactController extends BaseController
 
             $body   = json_decode($response->getBody(), true);
             $status = (int) $response->getStatusCode();
+
+            $this->ihtLog('CRM RESPONSE — url=' . $url . ' | status=' . $status . ' | auth_key_set=' . (env('CRM_AUTH_KEY') ? 'true' : 'false') . ' | body=' . $response->getBody());
 
             if ($status >= 200 && $status < 300 && ($body['status'] ?? false)) {
                 $this->ihtLog('CRM SUCCESS — ' . $payload['name'] . ' | +91' . $payload['mobile']);

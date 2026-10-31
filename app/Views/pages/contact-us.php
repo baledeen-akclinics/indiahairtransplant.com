@@ -126,7 +126,7 @@
 
           <div class="cchecks">
             <label class="cchk">
-              <input type="checkbox" id="contact_consent" required>
+              <input type="checkbox" id="contact_consent" name="contact_consent" required>
               <span>I consent to being contacted as per the <a href="<?= base_url('privacy-policy') ?>">Privacy Policy</a>.</span>
             </label>
           </div>

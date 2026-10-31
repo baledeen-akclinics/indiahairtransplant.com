@@ -293,7 +293,7 @@ $procedureSelect.select2({
         if (!consent.checked) {
             statusEl.style.display = "block";
             statusEl.style.color = "#dc2626";
-            statusEl.textContent = "Please accept the Privacy Policy.";
+            statusEl.textContent = "Please accept consent to continue";
             return;
         }
 
@@ -329,6 +329,7 @@ $procedureSelect.select2({
                 procedure_category_id: /^\d+$/.test(procedure) ? procedure : null,
                 procedure_name: procedureName || null,
                 message: message,
+                contact_consent: document.getElementById("contact_consent").checked,
                 source_url: source_url,
                 source_id: source_id,
                 campaign_id: campaign_id || null,
