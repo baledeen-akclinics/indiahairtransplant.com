@@ -19,7 +19,7 @@ switch ($url) {
 
     case 'about-us':
         $metaHtml  = '<title>About IHT Clinics | India Hair Transplant (IHT)</title>';
-        $metaHtml .= '<meta name="hair-index-url" content="Discover the team, values, and clinical approach behind India Hair Transplant (IHT) and how we deliver structured, ethical hair restoration.">';
+        $metaHtml .= '<meta name="description" content="Discover the team, values, and clinical approach behind India Hair Transplant (IHT) and how we deliver structured, ethical hair restoration.">';
         $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/about-us" />';
         break;
 
@@ -426,6 +426,54 @@ switch ($url) {
             $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/blog/hair-transplant-clinic-in-delhi" />';
             break;
                             
+
+        case 'causes-of-hair-loss':
+            $metaHtml  = '<title>Causes of Hair Loss | Genetic, Hormonal &amp; Medical Factors | IHT</title>';
+            $metaHtml .= '<meta name="description" content="Understand the main causes of hair loss, including genetic predisposition, hormonal changes, stress, nutritional deficiencies, and underlying medical conditions.">';
+            $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/causes-of-hair-loss" />';
+            break;
+
+        case 'hair-loss-assessment':
+            $metaHtml  = '<title>Norwood Scale &amp; Hair Loss Assessment | IHT Clinic</title>';
+            $metaHtml .= '<meta name="description" content="Assess your stage of male pattern baldness using the Norwood Scale. Understand what each grade means for graft requirement and suitable treatment planning.">';
+            $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/hair-loss-assessment" />';
+            break;
+
+        case 'hair-transplant-cost-calculator':
+            $metaHtml  = '<title>Hair Transplant Cost Calculator | Get an Indicative Estimate | IHT</title>';
+            $metaHtml .= '<meta name="description" content="Select your baldness grade, preferred technique, and IHT clinic city to get a transparent, indicative hair transplant cost range in seconds.">';
+            $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/hair-transplant-cost-calculator" />';
+            break;
+
+        case 'hair-transplant-safety-and-recovery':
+            $metaHtml  = '<title>Hair Transplant Safety &amp; Recovery Guide | IHT Clinic</title>';
+            $metaHtml .= '<meta name="description" content="Learn how surgical safety standards and structured post-operative recovery care at IHT support predictable healing and long-term hair transplant results.">';
+            $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/hair-transplant-safety-and-recovery" />';
+            break;
+
+        case 'hair-transplant-side-effects':
+            $metaHtml  = '<title>Hair Transplant Side Effects: Common Risks, Recovery &amp; What to Expect | IHT</title>';
+            $metaHtml .= '<meta name="description" content="Worried about hair transplant side effects? IHT\'s guide covers common risks such as swelling, shock loss, and itching, and how proper planning helps minimise them.">';
+            $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/hair-transplant-side-effects" />';
+            break;
+
+        case 'low-level-laser-therapy':
+            $metaHtml  = '<title>Low-Level Laser Therapy (LLLT) for Hair Loss in India | IHT Clinic</title>';
+            $metaHtml .= '<meta name="description" content="Learn how Low-Level Laser Therapy (LLLT) uses controlled red laser light to stimulate cellular activity in the scalp as a non-invasive option for hair loss.">';
+            $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/low-level-laser-therapy" />';
+            break;
+
+        case 'minoxidil-for-hair-loss':
+            $metaHtml  = '<title>Minoxidil for Hair Loss | Dosage, Benefits &amp; How It Works | IHT</title>';
+            $metaHtml .= '<meta name="description" content="Learn how minoxidil works for hair loss, available formulations, expected results, and why correct diagnosis and dosage matter for safe, consistent outcomes.">';
+            $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/minoxidil-for-hair-loss" />';
+            break;
+
+        case 'sitemap':
+            $metaHtml  = '<title>Sitemap | India Hair Transplant (IHT)</title>';
+            $metaHtml .= '<meta name="description" content="Browse a full list of India Hair Transplant (IHT) pages, including services, clinic locations, hair loss conditions, and treatment guides.">';
+            $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/sitemap" />';
+            break;
 
     default:
         $metaHtml  = '<title>Hair Transplant Clinic in India | Experienced Hair Transplant Surgeons at IHT</title>';
