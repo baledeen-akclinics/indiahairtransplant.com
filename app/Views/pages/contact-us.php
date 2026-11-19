@@ -175,8 +175,7 @@
           <div>
             <div class="ci-label">Opening Times</div>
             <div class="ci-small">
-              Mon–Sat: 10:30 AM – 6:30 PM<br>
-              Sunday: Closed
+              Mon–Sun: 10:30 AM – 6:30 PM
             </div>
           </div>
         </div>

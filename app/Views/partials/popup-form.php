@@ -41,7 +41,7 @@
 
       <div class="iht-popup-stats">
         <div class="iht-popup-stat">
-          <strong>15,000+</strong>
+          <strong>10,000+</strong>
           <span>Procedures Done</span>
         </div>
         <div class="iht-popup-stat">
