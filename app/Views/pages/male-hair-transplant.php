@@ -125,7 +125,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/ideal-candidate-male-transplant.png') ?>" alt="Celebrity hair transplant result at AK Clinics">
+        <img loading="lazy" src="<?= base_url('assets/images/ideal-candidate-male-transplant.png') ?>" alt="Celebrity hair transplant result at AK Clinics">
       </div>
 
       <div class="cs-content">
@@ -149,7 +149,7 @@
         <p class="cs-text"> Men with active diffuse hair loss, unstable donor areas, or medical conditions that may affect healing are often advised to undergo careful assessment or observation before proceeding with surgery</p>
         </div>
         
-        <a href="tel:09779944207" class="btn-cta">Call 09779944207</a>
+        <a href="tel:08699003797" class="btn-cta">Call 08699003797</a>
       </div>
 
     </div>
@@ -263,7 +263,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/hairline-design-and-donor-area.png') ?>" alt="Hairline Design & Donor Area Planning in Men">
+        <img loading="lazy" src="<?= base_url('assets/images/hairline-design-and-donor-area.png') ?>" alt="Hairline Design & Donor Area Planning in Men">
       </div>
 
       <div class="cs-content">
@@ -398,7 +398,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/risks-and-limitations.png') ?>" alt="Risks & Limitations in Male Hair transplant">
+        <img loading="lazy" src="<?= base_url('assets/images/risks-and-limitations.png') ?>" alt="Risks & Limitations in Male Hair transplant">
       </div>
 
       <div class="cs-content">
@@ -531,7 +531,7 @@
         <p class="iht-cta-text">
           👉 Schedule a personalised consultation with our hair transplant specialists to understand your suitability, treatment plan, and expected outcomes.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
     
@@ -609,9 +609,9 @@
 <section>
 
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
          <p class="fa-row"><strong>Updated on:</strong> March 26, 2026</p>
       </div>
@@ -632,7 +632,7 @@
       "name": "IHT India Hair Transplant",
       "url": "https://indiahairtransplant.com/",
       "logo": "https://indiahairtransplant.com/assets/images/main_logo.png",
-      "telephone": "+91-9779944207"
+      "telephone": "+91-8699003797"
     },
     {
       "@type": "BreadcrumbList",

@@ -110,7 +110,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/scalp-psoriasis-symptoms.webp') ?>" alt="Common symptoms of scalp psoriasis including thick scales and scalp redness">
+          <img loading="lazy" src="<?= base_url('assets/images/scalp-psoriasis-symptoms.webp') ?>" alt="Common symptoms of scalp psoriasis including thick scales and scalp redness">
         </div>
 
         <div class="cs-content">
@@ -193,7 +193,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/who-is-more-likely-to-develop-scalp-psoriasis.png') ?>" alt="People more likely to develop scalp psoriasis">
+          <img loading="lazy" src="<?= base_url('assets/images/who-is-more-likely-to-develop-scalp-psoriasis.png') ?>" alt="People more likely to develop scalp psoriasis">
         </div>
 
         <div class="cs-content">
@@ -319,7 +319,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/scalp-psoriasis-hair-loss.png') ?>" alt="Scalp psoriasis causing inflammation and temporary hair shedding">
+          <img loading="lazy" src="<?= base_url('assets/images/scalp-psoriasis-hair-loss.png') ?>" alt="Scalp psoriasis causing inflammation and temporary hair shedding">
         </div>
 
         <div class="cs-content">
@@ -526,9 +526,9 @@
           <p class="cs-text"><strong>Some related hair and scalp conditions include:</strong></p>
 
           <ul class="feature-list">
-            <li>Dandruff</li>
-            <li>Seborrheic Dermatitis</li>
-            <li>Scalp Folliculitis</li>
+            <li><a href="<?= base_url('dandruff') ?>">Dandruff</a></li>
+            <li><a href="<?= base_url('seborrheic-dermatitis') ?>">Seborrheic Dermatitis</a></li>
+            <li><a href="<?= base_url('scalp-folliculitis') ?>">Scalp Folliculitis</a></li>
           </ul>
 
           <p class="cs-text">
@@ -546,7 +546,7 @@
       <p class="iht-cta-text">
         👉 Dealing with thick scalp scales, itching, or persistent scalp irritation? Speak with our scalp specialists for a professional evaluation and personalised treatment guidance.
       </p>
-      <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+      <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
     </div>
   </section>
 
@@ -617,9 +617,9 @@
 
   <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> March 17, 2026</p>
       </div>

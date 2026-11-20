@@ -569,7 +569,7 @@
           </p>
 
           <p class="cs-text">
-            Procedures at IHT are performed by <a href="<?= base_url('hair-transplant-doctors') ?>">experienced, qualified hair transplant surgeons</a> — not trained technicians. The critical steps of graft extraction, recipient site creation, and implantation are surgeon-performed, not delegated. This directly impacts graft survival rates, hairline design quality, and the risk of complications.
+            Procedures at IHT are performed by <a href="<?= base_url('dr-kapil-dua') ?>">experienced, qualified hair transplant surgeons</a> — not trained technicians. The critical steps of graft extraction, recipient site creation, and implantation are surgeon-performed, not delegated. This directly impacts graft survival rates, hairline design quality, and the risk of complications.
           </p>
 
           <ul class="feature-list">
@@ -648,7 +648,7 @@
             <li><a href="<?= base_url('hair-transplant-cost') ?>"><strong>Hair Transplant Cost in India — How Graft Count &amp; Technique Affect Price</strong></a> — Understand what actually drives pricing, why per-graft cost comparisons can be misleading, and what a responsible cost estimate requires.</li>
             <li><a href="<?= base_url('prp-hair-treatment') ?>"><strong>PRP Hair Treatment — How It Supports Transplant Recovery &amp; Native Hair Health</strong></a> — Learn how Platelet-Rich Plasma therapy can enhance graft survival, reduce the intensity of shock loss, and maintain the health of non-transplanted hair.</li>
             <li><a href="<?= base_url('male-hair-transplant') ?>"><strong>Hair Transplant for Men — Candidacy, Technique Selection &amp; Long-Term Planning</strong></a> — A guide specifically for male-pattern hair loss, covering Norwood staging, age considerations, and why long-term planning matters.</li>
-            <li><a href="<?= base_url('hair-transplant-doctors') ?>"><strong>IHT's Surgeon Team — Experience, Qualifications &amp; Approach to Patient Safety</strong></a> — Meet the surgeons who perform every procedure at IHT and understand the clinical standards they maintain.</li>
+            <li><a href="<?= base_url('dr-kapil-dua') ?>"><strong>IHT's Surgeon Team — Experience, Qualifications &amp; Approach to Patient Safety</strong></a> — Meet the surgeons who perform every procedure at IHT and understand the clinical standards they maintain.</li>
           </ul>
 
         </div>
@@ -761,8 +761,8 @@
           </p>
 
           <div style="display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-top: 24px;">
-            <a href="tel:09779944207" class="btn-cta" style="background: #f59e0b; color: #121a2c; padding: 14px 32px; border-radius: 12px; font: 800 16px/1 Inter,system-ui,sans-serif; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
-              📞 Call 09779944207
+            <a href="tel:08699003797" class="btn-cta" style="background: #f59e0b; color: #121a2c; padding: 14px 32px; border-radius: 12px; font: 800 16px/1 Inter,system-ui,sans-serif; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;">
+              📞 Call 08699003797
             </a>
             <a href="#" class="btn-cta" data-popup="consult" role="button" style="background: transparent; color: #ffffff; padding: 13px 32px; border-radius: 12px; font: 800 16px/1 Inter,system-ui,sans-serif; text-decoration: none; display: inline-flex; align-items: center; border: 1.5px solid rgba(255,255,255,0.4);">
               Book Consultation

@@ -431,7 +431,7 @@
                     In the first week, transplanted grafts are held in place by dried plasma, not yet anchored by new tissue growth. Friction, pressure, heat, or physical impact during this window can dislodge grafts and deepen the shock loss response in surrounding native follicles.
                   </p>
                 </div>
-                <img
+                <img loading="lazy"
                   src="<?= base_url('assets/images/blog/hair-transplant-aftercare.png') ?>"
                   alt="Post hair transplant scalp care guidance at IHT India"
                   class="bs-content-img" width="420" height="300" loading="lazy" />

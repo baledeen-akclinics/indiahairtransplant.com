@@ -61,32 +61,32 @@
       <div class="rc-track" id="rcTrack" aria-live="polite">
         <figure class="rc-slide">
           <div class="rc-card">
-            <img src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Patient result 1 – front view">
+            <img loading="lazy" src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Patient result 1 – front view">
           </div>
         </figure>
         <figure class="rc-slide">
           <div class="rc-card">
-            <img src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Patient result 2 – front view">
+            <img loading="lazy" src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Patient result 2 – front view">
           </div>
         </figure>
         <figure class="rc-slide">
           <div class="rc-card">
-            <img src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Patient result 3 – front view">
+            <img loading="lazy" src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Patient result 3 – front view">
           </div>
         </figure>
         <figure class="rc-slide">
           <div class="rc-card">
-            <img src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Patient result 4 – front view">
+            <img loading="lazy" src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Patient result 4 – front view">
           </div>
         </figure>
         <figure class="rc-slide">
           <div class="rc-card">
-            <img src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Patient result 5 – front view">
+            <img loading="lazy" src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Patient result 5 – front view">
           </div>
         </figure>
         <figure class="rc-slide">
           <div class="rc-card">
-            <img src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Patient result 6 – front view">
+            <img loading="lazy" src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Patient result 6 – front view">
           </div>
         </figure>
       </div>
@@ -124,7 +124,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/gaurav-wasan-hair-transplant.webp') ?>"
+        <img loading="lazy" src="<?= base_url('assets/images/gaurav-wasan-hair-transplant.webp') ?>"
           alt="Celebrity hair transplant result at IHT Clinics">
       </div>
 
@@ -148,7 +148,7 @@
           <li>Clear communication with realistic expectations and outcomes</li>
         </ul>
 
-        <a href="tel:09779944207" class="btn-cta">Call 09779944207</a>
+        <a href="tel:08699003797" class="btn-cta">Call 08699003797</a>
       </div>
 
     </div>
@@ -172,7 +172,7 @@
       <div class="rc-track" id="videosTrack" aria-live="polite">
         <figure class="rc-slide">
           <a class="yt-card" href="https://www.youtube.com/watch?v=THKeJ2Z2YyE" data-yid="THKeJ2Z2YyE" aria-label="Play video">
-            <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Patient testimonial video">
+            <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Patient testimonial video">
             <span class="yt-play" aria-hidden="true">
               <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                 <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25" />
@@ -184,7 +184,7 @@
 
         <figure class="rc-slide">
           <a class="yt-card" href="https://www.youtube.com/watch?v=Dhm6LF1fYLQ" data-yid="Dhm6LF1fYLQ" aria-label="Play video">
-            <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Surgeon explains hairline design">
+            <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Surgeon explains hairline design">
             <span class="yt-play" aria-hidden="true">
               <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                 <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25" />
@@ -196,7 +196,7 @@
 
         <figure class="rc-slide">
           <a class="yt-card" href="https://www.youtube.com/watch?v=-ZNV5WBHXrI" data-yid="-ZNV5WBHXrI/" aria-label="Play video">
-            <img class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can You Drink After a Hair Transplant?">
+            <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can You Drink After a Hair Transplant?">
             <span class="yt-play" aria-hidden="true">
               <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                 <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25" />
@@ -208,7 +208,7 @@
 
         <figure class="rc-slide">
           <a class="yt-card" href="https://www.youtube.com/watch?v=oTBzoRLjaZ4" data-yid="oTBzoRLjaZ4" aria-label="Play video">
-            <img class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Bio-FUE procedure walkthrough">
+            <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Bio-FUE procedure walkthrough">
             <span class="yt-play" aria-hidden="true">
               <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                 <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25" />
@@ -227,7 +227,7 @@
         <p class="iht-cta-text">
           👉 Looking for the best hair transplant clinic in India? Call now to book a free consultation with our experienced team.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
 
@@ -257,7 +257,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/dr-kapil-dua.webp') ?>"
+        <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua.webp') ?>"
           alt="Dr. Kapil Dua – Co-Founder & Hair Transplant Surgeon at IHT Clinics">
       </div>
 
@@ -280,7 +280,7 @@
           <li>Trusted by patients, professionals, and public figures</li>
         </ul>
 
-        <a href="tel:09779944207" class="btn-cta">Call 09779944207</a>
+        <a href="tel:08699003797" class="btn-cta">Call 08699003797</a>
 
       </div>
 
@@ -308,7 +308,7 @@
       <div class="rc-track docs-track" id="docsTrack" aria-live="polite">
         <figure class="doc-slide">
           <div class="doc-card">
-            <img src="<?= base_url('assets/images/dr-kapil-dua.webp') ?>" alt="Dr. Kapil Dua">
+            <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua.webp') ?>" alt="Dr. Kapil Dua">
             <figcaption class="doc-meta">
               <span class="doc-name" data-qual="MBBS, MS - Chairman & Chief Hair Transplant Surgeon, Member: Past President - ISHRS (USA), AAHRS (Asia), AHRS (India)">
                 Dr. Kapil Dua
@@ -319,7 +319,7 @@
 
         <figure class="doc-slide">
           <div class="doc-card">
-            <img src="<?= base_url('assets/images/dr-aman-dua.webp') ?>" alt="Dr. Aman Dua">
+            <img loading="lazy" src="<?= base_url('assets/images/dr-aman-dua.webp') ?>" alt="Dr. Aman Dua">
             <figcaption class="doc-meta">
               <span class="doc-name" data-qual="MBBS, MD, Chief Dermatologist, FISHRS, Board Of Governor (AHRS India)">
                 Dr. Aman Dua
@@ -332,7 +332,7 @@
 
         <figure class="doc-slide">
           <div class="doc-card">
-            <img src="<?= base_url('assets/images/dr-sohail.webp') ?>" alt="Dr. Suhail Ahmed">
+            <img loading="lazy" src="<?= base_url('assets/images/dr-sohail.webp') ?>" alt="Dr. Suhail Ahmed">
             <figcaption class="doc-meta">
               <span class="doc-name" data-qual="MBBS, MD Dermatalogy, Consultant Dermatologist & Hair Transplant Surgeon">
                 Dr. Suhail Ahmed
@@ -430,13 +430,13 @@
 
       <div class="scale-row" role="group" aria-label="Select your baldness stage">
         <button type="button" class="scale-item active" aria-pressed="true">
-          <img src="<?= base_url('assets/images/grade-1.webp') ?>" alt="Stage 1"></button>
-        <button type="button" class="scale-item"><img src="<?= base_url('assets/images/Grade-2.webp') ?>" alt="Stage 2"></button>
-        <button type="button" class="scale-item"><img src="<?= base_url('assets/images/Grade-3.webp') ?>" alt="Stage 3"></button>
-        <button type="button" class="scale-item"><img src="<?= base_url('assets/images/Grade-4.webp') ?>" alt="Stage 4"></button>
-        <button type="button" class="scale-item"><img src="<?= base_url('assets/images/Grade-5.webp') ?>" alt="Stage 5"></button>
-        <button type="button" class="scale-item"><img src="<?= base_url('assets/images/Grade-6.webp') ?>" alt="Stage 6"></button>
-        <button type="button" class="scale-item"><img src="<?= base_url('assets/images/grade-7.webp') ?>" alt="Stage 7"></button>
+          <img loading="lazy" src="<?= base_url('assets/images/grade-1.webp') ?>" alt="Stage 1"></button>
+        <button type="button" class="scale-item"><img loading="lazy" src="<?= base_url('assets/images/Grade-2.webp') ?>" alt="Stage 2"></button>
+        <button type="button" class="scale-item"><img loading="lazy" src="<?= base_url('assets/images/Grade-3.webp') ?>" alt="Stage 3"></button>
+        <button type="button" class="scale-item"><img loading="lazy" src="<?= base_url('assets/images/Grade-4.webp') ?>" alt="Stage 4"></button>
+        <button type="button" class="scale-item"><img loading="lazy" src="<?= base_url('assets/images/Grade-5.webp') ?>" alt="Stage 5"></button>
+        <button type="button" class="scale-item"><img loading="lazy" src="<?= base_url('assets/images/Grade-6.webp') ?>" alt="Stage 6"></button>
+        <button type="button" class="scale-item"><img loading="lazy" src="<?= base_url('assets/images/grade-7.webp') ?>" alt="Stage 7"></button>
       </div>
 
       <form class="journey-form journey-form--two" action="#" method="post" novalidate>
@@ -475,7 +475,7 @@
         href="https://www.youtube.com/watch?v=OXy-9_dtmsE&t=1s"
         data-yid="OXy-9_dtmsE"
         aria-label="Play video: How Hair Transplant Works">
-        <img class="yt-thumb"
+        <img loading="lazy" class="yt-thumb"
           src="https://img.youtube.com/vi/OXy-9_dtmsE/maxresdefault.jpg"
           alt="Hair Transplant in India">
         <span class="yt-play" aria-hidden="true">
@@ -500,7 +500,7 @@
 
         <!-- <div class="htw-cta-box">
           <p class="htw-cta-text">Still have doubts and queries?</p>
-          <a class="htw-cta-btn" href="tel:09779944207">Call 09779944207</a>-->
+          <a class="htw-cta-btn" href="tel:08699003797">Call 08699003797</a>-->
       </div>
     </div>
   </div>
@@ -518,7 +518,7 @@
     <div class="benefits-grid">
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/permanent-solution-for-baldness.png') ?>" alt="Long-lasting results">
+          <img loading="lazy" src="<?= base_url('assets/images/permanent-solution-for-baldness.png') ?>" alt="Long-lasting results">
           <figcaption class="benefit-ribbon">
             <span class="ico" aria-hidden="true">⏳</span>
             <span class="ribbon-title">Permanent Solution for Baldness</span>
@@ -532,7 +532,7 @@
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/cost-effective-long-term.jpg') ?>" alt="Cost-effective over time">
+          <img loading="lazy" src="<?= base_url('assets/images/cost-effective-long-term.jpg') ?>" alt="Cost-effective over time">
           <figcaption class="benefit-ribbon">
             <span class="ico" aria-hidden="true">💰</span>
             <span class="ribbon-title">Cost-effective Long-term</span>
@@ -546,7 +546,7 @@
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/minimal-downtime.jpg') ?>" alt="Minimal downtime">
+          <img loading="lazy" src="<?= base_url('assets/images/minimal-downtime.jpg') ?>" alt="Minimal downtime">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Minimal Downtime</span>
           </figcaption>
@@ -559,7 +559,7 @@
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/natural-looking.jpg') ?>" alt="Natural aesthetics">
+          <img loading="lazy" src="<?= base_url('assets/images/natural-looking.jpg') ?>" alt="Natural aesthetics">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Natural-looking</span>
           </figcaption>
@@ -573,7 +573,7 @@
 
     <div class="htw-cta-box">
       <p class="htw-cta-text">Explore If Hair Transplant Is Right for You</p>
-      <a class="htw-cta-btn" href="tel:09779944207">Call 09779944207</a>
+      <a class="htw-cta-btn" href="tel:08699003797">Call 08699003797</a>
     </div>
   </div>
 </section>
@@ -707,9 +707,9 @@
 
 
   <aside class="faq-author faq-author--ak">
-    <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+    <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
     <div class="fa-meta">
-      <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+      <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
       <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
       <p class="fa-row"><strong>Updated on:</strong> March 26, 2026</p>
     </div>
@@ -727,12 +727,19 @@
         "name": "IHT Clinic",
         "url": "https://indiahairtransplant.com/",
         "logo": "https://indiahairtransplant.com/assets/images/main_logo.png",
-        "telephone": "+91-9779944207",
+        "telephone": "+91-8699003797",
 
         "address": {
           "@type": "PostalAddress",
           "addressCountry": "IN"
         },
+
+        "sameAs": [
+          "https://www.facebook.com/AKClinics",
+          "https://www.instagram.com/ak.clinics/",
+          "https://www.youtube.com/@AKClinics",
+          "https://www.linkedin.com/company/ak-clinics/"
+        ],
 
         "medicalSpecialty": [
           "http://schema.org/Dermatologic"
@@ -745,6 +752,66 @@
           {
             "@type": "MedicalProcedure",
             "name": "Bio-FUE Hair Transplant"
+          }
+        ],
+
+        "department": [
+          {
+            "@type": "MedicalClinic",
+            "name": "IHT Clinic, Delhi",
+            "url": "https://indiahairtransplant.com/hair-transplant-in-delhi",
+            "telephone": "+91-8699003797",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "M-20, GK-I, Near M Block Market",
+              "addressLocality": "Delhi",
+              "addressRegion": "Delhi",
+              "postalCode": "110048",
+              "addressCountry": "IN"
+            },
+            "openingHours": "Mo-Su 10:30-18:30"
+          },
+          {
+            "@type": "MedicalClinic",
+            "name": "IHT Clinic, Ludhiana (Kips Market)",
+            "url": "https://indiahairtransplant.com/hair-transplant-in-ludhiana",
+            "telephone": "+91-8699003797",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "51-E, Sarabha Nagar, Opp Kipps Market",
+              "addressLocality": "Ludhiana",
+              "addressRegion": "Punjab",
+              "addressCountry": "IN"
+            },
+            "openingHours": "Mo-Su 10:30-18:30"
+          },
+          {
+            "@type": "MedicalClinic",
+            "name": "IHT Clinic, Ludhiana (South City)",
+            "url": "https://indiahairtransplant.com/hair-transplant-in-ludhiana",
+            "telephone": "+91-8699003797",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "60, Canal Road, South End, Aggar Nagar",
+              "addressLocality": "Ludhiana",
+              "addressRegion": "Punjab",
+              "addressCountry": "IN"
+            },
+            "openingHours": "Mo-Su 10:30-18:30"
+          },
+          {
+            "@type": "MedicalClinic",
+            "name": "IHT Clinic, Bangalore",
+            "url": "https://indiahairtransplant.com/hair-transplant-in-bangalore",
+            "telephone": "+91-8699003797",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "149, 10th Cross Road, Indira Nagar",
+              "addressLocality": "Bangalore",
+              "addressRegion": "Karnataka",
+              "addressCountry": "IN"
+            },
+            "openingHours": "Mo-Su 10:30-18:30"
           }
         ]
       },

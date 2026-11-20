@@ -210,7 +210,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/diet.png') ?>" alt="Diet and nutrition guidance after hair transplant">
+        <img loading="lazy" src="<?= base_url('assets/images/diet.png') ?>" alt="Diet and nutrition guidance after hair transplant">
       </div>
 
       <div class="cs-content">
@@ -260,7 +260,7 @@
       <div class="cs-content">
 
         <p class="cs-text">
-          After a hair transplant, the treated areas remain sensitive and require careful handling. Recovery is gradual and happens in stages, with each phase playing an important role in graft survival, scalp healing, and final results. Understanding this timeline helps patients follow the right precautions and recover safely.
+          After a hair transplant, the treated areas remain sensitive and require careful handling. Recovery is gradual and happens in stages, with each phase playing an important role in graft survival, scalp healing, and final results. Understanding this timeline helps patients follow the right precautions and recover safely, and to recognise which <a href="<?= base_url('hair-transplant-side-effects') ?>">hair transplant side effects</a> are normal at each stage.
         </p>
 
         <!-- Accordion -->
@@ -418,7 +418,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/safety-and-recovery-at-iht.png') ?>" alt="How IHT ensures safety and recovery during hair transplant">
+        <img loading="lazy" src="<?= base_url('assets/images/safety-and-recovery-at-iht.png') ?>" alt="How IHT ensures safety and recovery during hair transplant">
       </div>
 
       <div class="cs-content">
@@ -459,7 +459,7 @@
         <p class="iht-cta-text">
           👉 Book a consultation with our experts to understand whether a hair transplant is the right option for your hair loss.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
     
@@ -566,9 +566,9 @@
 
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> January 29, 2026</p>
       </div>

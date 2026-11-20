@@ -609,7 +609,7 @@ h1, h2, h3, h4 {
 .ft-submit { background: var(--p-orange) !important; border: none !important; border-radius: 0 8px 8px 0 !important; font-family: 'DM Sans',sans-serif !important; font-weight: 600 !important; cursor: pointer !important; color: #fff !important; }
 .ft-submit:hover { background: var(--p-ora-dk) !important; }
 .ft-links { padding: 44px 0 32px !important; }
-.ft-grid { display: grid !important; grid-template-columns: repeat(5,1fr) !important; gap: 28px !important; }
+.ft-grid { display: grid !important; grid-template-columns: repeat(6,1fr) !important; gap: 24px !important; }
 .ft-col h4 { font-family: 'Cormorant Garamond',serif !important; font-size: 16px !important; font-weight: 600 !important; color: var(--p-gold-lt) !important; margin: 0 0 12px !important; padding-bottom: 8px !important; border-bottom: 1px solid var(--p-bdk) !important; }
 .ft-list { list-style: none !important; margin: 0 !important; padding: 0 !important; }
 .ft-list li { margin-bottom: 7px !important; }

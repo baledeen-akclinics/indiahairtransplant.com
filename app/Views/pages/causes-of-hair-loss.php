@@ -73,7 +73,7 @@
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/permanent-solution-for-baldness.png') ?>" alt="Early stage hair loss signs">
+          <img loading="lazy" src="<?= base_url('assets/images/permanent-solution-for-baldness.png') ?>" alt="Early stage hair loss signs">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Early Stage</span>
           </figcaption>
@@ -87,7 +87,7 @@
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/cost-effective-long-term.jpg') ?>" alt="Progressive hair thinning">
+          <img loading="lazy" src="<?= base_url('assets/images/cost-effective-long-term.jpg') ?>" alt="Progressive hair thinning">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Progressive Thinning</span>
           </figcaption>
@@ -101,7 +101,7 @@
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/minimal-downtime.jpg') ?>" alt="Advanced hair loss stage">
+          <img loading="lazy" src="<?= base_url('assets/images/minimal-downtime.jpg') ?>" alt="Advanced hair loss stage">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Advanced Hair Loss</span>
           </figcaption>
@@ -158,7 +158,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/genetic-hair-loss.png') ?>" alt="Genetic hair loss and androgenetic alopecia affecting hair follicles">
+        <img loading="lazy" src="<?= base_url('assets/images/genetic-hair-loss.png') ?>" alt="Genetic hair loss and androgenetic alopecia affecting hair follicles">
       </div>
 
       <div class="cs-content">
@@ -217,7 +217,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/nutritional-deficiencies-hair-loss.png') ?>" alt="Hair loss due to nutritional deficiencies">
+        <img loading="lazy" src="<?= base_url('assets/images/nutritional-deficiencies-hair-loss.png') ?>" alt="Hair loss due to nutritional deficiencies">
       </div>
 
       <div class="cs-content">
@@ -273,7 +273,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/stress-and-lifestyle-factors.png') ?>" alt="Stress and lifestyle factors contributing to hair shedding and thinning">
+        <img loading="lazy" src="<?= base_url('assets/images/stress-and-lifestyle-factors.png') ?>" alt="Stress and lifestyle factors contributing to hair shedding and thinning">
       </div>
 
       <div class="cs-content">
@@ -327,7 +327,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/medical-conditions-hair-loss.png') ?>" alt="Hair loss associated with underlying medical conditions">
+        <img loading="lazy" src="<?= base_url('assets/images/medical-conditions-hair-loss.png') ?>" alt="Hair loss associated with underlying medical conditions">
       </div>
 
       <div class="cs-content">
@@ -382,7 +382,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/hair-care-practices-environmental-factors.png') ?>" alt="Hair care practices and environmental factors affecting hair health">
+        <img loading="lazy" src="<?= base_url('assets/images/hair-care-practices-environmental-factors.png') ?>" alt="Hair care practices and environmental factors affecting hair health">
       </div>
 
       <div class="cs-content">
@@ -602,7 +602,7 @@
       <a href="<?= base_url('medical-hair-loss-treatment') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/hair-loss-medication.png') ?>" alt="Hair loss medication treatment">
+            <img loading="lazy" src="<?= base_url('assets/images/hair-loss-medication.png') ?>" alt="Hair loss medication treatment">
           </span>
           <figcaption class="svc-title">
             Hair Loss<br>Medication
@@ -616,7 +616,7 @@
       <a href="<?= base_url('lllt-hair-treatment') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/lllt-hair-therapy.png') ?>" alt="LLLT hair therapy">
+            <img loading="lazy" src="<?= base_url('assets/images/lllt-hair-therapy.png') ?>" alt="LLLT hair therapy">
           </span>
           <figcaption class="svc-title">
             LLLT Hair<br>Therapy
@@ -630,7 +630,7 @@
       <a href="<?= base_url('exosome-hair-therapy') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/exosome-hair-therapy.png') ?>" alt="Exosome hair therapy">
+            <img loading="lazy" src="<?= base_url('assets/images/exosome-hair-therapy.png') ?>" alt="Exosome hair therapy">
           </span>
           <figcaption class="svc-title">
             Exosome<br>Hair Therapy
@@ -644,7 +644,7 @@
       <a href="<?= base_url('prp-hair-treatment') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/prp-hair-treatment.png') ?>" alt="PRP hair treatment">
+            <img loading="lazy" src="<?= base_url('assets/images/prp-hair-treatment.png') ?>" alt="PRP hair treatment">
           </span>
           <figcaption class="svc-title">
             PRP Hair<br>Treatment
@@ -658,7 +658,7 @@
       <a href="<?= base_url('gfc-hair-treatment') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/gfc-hair-treatment.png') ?>" alt="GFC hair treatment">
+            <img loading="lazy" src="<?= base_url('assets/images/gfc-hair-treatment.png') ?>" alt="GFC hair treatment">
           </span>
           <figcaption class="svc-title">
             GFC Hair<br>Treatment
@@ -672,7 +672,7 @@
       <a href="<?= base_url('male-hair-transplant') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/male-ht.png') ?>" alt="Male hair transplant">
+            <img loading="lazy" src="<?= base_url('assets/images/male-ht.png') ?>" alt="Male hair transplant">
           </span>
           <figcaption class="svc-title">
             Male Hair<br>Transplant
@@ -698,7 +698,7 @@
     <p class="iht-cta-text">
       👉 Consult our hair specialists to evaluate your hair loss and discover the most suitable treatment plan for your condition.
     </p>
-    <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+    <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
   </div>
 </section>
     
@@ -783,9 +783,9 @@
 </section>
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> March 14, 2026</p>
       </div>

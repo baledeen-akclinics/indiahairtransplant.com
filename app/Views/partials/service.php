@@ -18,7 +18,7 @@
       <a href="<?= base_url('male-hair-transplant') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/male-ht.png') ?>" alt="Male Hair Transplant">
+            <img loading="lazy" src="<?= base_url('assets/images/male-ht.png') ?>" alt="Male Hair Transplant">
           </span>
           <figcaption class="svc-title">
             Male Hair<br>Transplant
@@ -32,7 +32,7 @@
       <a href="<?= base_url('female-hair-transplant') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/female-ht.png') ?>" alt="Female Hair Transplantation">
+            <img loading="lazy" src="<?= base_url('assets/images/female-ht.png') ?>" alt="Female Hair Transplantation">
           </span>
           <figcaption class="svc-title">
             Female Hair<br>Transplantation
@@ -46,7 +46,7 @@
       <a href="<?= base_url('beard-hair-transplant') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/beard-ht.png') ?>" alt="Beard Hair Transplant">
+            <img loading="lazy" src="<?= base_url('assets/images/beard-ht.png') ?>" alt="Beard Hair Transplant">
           </span>
           <figcaption class="svc-title">
             Beard Hair<br>Transplant
@@ -60,7 +60,7 @@
       <a href="<?= base_url('eyebrow-hair-transplant') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/hairline-ht.png') ?>" alt="Eyebrow Hair Transplant">
+            <img loading="lazy" src="<?= base_url('assets/images/hairline-ht.png') ?>" alt="Eyebrow Hair Transplant">
           </span>
           <figcaption class="svc-title">
             Eyebrow Hair<br>Transplant
@@ -74,7 +74,7 @@
       <a href="<?= base_url('body-hair-transplant') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/body-ht.png') ?>" alt="Body Hair Transplant">
+            <img loading="lazy" src="<?= base_url('assets/images/body-ht.png') ?>" alt="Body Hair Transplant">
           </span>
           <figcaption class="svc-title">
             Body Hair<br>Transplant

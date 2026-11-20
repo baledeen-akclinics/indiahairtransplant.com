@@ -79,32 +79,32 @@
         <div class="rc-track" id="rcTrack" aria-live="polite">
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT - patient 1 (Zirakpur)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT - patient 1 (Zirakpur)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT - patient 2 (Zirakpur)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT - patient 2 (Zirakpur)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT - patient 3 (Zirakpur)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT - patient 3 (Zirakpur)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT - patient 4 (Zirakpur)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT - patient 4 (Zirakpur)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT - patient 5 (Zirakpur)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT - patient 5 (Zirakpur)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT - patient 6 (Zirakpur)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT - patient 6 (Zirakpur)">
             </div>
           </figure>
         </div>
@@ -252,7 +252,7 @@
         <div class="rc-track" id="videosTrack" aria-live="polite">
           <figure class="rc-slide">
             <a class="yt-card" href="https://youtube.com/video/THKeJ2Z2YyE" data-yid="THKeJ2Z2YyE" aria-label="Play hair transplant myths video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Hair transplant myths and facts video by IHT surgeons">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Hair transplant myths and facts video by IHT surgeons">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -264,7 +264,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://youtube.com/video/Dhm6LF1fYLQ" data-yid="Dhm6LF1fYLQ" aria-label="Play hair transplant podcast video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Hair transplant podcast with Anmol Kawatra - IHT surgeons">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Hair transplant podcast with Anmol Kawatra - IHT surgeons">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -276,7 +276,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://youtube.com/video/-ZNV5WBHXrI/" data-yid="-ZNV5WBHXrI/" aria-label="Play video about drinking after hair transplant">
-              <img class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can you drink alcohol after a hair transplant? video by IHT surgeons">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can you drink alcohol after a hair transplant? video by IHT surgeons">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -288,7 +288,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://www.youtube.com/watch?v=oTBzoRLjaZ4" data-yid="oTBzoRLjaZ4" aria-label="Play beard hair transplant video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Beard hair transplant video by IHT surgeons">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Beard hair transplant video by IHT surgeons">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -310,7 +310,7 @@
       <p class="iht-cta-text">
         👉 Considering a hair transplant in Zirakpur? Book a detailed consultation with our experienced surgical team.
       </p>
-      <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+      <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
     </div>
   </section>
 
@@ -583,7 +583,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="How to choose the right hair transplant clinic in Zirakpur">
+          <img loading="lazy" src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="How to choose the right hair transplant clinic in Zirakpur">
         </div>
 
         <div class="cs-content">
@@ -719,7 +719,7 @@
       <p class="iht-cta-text">
         👉 Schedule a detailed hair transplant consultation for Zirakpur and get a personalised scalp and donor assessment.
       </p>
-      <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+      <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
     </div>
   </section>
 
@@ -820,7 +820,7 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden>
-            You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong>. Our team will guide you for appointment scheduling and the next steps for scalp and donor assessment.
+            You can book a consultation by calling or WhatsApping <strong>+91-86990-03797</strong>. Our team will guide you for appointment scheduling and the next steps for scalp and donor assessment.
           </div>
         </article>
 
@@ -830,9 +830,9 @@
 
   <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua icon">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua icon">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> February 19, 2026</p>
       </div>

@@ -111,7 +111,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/dandruff-symptoms.webp') ?>" alt="Common symptoms of dandruff including visible flakes and itchy scalp">
+        <img loading="lazy" src="<?= base_url('assets/images/dandruff-symptoms.webp') ?>" alt="Common symptoms of dandruff including visible flakes and itchy scalp">
       </div>
 
       <div class="cs-content">
@@ -258,7 +258,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/who-is-more-likely-to-experience-dandruff.webp') ?>" alt="Factors that increase the risk of dandruff such as oily scalp and stress">
+        <img loading="lazy" src="<?= base_url('assets/images/who-is-more-likely-to-experience-dandruff.webp') ?>" alt="Factors that increase the risk of dandruff such as oily scalp and stress">
       </div>
 
       <div class="cs-content">
@@ -380,7 +380,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/dandruff-and-hair-fall.png') ?>" alt="Dandruff and scalp irritation contributing to temporary hair fall">
+        <img loading="lazy" src="<?= base_url('assets/images/dandruff-and-hair-fall.png') ?>" alt="Dandruff and scalp irritation contributing to temporary hair fall">
       </div>
 
       <div class="cs-content">
@@ -454,14 +454,48 @@
 
 
 
+<section class="internal-grey">
+  <div class="container">
 
+    <h2 class="results-title">Related Hair and Scalp Conditions</h2>
+
+    <div class="results-divider" aria-hidden="true">
+      <span class="line"></span>
+      <span class="cross">✚</span>
+      <span class="line"></span>
+    </div>
+
+    <div class="cs-wrap">
+      <div class="cs-content">
+
+        <p class="cs-text">
+          Several scalp conditions can present with symptoms similar to dandruff, which is why an accurate diagnosis is important before starting treatment.
+        </p>
+
+        <p class="cs-text"><strong>Related scalp conditions include:</strong></p>
+
+        <ul class="feature-list">
+          <li><a href="<?= base_url('seborrheic-dermatitis') ?>">Seborrheic Dermatitis</a></li>
+          <li><a href="<?= base_url('scalp-psoriasis') ?>">Scalp Psoriasis</a></li>
+          <li><a href="<?= base_url('scalp-folliculitis') ?>">Scalp Folliculitis</a></li>
+        </ul>
+
+        <p class="cs-text">
+          Understanding these conditions helps ensure appropriate treatment and better scalp health.
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+</section>
 
 <section class="iht-cta-strip">
   <div class="container iht-cta-wrap">
     <p class="iht-cta-text">
       👉 Struggling with dandruff, itching, or falling flakes? Speak with our scalp specialists for a professional evaluation and personalised scalp care guidance.
     </p>
-    <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+    <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
   </div>
 </section>
     
@@ -537,9 +571,9 @@
 
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> March 17, 2026</p>
       </div>

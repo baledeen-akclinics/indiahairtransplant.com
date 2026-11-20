@@ -17,7 +17,7 @@
       <div class="rc-track docs-track" id="docsTrack" aria-live="polite">
         <figure class="doc-slide">
           <div class="doc-card">
-            <img src="<?= base_url('assets/images/dr-kapil-dua.webp') ?>" alt="Dr. Kapil Dua">
+            <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua.webp') ?>" alt="Dr. Kapil Dua">
             <figcaption class="doc-meta">
               <span class="doc-name" data-qual="MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon, Member: Past President - ISHRS (USA), AAHRS (Asia), AHRS (India)">
                 Dr. Kapil Dua
@@ -28,7 +28,7 @@
 
         <figure class="doc-slide">
           <div class="doc-card">
-            <img src="<?= base_url('assets/images/dr-aman-dua.webp') ?>" alt="Dr. Aman Dua">
+            <img loading="lazy" src="<?= base_url('assets/images/dr-aman-dua.webp') ?>" alt="Dr. Aman Dua">
             <figcaption class="doc-meta">
               <span class="doc-name" data-qual="MBBS, MD, Chief Dermatologist, FISHRS, Board Of Governor (AHRS India)">
                 Dr. Aman Dua
@@ -40,7 +40,7 @@
 
        <!-- <figure class="doc-slide">
           <div class="doc-card">
-            <img src="<?= base_url('assets/images/dr-bhawna.webp') ?>" alt="Dr. Bhawna Bhardwaj">
+            <img loading="lazy" src="<?= base_url('assets/images/dr-bhawna.webp') ?>" alt="Dr. Bhawna Bhardwaj">
             <figcaption class="doc-meta">
               <span class="doc-name" data-qual="MBBS, DVDL (Skin &amp; VD), Senior Consultant Dermatologist &amp; Hair Transplant Surgeon">
                 Dr. Bhawna Bhardwaj
@@ -51,7 +51,7 @@
 
         <figure class="doc-slide">
           <div class="doc-card">
-            <img src="<?= base_url('assets/images/dr-sohail.webp') ?>" alt="Dr. Suhail Ahmed">
+            <img loading="lazy" src="<?= base_url('assets/images/dr-sohail.webp') ?>" alt="Dr. Suhail Ahmed">
             <figcaption class="doc-meta">
               <span class="doc-name" data-qual="MBBS, MD Dermatalogy, Consultant Dermatologist &amp; Hair Transplant Surgeon">
                 Dr. Suhail Ahmed
@@ -62,7 +62,7 @@
            <!-- 
         <figure class="doc-slide">
           <div class="doc-card">
-            <img src="<?= base_url('assets/images/dr-nitin.webp') ?>" alt="Dr. Nithin N">
+            <img loading="lazy" src="<?= base_url('assets/images/dr-nitin.webp') ?>" alt="Dr. Nithin N">
             <figcaption class="doc-meta">
               <span class="doc-name" data-qual="MBBS, MD Dermatalogy, Consultant Dermatologist &amp; Hair Transplant Surgeon">
                 Dr. Nithin N

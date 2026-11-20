@@ -181,7 +181,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/prp-benefits.png') ?>" alt="PRP hair treatment results">
+        <img loading="lazy" src="<?= base_url('assets/images/prp-benefits.png') ?>" alt="PRP hair treatment results">
       </div>
 
       <div class="cs-content">
@@ -395,7 +395,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/is-prp-safe.png') ?>" alt="PRP hair treatment safety and results">
+        <img loading="lazy" src="<?= base_url('assets/images/is-prp-safe.png') ?>" alt="PRP hair treatment safety and results">
       </div>
 
       <div class="cs-content">
@@ -477,7 +477,7 @@
         <p class="iht-cta-text">
           👉 Book a consultation with our experts to understand whether a hair transplant is the right option for your hair loss.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
     
@@ -572,9 +572,9 @@
 
 
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> January 27, 2026</p>
       </div>
