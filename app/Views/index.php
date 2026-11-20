@@ -48,6 +48,9 @@
 
 <section class="results-section" aria-labelledby="resultsHeading">
   <div class="container">
+    <p class="why-intro">
+      India Hair Transplant (IHT) is a doctor-led hair transplant clinic offering FUE and Bio-FUE procedures across Delhi, Ludhiana, and Bangalore. Every treatment is planned around individual hair loss pattern and donor area strength, with experienced surgeons focused on natural hairline design and realistic, long-term results rather than cosmetic shortcuts.
+    </p>
     <h2 id="resultsHeading" class="results-title">Hair Transplant Results Delivered at IHT</h2>
 
     <div class="results-divider" aria-hidden="true">
@@ -148,7 +151,7 @@
           <li>Clear communication with realistic expectations and outcomes</li>
         </ul>
 
-        <a href="tel:08699003797" class="btn-cta">Call 08699003797</a>
+        <a href="tel:+918699003797" class="btn-cta">Call +91 86990 03797</a>
       </div>
 
     </div>
@@ -227,7 +230,7 @@
         <p class="iht-cta-text">
           👉 Looking for the best hair transplant clinic in India? Call now to book a free consultation with our experienced team.
         </p>
-        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
+        <a href="tel:+918699003797" class="iht-cta-btn">Call +91 86990 03797</a>
       </div>
     </section>
 
@@ -280,7 +283,7 @@
           <li>Trusted by patients, professionals, and public figures</li>
         </ul>
 
-        <a href="tel:08699003797" class="btn-cta">Call 08699003797</a>
+        <a href="tel:+918699003797" class="btn-cta">Call +91 86990 03797</a>
 
       </div>
 
@@ -500,7 +503,7 @@
 
         <!-- <div class="htw-cta-box">
           <p class="htw-cta-text">Still have doubts and queries?</p>
-          <a class="htw-cta-btn" href="tel:08699003797">Call 08699003797</a>-->
+          <a class="htw-cta-btn" href="tel:+918699003797">Call +91 86990 03797</a>-->
       </div>
     </div>
   </div>
@@ -573,7 +576,7 @@
 
     <div class="htw-cta-box">
       <p class="htw-cta-text">Explore If Hair Transplant Is Right for You</p>
-      <a class="htw-cta-btn" href="tel:08699003797">Call 08699003797</a>
+      <a class="htw-cta-btn" href="tel:+918699003797">Call +91 86990 03797</a>
     </div>
   </div>
 </section>
@@ -711,7 +714,7 @@
     <div class="fa-meta">
       <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
       <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
-      <p class="fa-row"><strong>Updated on:</strong> March 26, 2026</p>
+      <p class="fa-row"><strong>Updated on:</strong> November 20, 2026</p>
     </div>
   </aside>
 
