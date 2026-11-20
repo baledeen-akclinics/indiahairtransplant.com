@@ -49,11 +49,11 @@
           </figure>
 
           <div class="docp-contact">
-            <a href="tel:+919779944207" class="docp-link" aria-label="Call IHT Clinics">
+            <a href="tel:+918699003797" class="docp-link" aria-label="Call IHT Clinics">
               <span class="docp-ico" aria-hidden="true">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6.61-6.88 19.79 19.79 0 0 1-3.07-8.67 2 2 0 0 1 2-2.18h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11l-.91.91a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7a2 2 0 0 1 1.72 2.02z"/></svg>
               </span>
-              +91-97799-44207
+              +91-86990-03797
             </a>
             <a href="https://wa.akclinics.com/AKC3355" class="docp-link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp IHT Clinics">
               <span class="docp-ico" aria-hidden="true">
@@ -71,7 +71,7 @@
 
           <div class="docp-actions">
             <a href="#" class="docp-btn docp-btn--primary" data-popup="consult" role="button">Book Consultation</a>
-            <a href="tel:+919779944207" class="docp-btn docp-btn--ghost">Call Now</a>
+            <a href="tel:+918699003797" class="docp-btn docp-btn--ghost">Call Now</a>
           </div>
         </div>
 
@@ -459,7 +459,7 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden>
-            You can book a consultation by calling or WhatsApping us at <strong>+91-97799-44207</strong>. Our team will help schedule an appointment at the clinic location most convenient for you - whether that is <a href="<?= base_url('hair-transplant-in-delhi') ?>">Delhi</a>, <a href="<?= base_url('hair-transplant-in-ludhiana') ?>">Ludhiana</a>, or <a href="<?= base_url('hair-transplant-in-bangalore') ?>">Bangalore</a>. You can also submit a request through our contact page and we will follow up to confirm a time.
+            You can book a consultation by calling or WhatsApping us at <strong>+91-86990-03797</strong>. Our team will help schedule an appointment at the clinic location most convenient for you - whether that is <a href="<?= base_url('hair-transplant-in-delhi') ?>">Delhi</a>, <a href="<?= base_url('hair-transplant-in-ludhiana') ?>">Ludhiana</a>, or <a href="<?= base_url('hair-transplant-in-bangalore') ?>">Bangalore</a>. You can also submit a request through our contact page and we will follow up to confirm a time.
           </div>
         </article>
 
@@ -486,7 +486,7 @@
       <p class="iht-cta-text">
         Consult Dr. Kapil Dua for an honest, expert assessment of your hair restoration options.
       </p>
-      <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
+      <a href="tel:+918699003797" class="iht-cta-btn">Call +91-86990-03797</a>
     </div>
   </section>
 
@@ -502,7 +502,7 @@
     "description": "India's most credentialed hair transplant surgeon. Past President of ISHRS (USA) 2022-23, the first Indian to hold this global position. President of AAHRS (Asia) 2024. Over 25 years of surgical experience with 5 million plus follicles transplanted. Practices at IHT Clinics in Delhi, Ludhiana, and Bangalore.",
     "image": "https://indiahairtransplant.com/assets/images/dr-kapil-dua.webp",
     "url": "https://indiahairtransplant.com/dr-kapil-dua",
-    "telephone": "+919779944207",
+    "telephone": "+918699003797",
     "worksFor": {
       "@type": "MedicalOrganization",
       "name": "IHT Clinics - India Hair Transplant",

@@ -131,7 +131,7 @@
         <p class="iht-cta-text">
           👉 Book a consultation with our experienced hair transplant surgeons to discuss your hair loss concerns and available treatment options.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>-->
 <?= $this->include('partials/hair-transplant-cost') ?>
@@ -209,7 +209,7 @@
 
     <div class="htw-cta-box">
       <p class="htw-cta-text">Explore If Hair Transplant Is Right for You</p>
-      <a class="htw-cta-btn" href="tel:09779944207">Call 09779944207</a>
+      <a class="htw-cta-btn" href="tel:08699003797">Call 08699003797</a>
     </div>
   </div>
 </section>
@@ -253,7 +253,7 @@ Every case begins with a detailed assessment of hair loss severity, donor area s
            <p class="cs-text">At IHT, successful hair restoration is built on medical planning, surgical discipline, and consistent long-term follow-up, ensuring patient safety and predictable outcomes.</p>
 
 
-        <a href="tel:09779944207" class="btn-cta">Call 09779944207</a>
+        <a href="tel:08699003797" class="btn-cta">Call 08699003797</a>
       </div>
 
     </div>
@@ -463,7 +463,7 @@ Every case begins with a detailed assessment of hair loss severity, donor area s
         <p class="iht-cta-text">
           👉 Looking for the best hair transplant clinic in India? Call now to book a free consultation with our experienced team.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
 <section class="internal-grey">
@@ -624,7 +624,7 @@ Every case begins with a detailed assessment of hair loss severity, donor area s
       "name": "IHT India Hair Transplant",
       "url": "https://indiahairtransplant.com/",
       "logo": "https://indiahairtransplant.com/assets/images/main_logo.png",
-      "telephone": "+91-9779944207"
+      "telephone": "+91-8699003797"
     },
 
     {

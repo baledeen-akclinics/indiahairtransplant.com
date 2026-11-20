@@ -148,7 +148,7 @@
           <li>Clear communication with realistic expectations and outcomes</li>
         </ul>
 
-        <a href="tel:09779944207" class="btn-cta">Call 09779944207</a>
+        <a href="tel:08699003797" class="btn-cta">Call 08699003797</a>
       </div>
 
     </div>
@@ -227,7 +227,7 @@
         <p class="iht-cta-text">
           👉 Looking for the best hair transplant clinic in India? Call now to book a free consultation with our experienced team.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
 
@@ -280,7 +280,7 @@
           <li>Trusted by patients, professionals, and public figures</li>
         </ul>
 
-        <a href="tel:09779944207" class="btn-cta">Call 09779944207</a>
+        <a href="tel:08699003797" class="btn-cta">Call 08699003797</a>
 
       </div>
 
@@ -500,7 +500,7 @@
 
         <!-- <div class="htw-cta-box">
           <p class="htw-cta-text">Still have doubts and queries?</p>
-          <a class="htw-cta-btn" href="tel:09779944207">Call 09779944207</a>-->
+          <a class="htw-cta-btn" href="tel:08699003797">Call 08699003797</a>-->
       </div>
     </div>
   </div>
@@ -573,7 +573,7 @@
 
     <div class="htw-cta-box">
       <p class="htw-cta-text">Explore If Hair Transplant Is Right for You</p>
-      <a class="htw-cta-btn" href="tel:09779944207">Call 09779944207</a>
+      <a class="htw-cta-btn" href="tel:08699003797">Call 08699003797</a>
     </div>
   </div>
 </section>
@@ -727,7 +727,7 @@
         "name": "IHT Clinic",
         "url": "https://indiahairtransplant.com/",
         "logo": "https://indiahairtransplant.com/assets/images/main_logo.png",
-        "telephone": "+91-9779944207",
+        "telephone": "+91-8699003797",
 
         "address": {
           "@type": "PostalAddress",

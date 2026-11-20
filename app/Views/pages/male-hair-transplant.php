@@ -149,7 +149,7 @@
         <p class="cs-text"> Men with active diffuse hair loss, unstable donor areas, or medical conditions that may affect healing are often advised to undergo careful assessment or observation before proceeding with surgery</p>
         </div>
         
-        <a href="tel:09779944207" class="btn-cta">Call 09779944207</a>
+        <a href="tel:08699003797" class="btn-cta">Call 08699003797</a>
       </div>
 
     </div>
@@ -531,7 +531,7 @@
         <p class="iht-cta-text">
           👉 Schedule a personalised consultation with our hair transplant specialists to understand your suitability, treatment plan, and expected outcomes.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
     
@@ -632,7 +632,7 @@
       "name": "IHT India Hair Transplant",
       "url": "https://indiahairtransplant.com/",
       "logo": "https://indiahairtransplant.com/assets/images/main_logo.png",
-      "telephone": "+91-9779944207"
+      "telephone": "+91-8699003797"
     },
     {
       "@type": "BreadcrumbList",

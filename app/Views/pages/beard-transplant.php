@@ -516,7 +516,7 @@
         <p class="iht-cta-text">
           👉 Book a consultation with our experts to understand whether a hair transplant is the right option for your hair loss.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
     
@@ -647,7 +647,7 @@
       "name": "IHT India Hair Transplant",
       "url": "https://indiahairtransplant.com/",
       "logo": "https://indiahairtransplant.com/assets/images/main_logo.png",
-      "telephone": "+91-9779944207"
+      "telephone": "+91-8699003797"
     },
     {
       "@type": "BreadcrumbList",

@@ -49,11 +49,11 @@
           </figure>
 
           <div class="docp-contact">
-            <a href="tel:+919779944207" class="docp-link" aria-label="Call IHT Clinics">
+            <a href="tel:+918699003797" class="docp-link" aria-label="Call IHT Clinics">
               <span class="docp-ico" aria-hidden="true">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6.61-6.88 19.79 19.79 0 0 1-3.07-8.67 2 2 0 0 1 2-2.18h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11l-.91.91a16 16 0 0 0 6.29 6.29l.91-.91a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7a2 2 0 0 1 1.72 2.02z"/></svg>
               </span>
-              +91-97799-44207
+              +91-86990-03797
             </a>
             <a href="https://wa.akclinics.com/AKC3355" class="docp-link" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp IHT Clinics">
               <span class="docp-ico" aria-hidden="true">
@@ -71,7 +71,7 @@
 
           <div class="docp-actions">
             <a href="#" class="docp-btn docp-btn--primary" data-popup="consult" role="button">Book Consultation</a>
-            <a href="tel:+919779944207" class="docp-btn docp-btn--ghost">Call Now</a>
+            <a href="tel:+918699003797" class="docp-btn docp-btn--ghost">Call Now</a>
           </div>
         </div>
 
@@ -436,7 +436,7 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden>
-           You can book a consultation with Dr Aman Dua by calling or WhatsApping us at +91-97799-44207. Our team will help you schedule the appointment, guide you. with the available consultation options, and confirm the most suitable time for your visit. 
+           You can book a consultation with Dr Aman Dua by calling or WhatsApping us at +91-86990-03797. Our team will help you schedule the appointment, guide you. with the available consultation options, and confirm the most suitable time for your visit. 
           </div>
         </article>
 
@@ -463,7 +463,7 @@
       <p class="iht-cta-text">
         Consult Dr. Aman Dua for an accurate diagnosis of your hair loss and a personalised treatment plan built around your specific condition.
       </p>
-      <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
+      <a href="tel:+918699003797" class="iht-cta-btn">Call +91-86990-03797</a>
     </div>
   </section>
 
@@ -479,7 +479,7 @@
     "description": "India's first female hair transplant surgeon and one of the country's best dermatologists specialising in hair restoration. MBBS, MD Dermatology, FISHRS, Past President and Founder Member of AHRS India, Gold Medalist. Over 20 years of experience in hair loss diagnosis, PRP therapy, GFC treatment, and comprehensive hair restoration planning.",
     "image": "https://indiahairtransplant.com/assets/images/dr-aman-dua.webp",
     "url": "https://indiahairtransplant.com/dr-aman-dua",
-    "telephone": "+919779944207",
+    "telephone": "+918699003797",
     "worksFor": {
       "@type": "MedicalOrganization",
       "name": "IHT Clinics - India Hair Transplant",

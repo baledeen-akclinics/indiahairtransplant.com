@@ -19,7 +19,7 @@
                   </svg></span>M-20, GK-I, Near M Block Market, Delhi</p>
               <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1.3 1.3 0 0 1 1.3-.3 10.2 10.2 0 0 0 3.3.5 1.3 1.3 0 0 1 1.3 1.3v3.7a1.3 1.3 0 0 1-1.3 1.3A18.7 18.7 0 0 1 3 5.4 1.3 1.3 0 0 1 4.3 4h3.7A1.3 1.3 0 0 1 9.3 5.3c0 1.1.2 2.2.5 3.3.1.4 0 .9-.3 1.3l-2.9 2.9Z" fill="currentColor" />
-                  </svg></span><a href="tel:+919779944207">+91 97799 44207</a></p>
+                  </svg></span><a href="tel:+918699003797">+91 86990 03797</a></p>
               <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 11h5v-2h-4V6h-2v7Z" fill="currentColor" />
                   </svg></span>Mon–Sun: 10:30 AM – 6:30 PM</p>
@@ -41,7 +41,7 @@
                   </svg></span>51-E, Sarabha Nagar, Opp Kipps Market. </p>
               <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1.3 1.3 0 0 1 1.3-.3 10.2 10.2 0 0 0 3.3.5 1.3 1.3 0 0 1 1.3 1.3v3.7a1.3 1.3 0 0 1-1.3 1.3A18.7 18.7 0 0 1 3 5.4 1.3 1.3 0 0 1 4.3 4h3.7A1.3 1.3 0 0 1 9.3 5.3c0 1.1.2 2.2.5 3.3.1.4 0 .9-.3 1.3l-2.9 2.9Z" fill="currentColor" />
-                  </svg></span><a href="tel:+919779944207">+91 97799 44207</a></p>
+                  </svg></span><a href="tel:+918699003797">+91 86990 03797</a></p>
               <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 11h5v-2h-4V6h-2v7Z" fill="currentColor" />
                   </svg></span>Mon–Sun: 10:30 AM – 6:30 PM</p>
@@ -63,7 +63,7 @@
                   </svg></span>60, Canal Rd, South End, Aggar Nagar.</p>
               <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1.3 1.3 0 0 1 1.3-.3 10.2 10.2 0 0 0 3.3.5 1.3 1.3 0 0 1 1.3 1.3v3.7a1.3 1.3 0 0 1-1.3 1.3A18.7 18.7 0 0 1 3 5.4 1.3 1.3 0 0 1 4.3 4h3.7A1.3 1.3 0 0 1 9.3 5.3c0 1.1.2 2.2.5 3.3.1.4 0 .9-.3 1.3l-2.9 2.9Z" fill="currentColor" />
-                  </svg></span><a href="tel:+919779944207">+91 97799 44207</a></p>
+                  </svg></span><a href="tel:+918699003797">+91 86990 03797</a></p>
               <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 11h5v-2h-4V6h-2v7Z" fill="currentColor" />
                   </svg></span>Mon–Sun: 10:30 AM – 6:30 PM</p>
@@ -85,7 +85,7 @@
                   </svg></span>149, 10th Cross Rd, Indira Nagar, Indiranagar</p>
               <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1.3 1.3 0 0 1 1.3-.3 10.2 10.2 0 0 0 3.3.5 1.3 1.3 0 0 1 1.3 1.3v3.7a1.3 1.3 0 0 1-1.3 1.3A18.7 18.7 0 0 1 3 5.4 1.3 1.3 0 0 1 4.3 4h3.7A1.3 1.3 0 0 1 9.3 5.3c0 1.1.2 2.2.5 3.3.1.4 0 .9-.3 1.3l-2.9 2.9Z" fill="currentColor" />
-                  </svg></span><a href="tel:+919779944207">+91 97799 44207</a></p>
+                  </svg></span><a href="tel:+918699003797">+91 86990 03797</a></p>
               <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 11h5v-2h-4V6h-2v7Z" fill="currentColor" />
                   </svg></span>Mon–Sun: 10:30 AM – 6:30 PM</p>

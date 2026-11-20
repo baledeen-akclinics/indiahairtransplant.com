@@ -315,7 +315,7 @@
           <p class="iht-cta-text">
             👉 From Amritsar, you can plan your consultation at IHT Ludhiana for in-person scalp assessment and graft planning.
           </p>
-          <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
+          <a href="tel:+918699003797" class="iht-cta-btn">Call +91-86990-03797</a>
         </div>
       </section>
 
@@ -739,7 +739,7 @@
       <p class="iht-cta-text">
         👉 From Amritsar, you can book your consultation at IHT Ludhiana for scalp assessment, graft estimation, and treatment planning.
       </p>
-      <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
+      <a href="tel:+918699003797" class="iht-cta-btn">Call +91-86990-03797</a>
     </div>
   </section>
 
@@ -813,7 +813,7 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong>. Our team will guide you regarding appointment scheduling at IHT Ludhiana and evaluation steps.
+            You can book a consultation by calling or WhatsApping <strong>+91-86990-03797</strong>. Our team will guide you regarding appointment scheduling at IHT Ludhiana and evaluation steps.
           </div>
         </article>
 

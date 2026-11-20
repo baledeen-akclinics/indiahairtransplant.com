@@ -304,7 +304,7 @@
         <p class="iht-cta-text">
           👉 Considering a hair transplant in Bangalore? Book a detailed consultation with our experienced surgical team.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
 
@@ -518,7 +518,7 @@
                 <p class="cs-text">Through years of clinical research and surgical refinement, Dr Dua developed Bio-FUE, a technique designed to improve graft survival, enhance density planning, and reduce follicle stress while respecting the donor area for future hair loss.</p>
 
         <p class="cs-text"><i>“Hair transplant is a life-changing procedure, but only when it is performed by a qualified hair transplant surgeon with hands-on experience in managing hair loss. It requires a deep understanding of graft preservation and respecting the donor area for future hair loss. As medical science evolves, our responsibility as surgeons is not just to perform surgery, but to guide patients honestly on what is medically right for them.”</i> - Dr Kapil Dua</p>
-        <a href="tel:09779944207" class="btn-cta">Book a Consultation with Dr Kapil Dua</a>
+        <a href="tel:08699003797" class="btn-cta">Book a Consultation with Dr Kapil Dua</a>
 
       </div>
 
@@ -691,7 +691,7 @@
         <p class="iht-cta-text">
           👉 Schedule a detailed hair transplant consultation in Bangalore and get a personalised scalp and donor assessment.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
     
@@ -794,7 +794,7 @@
           <i class="faq-ico" aria-hidden="true"></i>
         </button>
         <div class="faq-a" hidden="">
-          You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong> to discuss your hair loss concerns and available treatment options with a qualified medical team.
+          You can book a consultation by calling or WhatsApping <strong>+91-86990-03797</strong> to discuss your hair loss concerns and available treatment options with a qualified medical team.
         </div>
       </article>
 
@@ -905,7 +905,7 @@
           <i class="faq-ico" aria-hidden="true"></i>
         </button>
         <div class="faq-a" hidden="">
-          You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong> to discuss your hair loss concerns and available treatment options with a qualified medical team.
+          You can book a consultation by calling or WhatsApping <strong>+91-86990-03797</strong> to discuss your hair loss concerns and available treatment options with a qualified medical team.
         </div>
       </article>
 

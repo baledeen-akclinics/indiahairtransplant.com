@@ -461,7 +461,7 @@
     <p class="iht-cta-text">
       👉 Struggling with dandruff, itching, or falling flakes? Speak with our scalp specialists for a professional evaluation and personalised scalp care guidance.
     </p>
-    <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+    <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
   </div>
 </section>
     

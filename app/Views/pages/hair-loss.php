@@ -350,7 +350,7 @@ Several hair and scalp conditions can cause hair loss by affecting the health of
           In many individuals, hair loss develops due to a combination of these factors, making proper diagnosis important.
         </p>
 
-        <a href="tel:09779944207" class="btn-cta">Call 09779944207</a>
+        <a href="tel:08699003797" class="btn-cta">Call 08699003797</a>
       </div>
 
     </div>
@@ -549,7 +549,7 @@ Several hair and scalp conditions can cause hair loss by affecting the health of
     <p class="iht-cta-text">
       👉 Consult our hair specialists to evaluate your hair loss and discover the most suitable treatment plan for your condition.
     </p>
-    <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+    <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
   </div>
 </section>
     

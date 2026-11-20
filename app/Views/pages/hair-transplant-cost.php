@@ -569,7 +569,7 @@
         <p class="iht-cta-text">
           👉 Book a consultation with our experienced hair transplant surgeons to discuss your hair loss concerns and available treatment options.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>-->
     
@@ -582,7 +582,7 @@
         <p class="iht-cta-text">
           👉 Looking for the best hair transplant clinic in India? Call now to book a free consultation with our experienced team.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
 

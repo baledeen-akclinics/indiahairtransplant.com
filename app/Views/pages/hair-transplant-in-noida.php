@@ -177,7 +177,7 @@
 
         <article class="faq-item">
           <button class="faq-q"><span>How can I book consultation?</span></button>
-          <div class="faq-a">You can call or WhatsApp +91-97799-44207 to schedule a detailed consultation.</div>
+          <div class="faq-a">You can call or WhatsApp +91-86990-03797 to schedule a detailed consultation.</div>
         </article>
 
       </div>

@@ -312,7 +312,7 @@
           <p class="iht-cta-text">
             👉 From Morinda, you can book an appointment for in-person scalp assessment and planning at our Chandigarh or Ludhiana centre.
           </p>
-          <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
+          <a href="tel:+918699003797" class="iht-cta-btn">Call +91-86990-03797</a>
         </div>
       </section>
 

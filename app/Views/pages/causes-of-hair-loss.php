@@ -698,7 +698,7 @@
     <p class="iht-cta-text">
       👉 Consult our hair specialists to evaluate your hair loss and discover the most suitable treatment plan for your condition.
     </p>
-    <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+    <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
   </div>
 </section>
     

@@ -295,7 +295,7 @@
           <p class="iht-cta-text">
             👉 Considering a hair transplant in Delhi? Book a detailed consultation with our experienced surgical team.
           </p>
-          <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+          <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
         </div>
       </section>
 
@@ -720,7 +720,7 @@
       <p class="iht-cta-text">
         👉 Schedule a detailed hair transplant consultation in Delhi and get a personalised scalp and donor assessment.
       </p>
-      <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+      <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
     </div>
   </section>
 
@@ -813,7 +813,7 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong> to discuss your hair loss concern and available treatment options with our medical team.
+            You can book a consultation by calling or WhatsApping <strong>+91-86990-03797</strong> to discuss your hair loss concern and available treatment options with our medical team.
           </div>
         </article>
 

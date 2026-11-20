@@ -308,7 +308,7 @@
           <p class="iht-cta-text">
             👉 From Meerut, you can book an appointment for in-person scalp assessment and planning at our Delhi centre.
           </p>
-          <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
+          <a href="tel:+918699003797" class="iht-cta-btn">Call +91-86990-03797</a>
         </div>
       </section>
 
@@ -742,7 +742,7 @@
       <p class="iht-cta-text">
         👉 From Meerut, you can book an appointment for in-person scalp assessment, graft estimation, and technique guidance at our Delhi clinic.
       </p>
-      <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
+      <a href="tel:+918699003797" class="iht-cta-btn">Call +91-86990-03797</a>
     </div>
   </section>
 
@@ -835,7 +835,7 @@
           <i class="faq-ico" aria-hidden="true"></i>
         </button>
         <div class="faq-a" hidden="">
-          You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong>. Our team will guide you regarding evaluation steps, appointment scheduling, and travel planning if required.
+          You can book a consultation by calling or WhatsApping <strong>+91-86990-03797</strong>. Our team will guide you regarding evaluation steps, appointment scheduling, and travel planning if required.
         </div>
       </article>
 

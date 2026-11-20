@@ -546,7 +546,7 @@
       <p class="iht-cta-text">
         👉 Dealing with thick scalp scales, itching, or persistent scalp irritation? Speak with our scalp specialists for a professional evaluation and personalised treatment guidance.
       </p>
-      <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+      <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
     </div>
   </section>
 

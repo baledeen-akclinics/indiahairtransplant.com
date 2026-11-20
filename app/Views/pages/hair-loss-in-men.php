@@ -520,7 +520,7 @@ Lack of essential nutrients such as protein, iron, and vitamins can weaken hair 
     <p class="iht-cta-text">
       Noticing hair thinning or increased hair fall? Speak with our hair restoration experts to understand the cause of your hair loss and explore the most suitable treatment options.
     </p>
-    <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+    <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
   </div>
 </section>
     
