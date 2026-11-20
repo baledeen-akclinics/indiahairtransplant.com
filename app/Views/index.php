@@ -49,7 +49,7 @@
 <section class="results-section" aria-labelledby="resultsHeading">
   <div class="container">
     <p class="why-intro">
-      India Hair Transplant (IHT) is a doctor-led hair transplant clinic offering FUE and Bio-FUE procedures across Delhi, Ludhiana, and Bangalore. Every treatment is planned around individual hair loss pattern and donor area strength, with experienced surgeons focused on natural hairline design and realistic, long-term results rather than cosmetic shortcuts.
+      India Hair Transplant (IHT) is a doctor-led hair transplant clinic in India offering hair transplants using advanced techniques to deliver better natural results. Each procedure is properly planned by reputed surgeons based only on the patient's hair loss pattern and donor area before deciding on technique and graft count, across IHT's clinics in Delhi, Ludhiana, and Bangalore.
     </p>
     <h2 id="resultsHeading" class="results-title">Hair Transplant Results Delivered at IHT</h2>
 
@@ -96,9 +96,11 @@
       <button class="rc-arrow rc-next" aria-label="Next results" type="button">›</button>
     </div>
 
-    <div class="results-cta">
+    <!-- "See More Results" button commented out: no results/gallery page exists yet to link to.
+         Re-enable once that page is built, with its real URL in place of #results. -->
+    <!-- <div class="results-cta">
       <a class="results-button" href="#results">See More Results</a>
-    </div>
+    </div> -->
 
     <p class="results-text">
       The results shown here reflect proper medical planning and execution by experienced hair transplant surgeons at IHT Clinic, a trusted <a href="<?= base_url('hair-transplant') ?>">hair transplant clinic in India</a>. Each procedure is customised based on individual hair loss patterns, donor area strength, and long-term restoration goals. The focus remains on natural hairline design, responsible graft placement, and results that develop gradually over time. Outcomes may vary depending on individual factors.
@@ -228,9 +230,9 @@
     <section class="iht-cta-strip">
       <div class="container iht-cta-wrap">
         <p class="iht-cta-text">
-          👉 Looking for the best hair transplant clinic in India? Call now to book a free consultation with our experienced team.
+          Looking for the best hair transplant clinic in India? Book a free consultation with our experienced team.
         </p>
-        <a href="tel:+918699003797" class="iht-cta-btn">Call +91 86990 03797</a>
+        <a href="#" data-popup="consult" class="iht-cta-btn" role="button">Book a Free Consultation</a>
       </div>
     </section>
 
@@ -278,8 +280,7 @@
         <ul class="feature-list">
           <li>20+ Years of Surgical Experience</li>
           <li>10,000+ Successful Hair Transplants</li>
-          <li>Former President – AHRS India</li>
-          <li>Active member of leading International Hair Restoration Societies</li>
+          <li>Past President, ISHRS (USA) and AAHRS (Asia); Former President, AHRS (India)</li>
           <li>Trusted by patients, professionals, and public figures</li>
         </ul>
 
