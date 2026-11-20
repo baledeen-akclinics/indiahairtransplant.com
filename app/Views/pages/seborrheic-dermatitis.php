@@ -603,9 +603,9 @@
         <p class="cs-text"><strong>Related scalp conditions include:</strong></p>
 
         <ul class="feature-list">
-          <li>Dandruff</li>
-          <li>Scalp Psoriasis</li>
-          <li>Scalp Folliculitis</li>
+          <li><a href="<?= base_url('dandruff') ?>">Dandruff</a></li>
+          <li><a href="<?= base_url('scalp-psoriasis') ?>">Scalp Psoriasis</a></li>
+          <li><a href="<?= base_url('scalp-folliculitis') ?>">Scalp Folliculitis</a></li>
         </ul>
 
         <p class="cs-text">

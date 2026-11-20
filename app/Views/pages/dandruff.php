@@ -454,7 +454,41 @@
 
 
 
+<section class="internal-grey">
+  <div class="container">
 
+    <h2 class="results-title">Related Hair and Scalp Conditions</h2>
+
+    <div class="results-divider" aria-hidden="true">
+      <span class="line"></span>
+      <span class="cross">✚</span>
+      <span class="line"></span>
+    </div>
+
+    <div class="cs-wrap">
+      <div class="cs-content">
+
+        <p class="cs-text">
+          Several scalp conditions can present with symptoms similar to dandruff, which is why an accurate diagnosis is important before starting treatment.
+        </p>
+
+        <p class="cs-text"><strong>Related scalp conditions include:</strong></p>
+
+        <ul class="feature-list">
+          <li><a href="<?= base_url('seborrheic-dermatitis') ?>">Seborrheic Dermatitis</a></li>
+          <li><a href="<?= base_url('scalp-psoriasis') ?>">Scalp Psoriasis</a></li>
+          <li><a href="<?= base_url('scalp-folliculitis') ?>">Scalp Folliculitis</a></li>
+        </ul>
+
+        <p class="cs-text">
+          Understanding these conditions helps ensure appropriate treatment and better scalp health.
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+</section>
 
 <section class="iht-cta-strip">
   <div class="container iht-cta-wrap">

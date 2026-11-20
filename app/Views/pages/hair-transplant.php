@@ -547,7 +547,7 @@ Every case begins with a detailed assessment of hair loss severity, donor area s
           <i class="faq-ico" aria-hidden="true"></i>
         </button>
         <div class="faq-a" hidden="">
-          Common side effects include mild swelling, redness, scabbing, numbness, or mild discomfort in the treated areas. Temporary shedding (shock loss) may happen in the first few weeks. Most effects settle within 5–7 days, and serious complications are uncommon when surgery is performed under proper medical standards.
+          Common side effects include mild swelling, redness, scabbing, numbness, or mild discomfort in the treated areas. Temporary shedding (shock loss) may happen in the first few weeks. Most effects settle within 5–7 days, and serious complications are uncommon when surgery is performed under proper medical standards. See our detailed guide on <a href="<?= base_url('hair-transplant-side-effects') ?>">hair transplant side effects</a> for a full breakdown of what to expect during recovery.
         </div>
       </article>
 

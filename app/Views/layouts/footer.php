@@ -42,10 +42,8 @@
       <ul class="ft-list">
         <li><a href="<?= base_url('prp-hair-treatment') ?>">PRP Therapy</a></li>
         <li><a href="<?= base_url('gfc-hair-treatment') ?>">GFC Therapy</a></li>
-        <li><a href="#">Exosome Therapy</a></li>
-        <li><a href="#">Low Level Laser Therapy (LLLT)</a></li>
-        <li><a href="#">Medications for Hair Loss</a></li>
-        <li><a href="#">Scalp Micro Pigmentation</a></li>
+        <li><a href="<?= base_url('low-level-laser-therapy') ?>">Low Level Laser Therapy (LLLT)</a></li>
+        <li><a href="<?= base_url('minoxidil-for-hair-loss') ?>">Medications for Hair Loss</a></li>
       </ul>
     </div>
 
@@ -57,7 +55,7 @@
         <li><a href="<?= base_url('unshaven-hair-transplant') ?>">Unshaven FUE Hair Transplant</a></li>
         <li><a href="<?= base_url('fue-hair-transplant') ?>">FUE Hair Transplant</a></li>
         <li><a href="<?= base_url('fut-hair-transplant') ?>">FUT Hair Transplant</a></li>
-        <li><a href="#">Hair Transplant Safety &amp; Recovery</a></li>
+        <li><a href="<?= base_url('hair-transplant-safety-and-recovery') ?>">Hair Transplant Safety &amp; Recovery</a></li>
       </ul>
     </div>
 
@@ -66,7 +64,7 @@
       <h4>Cost &amp; Planning</h4>
       <ul class="ft-list">
         <li><a href="<?= base_url('hair-transplant-cost') ?>">Hair Transplant Cost in India</a></li>
-        <li><a href="#">Graft Calculator</a></li>
+        <li><a href="<?= base_url('hair-transplant-cost-calculator') ?>">Graft Calculator</a></li>
         <li><a href="#">EMI on Hair Transplant</a></li>
         <li><a href="<?= base_url('faqs') ?>">Hair Transplant FAQs</a></li>
         <li><a href="#">Hair Transplant Videos &amp; Results</a></li>

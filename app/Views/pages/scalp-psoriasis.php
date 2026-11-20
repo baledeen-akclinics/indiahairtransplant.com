@@ -526,9 +526,9 @@
           <p class="cs-text"><strong>Some related hair and scalp conditions include:</strong></p>
 
           <ul class="feature-list">
-            <li>Dandruff</li>
-            <li>Seborrheic Dermatitis</li>
-            <li>Scalp Folliculitis</li>
+            <li><a href="<?= base_url('dandruff') ?>">Dandruff</a></li>
+            <li><a href="<?= base_url('seborrheic-dermatitis') ?>">Seborrheic Dermatitis</a></li>
+            <li><a href="<?= base_url('scalp-folliculitis') ?>">Scalp Folliculitis</a></li>
           </ul>
 
           <p class="cs-text">

@@ -503,9 +503,9 @@
           <p class="cs-text"><strong>Related conditions include:</strong></p>
 
           <ul class="feature-list">
-            <li>Dandruff</li>
-            <li>Seborrheic Dermatitis</li>
-            <li>Scalp Psoriasis</li>
+            <li><a href="<?= base_url('dandruff') ?>">Dandruff</a></li>
+            <li><a href="<?= base_url('seborrheic-dermatitis') ?>">Seborrheic Dermatitis</a></li>
+            <li><a href="<?= base_url('scalp-psoriasis') ?>">Scalp Psoriasis</a></li>
           </ul>
 
           <p class="cs-text">

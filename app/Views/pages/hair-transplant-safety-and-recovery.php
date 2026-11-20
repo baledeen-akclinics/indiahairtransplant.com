@@ -260,7 +260,7 @@
       <div class="cs-content">
 
         <p class="cs-text">
-          After a hair transplant, the treated areas remain sensitive and require careful handling. Recovery is gradual and happens in stages, with each phase playing an important role in graft survival, scalp healing, and final results. Understanding this timeline helps patients follow the right precautions and recover safely.
+          After a hair transplant, the treated areas remain sensitive and require careful handling. Recovery is gradual and happens in stages, with each phase playing an important role in graft survival, scalp healing, and final results. Understanding this timeline helps patients follow the right precautions and recover safely, and to recognise which <a href="<?= base_url('hair-transplant-side-effects') ?>">hair transplant side effects</a> are normal at each stage.
         </p>
 
         <!-- Accordion -->

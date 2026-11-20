@@ -675,6 +675,10 @@
         </ul>
 
         <p class="cs-text">
+          For a complete breakdown of each of these, how long they typically last, and when to contact the clinic, see our dedicated guide on <a href="<?= base_url('hair-transplant-side-effects') ?>">hair transplant side effects</a>.
+        </p>
+
+        <p class="cs-text">
           In some cases, hair transplant outcomes may vary, and poor hair transplant results can occur if expectations or execution are not well aligned, resulting in:
         </p>
 
