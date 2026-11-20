@@ -662,13 +662,13 @@
           "@type": "ListItem",
           "position": 2,
           "name": "Beard Hair Transplant",
-          "item": "https://indiahairtransplant.com/beard-hair-transplant"
+          "item": "https://indiahairtransplant.com/beard-transplant"
         }
       ]
     },
     {
       "@type": "WebPage",
-      "url": "https://indiahairtransplant.com/beard-hair-transplant",
+      "url": "https://indiahairtransplant.com/beard-transplant",
       "name": "Beard Hair Transplant in India",
       "description": "Beard Hair Transplant in India at IHT is a medically planned facial hair restoration procedure for patchy, uneven, or absent beard growth, focused on natural density, precise angle placement, healing, recovery, cost, and long-term results.",
       "isPartOf": {
@@ -679,7 +679,7 @@
     {
       "@type": "MedicalProcedure",
       "name": "Beard Hair Transplant",
-      "url": "https://indiahairtransplant.com/beard-hair-transplant",
+      "url": "https://indiahairtransplant.com/beard-transplant",
       "description": "Beard hair transplant is a facial hair restoration procedure in which healthy follicles are extracted from a suitable donor area and implanted into beard regions with weak, patchy, or absent growth.",
       "bodyLocation": "Face",
       "howPerformed": "Healthy follicles are extracted individually from a suitable donor area and implanted into the beard region with attention to natural angle, direction, depth, spacing, and density.",

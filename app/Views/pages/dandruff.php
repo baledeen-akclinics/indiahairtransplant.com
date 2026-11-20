@@ -549,6 +549,67 @@
 
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/dandruff",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the main cause of dandruff?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dandruff usually results from an imbalance in the scalp environment. A common trigger is a yeast-like microorganism called Malassezia , which naturally resides on the scalp. In some people, this yeast can irritate the scalp and increase skin cell shedding, causing visible flakes. Other contributing factors may include excess scalp oil, dry skin, sensitivity to hair products, irregular hair washing, and stress."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I wash my hair if I have dandruff?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many people with dandruff find that washing their hair regularly with medicated anti-dandruff shampoos recommended by a doctor helps control flaking. The ideal washing frequency may vary depending on scalp type and the severity of the condition. Regular cleansing helps remove excess oil, dead skin cells, and yeast buildup from the scalp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is dandruff caused by a dry scalp or an oily scalp?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dandruff is more commonly associated with an oily scalp and yeast activity rather than dryness alone. However, a dry scalp can also produce flakes that resemble dandruff. Typically, dandruff flakes are larger and may appear oily or yellowish, while dry scalp flakes are smaller and more powder-like."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I see a doctor for dandruff?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Medical advice should be considered if dandruff persists despite regular treatment or if symptoms become severe. You should consult a doctor if you experience persistent flakes that do not improve with treatment, severe itching or scalp irritation, thick yellow scales on the scalp, redness spreading across the scalp, or noticeable increase in hair shedding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can dandruff be permanently cured?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dandruff can usually be controlled effectively with proper scalp care and treatment, although it may recur depending on lifestyle factors, stress levels, weather changes, or scalp oil production. Using suitable shampoos, maintaining scalp hygiene, and following medical advice when necessary can help manage dandruff and reduce flare-ups."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>

@@ -700,6 +700,59 @@
 
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/seborrheic-dermatitis",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What causes seborrheic dermatitis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seborrheic dermatitis is commonly linked to an inflammatory reaction of the skin to a yeast called Malassezia . Excess scalp oil, stress, hormonal changes, and immune responses may also contribute to the condition."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is seborrheic dermatitis the same as dandruff?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seborrheic dermatitis is often considered a more severe form of dandruff. While both conditions cause flaking, seborrheic dermatitis usually involves redness, greasy scales, and skin inflammation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can seborrheic dermatitis cause hair loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seborrheic dermatitis does not directly cause permanent hair loss, but prolonged scalp inflammation and excessive scratching may increase temporary hair shedding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is seborrheic dermatitis contagious?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, seborrheic dermatitis is not contagious and cannot spread from one person to another."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>

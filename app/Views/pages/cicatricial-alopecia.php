@@ -425,4 +425,89 @@
 </section>
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/cicatricial-alopecia",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "1. Is scarring alopecia permanent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, scarring alopecia causes permanent hair loss because it destroys the hair follicles. However, early diagnosis can help slow progression and protect remaining hair."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "2. What are the early signs of scarring alopecia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Early signs may include patchy hair loss, redness, itching, burning sensations, or smooth, shiny patches on the scalp where hair has stopped growing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "3. Can scarring alopecia be treated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While hair cannot regrow in scarred areas, effective hair loss treatments can help control inflammation, slow progression, and preserve existing hair."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "4. Which is the best treatment for scarring alopecia in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best treatment depends on the stage and type of scarring alopecia. Dermatologist-guided therapies and advanced treatments are recommended after proper evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "5. How much does scarring alopecia treatment cost in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost depends on the severity of the condition, treatment plan, and number of sessions required. A personalised consultation helps determine the exact cost."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "6. I am noticing bald patches with itching or burning. Should I be concerned?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, symptoms like itching, burning, or redness along with hair loss may indicate an underlying scalp condition. Consulting a specialist early is recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "7. Can hair transplant restore hair in scarring alopecia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant may be considered in selected stable cases where the condition is inactive and the donor area is suitable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "8. Does India have experienced dermatologists for scarring alopecia treatment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, India has experienced dermatologists for hair loss treatment. Clinics like India Hair Transplant (IHT) provide expert evaluation and personalised care based on individual concerns."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <?= $this->endSection() ?>

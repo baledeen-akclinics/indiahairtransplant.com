@@ -628,6 +628,67 @@
 
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/scalp-psoriasis",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What causes scalp psoriasis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scalp psoriasis occurs when the immune system accelerates skin cell production, leading to thick, scaly patches and inflammation on the scalp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is scalp psoriasis the same as dandruff?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Dandruff usually causes mild flaking, while scalp psoriasis produces thicker plaques and visible skin inflammation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can scalp psoriasis cause hair loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scalp psoriasis does not directly cause permanent hair loss, but severe inflammation and scratching may lead to temporary hair shedding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is scalp psoriasis contagious?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, scalp psoriasis is not contagious and cannot spread from one person to another."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I see a doctor for scalp psoriasis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You should seek medical advice if the condition causes persistent scaling, severe itching, thick plaques, or increased hair shedding."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>
