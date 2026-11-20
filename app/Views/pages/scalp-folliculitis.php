@@ -102,7 +102,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/scalp-folliculitis-symptoms.webp') ?>" alt="Common symptoms of scalp folliculitis including bumps and pustules around hair follicles">
+          <img loading="lazy" src="<?= base_url('assets/images/scalp-folliculitis-symptoms.webp') ?>" alt="Common symptoms of scalp folliculitis including bumps and pustules around hair follicles">
         </div>
 
         <div class="cs-content">
@@ -181,7 +181,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/who-is-more-likely-to-develop-scalp-folliculitis.webp') ?>" alt="People more likely to develop scalp folliculitis">
+          <img loading="lazy" src="<?= base_url('assets/images/who-is-more-likely-to-develop-scalp-folliculitis.webp') ?>" alt="People more likely to develop scalp folliculitis">
         </div>
 
         <div class="cs-content">
@@ -299,7 +299,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/scalp-folliculitis-hair-loss.webp') ?>" alt="Scalp folliculitis causing inflammation and temporary hair shedding">
+          <img loading="lazy" src="<?= base_url('assets/images/scalp-folliculitis-hair-loss.webp') ?>" alt="Scalp folliculitis causing inflammation and temporary hair shedding">
         </div>
 
         <div class="cs-content">
@@ -503,9 +503,9 @@
           <p class="cs-text"><strong>Related conditions include:</strong></p>
 
           <ul class="feature-list">
-            <li>Dandruff</li>
-            <li>Seborrheic Dermatitis</li>
-            <li>Scalp Psoriasis</li>
+            <li><a href="<?= base_url('dandruff') ?>">Dandruff</a></li>
+            <li><a href="<?= base_url('seborrheic-dermatitis') ?>">Seborrheic Dermatitis</a></li>
+            <li><a href="<?= base_url('scalp-psoriasis') ?>">Scalp Psoriasis</a></li>
           </ul>
 
           <p class="cs-text">
@@ -523,7 +523,7 @@
       <p class="iht-cta-text">
         👉 Experiencing scalp bumps, itching, or inflamed follicles? Speak with our scalp specialists for a professional evaluation and personalised treatment guidance.
       </p>
-      <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+      <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
     </div>
   </section>
 
@@ -604,9 +604,9 @@
 
   <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> March 17, 2026</p>
       </div>
@@ -614,6 +614,75 @@
   </section>
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/scalp-folliculitis",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What causes scalp folliculitis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scalp folliculitis occurs when hair follicles become inflamed due to bacterial infection, excess oil, blocked follicles, or scalp irritation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is scalp folliculitis contagious?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most cases of scalp folliculitis are not contagious, although certain infections may spread through shared personal items."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can scalp folliculitis come back after treatment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scalp folliculitis can recur, especially if the underlying triggers, such as excess oil, sweating, tight headwear, or scalp irritation, are not addressed. Maintaining good scalp hygiene and managing underlying scalp conditions can help reduce the chances of repeated outbreaks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can scalp folliculitis cause hair loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scalp folliculitis usually causes temporary hair shedding if inflammation is severe, but it rarely leads to permanent hair loss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is scalp folliculitis treated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treatment depends on the cause and may include medicated shampoos, topical treatments, or medical therapies recommended by a doctor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I see a doctor for scalp folliculitis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You should seek medical advice if scalp bumps are painful, persistent, or associated with increased hair shedding."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 <!-- Footer File Include -->
 

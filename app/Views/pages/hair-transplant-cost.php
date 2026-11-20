@@ -533,7 +533,7 @@
       <div class="media-wrap">
         <div class="media-blob" aria-hidden="true"></div>
         <figure class="media-card">
-          <img src="<?= base_url('assets/images/hair-transplant-cost-india.png') ?>" alt="Hair Transplant Cost Evaluation at IHT">
+          <img loading="lazy" src="<?= base_url('assets/images/hair-transplant-cost-india.png') ?>" alt="Hair Transplant Cost Evaluation at IHT">
         </figure>
       </div>
 
@@ -569,7 +569,7 @@
         <p class="iht-cta-text">
           👉 Book a consultation with our experienced hair transplant surgeons to discuss your hair loss concerns and available treatment options.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>-->
     
@@ -582,7 +582,7 @@
         <p class="iht-cta-text">
           👉 Looking for the best hair transplant clinic in India? Call now to book a free consultation with our experienced team.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
 
@@ -674,9 +674,9 @@
 <section>
 
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> January 27, 2026</p>
       </div>
@@ -686,6 +686,83 @@
 
 
 </div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-cost",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know how many grafts I actually need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The required graft count is determined after a detailed clinical evaluation of the scalp and donor area, not through photos or online calculators. Factors such as hair loss pattern, donor density, scalp condition, and future hair loss progression are assessed before recommending graft numbers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cost of a 3000-graft hair transplant in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost of a 3000-graft hair transplant in India generally ranges between Rs. 1,80,000 and Rs. 2,80,000. The final cost depends on surgeon involvement, technique used, donor quality, and the area being treated."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cost of a 5000-graft hair transplant in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost of a 5000-graft hair transplant in India usually ranges between Rs. 3,00,000 and Rs. 4,50,000. Pricing depends on graft planning, technique selection, donor safety considerations, and whether the procedure is performed in one or multiple sittings."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can hair transplant cost change after consultation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In most cases, hair transplant cost does not change once the final graft requirement and treatment plan are confirmed. Any variation generally occurs only if there is a medically necessary change in the treatment plan, which is discussed and agreed upon in advance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is hair transplant treatment more affordable in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant treatment in India is more affordable due to lower infrastructure and operational costs, availability of trained medical professionals, and efficient healthcare delivery systems. These factors allow clinics to offer quality treatment without compromising established medical standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is hair transplant cost a one-time expense or a long-term investment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A hair transplant should be viewed as a long-term medical investment rather than a short-term cosmetic expense. Proper planning, responsible graft use, and long-term hair loss management help reduce the need for corrective procedures and additional costs in the future."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What questions should I ask a clinic before finalising hair transplant cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Before finalising cost, patients should ask who will perform each step of the procedure, how graft numbers are calculated, donor safety limits, technique selection, post-operative care protocols, and how future hair loss will be managed. Clear answers help ensure the quoted cost reflects medical quality rather than procedural volume."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>

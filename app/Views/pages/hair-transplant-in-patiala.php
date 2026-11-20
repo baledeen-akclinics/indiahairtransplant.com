@@ -79,32 +79,32 @@
         <div class="rc-track" id="rcTrack" aria-live="polite">
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT - patient 1 (Patiala)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT - patient 1 (Patiala)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT - patient 2 (Patiala)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT - patient 2 (Patiala)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT - patient 3 (Patiala)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT - patient 3 (Patiala)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT - patient 4 (Patiala)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT - patient 4 (Patiala)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT - patient 5 (Patiala)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT - patient 5 (Patiala)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT - patient 6 (Patiala)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT - patient 6 (Patiala)">
             </div>
           </figure>
         </div>
@@ -252,7 +252,7 @@
         <div class="rc-track" id="videosTrack" aria-live="polite">
           <figure class="rc-slide">
             <a class="yt-card" href="https://youtube.com/video/THKeJ2Z2YyE" data-yid="THKeJ2Z2YyE" aria-label="Play hair transplant myths video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Hair transplant myths and facts video by IHT surgeons">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Hair transplant myths and facts video by IHT surgeons">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -264,7 +264,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://youtube.com/video/Dhm6LF1fYLQ" data-yid="Dhm6LF1fYLQ" aria-label="Play hair transplant podcast video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Hair transplant podcast with Anmol Kawatra - IHT surgeons">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Hair transplant podcast with Anmol Kawatra - IHT surgeons">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -276,7 +276,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://youtube.com/video/-ZNV5WBHXrI/" data-yid="-ZNV5WBHXrI/" aria-label="Play video about drinking after hair transplant">
-              <img class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can you drink alcohol after a hair transplant? video by IHT surgeons">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can you drink alcohol after a hair transplant? video by IHT surgeons">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -288,7 +288,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://www.youtube.com/watch?v=oTBzoRLjaZ4" data-yid="oTBzoRLjaZ4" aria-label="Play beard hair transplant video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Beard hair transplant video by IHT surgeons">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Beard hair transplant video by IHT surgeons">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -310,7 +310,7 @@
       <p class="iht-cta-text">
         👉 Considering a hair transplant in Patiala? Book a detailed consultation with our experienced surgical team.
       </p>
-      <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+      <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
     </div>
   </section>
 
@@ -583,7 +583,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="How to choose the right hair transplant clinic in Patiala">
+          <img loading="lazy" src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="How to choose the right hair transplant clinic in Patiala">
         </div>
 
         <div class="cs-content">
@@ -719,7 +719,7 @@
       <p class="iht-cta-text">
         👉 Schedule a detailed hair transplant consultation for Patiala and get a personalised scalp and donor assessment.
       </p>
-      <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+      <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
     </div>
   </section>
 
@@ -820,7 +820,7 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden>
-            You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong>. Our team will guide you for appointment scheduling and the next steps for scalp and donor assessment.
+            You can book a consultation by calling or WhatsApping <strong>+91-86990-03797</strong>. Our team will guide you for appointment scheduling and the next steps for scalp and donor assessment.
           </div>
         </article>
 
@@ -830,9 +830,9 @@
 
   <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua icon">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua icon">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> February 19, 2026</p>
       </div>
@@ -840,6 +840,99 @@
   </section>
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-patiala",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is hair transplant a good option for people in Patiala with early hair thinning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can be, but only after a surgeon confirms whether the thinning is stable pattern hair loss or temporary shedding. Many early cases do well with medical treatment first. If recession or crown loss is progressing and donor hair is strong, a planned transplant may be recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the average hair transplant cost for Patiala patients?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Patiala patients, hair transplant cost commonly starts around Rs. 50,000 and may go up to Rs. 3,50,000+ depending on graft requirement, technique, and case complexity. The correct graft range and final estimate can only be confirmed after scalp and donor area evaluation by a qualified surgeon."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many grafts are usually needed for hairline or crown restoration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Graft requirement varies by hair loss stage and coverage goal. Hairline and temples may need 1200-2500 grafts in many cases, while crown restoration can require higher graft counts depending on the bald area and donor strength. A proper evaluation is needed for an accurate plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a hair transplant painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant is performed under local anaesthesia, so the procedure is comfortable for most patients. Mild soreness or tightness can occur after surgery for a few days and is usually manageable with prescribed medicines and proper aftercare."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I choose the right hair transplant clinic if I’m from Patiala?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Focus on surgeon involvement and medical planning. Check if the doctor personally assesses you, designs the hairline, calculates grafts, and stays involved in extraction and implantation. Also verify real results, hygiene standards, donor management, and transparent graft-based pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I avoid for the first 7 days after a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avoid scratching or rubbing the grafts, heavy workouts, swimming, smoking, alcohol, direct sun exposure, and tight helmets/caps. Follow your surgeon’s wash routine and aftercare instructions closely, as early healing affects graft survival."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are technicians allowed to perform hair transplant surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant is a medical procedure and the critical steps require medical training and clinical judgment. At IHT, key surgical steps are performed by qualified surgeons and are not delegated to unqualified staff."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I also get beard or eyebrow hair transplant if needed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Beard, moustache, and eyebrow transplants are available, but they are precision procedures and should be planned only after a proper evaluation of donor suitability, hair characteristics, and realistic density goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can Patiala patients book a consultation at IHT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 . Our team will guide you for appointment scheduling and the next steps for scalp and donor assessment."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 <!-- Footer File Include -->
 

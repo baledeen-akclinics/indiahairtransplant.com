@@ -94,7 +94,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/scarring-alopecia-symptoms.png') ?>" alt="Early signs and symptoms of scarring cicatricial alopecia">
+        <img loading="lazy" src="<?= base_url('assets/images/scarring-alopecia-symptoms.png') ?>" alt="Early signs and symptoms of scarring cicatricial alopecia">
       </div>
 
       <div class="cs-content">
@@ -172,7 +172,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/scarring-alopecia-consult.png') ?>" alt="When to consult a specialist for scarring alopecia">
+        <img loading="lazy" src="<?= base_url('assets/images/scarring-alopecia-consult.png') ?>" alt="When to consult a specialist for scarring alopecia">
       </div>
 
       <div class="cs-content">
@@ -414,9 +414,9 @@
 
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> March 21, 2026</p>
       </div>
@@ -424,5 +424,90 @@
   
 </section>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/cicatricial-alopecia",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "1. Is scarring alopecia permanent?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, scarring alopecia causes permanent hair loss because it destroys the hair follicles. However, early diagnosis can help slow progression and protect remaining hair."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "2. What are the early signs of scarring alopecia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Early signs may include patchy hair loss, redness, itching, burning sensations, or smooth, shiny patches on the scalp where hair has stopped growing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "3. Can scarring alopecia be treated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While hair cannot regrow in scarred areas, effective hair loss treatments can help control inflammation, slow progression, and preserve existing hair."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "4. Which is the best treatment for scarring alopecia in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best treatment depends on the stage and type of scarring alopecia. Dermatologist-guided therapies and advanced treatments are recommended after proper evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "5. How much does scarring alopecia treatment cost in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost depends on the severity of the condition, treatment plan, and number of sessions required. A personalised consultation helps determine the exact cost."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "6. I am noticing bald patches with itching or burning. Should I be concerned?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, symptoms like itching, burning, or redness along with hair loss may indicate an underlying scalp condition. Consulting a specialist early is recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "7. Can hair transplant restore hair in scarring alopecia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant may be considered in selected stable cases where the condition is inactive and the donor area is suitable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "8. Does India have experienced dermatologists for scarring alopecia treatment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, India has experienced dermatologists for hair loss treatment. Clinics like India Hair Transplant (IHT) provide expert evaluation and personalised care based on individual concerns."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 <?= $this->endSection() ?>

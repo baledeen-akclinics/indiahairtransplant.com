@@ -52,13 +52,13 @@
     </a>
 
     <div class="actions">
-      <a class="phone" href="tel:09779944207">
+      <a class="phone" href="tel:08699003797">
         <span class="ico" aria-hidden="true">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.7 19.7 0 0 1 11.19 19 19.5 19.5 0 0 1 5.17 13 19.8 19.8 0 0 1 2.08 4.18A2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.89.31 1.76.57 2.6a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.48-1.09a2 2 0 0 1 2.11-.45c.84.26 1.71.45 2.6.57A2 2 0 0 1 22 16.92z"/>
           </svg>
         </span>
-        09779944207
+        08699003797
       </a>
 
       <button class="hamburger" type="button" aria-label="Open menu" aria-controls="drawer" aria-expanded="false" onclick="openDrawer()">
@@ -94,6 +94,7 @@
         <div class="dd">
           <ul class="dd-list">
             <li><a href="<?= base_url('hair-transplant-cost') ?>">Hair Transplant Cost in India</a></li>
+            <li><a href="<?= base_url('hair-transplant-cost-calculator') ?>">Graft Calculator</a></li>
             <li><a href="<?= base_url('faqs') ?>">Hair Transplant FAQs</a></li>
             <li><a href="<?= base_url('hair-transplant-safety-and-recovery') ?>">Hair Transplant Safety &amp; Recovery</a></li>
           </ul>
@@ -251,7 +252,7 @@
   <aside class="sheet" role="dialog" aria-modal="true" aria-label="Mobile Menu">
     <div class="sheet-head">
       <div class="sheet-brand">
-        <img src="https://hair.akclinics.com/IHT2.png" alt="">
+        <img loading="lazy" src="https://hair.akclinics.com/IHT2.png" alt="">
       </div>
       <button class="btn-close" type="button" onclick="closeDrawer()" aria-label="Close Menu">X</button>
     </div>
@@ -287,7 +288,7 @@
       </div>
       <div class="msub">
         <a class="mitem" href="<?= base_url('hair-transplant-cost') ?>"><span class="label">Hair Transplant Cost in India</span></a>
-        <a class="mitem" href="#"><span class="label">Graft Calculator</span></a>
+        <a class="mitem" href="<?= base_url('hair-transplant-cost-calculator') ?>"><span class="label">Graft Calculator</span></a>
         <a class="mitem" href="#"><span class="label">EMI on Hair Transplant</span></a>
         <a class="mitem" href="<?= base_url('faqs') ?>"><span class="label">Hair Transplant FAQs</span></a>
         <a class="mitem" href="<?= base_url('hair-transplant-safety-and-recovery') ?>"><span class="label">Hair Transplant Safety &amp; Recovery</span></a>

@@ -10,7 +10,7 @@
     "url": "https://indiahairtransplant.com/hair-transplant-in-ludhiana",
     "logo": "https://indiahairtransplant.com/assets/images/iht-logo.png",
     "image": "https://indiahairtransplant.com/assets/images/right-hair-transplant-clinic.webp",
-    "telephone": "+919779944207",
+    "telephone": "+918699003797",
     "priceRange": "₹₹",
     "currenciesAccepted": "INR",
     "medicalSpecialty": "Hair Transplant Surgery",
@@ -47,7 +47,7 @@
     "@type": "MedicalBusiness",
     "name": "IHT Clinic Ludhiana (South City) | India Hair Transplant",
     "url": "https://indiahairtransplant.com/hair-transplant-in-ludhiana",
-    "telephone": "+919779944207",
+    "telephone": "+918699003797",
     "medicalSpecialty": "Hair Transplant Surgery",
     "address": {
       "@type": "PostalAddress",
@@ -167,7 +167,7 @@
         "name": "How do I book a consultation for a hair transplant in Ludhiana?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 to discuss your hair loss concern and available treatment options with our medical team at IHT Ludhiana."
+          "text": "You can book a consultation by calling or WhatsApping +91-86990-03797 to discuss your hair loss concern and available treatment options with our medical team at IHT Ludhiana."
         }
       },
       {
@@ -262,7 +262,7 @@
            fetchpriority="high" tells the browser to load this before other images.
            aria-hidden="true" hides it from screen readers (CSS bg remains the visual).
            Replace page-hero-bg.webp with the actual hero background image filename. -->
-      <img src="<?= base_url('assets/images/page-hero-bg.webp') ?>"
+      <img loading="lazy" src="<?= base_url('assets/images/page-hero-bg.webp') ?>"
            alt=""
            aria-hidden="true"
            fetchpriority="high"
@@ -578,7 +578,7 @@
           <p class="iht-cta-text">
             👉 Considering a hair transplant in Ludhiana? Book a detailed consultation with our experienced surgical team.
           </p>
-          <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+          <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
         </div>
       </section>
 
@@ -1016,7 +1016,7 @@
       <p class="iht-cta-text">
         👉 Schedule a detailed hair transplant consultation in Ludhiana and get a personalised scalp and donor assessment.
       </p>
-      <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+      <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
     </div>
   </section>
 
@@ -1162,7 +1162,7 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong> to discuss your hair loss concern and available treatment options with our medical team at IHT Ludhiana.
+            You can book a consultation by calling or WhatsApping <strong>+91-86990-03797</strong> to discuss your hair loss concern and available treatment options with our medical team at IHT Ludhiana.
           </div>
         </article>
 
@@ -1174,9 +1174,9 @@
   <!-- ============ REVIEWED-BY AUTHOR (E-E-A-T) ============ -->
   <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua | Hair Transplant Surgeon, IHT Ludhiana">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua | Hair Transplant Surgeon, IHT Ludhiana">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS | Chairman &amp; Chief Hair Transplant Surgeon | ISHRS Member | 20+ Years Experience</p>
         <p class="fa-row"><strong>Updated on:</strong> April 11, 2026</p>
       </div>

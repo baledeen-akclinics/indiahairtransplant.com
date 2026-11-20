@@ -91,7 +91,7 @@
       <div class="media-wrap">
         <div class="media-blob" aria-hidden="true"></div>
         <figure class="media-card">
-          <img src="<?= base_url('assets/images/ideal-candidate.png') ?>" alt="Ideal Candidate for hair transplant">
+          <img loading="lazy" src="<?= base_url('assets/images/ideal-candidate.png') ?>" alt="Ideal Candidate for hair transplant">
         </figure>
       </div>
         <div>
@@ -131,7 +131,7 @@
         <p class="iht-cta-text">
           👉 Book a consultation with our experienced hair transplant surgeons to discuss your hair loss concerns and available treatment options.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>-->
 <?= $this->include('partials/hair-transplant-cost') ?>
@@ -151,7 +151,7 @@
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/bio-fue-hair-transplant.jpg') ?>" alt="Bio-FUE Hair Transplant">
+          <img loading="lazy" src="<?= base_url('assets/images/bio-fue-hair-transplant.jpg') ?>" alt="Bio-FUE Hair Transplant">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Bio-FUE Hair Transplant</span>
           </figcaption>
@@ -165,7 +165,7 @@
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/fue-hair-transplant.png') ?>" alt="FUE Hair Transplant">
+          <img loading="lazy" src="<?= base_url('assets/images/fue-hair-transplant.png') ?>" alt="FUE Hair Transplant">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">FUE Hair Transplant</span>
           </figcaption>
@@ -179,7 +179,7 @@
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/fut-hair-transplant.png') ?>" alt="FUT Hair Transplant">
+          <img loading="lazy" src="<?= base_url('assets/images/fut-hair-transplant.png') ?>" alt="FUT Hair Transplant">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">FUT Hair Transplant</span>
           </figcaption>
@@ -193,7 +193,7 @@
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/long-hair-transplant.png') ?>" alt="Unshaven FUE Hair Transplant">
+          <img loading="lazy" src="<?= base_url('assets/images/long-hair-transplant.png') ?>" alt="Unshaven FUE Hair Transplant">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Unshaven (Long Hair) FUE</span>
           </figcaption>
@@ -209,7 +209,7 @@
 
     <div class="htw-cta-box">
       <p class="htw-cta-text">Explore If Hair Transplant Is Right for You</p>
-      <a class="htw-cta-btn" href="tel:09779944207">Call 09779944207</a>
+      <a class="htw-cta-btn" href="tel:08699003797">Call 08699003797</a>
     </div>
   </div>
 </section>
@@ -228,7 +228,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/gaurav-wasan-hair-transplant.webp') ?>" alt="Celebrity hair transplant result at AK Clinics">
+        <img loading="lazy" src="<?= base_url('assets/images/gaurav-wasan-hair-transplant.webp') ?>" alt="Celebrity hair transplant result at AK Clinics">
       </div>
 
       <div class="cs-content">
@@ -253,7 +253,7 @@ Every case begins with a detailed assessment of hair loss severity, donor area s
            <p class="cs-text">At IHT, successful hair restoration is built on medical planning, surgical discipline, and consistent long-term follow-up, ensuring patient safety and predictable outcomes.</p>
 
 
-        <a href="tel:09779944207" class="btn-cta">Call 09779944207</a>
+        <a href="tel:08699003797" class="btn-cta">Call 08699003797</a>
       </div>
 
     </div>
@@ -281,7 +281,7 @@ Every case begins with a detailed assessment of hair loss severity, donor area s
       <div class="rc-track docs-track" id="docsTrack" aria-live="polite">
         <figure class="doc-slide">
           <div class="doc-card">
-            <img src="<?= base_url('assets/images/dr-kapil-dua.webp') ?>" alt="Dr. Kapil Dua">
+            <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua.webp') ?>" alt="Dr. Kapil Dua">
             <figcaption class="doc-meta">
               <span class="doc-name" data-qual="MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon, Member: Past President - ISHRS (USA), AAHRS (Asia), AHRS (India)">
                 Dr. Kapil Dua
@@ -292,7 +292,7 @@ Every case begins with a detailed assessment of hair loss severity, donor area s
 
         <figure class="doc-slide">
           <div class="doc-card">
-            <img src="<?= base_url('assets/images/dr-aman-dua.webp') ?>" alt="Dr. Aman Dua">
+            <img loading="lazy" src="<?= base_url('assets/images/dr-aman-dua.webp') ?>" alt="Dr. Aman Dua">
             <figcaption class="doc-meta">
               <span class="doc-name" data-qual="MBBS, MD, Chief Dermatologist, FISHRS, Board Of Governor (AHRS India)">
                 Dr. Aman Dua
@@ -305,7 +305,7 @@ Every case begins with a detailed assessment of hair loss severity, donor area s
 
         <figure class="doc-slide">
           <div class="doc-card">
-            <img src="<?= base_url('assets/images/dr-sohail.webp') ?>" alt="Dr. Suhail Ahmed">
+            <img loading="lazy" src="<?= base_url('assets/images/dr-sohail.webp') ?>" alt="Dr. Suhail Ahmed">
             <figcaption class="doc-meta">
               <span class="doc-name" data-qual="MBBS, MD Dermatalogy, Consultant Dermatologist &amp; Hair Transplant Surgeon">
                 Dr. Suhail Ahmed
@@ -463,7 +463,7 @@ Every case begins with a detailed assessment of hair loss severity, donor area s
         <p class="iht-cta-text">
           👉 Looking for the best hair transplant clinic in India? Call now to book a free consultation with our experienced team.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
 <section class="internal-grey">
@@ -547,7 +547,7 @@ Every case begins with a detailed assessment of hair loss severity, donor area s
           <i class="faq-ico" aria-hidden="true"></i>
         </button>
         <div class="faq-a" hidden="">
-          Common side effects include mild swelling, redness, scabbing, numbness, or mild discomfort in the treated areas. Temporary shedding (shock loss) may happen in the first few weeks. Most effects settle within 5–7 days, and serious complications are uncommon when surgery is performed under proper medical standards.
+          Common side effects include mild swelling, redness, scabbing, numbness, or mild discomfort in the treated areas. Temporary shedding (shock loss) may happen in the first few weeks. Most effects settle within 5–7 days, and serious complications are uncommon when surgery is performed under proper medical standards. See our detailed guide on <a href="<?= base_url('hair-transplant-side-effects') ?>">hair transplant side effects</a> for a full breakdown of what to expect during recovery.
         </div>
       </article>
 
@@ -588,9 +588,9 @@ Every case begins with a detailed assessment of hair loss severity, donor area s
 <section>
 
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
          <p class="fa-row"><strong>Updated on:</strong> July 25, 2026</p>
       </div>
@@ -624,7 +624,7 @@ Every case begins with a detailed assessment of hair loss severity, donor area s
       "name": "IHT India Hair Transplant",
       "url": "https://indiahairtransplant.com/",
       "logo": "https://indiahairtransplant.com/assets/images/main_logo.png",
-      "telephone": "+91-9779944207"
+      "telephone": "+91-8699003797"
     },
 
     {

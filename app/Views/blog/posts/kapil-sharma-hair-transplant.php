@@ -204,7 +204,7 @@
                 He went on to create and host some of India's most successful comedy programmes, including <em>Comedy Nights with Kapil</em> and <em>The Kapil Sharma Show</em>. Alongside television, he has appeared in films including <em>Kis Kisko Pyaar Karoon</em> and <em>Firangi</em>. Through two decades in the public eye, one change that viewers have noticed consistently is the visible change in his hairline.
               </p>
               <!-- DUMMY IMAGE — replace with Kapil Sharma public appearance photo before going live -->
-              <img
+              <img loading="lazy"
                 src="<?= base_url('assets/images/blog/kapil-sharma-about.webp') ?>"
                 alt="Kapil Sharma comedian and television host India"
                 style="display:block;width:100%;max-height:500px;object-fit:cover;object-position:center top;border-radius:14px;margin:20px 0;"
@@ -361,7 +361,7 @@
                 What works for one person's hair type, donor density, hair loss stage, and lifestyle may not be appropriate for another. Celebrity transformations should prompt curiosity and consultation &mdash; not direct imitation.
               </p>
               <!-- DUMMY IMAGE — replace with IHT consultation or hair restoration result image before going live -->
-              <img
+              <img loading="lazy"
                 src="<?= base_url('assets/images/blog/kapil-sharma-lesson.webp') ?>"
                 alt="Hair restoration consultation at IHT India clinic"
                 style="display:block;width:100%;max-height:500px;object-fit:cover;object-position:center top;border-radius:14px;margin:20px 0;"

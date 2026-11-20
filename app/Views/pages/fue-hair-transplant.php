@@ -104,7 +104,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/fue-hair-transplant-candidate.png') ?>" alt="Ideal candidate for FUE hair transplant">
+        <img loading="lazy" src="<?= base_url('assets/images/fue-hair-transplant-candidate.png') ?>" alt="Ideal candidate for FUE hair transplant">
       </div>
 
       <div class="cs-content">
@@ -283,7 +283,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/fue-hair-transplant-benefits.png') ?>" alt="Benefits of FUE hair transplant">
+        <img loading="lazy" src="<?= base_url('assets/images/fue-hair-transplant-benefits.png') ?>" alt="Benefits of FUE hair transplant">
       </div>
 
       <div class="cs-content">
@@ -675,6 +675,10 @@
         </ul>
 
         <p class="cs-text">
+          For a complete breakdown of each of these, how long they typically last, and when to contact the clinic, see our dedicated guide on <a href="<?= base_url('hair-transplant-side-effects') ?>">hair transplant side effects</a>.
+        </p>
+
+        <p class="cs-text">
           In some cases, hair transplant outcomes may vary, and poor hair transplant results can occur if expectations or execution are not well aligned, resulting in:
         </p>
 
@@ -822,7 +826,7 @@
         <p class="iht-cta-text">
           👉 Book a consultation with our experts to understand whether a hair transplant is the right option for your hair loss.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
     
@@ -939,9 +943,9 @@
 
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> January 30, 2026</p>
       </div>

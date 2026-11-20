@@ -79,12 +79,12 @@
         <button class="rc-arrow rc-prev" type="button">‹</button>
 
         <div class="rc-track">
-          <figure class="rc-slide"><div class="rc-card"><img src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT - patient 1"></div></figure>
-          <figure class="rc-slide"><div class="rc-card"><img src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT - patient 2"></div></figure>
-          <figure class="rc-slide"><div class="rc-card"><img src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT - patient 3"></div></figure>
-          <figure class="rc-slide"><div class="rc-card"><img src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT - patient 4"></div></figure>
-          <figure class="rc-slide"><div class="rc-card"><img src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT - patient 5"></div></figure>
-          <figure class="rc-slide"><div class="rc-card"><img src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT - patient 6"></div></figure>
+          <figure class="rc-slide"><div class="rc-card"><img loading="lazy" src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT - patient 1"></div></figure>
+          <figure class="rc-slide"><div class="rc-card"><img loading="lazy" src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT - patient 2"></div></figure>
+          <figure class="rc-slide"><div class="rc-card"><img loading="lazy" src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT - patient 3"></div></figure>
+          <figure class="rc-slide"><div class="rc-card"><img loading="lazy" src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT - patient 4"></div></figure>
+          <figure class="rc-slide"><div class="rc-card"><img loading="lazy" src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT - patient 5"></div></figure>
+          <figure class="rc-slide"><div class="rc-card"><img loading="lazy" src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT - patient 6"></div></figure>
         </div>
 
         <button class="rc-arrow rc-next" type="button">›</button>
@@ -144,6 +144,9 @@
   </section>
 
 
+  <?= $this->include('partials/location') ?>
+
+
   <!-- ============ FAQ SECTION ============ -->
   <section class="results-section faq-sec faq--light">
     <div class="container">
@@ -177,7 +180,7 @@
 
         <article class="faq-item">
           <button class="faq-q"><span>How can I book consultation?</span></button>
-          <div class="faq-a">You can call or WhatsApp +91-97799-44207 to schedule a detailed consultation.</div>
+          <div class="faq-a">You can call or WhatsApp +91-86990-03797 to schedule a detailed consultation.</div>
         </article>
 
       </div>
@@ -185,5 +188,66 @@
   </section>
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-noida",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the cost of hair transplant in Noida?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant cost in Noida generally ranges from Rs. 55,000 to Rs. 4,20,000 depending on graft requirement and case complexity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Noida water quality responsible for hair fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In some individuals, hard water, pollution exposure, and work-related stress may worsen dryness or breakage. A medical evaluation helps determine if thinning is temporary or pattern hair loss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "New hair growth usually starts around 3 to 4 months after surgery, with full visible results appearing between 10 to 12 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who performs the hair transplant surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At IHT, critical surgical steps such as graft extraction, hairline design, and implantation are performed by qualified surgeons."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I book consultation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can call or WhatsApp +91-97799-44207 to schedule a detailed consultation."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 <?= $this->endSection() ?>

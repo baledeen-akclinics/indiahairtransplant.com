@@ -18,7 +18,7 @@
         <p style="margin:0 0 14px;font-size:14px;color:#374151;line-height:1.6;">Thank you for contacting India Hair Transplant. We have received your request and will call you within <strong>24 hours</strong>.</p>
         <table cellpadding="0" cellspacing="0">
           <tr>
-            <td style="padding-right:8px;"><a href="tel:+919779944207" style="display:inline-block;background:#0f1831;color:#fff;font-size:13px;font-weight:700;padding:9px 14px;border-radius:7px;text-decoration:none;">+91 97799 44207</a></td>
+            <td style="padding-right:8px;"><a href="tel:+918699003797" style="display:inline-block;background:#0f1831;color:#fff;font-size:13px;font-weight:700;padding:9px 14px;border-radius:7px;text-decoration:none;">+91 86990 03797</a></td>
             <td><a href="https://wa.akclinics.com/AKC3355" style="display:inline-block;background:#25d366;color:#fff;font-size:13px;font-weight:700;padding:9px 14px;border-radius:7px;text-decoration:none;">WhatsApp</a></td>
           </tr>
         </table>

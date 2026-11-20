@@ -148,7 +148,7 @@
           </span>
           <div>
             <div class="ci-label">Phone</div>
-            <div class="ci-val"><a href="tel:+919779944207">+91 97799 44207</a></div>
+            <div class="ci-val"><a href="tel:+918699003797">+91 86990 03797</a></div>
           </div>
         </div>
 

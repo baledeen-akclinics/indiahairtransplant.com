@@ -81,32 +81,32 @@
         <div class="rc-track" id="rcTrack" aria-live="polite">
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT patient 1">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT patient 1">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT patient 2">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT patient 2">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT patient 3">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT patient 3">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT patient 4">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT patient 4">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT patient 5">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT patient 5">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT patient 6">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT patient 6">
             </div>
           </figure>
         </div>
@@ -267,7 +267,7 @@
         <div class="rc-track" id="videosTrack" aria-live="polite">
           <figure class="rc-slide">
             <a class="yt-card" href="https://www.youtube.com/watch?v=THKeJ2Z2YyE" data-yid="THKeJ2Z2YyE" aria-label="Play hair transplant myths video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Hair transplant myths and facts video by IHT team">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Hair transplant myths and facts video by IHT team">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -279,7 +279,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://www.youtube.com/watch?v=Dhm6LF1fYLQ" data-yid="Dhm6LF1fYLQ" aria-label="Play hair transplant podcast video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Hair transplant podcast video by IHT team">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Hair transplant podcast video by IHT team">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -291,7 +291,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://www.youtube.com/watch?v=-ZNV5WBHXrI" data-yid="-ZNV5WBHXrI" aria-label="Play video about drinking after hair transplant">
-              <img class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can you drink alcohol after a hair transplant video by IHT team">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can you drink alcohol after a hair transplant video by IHT team">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -303,7 +303,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://www.youtube.com/watch?v=oTBzoRLjaZ4" data-yid="oTBzoRLjaZ4" aria-label="Play beard hair transplant video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Beard hair transplant video by IHT team">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Beard hair transplant video by IHT team">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -322,7 +322,7 @@
           <p class="iht-cta-text">
             👉 From Kota, you can book an appointment for in-person scalp assessment and planning at our Delhi centre.
           </p>
-          <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
+          <a href="tel:+918699003797" class="iht-cta-btn">Call +91-86990-03797</a>
         </div>
       </section>
 
@@ -606,7 +606,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="How to choose the right hair transplant clinic in Kota or nearby cities">
+          <img loading="lazy" src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="How to choose the right hair transplant clinic in Kota or nearby cities">
         </div>
 
         <div class="cs-content">
@@ -753,7 +753,7 @@
       <p class="iht-cta-text">
         👉 From Kota, you can book an appointment for in-person scalp assessment, graft estimation, and technique guidance at our Delhi clinic.
       </p>
-      <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
+      <a href="tel:+918699003797" class="iht-cta-btn">Call +91-86990-03797</a>
     </div>
   </section>
 
@@ -837,7 +837,7 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong>. Our team will guide you regarding appointment scheduling and the evaluation process.
+            You can book a consultation by calling or WhatsApping <strong>+91-86990-03797</strong>. Our team will guide you regarding appointment scheduling and the evaluation process.
           </div>
         </article>
 
@@ -847,9 +847,9 @@
 
   <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua icon">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua icon">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> February 18, 2026</p>
       </div>
@@ -857,6 +857,83 @@
   </section>
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-kota",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a hair transplant a good option for early hair thinning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not always. In early thinning, the first step is diagnosis and medical management if needed. A transplant is usually considered when pattern hair loss is established and donor hair can safely support coverage. A consultation helps decide the right timing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do some people from Kota visit Jaipur or Delhi for hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some patients prefer centres where structured donor mapping, higher surgical infrastructure, and dedicated hair transplant teams are available—especially for higher grades, revision cases, or when donor management is critical."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is graft requirement estimated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Grafts are estimated after assessing the size of the thinning area, existing native hair, density goals, and donor capacity. A safe plan avoids overharvesting and focuses on realistic density, especially for crown areas that may need more grafts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the expected hair transplant cost for patients from Kota?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cost commonly depends on graft requirement, stage of hair loss, technique used, and whether single or staged sessions are needed. A broad range many patients see is Rs. 45,000 to Rs. 4,50,000, but accurate estimation requires scalp and donor evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see visible results after surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "After surgery, transplanted hair commonly sheds in the early weeks. New growth usually begins around 3 to 4 months. Noticeable improvement builds gradually, and final density is commonly evaluated around 10 to 12 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I avoid in the first week after a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avoid touching or scratching grafts, heavy exercise, swimming, tight helmets/caps, smoking, alcohol, and direct sun exposure. Follow your discharge instructions for washing and medication to support safe healing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I book a consultation if I am coming from Kota?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 . Our team will guide you regarding appointment scheduling and the evaluation process."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 <!-- Footer File Include -->
 

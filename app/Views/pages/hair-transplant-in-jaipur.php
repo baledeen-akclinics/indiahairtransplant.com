@@ -81,32 +81,32 @@
         <div class="rc-track" id="rcTrack" aria-live="polite">
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT patient 1">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT patient 1">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT patient 2">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT patient 2">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT patient 3">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT patient 3">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT patient 4">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT patient 4">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT patient 5">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT patient 5">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT patient 6">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT patient 6">
             </div>
           </figure>
         </div>
@@ -260,7 +260,7 @@
         <div class="rc-track" id="videosTrack" aria-live="polite">
           <figure class="rc-slide">
             <a class="yt-card" href="https://www.youtube.com/watch?v=THKeJ2Z2YyE" data-yid="THKeJ2Z2YyE" aria-label="Play hair transplant myths video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Hair transplant myths and facts video by IHT team">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Hair transplant myths and facts video by IHT team">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -272,7 +272,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://www.youtube.com/watch?v=Dhm6LF1fYLQ" data-yid="Dhm6LF1fYLQ" aria-label="Play hair transplant podcast video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Hair transplant podcast video by IHT team">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Hair transplant podcast video by IHT team">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -284,7 +284,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://www.youtube.com/watch?v=-ZNV5WBHXrI" data-yid="-ZNV5WBHXrI" aria-label="Play video about drinking after hair transplant">
-              <img class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can you drink alcohol after a hair transplant video by IHT team">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can you drink alcohol after a hair transplant video by IHT team">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -296,7 +296,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://www.youtube.com/watch?v=oTBzoRLjaZ4" data-yid="oTBzoRLjaZ4" aria-label="Play beard hair transplant video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Beard hair transplant video by IHT team">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Beard hair transplant video by IHT team">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -315,7 +315,7 @@
           <p class="iht-cta-text">
             👉 Book an appointment for in-person scalp assessment and planning. Call our team for scheduling guidance.
           </p>
-          <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
+          <a href="tel:+918699003797" class="iht-cta-btn">Call +91-86990-03797</a>
         </div>
       </section>
 
@@ -596,7 +596,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="How to choose the right hair transplant clinic in Jaipur">
+          <img loading="lazy" src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="How to choose the right hair transplant clinic in Jaipur">
         </div>
 
         <div class="cs-content">
@@ -738,7 +738,7 @@
       <p class="iht-cta-text">
         👉 To book your consultation, call or WhatsApp our team for appointment scheduling.
       </p>
-      <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
+      <a href="tel:+918699003797" class="iht-cta-btn">Call +91-86990-03797</a>
     </div>
   </section>
 
@@ -812,7 +812,7 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong>. Our team will guide you regarding appointment scheduling and evaluation steps.
+            You can book a consultation by calling or WhatsApping <strong>+91-86990-03797</strong>. Our team will guide you regarding appointment scheduling and evaluation steps.
           </div>
         </article>
 
@@ -822,9 +822,9 @@
 
   <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua icon">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua icon">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> February 18, 2026</p>
       </div>
@@ -832,6 +832,75 @@
   </section>
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-jaipur",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know if I need a hair transplant or medical treatment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A consultation helps confirm the diagnosis. Some hair fall causes (like inflammation, deficiency, or stress-related shedding) may improve with medical treatment, while stable pattern baldness with adequate donor hair may be suitable for transplant."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is FUE suitable for most patients in Jaipur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FUE is commonly used, but suitability depends on donor density, hair calibre, scalp condition, and the area to be covered. Technique choice should be based on evaluation, not on what is “most advertised”."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the typical cost range for a hair transplant in Jaipur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many patients see broad ranges between Rs. 55,000 to Rs. 4,50,000+ depending on graft requirement, baldness stage, technique used, and case complexity. An exact estimate needs scalp and donor assessment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will I see visible results after surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair growth is gradual. New growth commonly starts around 3 to 4 months, improves steadily, and final density is typically assessed around 10 to 12 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a hair transplant fail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Poor planning, improper graft handling, weak donor assessment, and non-compliance with after-care can affect outcomes. Choosing a clinic that follows medical planning and explains limitations reduces risk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I book a consultation in Jaipur?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 . Our team will guide you regarding appointment scheduling and evaluation steps."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 <!-- Footer File Include -->
 

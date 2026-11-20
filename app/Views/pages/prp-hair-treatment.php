@@ -181,7 +181,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/prp-benefits.png') ?>" alt="PRP hair treatment results">
+        <img loading="lazy" src="<?= base_url('assets/images/prp-benefits.png') ?>" alt="PRP hair treatment results">
       </div>
 
       <div class="cs-content">
@@ -395,7 +395,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/is-prp-safe.png') ?>" alt="PRP hair treatment safety and results">
+        <img loading="lazy" src="<?= base_url('assets/images/is-prp-safe.png') ?>" alt="PRP hair treatment safety and results">
       </div>
 
       <div class="cs-content">
@@ -477,7 +477,7 @@
         <p class="iht-cta-text">
           👉 Book a consultation with our experts to understand whether a hair transplant is the right option for your hair loss.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
     
@@ -572,9 +572,9 @@
 
 
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> January 27, 2026</p>
       </div>
@@ -583,6 +583,83 @@
 </section>
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/prp-hair-treatment",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is PRP hair treatment painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PRP hair treatment is generally associated with minimal discomfort. Local anaesthesia is applied before the procedure to reduce sensitivity, and most patients experience only mild pressure or a brief pricking sensation during injections, which settles quickly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many PRP sessions are usually required?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients are advised a course of 3 PRP sessions, where each session is taken with a gap of 1 month. The exact number of sessions depends on the stage of hair loss, scalp condition, and individual response to treatment. Maintenance sessions may be advised after medical evaluation, if required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much blood is taken during PRP hair treatment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A small amount of blood is drawn, usually around 40–60 cc, similar to a routine blood test. This quantity is sufficient to prepare platelet-rich plasma for scalp application."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is PRP therapy the best treatment for hair loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PRP is not the only treatment for hair loss. It is most effective as a supportive therapy for early hair thinning or diffuse hair loss where hair follicles are still active. Depending on the stage and cause of hair loss, doctors may also recommend medications, topical treatments, or hair transplant surgery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "PRP vs GFC: Which treatment is better for hair thinning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both PRP and GFC are advanced supportive treatments. PRP uses platelets derived from the patient’s own blood, while GFC involves processed growth factors. The choice depends on scalp condition, stage of hair loss, and the doctor’s clinical recommendation after evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I find a hair specialist doctor near me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is best to consult a qualified dermatologist or a certified hair restoration doctor who performs a proper scalp examination, identifies the cause of hair loss, and recommends evidence-based treatments such as PRP or hair transplant based on diagnosis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can PRP be combined with a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. PRP is commonly used after hair transplant surgery to support scalp health and existing hair. However, PRP does not replace hair transplant surgery in areas of permanent baldness."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 <!-- Footer File Include -->
 

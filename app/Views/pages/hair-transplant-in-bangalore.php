@@ -71,32 +71,32 @@
       <div class="rc-track" id="rcTrack" aria-live="polite">
         <figure class="rc-slide">
           <div class="rc-card">
-            <img src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Patient result 1 – front view">
+            <img loading="lazy" src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Patient result 1 – front view">
           </div>
         </figure>
         <figure class="rc-slide">
           <div class="rc-card">
-            <img src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Patient result 2 – front view">
+            <img loading="lazy" src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Patient result 2 – front view">
           </div>
         </figure>
         <figure class="rc-slide">
           <div class="rc-card">
-            <img src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Patient result 3 – front view">
+            <img loading="lazy" src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Patient result 3 – front view">
           </div>
         </figure>
         <figure class="rc-slide">
           <div class="rc-card">
-            <img src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Patient result 4 – front view">
+            <img loading="lazy" src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Patient result 4 – front view">
           </div>
         </figure>
         <figure class="rc-slide">
           <div class="rc-card">
-            <img src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Patient result 5 – front view">
+            <img loading="lazy" src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Patient result 5 – front view">
           </div>
         </figure>
         <figure class="rc-slide">
           <div class="rc-card">
-            <img src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Patient result 6 – front view">
+            <img loading="lazy" src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Patient result 6 – front view">
           </div>
         </figure>
       </div>
@@ -249,7 +249,7 @@
       <div class="rc-track" id="videosTrack" aria-live="polite">
         <figure class="rc-slide">
           <a class="yt-card" href="https://youtube.com/video/THKeJ2Z2YyE" data-yid="THKeJ2Z2YyE" aria-label="Play video">
-            <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Patient testimonial video">
+            <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Patient testimonial video">
             <span class="yt-play" aria-hidden="true">
               <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                 <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -261,7 +261,7 @@
 
         <figure class="rc-slide">
           <a class="yt-card" href="https://youtube.com/video/Dhm6LF1fYLQ" data-yid="Dhm6LF1fYLQ" aria-label="Play video">
-            <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Surgeon explains hairline design">
+            <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Surgeon explains hairline design">
             <span class="yt-play" aria-hidden="true">
               <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                 <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -273,7 +273,7 @@
 
         <figure class="rc-slide">
           <a class="yt-card" href="https://youtube.com/video/-ZNV5WBHXrI/" data-yid="-ZNV5WBHXrI/" aria-label="Play video">
-            <img class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can You Drink After a Hair Transplant?">
+            <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can You Drink After a Hair Transplant?">
             <span class="yt-play" aria-hidden="true">
               <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                 <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -285,7 +285,7 @@
 
         <figure class="rc-slide">
           <a class="yt-card" href="https://www.youtube.com/watch?v=oTBzoRLjaZ4" data-yid="oTBzoRLjaZ4" aria-label="Play video">
-            <img class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Bio-FUE procedure walkthrough">
+            <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Bio-FUE procedure walkthrough">
             <span class="yt-play" aria-hidden="true">
               <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                 <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -304,7 +304,7 @@
         <p class="iht-cta-text">
           👉 Considering a hair transplant in Bangalore? Book a detailed consultation with our experienced surgical team.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
 
@@ -449,7 +449,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/bio-fue-technique.webp') ?>" alt="Bio-FUE hair transplant technique in Bangalore">
+        <img loading="lazy" src="<?= base_url('assets/images/bio-fue-technique.webp') ?>" alt="Bio-FUE hair transplant technique in Bangalore">
       </div>
 
       <div class="cs-content">
@@ -501,7 +501,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/dr-kapil-dua.webp') ?>" alt="Dr. Kapil Dua – Co-Founder &amp; Hair Transplant Surgeon at IHT Clinics">
+        <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua.webp') ?>" alt="Dr. Kapil Dua – Co-Founder &amp; Hair Transplant Surgeon at IHT Clinics">
       </div>
 
       <div class="cs-content">
@@ -518,7 +518,7 @@
                 <p class="cs-text">Through years of clinical research and surgical refinement, Dr Dua developed Bio-FUE, a technique designed to improve graft survival, enhance density planning, and reduce follicle stress while respecting the donor area for future hair loss.</p>
 
         <p class="cs-text"><i>“Hair transplant is a life-changing procedure, but only when it is performed by a qualified hair transplant surgeon with hands-on experience in managing hair loss. It requires a deep understanding of graft preservation and respecting the donor area for future hair loss. As medical science evolves, our responsibility as surgeons is not just to perform surgery, but to guide patients honestly on what is medically right for them.”</i> - Dr Kapil Dua</p>
-        <a href="tel:09779944207" class="btn-cta">Book a Consultation with Dr Kapil Dua</a>
+        <a href="tel:08699003797" class="btn-cta">Book a Consultation with Dr Kapil Dua</a>
 
       </div>
 
@@ -545,7 +545,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="Choosing the right hair transplant clinic in Bangalore">
+        <img loading="lazy" src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="Choosing the right hair transplant clinic in Bangalore">
       </div>
 
       <div class="cs-content">
@@ -691,7 +691,7 @@
         <p class="iht-cta-text">
           👉 Schedule a detailed hair transplant consultation in Bangalore and get a personalised scalp and donor assessment.
         </p>
-        <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
       </div>
     </section>
     
@@ -794,7 +794,7 @@
           <i class="faq-ico" aria-hidden="true"></i>
         </button>
         <div class="faq-a" hidden="">
-          You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong> to discuss your hair loss concerns and available treatment options with a qualified medical team.
+          You can book a consultation by calling or WhatsApping <strong>+91-86990-03797</strong> to discuss your hair loss concerns and available treatment options with a qualified medical team.
         </div>
       </article>
 
@@ -905,7 +905,7 @@
           <i class="faq-ico" aria-hidden="true"></i>
         </button>
         <div class="faq-a" hidden="">
-          You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong> to discuss your hair loss concerns and available treatment options with a qualified medical team.
+          You can book a consultation by calling or WhatsApping <strong>+91-86990-03797</strong> to discuss your hair loss concerns and available treatment options with a qualified medical team.
         </div>
       </article>
 
@@ -915,9 +915,9 @@
 
 <section>
   <aside class="faq-author faq-author--ak">
-    <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+    <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
     <div class="fa-meta">
-      <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+      <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
       <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
       <p class="fa-row"><strong>Updated on:</strong> February 13, 2026</p>
     </div>
@@ -926,6 +926,147 @@
 
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-bangalore",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a hair transplant painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant is performed under local anaesthesia, which makes the procedure comfortable for most patients. Mild discomfort, tightness, or soreness may be felt after surgery and usually resolves within a few days with proper care."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a hair transplant cost in Bangalore?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant cost in Bangalore generally ranges from Rs. 80,000 to Rs. 4,50,000, depending on factors such as the technique used, the number of grafts required, the surgeon's involvement, and the extent of hair loss. A medical consultation is required to provide an accurate cost estimate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is the best hair transplant surgeon in Bangalore?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hair transplant surgeon is one who focuses on medical expertise, hands-on involvement, and ethical treatment planning , rather than promotional claims. When choosing a surgeon, patients should look for: Recognised medical qualifications and certifications Hands-on surgical experience Direct involvement in critical steps of the procedure Understanding of hair loss patterns and long-term planning Clearly documented patient results"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I avoid for 7 days after a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For the first 7 days after a hair transplant, proper care is important for graft survival and healing. Patients should avoid: Touching, scratching, or rubbing the transplanted area Heavy exercise, gym workouts, or swimming Wearing tight caps, helmets, or hats Smoking and alcohol consumption Direct sun exposure or excessive heat Always follow the post-operative instructions provided by your surgeon, as care guidelines may vary based on the procedure and healing response."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are technicians allowed to perform hair transplant surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As per medical guidelines followed by international organisations such as the International Society of Hair Restoration Surgery, hair transplant surgery should be performed by licensed and qualified medical surgeons. Critical surgical steps require medical training and judgment and should not be delegated to unqualified personnel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a beard or eyebrow hair transplant available in Bangalore?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, specialised procedures such as beard, moustache, and eyebrow hair transplant are available in Bangalore. These procedures require high surgical precision and are recommended only after proper medical evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I book a consultation for a hair transplant in Bangalore?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 to discuss your hair loss concerns and available treatment options with a qualified medical team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a hair transplant painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant is performed under local anaesthesia, which makes the procedure comfortable for most patients. Mild discomfort, tightness, or soreness may be felt after surgery and usually resolves within a few days with proper care."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does a hair transplant cost in Bangalore?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant cost in Bangalore generally ranges from Rs. 80,000 to Rs. 4,50,000, depending on factors such as the technique used, the number of grafts required, the surgeon's involvement, and the extent of hair loss. A medical consultation is required to provide an accurate cost estimate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Bangalore’s weather or water quality increase hair fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In some people, factors like hard water, pollution exposure, and lifestyle stress can worsen scalp dryness, buildup, or breakage, which may increase visible hair fall. If hair fall is persistent or progressive, a doctor evaluation helps identify whether it is temporary shedding or pattern hair loss and plan the right treatment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is the best hair transplant surgeon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hair transplant surgeon is one who focuses on medical expertise, hands-on involvement, and ethical treatment planning , rather than promotional claims. When choosing a surgeon, patients should look for: Recognised medical qualifications and certifications Hands-on surgical experience Direct involvement in critical steps of the procedure Understanding of hair loss patterns and long-term planning Clearly documented patient results"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I avoid for 7 days after a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For the first 7 days after a hair transplant, proper care is important for graft survival and healing. Patients should avoid: Touching, scratching, or rubbing the transplanted area Heavy exercise, gym workouts, or swimming Wearing tight caps, helmets, or hats Smoking and alcohol consumption Direct sun exposure or excessive heat Always follow the post-operative instructions provided by your surgeon, as care guidelines may vary based on the procedure and healing response."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are technicians allowed to perform hair transplant surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As per medical guidelines followed by international organisations such as the International Society of Hair Restoration Surgery, hair transplant surgery should be performed by licensed and qualified medical surgeons. Critical surgical steps require medical training and judgment and should not be delegated to unqualified personnel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a beard or eyebrow hair transplant available?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, specialised procedures such as beard, moustache, and eyebrow hair transplant are available. These procedures require high surgical precision and are recommended only after proper medical evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I book a consultation for a hair transplant in Bangalore?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 to discuss your hair loss concerns and available treatment options with a qualified medical team."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 <!-- Footer File Include -->
 

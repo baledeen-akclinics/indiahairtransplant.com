@@ -121,7 +121,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/seborrheic-dermatitis-symptoms.png') ?>" alt="Common symptoms of seborrheic dermatitis including greasy flakes and scalp redness">
+        <img loading="lazy" src="<?= base_url('assets/images/seborrheic-dermatitis-symptoms.png') ?>" alt="Common symptoms of seborrheic dermatitis including greasy flakes and scalp redness">
       </div>
 
       <div class="cs-content">
@@ -277,7 +277,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/who-is-more-likely-to-develop-seborrheic-dermatitis.png') ?>" alt="People more likely to develop seborrheic dermatitis such as those with oily skin and high stress">
+        <img loading="lazy" src="<?= base_url('assets/images/who-is-more-likely-to-develop-seborrheic-dermatitis.png') ?>" alt="People more likely to develop seborrheic dermatitis such as those with oily skin and high stress">
       </div>
 
       <div class="cs-content">
@@ -404,7 +404,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/seborrheic-dermatitis-hair-loss.png') ?>" alt="Seborrheic dermatitis causing scalp inflammation and temporary hair shedding">
+        <img loading="lazy" src="<?= base_url('assets/images/seborrheic-dermatitis-hair-loss.png') ?>" alt="Seborrheic dermatitis causing scalp inflammation and temporary hair shedding">
       </div>
 
       <div class="cs-content">
@@ -603,9 +603,9 @@
         <p class="cs-text"><strong>Related scalp conditions include:</strong></p>
 
         <ul class="feature-list">
-          <li>Dandruff</li>
-          <li>Scalp Psoriasis</li>
-          <li>Scalp Folliculitis</li>
+          <li><a href="<?= base_url('dandruff') ?>">Dandruff</a></li>
+          <li><a href="<?= base_url('scalp-psoriasis') ?>">Scalp Psoriasis</a></li>
+          <li><a href="<?= base_url('scalp-folliculitis') ?>">Scalp Folliculitis</a></li>
         </ul>
 
         <p class="cs-text">
@@ -623,7 +623,7 @@
     <p class="iht-cta-text">
       👉 Struggling with dandruff, itching, or falling flakes? Speak with our scalp specialists for a professional evaluation and personalised scalp care guidance.
     </p>
-    <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+    <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
   </div>
 </section>
     
@@ -688,9 +688,9 @@
 </section>
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> March 17, 2026</p>
       </div>
@@ -699,6 +699,59 @@
 </section>
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/seborrheic-dermatitis",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What causes seborrheic dermatitis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seborrheic dermatitis is commonly linked to an inflammatory reaction of the skin to a yeast called Malassezia . Excess scalp oil, stress, hormonal changes, and immune responses may also contribute to the condition."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is seborrheic dermatitis the same as dandruff?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seborrheic dermatitis is often considered a more severe form of dandruff. While both conditions cause flaking, seborrheic dermatitis usually involves redness, greasy scales, and skin inflammation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can seborrheic dermatitis cause hair loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seborrheic dermatitis does not directly cause permanent hair loss, but prolonged scalp inflammation and excessive scratching may increase temporary hair shedding."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is seborrheic dermatitis contagious?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, seborrheic dermatitis is not contagious and cannot spread from one person to another."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 <!-- Footer File Include -->
 

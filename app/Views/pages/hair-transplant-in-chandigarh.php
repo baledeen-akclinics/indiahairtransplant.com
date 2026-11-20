@@ -46,7 +46,7 @@
 
           <p class="cs-text">However, successful results depend mainly on choosing the right clinic and experienced surgeons who do a proper evaluation, recommend the right technique, and plan for long-term stability rather than short-term cosmetic promises. If you are considering any hair restoration treatment in Chandigarh, scheduling a detailed consultation is an essential first step.</p>
 
-          <p class="cs-text">India Hair Transplant (IHT) is one of the leading hair transplant clinics serving Chandigarh / Tricity patients, known for medically planned procedures, advanced techniques, and consistently natural-looking results. The clinic has gained the trust of patients and public figures through its focus on surgical precision, ethical treatment options, and maintaining the long-term health of the donor area.</p>
+          <p class="cs-text">India Hair Transplant (IHT), based at its Ludhiana clinic, is one of the leading hair transplant providers serving Chandigarh / Tricity patients, known for medically planned procedures, advanced techniques, and consistently natural-looking results. The clinic has gained the trust of patients and public figures through its focus on surgical precision, ethical treatment options, and maintaining the long-term health of the donor area.</p>
 
         </div>
       </div>
@@ -69,32 +69,32 @@
         <div class="rc-track" id="rcTrack" aria-live="polite">
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT - patient 1 (Chandigarh)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT - patient 1 (Chandigarh)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT - patient 2 (Chandigarh)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT - patient 2 (Chandigarh)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT - patient 3 (Chandigarh)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT - patient 3 (Chandigarh)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT - patient 4 (Chandigarh)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT - patient 4 (Chandigarh)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT - patient 5 (Chandigarh)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT - patient 5 (Chandigarh)">
             </div>
           </figure>
           <figure class="rc-slide">
             <div class="rc-card">
-              <img src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT - patient 6 (Chandigarh)">
+              <img loading="lazy" src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT - patient 6 (Chandigarh)">
             </div>
           </figure>
         </div>
@@ -237,7 +237,7 @@
         <div class="rc-track" id="videosTrack" aria-live="polite">
           <figure class="rc-slide">
             <a class="yt-card" href="https://youtube.com/video/THKeJ2Z2YyE" data-yid="THKeJ2Z2YyE" aria-label="Play hair transplant myths video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Hair transplant myths and facts video by IHT surgeons">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-myths-and-facts.jpg') ?>" alt="Hair transplant myths and facts video by IHT surgeons">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -249,7 +249,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://youtube.com/video/Dhm6LF1fYLQ" data-yid="Dhm6LF1fYLQ" aria-label="Play hair transplant podcast video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Hair transplant podcast with Anmol Kawatra - IHT surgeons">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/hair-transplant-pod-cast-with-anmol-kawtra.jpg') ?>" alt="Hair transplant podcast with Anmol Kawatra - IHT surgeons">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -261,7 +261,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://youtube.com/video/-ZNV5WBHXrI/" data-yid="-ZNV5WBHXrI/" aria-label="Play video about drinking after hair transplant">
-              <img class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can you drink alcohol after a hair transplant? video by IHT surgeons">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/drink-after-hair-transplant.jpg') ?>" alt="Can you drink alcohol after a hair transplant? video by IHT surgeons">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -273,7 +273,7 @@
 
           <figure class="rc-slide">
             <a class="yt-card" href="https://www.youtube.com/watch?v=oTBzoRLjaZ4" data-yid="oTBzoRLjaZ4" aria-label="Play beard hair transplant video">
-              <img class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Beard hair transplant video by IHT surgeons">
+              <img loading="lazy" class="yt-thumb" src="<?= base_url('assets/images/beard-hair-transplant.jpg') ?>" alt="Beard hair transplant video by IHT surgeons">
               <span class="yt-play" aria-hidden="true">
                 <svg viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
                   <path d="M66.52 7.85a8 8 0 0 0-5.64-5.65C56.1 1 34 1 34 1s-22.1 0-26.88 1.2A8 8 0 0 0 1.48 7.85 83.4 83.4 0 0 0 .28 24a83.4 83.4 0 0 0 1.2 16.15 8 8 0 0 0 5.64 5.65C12.9 47 34 47 34 47s22.1 0 26.88-1.2a8 8 0 0 0 5.64-5.65A83.4 83.4 0 0 0 67.72 24a83.4 83.4 0 0 0-1.2-16.15Z" fill="#212121" opacity=".25"></path>
@@ -295,7 +295,7 @@
       <p class="iht-cta-text">
         👉 Considering a hair transplant in Chandigarh? Book a detailed consultation with our experienced surgical team.
       </p>
-      <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+      <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
     </div>
   </section>
 
@@ -568,7 +568,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="How to choose the right hair transplant clinic in Chandigarh">
+          <img loading="lazy" src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="How to choose the right hair transplant clinic in Chandigarh">
         </div>
 
         <div class="cs-content">
@@ -611,7 +611,7 @@
         <div class="cs-content">
 
           <p class="cs-text">
-            India Hair Transplant (IHT) is a trusted hair transplant clinic for Chandigarh / Tricity patients, with all procedures carried out by skilled surgeons using medically planned protocols. Founded in 2007, IHT is a sister branch of <a href="https://akclinics.com/">AK Clinics</a> and has a track record of providing safe, natural-looking results through carefully planned and ethically conducted procedures.
+            India Hair Transplant (IHT), based at its Ludhiana clinic, is a trusted hair transplant provider for Chandigarh / Tricity patients, with all procedures carried out by skilled surgeons using medically planned protocols. Founded in 2007, IHT is a sister branch of <a href="https://akclinics.com/">AK Clinics</a> and has a track record of providing safe, natural-looking results through carefully planned and ethically conducted procedures.
           </p>
 
           <!-- Accordion -->
@@ -704,7 +704,7 @@
       <p class="iht-cta-text">
         👉 Schedule a detailed hair transplant consultation for Chandigarh and get a personalised scalp and donor assessment.
       </p>
-      <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+      <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
     </div>
   </section>
 
@@ -795,7 +795,7 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden>
-            You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong> to discuss your hair loss concern and available treatment options with our medical team.
+            You can book a consultation by calling or WhatsApping <strong>+91-86990-03797</strong> to discuss your hair loss concern and available treatment options with our medical team.
           </div>
         </article>
 
@@ -805,9 +805,9 @@
 
   <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua icon">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua icon">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> February 13, 2026</p>
       </div>
@@ -815,6 +815,91 @@
   </section>
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-chandigarh",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a hair transplant painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A hair transplant is performed under local anaesthesia, which makes the procedure comfortable for most patients. Mild discomfort, tightness, or soreness may be felt after surgery and usually resolves within a few days with proper care."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cost of a hair transplant in Chandigarh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant prices in Chandigarh / Tricity commonly start around Rs. 50,000 and can go up to Rs. 3,50,000+ depending on the number of grafts needed, the area to be covered, the technique used, and the complexity of the procedure. A medical consultation is necessary to obtain an accurate estimate for your specific case."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can lifestyle and stress in Chandigarh / Tricity increase hair fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In some people, stress, irregular routines, poor sleep, and long screen hours can worsen dryness, breakage, or visible hair fall. If hair fall is ongoing or you notice thinning, a doctor evaluation helps confirm whether it is temporary shedding or pattern hair loss and guides the right treatment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is the best hair transplant surgeon in Chandigarh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hair transplant surgeon is someone who focuses on medical safety, hands-on involvement, and honest planning. While choosing a surgeon, check if the doctor personally assesses your case, plans the hairline, and stays involved in the key surgical steps. Also look for real patient results and transparent graft based pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I avoid for 7 days after a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For the first 7 days after a hair transplant, follow your post-op instructions carefully. In general, avoid touching or scratching the grafts, heavy workouts, swimming, wearing tight caps or helmets, smoking, alcohol, and direct sun exposure. Your surgeon will guide you based on your healing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are technicians allowed to perform hair transplant surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant is a medical procedure and critical steps require medical training and judgment. At IHT, key surgical steps are performed by qualified surgeons and are not delegated to unqualified staff."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a beard or eyebrow hair transplant available in Chandigarh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, procedures such as beard, moustache, and eyebrow hair transplant are available. These are precision-based procedures and are recommended only after proper medical evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I book a consultation for a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 to discuss your hair loss concern and available treatment options with our medical team."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 <!-- Footer File Include -->
 

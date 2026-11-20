@@ -101,7 +101,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/androgenetic-alopecia-early-signs.png') ?>" alt="Early signs and common symptoms of androgenetic alopecia in men and women">
+          <img loading="lazy" src="<?= base_url('assets/images/androgenetic-alopecia-early-signs.png') ?>" alt="Early signs and common symptoms of androgenetic alopecia in men and women">
         </div>
 
         <div class="cs-content">
@@ -208,7 +208,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/is-androgenetic-alopecia-permanent.png') ?>" alt="Stages of androgenetic alopecia and progression of pattern hair loss">
+          <img loading="lazy" src="<?= base_url('assets/images/is-androgenetic-alopecia-permanent.png') ?>" alt="Stages of androgenetic alopecia and progression of pattern hair loss">
         </div>
 
         <div class="cs-content">
@@ -302,7 +302,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/androgenetic-alopecia-treatment-options.png') ?>" alt="Treatment options for androgenetic alopecia at IHT Clinic">
+          <img loading="lazy" src="<?= base_url('assets/images/androgenetic-alopecia-treatment-options.png') ?>" alt="Treatment options for androgenetic alopecia at IHT Clinic">
         </div>
 
         <div class="cs-content">
@@ -485,5 +485,106 @@
   </section>
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/androgenetic-alopecia",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What causes androgenetic alopecia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Androgenetic alopecia is primarily associated with the genetic sensitivity of hair follicles, which gradually impairs hair growth. Family history is one of the most common contributing factors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Androgenetic Alopecia Be Prevented?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Although genetic hair loss cannot always be entirely prevented, early assessment can help slow its progression. Dermatologists frequently suggest tracking hair density and consulting a doctor when the first signs of hereditary hair loss occur."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "At what age does androgenetic alopecia usually start?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The condition can start at various ages. Some people notice early signs in their late twenties or thirties, while others experience gradual hair thinning later in life."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I identify androgenetic alopecia early?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Early signs may include temple recession, crown thinning, widening of the hair part, or a gradual decrease in hair density. These changes typically develop slowly over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can lifestyle or diet affect androgenetic alopecia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lifestyle and nutrition can impact overall hair health, but androgenetic alopecia is mainly linked to genetic and hormonal factors. However, a balanced diet and proper scalp care may promote general hair growth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can androgenetic alopecia be reversed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The condition is usually progressive, but early assessment can help control hair thinning and delay further progression, depending on the stage of hair loss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does androgenetic alopecia affect women as well?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, women can also experience androgenetic alopecia. In many cases, it appears as female-pattern hair thinning , in which overall hair density gradually decreases across the scalp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a hair transplant a permanent solution for androgenetic alopecia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant procedures may help restore hair in areas where hair follicles no longer produce healthy hair. The suitability of this option depends on the stage and pattern of hair loss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does wearing caps or helmets lead to androgenetic alopecia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Wearing caps or helmets does not cause genetic hair loss. Androgenetic alopecia is mainly influenced by genetics and the hormonal sensitivity of hair follicles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does frequent shampooing cause pattern hair loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Normal hair washing does not lead to androgenetic alopecia. Hair shedding observed during washing is generally part of the natural hair growth cycle."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 <?= $this->endSection() ?>

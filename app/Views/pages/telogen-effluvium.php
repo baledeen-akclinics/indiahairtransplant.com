@@ -103,7 +103,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/telogen-effluvium-symptoms.png') ?>" alt="Early signs and symptoms of telogen effluvium">
+        <img loading="lazy" src="<?= base_url('assets/images/telogen-effluvium-symptoms.png') ?>" alt="Early signs and symptoms of telogen effluvium">
       </div>
 
       <div class="cs-content">
@@ -224,7 +224,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/when-to-consult-hair-specialist.png') ?>" alt="When to consult a hair specialist for hair fall">
+        <img loading="lazy" src="<?= base_url('assets/images/when-to-consult-hair-specialist.png') ?>" alt="When to consult a hair specialist for hair fall">
       </div>
 
       <div class="cs-content">
@@ -337,7 +337,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/telogen-effluvium-treatment.png') ?>" alt="Treatment options for telogen effluvium">
+        <img loading="lazy" src="<?= base_url('assets/images/telogen-effluvium-treatment.png') ?>" alt="Treatment options for telogen effluvium">
       </div>
 
       <div class="cs-content">
@@ -451,9 +451,9 @@
 </section>
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
         <p class="fa-row"><strong>Updated on:</strong> March 21, 2026</p>
       </div>
@@ -461,5 +461,82 @@
   
 </section>
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/telogen-effluvium",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "1. What is telogen effluvium hair loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Telogen effluvium is a condition that leads to a sudden increase in hair shedding across the scalp. It happens when many hair follicles simultaneously enter the resting phase of the hair growth cycle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "2. How long does telogen effluvium hair shedding last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For many individuals, telogen effluvium shedding can last for 2–4 months before gradually decreasing. Once the hair growth cycle stabilises, new hair typically begins to grow."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "3. Can telogen effluvium cause permanent hair loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Telogen effluvium is usually a temporary type of hair loss because the hair follicles stay healthy. In most cases, hair grows back once the cause improves."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "4. What are the common causes of telogen effluvium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common causes of hair loss that can trigger telogen effluvium include severe stress, illness, hormonal changes, nutritional deficiencies, sudden weight loss, or specific medications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "5. How do doctors diagnose telogen effluvium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Doctors typically diagnose telogen effluvium by examining the scalp, assessing hair shedding patterns, and reviewing medical history to distinguish it from other hair loss conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "6. I am noticing excessive hair fall while washing or combing. Could it be telogen effluvium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A sudden increase in hair shedding during washing or combing can sometimes indicate telogen effluvium. However, a proper evaluation is necessary to confirm the exact cause of hair loss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "7. Why is my hair suddenly falling out in handfuls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sudden heavy hair shedding can happen when many hair follicles enter the resting phase of the hair growth cycle. This kind of shedding is often linked to telogen effluvium."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 <?= $this->endSection() ?>

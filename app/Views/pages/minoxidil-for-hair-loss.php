@@ -84,7 +84,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/minoxidil-treatment.png') ?>" alt="Minoxidil treatment for hair loss">
+        <img loading="lazy" src="<?= base_url('assets/images/minoxidil-treatment.png') ?>" alt="Minoxidil treatment for hair loss">
       </div>
 
       <div class="cs-content">
@@ -349,7 +349,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/minoxidil-for-hair-loss.png') ?>" alt="Medical evaluation before using minoxidil">
+        <img loading="lazy" src="<?= base_url('assets/images/minoxidil-for-hair-loss.png') ?>" alt="Medical evaluation before using minoxidil">
       </div>
 
       <div class="cs-content">
@@ -386,7 +386,7 @@
     <p class="iht-cta-text">
       👉 Not sure if minoxidil is right for you? Get a personalised scalp evaluation and treatment plan from our hair restoration specialists.
     </p>
-    <a href="tel:09779944207" class="iht-cta-btn">Call 09779944207</a>
+    <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
   </div>
 </section>
     
@@ -512,7 +512,7 @@
 <section>
 
   <aside class="faq-author faq-author--ak">
-    <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua - Hair Transplant Surgeon">
+    <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua - Hair Transplant Surgeon">
 
     <div class="fa-meta">
       <p class="fa-row"><strong>Medically Reviewed by:</strong> Dr. Kapil Dua</p>
