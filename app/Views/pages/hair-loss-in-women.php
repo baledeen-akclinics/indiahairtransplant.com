@@ -60,7 +60,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/hair-loss-symptoms-women.webp') ?>" alt="Common symptoms of hair loss in women including widening part line and diffuse thinning">
+          <img loading="lazy" src="<?= base_url('assets/images/hair-loss-symptoms-women.webp') ?>" alt="Common symptoms of hair loss in women including widening part line and diffuse thinning">
         </div>
 
         <div class="cs-content">
@@ -230,7 +230,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/female-pattern-hair-loss.png') ?>" alt="Female pattern hair loss thinning patterns">
+          <img loading="lazy" src="<?= base_url('assets/images/female-pattern-hair-loss.png') ?>" alt="Female pattern hair loss thinning patterns">
         </div>
 
         <div class="cs-content">
@@ -289,7 +289,7 @@
 
         <article class="benefit-card">
           <figure class="benefit-media">
-            <img src="<?= base_url('assets/images/genetic-hair-loss-women.png') ?>" alt="Genetic hair loss in women">
+            <img loading="lazy" src="<?= base_url('assets/images/genetic-hair-loss-women.png') ?>" alt="Genetic hair loss in women">
             <figcaption class="benefit-ribbon">
               <span class="ribbon-title">Genetic Predisposition</span>
             </figcaption>
@@ -303,7 +303,7 @@
 
         <article class="benefit-card">
           <figure class="benefit-media">
-            <img src="<?= base_url('assets/images/hormonal-hair-loss-women.png') ?>" alt="Hormonal hair loss in women">
+            <img loading="lazy" src="<?= base_url('assets/images/hormonal-hair-loss-women.png') ?>" alt="Hormonal hair loss in women">
             <figcaption class="benefit-ribbon">
               <span class="ribbon-title">Hormonal Changes</span>
             </figcaption>
@@ -317,7 +317,7 @@
 
         <article class="benefit-card">
           <figure class="benefit-media">
-            <img src="<?= base_url('assets/images/stress-lifestyle-hair-loss-women.png') ?>" alt="Stress and lifestyle hair loss in women">
+            <img loading="lazy" src="<?= base_url('assets/images/stress-lifestyle-hair-loss-women.png') ?>" alt="Stress and lifestyle hair loss in women">
             <figcaption class="benefit-ribbon">
               <span class="ribbon-title">Stress & Lifestyle</span>
             </figcaption>
@@ -331,7 +331,7 @@
 
         <article class="benefit-card">
           <figure class="benefit-media">
-            <img src="<?= base_url('assets/images/nutritional-deficiency-hair-loss-women.png') ?>" alt="Nutritional deficiency hair loss in women">
+            <img loading="lazy" src="<?= base_url('assets/images/nutritional-deficiency-hair-loss-women.png') ?>" alt="Nutritional deficiency hair loss in women">
             <figcaption class="benefit-ribbon">
               <span class="ribbon-title">Nutritional Deficiencies</span>
             </figcaption>
@@ -362,7 +362,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/hair-loss-consultation-women.png') ?>" alt="When to see a doctor for hair loss in women">
+          <img loading="lazy" src="<?= base_url('assets/images/hair-loss-consultation-women.png') ?>" alt="When to see a doctor for hair loss in women">
         </div>
 
         <div class="cs-content">
@@ -513,7 +513,7 @@
             <a href="<?= base_url('medical-hair-loss-treatment') ?>" class="svc-link">
               <div class="svc-card">
                 <span class="svc-ico">
-                  <img src="<?= base_url('assets/images/hair-loss-medication.png') ?>" alt="Medical hair loss treatment for women">
+                  <img loading="lazy" src="<?= base_url('assets/images/hair-loss-medication.png') ?>" alt="Medical hair loss treatment for women">
                 </span>
                 <figcaption class="svc-title">
                   Hair Loss<br>Medication
@@ -526,7 +526,7 @@
             <a href="<?= base_url('lllt-hair-treatment') ?>" class="svc-link">
               <div class="svc-card">
                 <span class="svc-ico">
-                  <img src="<?= base_url('assets/images/lllt-hair-therapy.png') ?>" alt="LLLT hair therapy for women">
+                  <img loading="lazy" src="<?= base_url('assets/images/lllt-hair-therapy.png') ?>" alt="LLLT hair therapy for women">
                 </span>
                 <figcaption class="svc-title">
                   LLLT Hair<br>Therapy
@@ -539,7 +539,7 @@
             <a href="<?= base_url('exosome-hair-therapy') ?>" class="svc-link">
               <div class="svc-card">
                 <span class="svc-ico">
-                  <img src="<?= base_url('assets/images/exosome-hair-therapy.png') ?>" alt="Exosome hair therapy for women">
+                  <img loading="lazy" src="<?= base_url('assets/images/exosome-hair-therapy.png') ?>" alt="Exosome hair therapy for women">
                 </span>
                 <figcaption class="svc-title">
                   Exosome<br>Hair Therapy
@@ -552,7 +552,7 @@
             <a href="<?= base_url('prp-hair-treatment') ?>" class="svc-link">
               <div class="svc-card">
                 <span class="svc-ico">
-                  <img src="<?= base_url('assets/images/prp-hair-treatment.png') ?>" alt="PRP hair treatment for women">
+                  <img loading="lazy" src="<?= base_url('assets/images/prp-hair-treatment.png') ?>" alt="PRP hair treatment for women">
                 </span>
                 <figcaption class="svc-title">
                   PRP Hair<br>Treatment
@@ -565,7 +565,7 @@
             <a href="<?= base_url('gfc-hair-treatment') ?>" class="svc-link">
               <div class="svc-card">
                 <span class="svc-ico">
-                  <img src="<?= base_url('assets/images/gfc-hair-treatment.png') ?>" alt="GFC hair treatment for women">
+                  <img loading="lazy" src="<?= base_url('assets/images/gfc-hair-treatment.png') ?>" alt="GFC hair treatment for women">
                 </span>
                 <figcaption class="svc-title">
                   GFC Hair<br>Treatment
@@ -578,7 +578,7 @@
             <a href="<?= base_url('female-hair-transplant') ?>" class="svc-link">
               <div class="svc-card">
                 <span class="svc-ico">
-                  <img src="<?= base_url('assets/images/female-ht.png') ?>" alt="Female hair transplant">
+                  <img loading="lazy" src="<?= base_url('assets/images/female-ht.png') ?>" alt="Female hair transplant">
                 </span>
                 <figcaption class="svc-title">
                   Female Hair<br>Transplant
@@ -682,7 +682,7 @@
 
   <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>

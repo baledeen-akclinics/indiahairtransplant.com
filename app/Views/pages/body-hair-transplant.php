@@ -94,7 +94,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/body-hair-transplant-candidate.png') ?>" alt="Who should consider body hair transplant">
+        <img loading="lazy" src="<?= base_url('assets/images/body-hair-transplant-candidate.png') ?>" alt="Who should consider body hair transplant">
       </div>
 
       <div class="cs-content">
@@ -284,7 +284,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/body-hair-transplant-benefits.png') ?>" alt="Benefits of body hair transplant">
+        <img loading="lazy" src="<?= base_url('assets/images/body-hair-transplant-benefits.png') ?>" alt="Benefits of body hair transplant">
       </div>
 
       <div class="cs-content">
@@ -375,7 +375,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/body-hair-transplant-risks.png') ?>" alt="Possible risks and complications of body hair transplant">
+        <img loading="lazy" src="<?= base_url('assets/images/body-hair-transplant-risks.png') ?>" alt="Possible risks and complications of body hair transplant">
       </div>
 
       <div class="cs-content">
@@ -572,7 +572,7 @@
 
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>

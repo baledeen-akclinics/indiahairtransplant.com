@@ -195,7 +195,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/ideal-candidates-beard-transplant.png') ?>" alt="Beard hair transplant results">
+        <img loading="lazy" src="<?= base_url('assets/images/ideal-candidates-beard-transplant.png') ?>" alt="Beard hair transplant results">
       </div>
 
       <div class="cs-content">
@@ -282,7 +282,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/beard-post-care.png') ?>" alt="Post-procedure care after beard hair transplant">
+        <img loading="lazy" src="<?= base_url('assets/images/beard-post-care.png') ?>" alt="Post-procedure care after beard hair transplant">
       </div>
 
       <div class="cs-content">
@@ -378,7 +378,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/beard-risks-and-complications.png') ?>" alt="Beard hair transplant risks and recovery">
+        <img loading="lazy" src="<?= base_url('assets/images/beard-risks-and-complications.png') ?>" alt="Beard hair transplant risks and recovery">
       </div>
 
       <div class="cs-content">
@@ -473,7 +473,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/why-choose-iht-for-beard-transplant.png') ?>" alt="Best clinic for beard hair transplant in India">
+        <img loading="lazy" src="<?= base_url('assets/images/why-choose-iht-for-beard-transplant.png') ?>" alt="Best clinic for beard hair transplant in India">
       </div>
 
       <div class="cs-content">
@@ -624,7 +624,7 @@
 
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>

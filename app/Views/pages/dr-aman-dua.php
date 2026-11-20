@@ -40,7 +40,7 @@
         <!-- LEFT: Photo + Contact -->
         <div class="docp-left">
           <figure class="docp-photo">
-            <img
+            <img loading="lazy"
               src="<?= base_url('assets/images/dr-aman-dua.webp') ?>"
               alt="Dr. Aman Dua, Co-Founder of IHT Clinics and India's first female hair transplant surgeon"
               width="420" height="520"
@@ -444,7 +444,7 @@
 
       <!-- FAQ Author Card -->
       <div class="faq-author faq-author--ak" style="margin-top:28px;">
-        <img src="<?= base_url('assets/images/dr-aman-dua.webp') ?>" alt="Dr. Aman Dua" style="width:84px; height:84px; border-radius:50%; object-fit:cover;">
+        <img loading="lazy" src="<?= base_url('assets/images/dr-aman-dua.webp') ?>" alt="Dr. Aman Dua" style="width:84px; height:84px; border-radius:50%; object-fit:cover;">
         <div class="fa-meta">
           <div class="fa-row"><strong>Dr. Aman Dua</strong></div>
           <div class="fa-row">MBBS, MD (Dermatology) | Co-Founder, IHT Clinics</div>

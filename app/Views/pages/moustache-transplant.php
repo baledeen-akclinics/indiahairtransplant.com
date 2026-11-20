@@ -97,7 +97,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/moustache-transplant-candidate.png') ?>" alt="Who should consider a moustache hair transplant">
+        <img loading="lazy" src="<?= base_url('assets/images/moustache-transplant-candidate.png') ?>" alt="Who should consider a moustache hair transplant">
       </div>
 
       <div class="cs-content">
@@ -368,7 +368,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/moustache-hair-transplant-cost.png') ?>" alt="Moustache hair transplant cost in India">
+        <img loading="lazy" src="<?= base_url('assets/images/moustache-hair-transplant-cost.png') ?>" alt="Moustache hair transplant cost in India">
       </div>
 
       <div class="cs-content">
@@ -527,7 +527,7 @@
 
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>

@@ -103,7 +103,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/telogen-effluvium-symptoms.png') ?>" alt="Early signs and symptoms of telogen effluvium">
+        <img loading="lazy" src="<?= base_url('assets/images/telogen-effluvium-symptoms.png') ?>" alt="Early signs and symptoms of telogen effluvium">
       </div>
 
       <div class="cs-content">
@@ -224,7 +224,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/when-to-consult-hair-specialist.png') ?>" alt="When to consult a hair specialist for hair fall">
+        <img loading="lazy" src="<?= base_url('assets/images/when-to-consult-hair-specialist.png') ?>" alt="When to consult a hair specialist for hair fall">
       </div>
 
       <div class="cs-content">
@@ -337,7 +337,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/telogen-effluvium-treatment.png') ?>" alt="Treatment options for telogen effluvium">
+        <img loading="lazy" src="<?= base_url('assets/images/telogen-effluvium-treatment.png') ?>" alt="Treatment options for telogen effluvium">
       </div>
 
       <div class="cs-content">
@@ -451,7 +451,7 @@
 </section>
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>

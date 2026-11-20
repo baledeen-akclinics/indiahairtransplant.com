@@ -79,12 +79,12 @@
         <button class="rc-arrow rc-prev" type="button">‹</button>
 
         <div class="rc-track">
-          <figure class="rc-slide"><div class="rc-card"><img src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT - patient 1"></div></figure>
-          <figure class="rc-slide"><div class="rc-card"><img src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT - patient 2"></div></figure>
-          <figure class="rc-slide"><div class="rc-card"><img src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT - patient 3"></div></figure>
-          <figure class="rc-slide"><div class="rc-card"><img src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT - patient 4"></div></figure>
-          <figure class="rc-slide"><div class="rc-card"><img src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT - patient 5"></div></figure>
-          <figure class="rc-slide"><div class="rc-card"><img src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT - patient 6"></div></figure>
+          <figure class="rc-slide"><div class="rc-card"><img loading="lazy" src="<?= base_url('assets/images/iht-result-1.webp') ?>" alt="Hair transplant before and after result at IHT - patient 1"></div></figure>
+          <figure class="rc-slide"><div class="rc-card"><img loading="lazy" src="<?= base_url('assets/images/iht-result-2.webp') ?>" alt="Hair transplant before and after result at IHT - patient 2"></div></figure>
+          <figure class="rc-slide"><div class="rc-card"><img loading="lazy" src="<?= base_url('assets/images/iht-result-3.webp') ?>" alt="Hair transplant before and after result at IHT - patient 3"></div></figure>
+          <figure class="rc-slide"><div class="rc-card"><img loading="lazy" src="<?= base_url('assets/images/iht-result-4.webp') ?>" alt="Hair transplant before and after result at IHT - patient 4"></div></figure>
+          <figure class="rc-slide"><div class="rc-card"><img loading="lazy" src="<?= base_url('assets/images/iht-result-5.webp') ?>" alt="Hair transplant before and after result at IHT - patient 5"></div></figure>
+          <figure class="rc-slide"><div class="rc-card"><img loading="lazy" src="<?= base_url('assets/images/iht-result-6.webp') ?>" alt="Hair transplant before and after result at IHT - patient 6"></div></figure>
         </div>
 
         <button class="rc-arrow rc-next" type="button">›</button>

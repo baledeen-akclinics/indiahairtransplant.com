@@ -97,7 +97,7 @@
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/patchy-alopecia-areata.jpg') ?>" alt="Patchy alopecia areata bald patches">
+          <img loading="lazy" src="<?= base_url('assets/images/patchy-alopecia-areata.jpg') ?>" alt="Patchy alopecia areata bald patches">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Patchy Alopecia Areata</span>
           </figcaption>
@@ -111,7 +111,7 @@
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/alopecia-totalis.jpg') ?>" alt="Complete scalp hair loss alopecia totalis">
+          <img loading="lazy" src="<?= base_url('assets/images/alopecia-totalis.jpg') ?>" alt="Complete scalp hair loss alopecia totalis">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Alopecia Totalis</span>
           </figcaption>
@@ -125,7 +125,7 @@
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/alopecia-universalis.jpg') ?>" alt="Full body hair loss alopecia universalis">
+          <img loading="lazy" src="<?= base_url('assets/images/alopecia-universalis.jpg') ?>" alt="Full body hair loss alopecia universalis">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Alopecia Universalis</span>
           </figcaption>
@@ -185,7 +185,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/alopecia-areata-symptoms.webp') ?>" alt="Early signs of alopecia areata including round bald patches">
+          <img loading="lazy" src="<?= base_url('assets/images/alopecia-areata-symptoms.webp') ?>" alt="Early signs of alopecia areata including round bald patches">
         </div>
 
         <div class="cs-content">

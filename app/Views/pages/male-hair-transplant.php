@@ -125,7 +125,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/ideal-candidate-male-transplant.png') ?>" alt="Celebrity hair transplant result at AK Clinics">
+        <img loading="lazy" src="<?= base_url('assets/images/ideal-candidate-male-transplant.png') ?>" alt="Celebrity hair transplant result at AK Clinics">
       </div>
 
       <div class="cs-content">
@@ -263,7 +263,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/hairline-design-and-donor-area.png') ?>" alt="Hairline Design & Donor Area Planning in Men">
+        <img loading="lazy" src="<?= base_url('assets/images/hairline-design-and-donor-area.png') ?>" alt="Hairline Design & Donor Area Planning in Men">
       </div>
 
       <div class="cs-content">
@@ -398,7 +398,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/risks-and-limitations.png') ?>" alt="Risks & Limitations in Male Hair transplant">
+        <img loading="lazy" src="<?= base_url('assets/images/risks-and-limitations.png') ?>" alt="Risks & Limitations in Male Hair transplant">
       </div>
 
       <div class="cs-content">
@@ -609,7 +609,7 @@
 <section>
 
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>

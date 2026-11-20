@@ -476,7 +476,7 @@
                     Sweat does not directly dislodge grafts once they have initial clot anchoring. But excessive scalp sweating in the first two weeks does three things that compromise recovery: it softens healing scabs before they are ready to detach naturally, it introduces salt and bacteria to open wound sites, and it creates a warm, moist microenvironment that accelerates bacterial growth and raises the risk of folliculitis.
                   </p>
                 </div>
-                <img
+                <img loading="lazy"
                   src="<?= base_url('assets/images/blog/hair-transplant-aftercare-iht.webp') ?>"
                   alt="Post hair transplant scalp care at IHT India clinic"
                   class="bs-content-img" width="420" height="300" loading="lazy" />

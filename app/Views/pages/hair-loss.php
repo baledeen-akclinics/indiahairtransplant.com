@@ -89,7 +89,7 @@ Several hair and scalp conditions can cause hair loss by affecting the health of
     <div class="benefits-grid">
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/permanent-solution-for-baldness.png') ?>" alt="Long-lasting results">
+          <img loading="lazy" src="<?= base_url('assets/images/permanent-solution-for-baldness.png') ?>" alt="Long-lasting results">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Dandruff</span>
           </figcaption>
@@ -102,7 +102,7 @@ Several hair and scalp conditions can cause hair loss by affecting the health of
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/cost-effective-long-term.jpg') ?>" alt="Cost-effective over time">
+          <img loading="lazy" src="<?= base_url('assets/images/cost-effective-long-term.jpg') ?>" alt="Cost-effective over time">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Seborrheic Dermatitis</span>
           </figcaption>
@@ -115,7 +115,7 @@ Several hair and scalp conditions can cause hair loss by affecting the health of
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/minimal-downtime.jpg') ?>" alt="Minimal downtime">
+          <img loading="lazy" src="<?= base_url('assets/images/minimal-downtime.jpg') ?>" alt="Minimal downtime">
           <figcaption class="benefit-ribbon">
                   <span class="ribbon-title">Scalp Psoriasis</span>
           </figcaption>
@@ -128,7 +128,7 @@ Several hair and scalp conditions can cause hair loss by affecting the health of
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/natural-looking.jpg') ?>" alt="Natural aesthetics">
+          <img loading="lazy" src="<?= base_url('assets/images/natural-looking.jpg') ?>" alt="Natural aesthetics">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Scalp Folliculitis</span>
           </figcaption>
@@ -327,7 +327,7 @@ Several hair and scalp conditions can cause hair loss by affecting the health of
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/causes-of-hair-loss.png') ?>" alt="Common causes of hair loss affecting hair follicles and hair growth">
+        <img loading="lazy" src="<?= base_url('assets/images/causes-of-hair-loss.png') ?>" alt="Common causes of hair loss affecting hair follicles and hair growth">
       </div>
 
       <div class="cs-content">
@@ -473,7 +473,7 @@ Several hair and scalp conditions can cause hair loss by affecting the health of
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/can-hair-loss-be-reversed.png') ?>" alt="Can hair loss be reversed with proper diagnosis and treatment">
+        <img loading="lazy" src="<?= base_url('assets/images/can-hair-loss-be-reversed.png') ?>" alt="Can hair loss be reversed with proper diagnosis and treatment">
       </div>
 
       <div class="cs-content">
@@ -622,7 +622,7 @@ Several hair and scalp conditions can cause hair loss by affecting the health of
 
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>

@@ -251,7 +251,7 @@
   <aside class="sheet" role="dialog" aria-modal="true" aria-label="Mobile Menu">
     <div class="sheet-head">
       <div class="sheet-brand">
-        <img src="https://hair.akclinics.com/IHT2.png" alt="">
+        <img loading="lazy" src="https://hair.akclinics.com/IHT2.png" alt="">
       </div>
       <button class="btn-close" type="button" onclick="closeDrawer()" aria-label="Close Menu">X</button>
     </div>

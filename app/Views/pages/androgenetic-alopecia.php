@@ -101,7 +101,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/androgenetic-alopecia-early-signs.png') ?>" alt="Early signs and common symptoms of androgenetic alopecia in men and women">
+          <img loading="lazy" src="<?= base_url('assets/images/androgenetic-alopecia-early-signs.png') ?>" alt="Early signs and common symptoms of androgenetic alopecia in men and women">
         </div>
 
         <div class="cs-content">
@@ -208,7 +208,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/is-androgenetic-alopecia-permanent.png') ?>" alt="Stages of androgenetic alopecia and progression of pattern hair loss">
+          <img loading="lazy" src="<?= base_url('assets/images/is-androgenetic-alopecia-permanent.png') ?>" alt="Stages of androgenetic alopecia and progression of pattern hair loss">
         </div>
 
         <div class="cs-content">
@@ -302,7 +302,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/androgenetic-alopecia-treatment-options.png') ?>" alt="Treatment options for androgenetic alopecia at IHT Clinic">
+          <img loading="lazy" src="<?= base_url('assets/images/androgenetic-alopecia-treatment-options.png') ?>" alt="Treatment options for androgenetic alopecia at IHT Clinic">
         </div>
 
         <div class="cs-content">

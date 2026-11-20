@@ -16,31 +16,31 @@
 
             <div class="scale-row" role="group" aria-label="Select your baldness stage">
                 <button type="button" class="scale-item active" aria-pressed="true">
-                    <img src="<?= base_url('assets/images/grade-1.webp') ?>" alt="Stage 1">
+                    <img loading="lazy" src="<?= base_url('assets/images/grade-1.webp') ?>" alt="Stage 1">
                 </button>
 
                 <button type="button" class="scale-item">
-                    <img src="<?= base_url('assets/images/Grade-2.webp') ?>" alt="Stage 2">
+                    <img loading="lazy" src="<?= base_url('assets/images/Grade-2.webp') ?>" alt="Stage 2">
                 </button>
 
                 <button type="button" class="scale-item">
-                    <img src="<?= base_url('assets/images/Grade-3.webp') ?>" alt="Stage 3">
+                    <img loading="lazy" src="<?= base_url('assets/images/Grade-3.webp') ?>" alt="Stage 3">
                 </button>
 
                 <button type="button" class="scale-item">
-                    <img src="<?= base_url('assets/images/Grade-4.webp') ?>" alt="Stage 4">
+                    <img loading="lazy" src="<?= base_url('assets/images/Grade-4.webp') ?>" alt="Stage 4">
                 </button>
 
                 <button type="button" class="scale-item">
-                    <img src="<?= base_url('assets/images/Grade-5.webp') ?>" alt="Stage 5">
+                    <img loading="lazy" src="<?= base_url('assets/images/Grade-5.webp') ?>" alt="Stage 5">
                 </button>
 
                 <button type="button" class="scale-item">
-                    <img src="<?= base_url('assets/images/Grade-6.webp') ?>" alt="Stage 6">
+                    <img loading="lazy" src="<?= base_url('assets/images/Grade-6.webp') ?>" alt="Stage 6">
                 </button>
 
                 <button type="button" class="scale-item">
-                    <img src="<?= base_url('assets/images/grade-7.webp') ?>" alt="Stage 7">
+                    <img loading="lazy" src="<?= base_url('assets/images/grade-7.webp') ?>" alt="Stage 7">
                 </button>
             </div>
 

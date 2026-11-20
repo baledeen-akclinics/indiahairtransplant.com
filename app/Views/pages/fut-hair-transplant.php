@@ -114,7 +114,7 @@ Each case begins with a detailed surgeon evaluation to determine whether FUT, FU
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/fut-hair-transplant-candidate.png') ?>" alt="Ideal candidate for FUT hair transplant">
+        <img loading="lazy" src="<?= base_url('assets/images/fut-hair-transplant-candidate.png') ?>" alt="Ideal candidate for FUT hair transplant">
       </div>
 
       <div class="cs-content">
@@ -306,7 +306,7 @@ Each case begins with a detailed surgeon evaluation to determine whether FUT, FU
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/fut-hair-transplant-scar.png') ?>" alt="FUT hair transplant scar explanation">
+        <img loading="lazy" src="<?= base_url('assets/images/fut-hair-transplant-scar.png') ?>" alt="FUT hair transplant scar explanation">
       </div>
 
       <div class="cs-content">
@@ -545,7 +545,7 @@ Each case begins with a detailed surgeon evaluation to determine whether FUT, FU
 
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>

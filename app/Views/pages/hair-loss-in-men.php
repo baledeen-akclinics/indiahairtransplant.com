@@ -64,7 +64,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/hair-loss-symptoms-men.png') ?>" alt="Common symptoms of hair loss in men including receding hairline and crown thinning">
+        <img loading="lazy" src="<?= base_url('assets/images/hair-loss-symptoms-men.png') ?>" alt="Common symptoms of hair loss in men including receding hairline and crown thinning">
       </div>
 
       <div class="cs-content">
@@ -232,7 +232,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/male-pattern-baldness.png') ?>" alt="Male pattern baldness hairline patterns">
+        <img loading="lazy" src="<?= base_url('assets/images/male-pattern-baldness.png') ?>" alt="Male pattern baldness hairline patterns">
       </div>
 
       <div class="cs-content">
@@ -289,7 +289,7 @@ Hair loss in men can develop due to several underlying factors. While genetic pr
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/genetic-hair-loss.png') ?>" alt="Genetic hair loss cause">
+          <img loading="lazy" src="<?= base_url('assets/images/genetic-hair-loss.png') ?>" alt="Genetic hair loss cause">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Genetic Predisposition</span>
           </figcaption>
@@ -303,7 +303,7 @@ The most common cause of hair loss in men. Inherited sensitivity of hair follicl
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/hormonal-hair-loss.png') ?>" alt="Hormonal hair loss factors">
+          <img loading="lazy" src="<?= base_url('assets/images/hormonal-hair-loss.png') ?>" alt="Hormonal hair loss factors">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Hormonal Factors</span>
           </figcaption>
@@ -317,7 +317,7 @@ Hormonal influences, particularly sensitivity to DHT, can shorten the hair growt
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/stress-lifestyle-hair-loss.png') ?>" alt="Stress and lifestyle hair loss">
+          <img loading="lazy" src="<?= base_url('assets/images/stress-lifestyle-hair-loss.png') ?>" alt="Stress and lifestyle hair loss">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Stress & Lifestyle</span>
           </figcaption>
@@ -331,7 +331,7 @@ Chronic stress, poor sleep, smoking, and unhealthy lifestyle habits can disrupt 
 
       <article class="benefit-card">
         <figure class="benefit-media">
-          <img src="<?= base_url('assets/images/nutritional-deficiency-hair-loss.png') ?>" alt="Nutritional deficiency hair loss">
+          <img loading="lazy" src="<?= base_url('assets/images/nutritional-deficiency-hair-loss.png') ?>" alt="Nutritional deficiency hair loss">
           <figcaption class="benefit-ribbon">
             <span class="ribbon-title">Nutritional Deficiencies</span>
           </figcaption>
@@ -363,7 +363,7 @@ Lack of essential nutrients such as protein, iron, and vitamins can weaken hair 
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/hair-loss-consultation.png') ?>" alt="When to see a doctor for hair loss">
+        <img loading="lazy" src="<?= base_url('assets/images/hair-loss-consultation.png') ?>" alt="When to see a doctor for hair loss">
       </div>
 
       <div class="cs-content">
@@ -418,7 +418,7 @@ Lack of essential nutrients such as protein, iron, and vitamins can weaken hair 
       <a href="<?= base_url('medical-hair-loss-treatment') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/hair-loss-medication.png') ?>" alt="Hair loss medication treatment">
+            <img loading="lazy" src="<?= base_url('assets/images/hair-loss-medication.png') ?>" alt="Hair loss medication treatment">
           </span>
           <figcaption class="svc-title">
             Hair Loss<br>Medication
@@ -432,7 +432,7 @@ Lack of essential nutrients such as protein, iron, and vitamins can weaken hair 
       <a href="<?= base_url('lllt-hair-treatment') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/lllt-hair-therapy.png') ?>" alt="LLLT hair therapy">
+            <img loading="lazy" src="<?= base_url('assets/images/lllt-hair-therapy.png') ?>" alt="LLLT hair therapy">
           </span>
           <figcaption class="svc-title">
             LLLT Hair<br>Therapy
@@ -446,7 +446,7 @@ Lack of essential nutrients such as protein, iron, and vitamins can weaken hair 
       <a href="<?= base_url('exosome-hair-therapy') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/exosome-hair-therapy.png') ?>" alt="Exosome hair therapy">
+            <img loading="lazy" src="<?= base_url('assets/images/exosome-hair-therapy.png') ?>" alt="Exosome hair therapy">
           </span>
           <figcaption class="svc-title">
             Exosome<br>Hair Therapy
@@ -460,7 +460,7 @@ Lack of essential nutrients such as protein, iron, and vitamins can weaken hair 
       <a href="<?= base_url('prp-hair-treatment') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/prp-hair-treatment.png') ?>" alt="PRP hair treatment">
+            <img loading="lazy" src="<?= base_url('assets/images/prp-hair-treatment.png') ?>" alt="PRP hair treatment">
           </span>
           <figcaption class="svc-title">
             PRP Hair<br>Treatment
@@ -474,7 +474,7 @@ Lack of essential nutrients such as protein, iron, and vitamins can weaken hair 
       <a href="<?= base_url('gfc-hair-treatment') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/gfc-hair-treatment.png') ?>" alt="GFC hair treatment">
+            <img loading="lazy" src="<?= base_url('assets/images/gfc-hair-treatment.png') ?>" alt="GFC hair treatment">
           </span>
           <figcaption class="svc-title">
             GFC Hair<br>Treatment
@@ -488,7 +488,7 @@ Lack of essential nutrients such as protein, iron, and vitamins can weaken hair 
       <a href="<?= base_url('male-hair-transplant') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
-            <img src="<?= base_url('assets/images/male-ht.png') ?>" alt="Male hair transplant">
+            <img loading="lazy" src="<?= base_url('assets/images/male-ht.png') ?>" alt="Male hair transplant">
           </span>
           <figcaption class="svc-title">
             Male Hair<br>Transplant
@@ -606,7 +606,7 @@ Lack of essential nutrients such as protein, iron, and vitamins can weaken hair 
 
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>

@@ -84,7 +84,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/minoxidil-treatment.png') ?>" alt="Minoxidil treatment for hair loss">
+        <img loading="lazy" src="<?= base_url('assets/images/minoxidil-treatment.png') ?>" alt="Minoxidil treatment for hair loss">
       </div>
 
       <div class="cs-content">
@@ -349,7 +349,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/minoxidil-for-hair-loss.png') ?>" alt="Medical evaluation before using minoxidil">
+        <img loading="lazy" src="<?= base_url('assets/images/minoxidil-for-hair-loss.png') ?>" alt="Medical evaluation before using minoxidil">
       </div>
 
       <div class="cs-content">
@@ -512,7 +512,7 @@
 <section>
 
   <aside class="faq-author faq-author--ak">
-    <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua - Hair Transplant Surgeon">
+    <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua - Hair Transplant Surgeon">
 
     <div class="fa-meta">
       <p class="fa-row"><strong>Medically Reviewed by:</strong> Dr. Kapil Dua</p>

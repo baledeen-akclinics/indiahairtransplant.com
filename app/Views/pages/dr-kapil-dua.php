@@ -40,7 +40,7 @@
         <!-- LEFT: Photo + Contact -->
         <div class="docp-left">
           <figure class="docp-photo">
-            <img
+            <img loading="lazy"
               src="<?= base_url('assets/images/dr-kapil-dua.webp') ?>"
               alt="Dr. Kapil Dua, Chairman and Chief Hair Transplant Surgeon at IHT Clinics India"
               width="420" height="520"
@@ -467,7 +467,7 @@
 
       <!-- FAQ Author Card -->
       <div class="faq-author faq-author--ak" style="margin-top:28px;">
-        <img src="<?= base_url('assets/images/dr-kapil-dua.webp') ?>" alt="Dr. Kapil Dua" style="width:84px; height:84px; border-radius:50%; object-fit:cover;">
+        <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua.webp') ?>" alt="Dr. Kapil Dua" style="width:84px; height:84px; border-radius:50%; object-fit:cover;">
         <div class="fa-meta">
           <div class="fa-row"><strong>Dr. Kapil Dua</strong></div>
           <div class="fa-row">MBBS, MS | Chairman, IHT Clinics</div>

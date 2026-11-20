@@ -262,7 +262,7 @@
            fetchpriority="high" tells the browser to load this before other images.
            aria-hidden="true" hides it from screen readers (CSS bg remains the visual).
            Replace page-hero-bg.webp with the actual hero background image filename. -->
-      <img src="<?= base_url('assets/images/page-hero-bg.webp') ?>"
+      <img loading="lazy" src="<?= base_url('assets/images/page-hero-bg.webp') ?>"
            alt=""
            aria-hidden="true"
            fetchpriority="high"
@@ -1174,7 +1174,7 @@
   <!-- ============ REVIEWED-BY AUTHOR (E-E-A-T) ============ -->
   <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua | Hair Transplant Surgeon, IHT Ludhiana">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua | Hair Transplant Surgeon, IHT Ludhiana">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS | Chairman &amp; Chief Hair Transplant Surgeon | ISHRS Member | 20+ Years Experience</p>

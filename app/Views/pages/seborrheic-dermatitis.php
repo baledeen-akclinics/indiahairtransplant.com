@@ -121,7 +121,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/seborrheic-dermatitis-symptoms.png') ?>" alt="Common symptoms of seborrheic dermatitis including greasy flakes and scalp redness">
+        <img loading="lazy" src="<?= base_url('assets/images/seborrheic-dermatitis-symptoms.png') ?>" alt="Common symptoms of seborrheic dermatitis including greasy flakes and scalp redness">
       </div>
 
       <div class="cs-content">
@@ -277,7 +277,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/who-is-more-likely-to-develop-seborrheic-dermatitis.png') ?>" alt="People more likely to develop seborrheic dermatitis such as those with oily skin and high stress">
+        <img loading="lazy" src="<?= base_url('assets/images/who-is-more-likely-to-develop-seborrheic-dermatitis.png') ?>" alt="People more likely to develop seborrheic dermatitis such as those with oily skin and high stress">
       </div>
 
       <div class="cs-content">
@@ -404,7 +404,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/seborrheic-dermatitis-hair-loss.png') ?>" alt="Seborrheic dermatitis causing scalp inflammation and temporary hair shedding">
+        <img loading="lazy" src="<?= base_url('assets/images/seborrheic-dermatitis-hair-loss.png') ?>" alt="Seborrheic dermatitis causing scalp inflammation and temporary hair shedding">
       </div>
 
       <div class="cs-content">
@@ -688,7 +688,7 @@
 </section>
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>

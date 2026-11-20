@@ -110,7 +110,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/scalp-psoriasis-symptoms.webp') ?>" alt="Common symptoms of scalp psoriasis including thick scales and scalp redness">
+          <img loading="lazy" src="<?= base_url('assets/images/scalp-psoriasis-symptoms.webp') ?>" alt="Common symptoms of scalp psoriasis including thick scales and scalp redness">
         </div>
 
         <div class="cs-content">
@@ -193,7 +193,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/who-is-more-likely-to-develop-scalp-psoriasis.png') ?>" alt="People more likely to develop scalp psoriasis">
+          <img loading="lazy" src="<?= base_url('assets/images/who-is-more-likely-to-develop-scalp-psoriasis.png') ?>" alt="People more likely to develop scalp psoriasis">
         </div>
 
         <div class="cs-content">
@@ -319,7 +319,7 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img src="<?= base_url('assets/images/scalp-psoriasis-hair-loss.png') ?>" alt="Scalp psoriasis causing inflammation and temporary hair shedding">
+          <img loading="lazy" src="<?= base_url('assets/images/scalp-psoriasis-hair-loss.png') ?>" alt="Scalp psoriasis causing inflammation and temporary hair shedding">
         </div>
 
         <div class="cs-content">
@@ -617,7 +617,7 @@
 
   <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>

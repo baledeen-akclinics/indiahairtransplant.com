@@ -533,7 +533,7 @@
       <div class="media-wrap">
         <div class="media-blob" aria-hidden="true"></div>
         <figure class="media-card">
-          <img src="<?= base_url('assets/images/hair-transplant-cost-india.png') ?>" alt="Hair Transplant Cost Evaluation at IHT">
+          <img loading="lazy" src="<?= base_url('assets/images/hair-transplant-cost-india.png') ?>" alt="Hair Transplant Cost Evaluation at IHT">
         </figure>
       </div>
 
@@ -674,7 +674,7 @@
 <section>
 
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>

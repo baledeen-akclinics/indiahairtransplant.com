@@ -111,7 +111,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/dandruff-symptoms.webp') ?>" alt="Common symptoms of dandruff including visible flakes and itchy scalp">
+        <img loading="lazy" src="<?= base_url('assets/images/dandruff-symptoms.webp') ?>" alt="Common symptoms of dandruff including visible flakes and itchy scalp">
       </div>
 
       <div class="cs-content">
@@ -258,7 +258,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/who-is-more-likely-to-experience-dandruff.webp') ?>" alt="Factors that increase the risk of dandruff such as oily scalp and stress">
+        <img loading="lazy" src="<?= base_url('assets/images/who-is-more-likely-to-experience-dandruff.webp') ?>" alt="Factors that increase the risk of dandruff such as oily scalp and stress">
       </div>
 
       <div class="cs-content">
@@ -380,7 +380,7 @@
     <div class="cs-wrap">
 
       <div class="cs-img">
-        <img src="<?= base_url('assets/images/dandruff-and-hair-fall.png') ?>" alt="Dandruff and scalp irritation contributing to temporary hair fall">
+        <img loading="lazy" src="<?= base_url('assets/images/dandruff-and-hair-fall.png') ?>" alt="Dandruff and scalp irritation contributing to temporary hair fall">
       </div>
 
       <div class="cs-content">
@@ -571,7 +571,7 @@
 
 <section>
     <aside class="faq-author faq-author--ak">
-      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
