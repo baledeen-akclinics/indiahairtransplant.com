@@ -649,7 +649,7 @@
         <div class="cs-content">
 
           <p class="cs-text">
-            India Hair Transplant (IHT) is a specialised hair restoration centre associated with <a href="https://akclinics.com/">AK Clinics</a> (founded in 2007). Patients from Panchkula often visit IHT Chandigarh for medical evaluation, graft planning, and technique guidance focused on natural looking results and donor safety.
+            India Hair Transplant (IHT) is a specialised hair restoration centre associated with <a href="https://akclinics.com/">AK Clinics</a> (founded in 2007). Patients from Panchkula often visit IHT Ludhiana for medical evaluation, graft planning, and technique guidance focused on natural looking results and donor safety.
           </p>
 
           <!-- Accordion -->
@@ -741,7 +741,7 @@
   <section class="iht-cta-strip">
     <div class="container iht-cta-wrap">
       <p class="iht-cta-text">
-        👉 From Panchkula, you can book an appointment for in-person scalp assessment, graft estimation, and technique guidance at our Chandigarh clinic.
+        👉 From Panchkula, you can book an appointment for in-person scalp assessment, graft estimation, and technique guidance at our Ludhiana clinic.
       </p>
       <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
     </div>

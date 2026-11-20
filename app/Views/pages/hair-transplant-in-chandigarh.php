@@ -46,7 +46,7 @@
 
           <p class="cs-text">However, successful results depend mainly on choosing the right clinic and experienced surgeons who do a proper evaluation, recommend the right technique, and plan for long-term stability rather than short-term cosmetic promises. If you are considering any hair restoration treatment in Chandigarh, scheduling a detailed consultation is an essential first step.</p>
 
-          <p class="cs-text">India Hair Transplant (IHT) is one of the leading hair transplant clinics serving Chandigarh / Tricity patients, known for medically planned procedures, advanced techniques, and consistently natural-looking results. The clinic has gained the trust of patients and public figures through its focus on surgical precision, ethical treatment options, and maintaining the long-term health of the donor area.</p>
+          <p class="cs-text">India Hair Transplant (IHT), based at its Ludhiana clinic, is one of the leading hair transplant providers serving Chandigarh / Tricity patients, known for medically planned procedures, advanced techniques, and consistently natural-looking results. The clinic has gained the trust of patients and public figures through its focus on surgical precision, ethical treatment options, and maintaining the long-term health of the donor area.</p>
 
         </div>
       </div>
@@ -611,7 +611,7 @@
         <div class="cs-content">
 
           <p class="cs-text">
-            India Hair Transplant (IHT) is a trusted hair transplant clinic for Chandigarh / Tricity patients, with all procedures carried out by skilled surgeons using medically planned protocols. Founded in 2007, IHT is a sister branch of <a href="https://akclinics.com/">AK Clinics</a> and has a track record of providing safe, natural-looking results through carefully planned and ethically conducted procedures.
+            India Hair Transplant (IHT), based at its Ludhiana clinic, is a trusted hair transplant provider for Chandigarh / Tricity patients, with all procedures carried out by skilled surgeons using medically planned protocols. Founded in 2007, IHT is a sister branch of <a href="https://akclinics.com/">AK Clinics</a> and has a track record of providing safe, natural-looking results through carefully planned and ethically conducted procedures.
           </p>
 
           <!-- Accordion -->
