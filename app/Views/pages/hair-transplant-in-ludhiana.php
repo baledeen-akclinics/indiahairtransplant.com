@@ -93,7 +93,7 @@
     "@type": "Person",
     "name": "Dr. Kapil Dua",
     "jobTitle": "Chairman & Chief Hair Transplant Surgeon",
-    "description": "MBBS, MS | Over 18 years of experience in hair restoration surgery. Member of ISHRS and ABHRS. Performed thousands of FUE and Bio-FUE procedures across India.",
+    "description": "MBBS, MS | Over 20 years of experience in hair restoration surgery. Member of ISHRS and ABHRS. Performed thousands of FUE and Bio-FUE procedures across India.",
     "image": "https://indiahairtransplant.com/assets/images/dr-kapil-dua-icon.png",
     "url": "https://indiahairtransplant.com/",
     "worksFor": {
@@ -1041,7 +1041,7 @@
         <div class="cs-content">
           <h3>Dr. Kapil Dua</h3>
           <p class="cs-text"><strong>MBBS, MS | Chairman &amp; Chief Hair Transplant Surgeon | ISHRS Member</strong></p>
-          <p class="cs-text">Dr. Kapil Dua is one of India's most experienced hair restoration surgeons, with over 18 years of dedicated practice in FUE, Bio-FUE, and advanced hair transplant techniques. He is a member of the International Society of Hair Restoration Surgery (ISHRS) and the Association of Hair Restoration Surgeons of India (AHRS), and has been involved in thousands of successful procedures across IHT and AK Clinics.</p>
+          <p class="cs-text">Dr. Kapil Dua is one of India's most experienced hair restoration surgeons, with over 20 years of dedicated practice in FUE, Bio-FUE, and advanced hair transplant techniques. He is a member of the International Society of Hair Restoration Surgery (ISHRS) and the Association of Hair Restoration Surgeons of India (AHRS), and has been involved in thousands of successful procedures across IHT and AK Clinics.</p>
           <p class="cs-text">At IHT Ludhiana, Dr. Dua leads the clinical team and ensures that all critical surgical steps, including hairline design, graft extraction, and implantation, are performed by qualified doctors. His approach prioritises long-term donor area health and natural hairline aesthetics over short-term results.</p>
         </div>
 

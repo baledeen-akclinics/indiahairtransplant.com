@@ -44,7 +44,7 @@
         
          <p class="cs-text">Located in Bangalore, <a href="<?= base_url() ?>">India, Hair Transplant (IHT)</a> is a specialised clinic offering medically planned hair restoration through advanced surgical techniques in a fully equipped operating environment that adheres to strict safety and hygiene standards. Each hair transplant at IHT is performed by experienced surgeons to achieve natural-looking results while safeguarding the long-term health of the donor area.
 </p>
-         <p class="cs-text">Each hair transplant procedure at IHT is led by Dr. Kapil Dua, founder and hair transplant surgeon, who brings over 25 years of hands-on experience in hair restoration. His emphasis on precise case assessment, hairline planning, graft management, and long-term donor preservation ensures each procedure is approached as a medical solution rather than a cosmetic shortcut.
+         <p class="cs-text">Each hair transplant procedure at IHT is led by Dr. Kapil Dua, founder and hair transplant surgeon, who brings over 20 years of hands-on experience in hair restoration. His emphasis on precise case assessment, hairline planning, graft management, and long-term donor preservation ensures each procedure is approached as a medical solution rather than a cosmetic shortcut.
 
 </p>
          <p class="cs-text">For individuals considering a hair transplant in Bangalore, visiting our Indiranagar clinic for a detailed consultation with experienced surgeons helps in understanding graft requirements, expected coverage, hair transplant costs, and the most suitable treatment approach based on individual hair loss patterns.

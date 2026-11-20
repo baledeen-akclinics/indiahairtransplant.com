@@ -83,7 +83,7 @@
           </div>
 
           <div class="docp-highlight">
-            <p>The first and only Indian hair transplant surgeon elected as President of ISHRS (USA) - the world's foremost body for hair restoration surgery. Dr. Kapil Dua brings over 25 years of surgical experience, more than 5 million follicles transplanted, and an internationally respected approach to every case he handles.</p>
+            <p>The first and only Indian hair transplant surgeon elected as President of ISHRS (USA) - the world's foremost body for hair restoration surgery. Dr. Kapil Dua brings over 20 years of surgical experience, more than 5 million follicles transplanted, and an internationally respected approach to every case he handles.</p>
           </div>
 
           <p class="docp-text">
@@ -92,7 +92,7 @@
 
           <p class="docp-sub">Credentials at a Glance</p>
           <ul class="docp-list">
-            <li>25+ years of experience in hair transplant surgery and restoration planning</li>
+            <li>20+ years of experience in hair transplant surgery and restoration planning</li>
             <li>5 million+ hair follicles transplanted with less than 3% documented graft wastage</li>
             <li>Past President, ISHRS, USA (2022-23) - the first Indian to hold this office</li>
             <li>President, Asian Association of Hair Restoration Surgeons (AAHRS), 2024</li>
