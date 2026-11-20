@@ -858,6 +858,83 @@
 
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-kota",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a hair transplant a good option for early hair thinning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not always. In early thinning, the first step is diagnosis and medical management if needed. A transplant is usually considered when pattern hair loss is established and donor hair can safely support coverage. A consultation helps decide the right timing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do some people from Kota visit Jaipur or Delhi for hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some patients prefer centres where structured donor mapping, higher surgical infrastructure, and dedicated hair transplant teams are available—especially for higher grades, revision cases, or when donor management is critical."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is graft requirement estimated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Grafts are estimated after assessing the size of the thinning area, existing native hair, density goals, and donor capacity. A safe plan avoids overharvesting and focuses on realistic density, especially for crown areas that may need more grafts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the expected hair transplant cost for patients from Kota?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cost commonly depends on graft requirement, stage of hair loss, technique used, and whether single or staged sessions are needed. A broad range many patients see is Rs. 45,000 to Rs. 4,50,000, but accurate estimation requires scalp and donor evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take to see visible results after surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "After surgery, transplanted hair commonly sheds in the early weeks. New growth usually begins around 3 to 4 months. Noticeable improvement builds gradually, and final density is commonly evaluated around 10 to 12 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I avoid in the first week after a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avoid touching or scratching grafts, heavy exercise, swimming, tight helmets/caps, smoking, alcohol, and direct sun exposure. Follow your discharge instructions for washing and medication to support safe healing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I book a consultation if I am coming from Kota?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 . Our team will guide you regarding appointment scheduling and the evaluation process."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>

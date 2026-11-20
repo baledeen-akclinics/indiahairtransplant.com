@@ -856,6 +856,91 @@
 
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-bathinda",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a hair transplant painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant surgery is performed under local anaesthesia, so the procedure is generally well tolerated. Patients may experience mild soreness, tightness, or swelling for a few days, which improves with prescribed medication and proper after care."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do patients from Bathinda travel for hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many patients prefer visiting established centres like Ludhiana for structured evaluation, consistent OT protocols, and direct surgeon involvement. The best option depends on your case complexity and comfort with available facilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the hair transplant cost for patients from Bathinda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost typically depends on graft requirement, baldness stage, donor density, and technique used. Many patients may see estimates ranging from Rs. 50,000 to Rs. 4,20,000, but an accurate range is shared only after scalp and donor assessment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many visits are required if I am travelling from Bathinda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many patients plan one visit for in-person evaluation and a separate visit for surgery. Follow up guidance is often managed remotely, while scheduled reviews are advised as per the doctor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will I see visible hair transplant results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair growth after transplant is gradual. New growth typically begins around 3 to 4 months. Noticeable improvement develops progressively, and final density is commonly seen between 10 to 12 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is consultation important before choosing a clinic in Bathinda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A proper consultation confirms whether you are a suitable candidate, estimates graft requirement, evaluates donor capacity, and explains realistic expectations. This step helps prevent overharvesting and unrealistic promises."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What precautions should I follow during the first 7 days after surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "During the first week, avoid scratching the grafted area, heavy workouts, swimming, tight helmets or caps, smoking, alcohol, and direct sun exposure. Follow the personalised post operative instructions shared during discharge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I book a consultation if I am coming from Bathinda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 . Our team will guide you regarding evaluation steps and appointment scheduling."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>

@@ -854,6 +854,91 @@
 
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-agra",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a hair transplant painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant surgery is performed under local anaesthesia, so the procedure is generally well tolerated. Patients may experience mild soreness, tightness, or swelling for a few days, which improves with prescribed medication and proper after-care."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do patients from Agra need to travel for advanced hair transplant procedures?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some patients from Agra choose to visit metro centres such as Delhi NCR for advanced techniques, structured surgical planning, and higher clinical infrastructure standards. The decision depends on individual preference, case complexity, and comfort with available facilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the hair transplant cost for patients from Agra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The hair transplant cost for patients from Agra typically ranges between Rs. 55,000 and Rs. 4,20,000 depending on graft requirement, baldness stage, technique used, and overall surgical planning. A detailed scalp and donor assessment is necessary to provide an accurate estimate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many visits are required if I am travelling from Agra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many patients plan one visit for in-person evaluation and a separate visit for surgery. In select cases, consultation and procedure may be scheduled close together depending on suitability and availability. Follow-up guidance can often be managed remotely."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will I see visible hair transplant results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair growth after transplant is gradual. New growth typically begins around 3 to 4 months. Noticeable improvement develops progressively, and final density is commonly seen between 10 to 12 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is consultation important before choosing a clinic in Agra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A proper consultation confirms whether you are a suitable candidate, estimates graft requirement, evaluates donor capacity, and explains realistic expectations. This step helps prevent overharvesting and unrealistic promises."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What precautions should I follow during the first 7 days after surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "During the first week, avoid scratching the grafted area, heavy workouts, swimming, tight helmets or caps, smoking, alcohol, and direct sun exposure. Follow the personalised post-operative instructions shared during discharge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I book a consultation if I am coming from Agra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 . Our team will guide you regarding evaluation steps, appointment scheduling, and travel planning if required."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>

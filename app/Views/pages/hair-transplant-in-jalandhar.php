@@ -847,6 +847,83 @@
 
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-jalandhar",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I know if my hair loss in Jalandhar needs a transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A consultation is needed to check your hair loss pattern, donor density, scalp condition, and whether the loss is stable. Some patients benefit from medical treatment first, while others may be suitable for transplant planning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the typical hair transplant cost in Jalandhar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Costs vary based on graft requirement, baldness stage, donor density, and technique. Many patients see ranges between Rs. 50,000 and Rs. 4,20,000, but the accurate estimate is shared only after scalp and donor assessment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it safe to decide graft count based on photos only?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Photos can help in early screening, but final graft calculation requires in-person donor evaluation and scalp assessment. This is important to avoid overharvesting and unrealistic planning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many days should I plan for surgery if I am travelling from Jalandhar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients plan a short stay around the procedure date. The exact duration depends on the case plan. Follow up guidance is often managed remotely, while scheduled reviews are advised as needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will I see visible hair growth after transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Growth is gradual. New hair growth commonly starts around 3 to 4 months, improves over the next months, and final results are usually assessed around 10 to 12 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I avoid during the first week after hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avoid scratching the grafted area, heavy workouts, swimming, tight helmets or caps, smoking, alcohol, and direct sun exposure. Follow the personalised post operative instructions shared during discharge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I book a consultation from Jalandhar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 . Our team will guide you regarding evaluation steps and appointment scheduling."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>

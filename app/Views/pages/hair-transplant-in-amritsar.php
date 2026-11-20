@@ -834,6 +834,75 @@
 
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-amritsar",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I get a hair transplant in Amritsar or should I visit Ludhiana?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some patients choose local options, while many prefer visiting IHT Ludhiana for structured donor assessment and graft planning within Punjab. The right choice depends on your case complexity and comfort with evaluation standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many grafts do I typically need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Graft requirement depends on your hair loss grade, the area to be covered, hair thickness, and donor density. Only a scalp examination and donor mapping can provide an accurate estimate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the hair transplant cost for patients from Amritsar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many patients see broad ranges between Rs. 55,000 to Rs. 4,50,000+ depending on graft requirement, baldness stage, technique used, and case complexity. An exact estimate needs scalp and donor assessment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a hair transplant painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant surgery is performed under local anaesthesia, so the procedure is generally well tolerated. Mild soreness, tightness, or swelling may occur for a few days and usually improves with prescribed medication and proper after-care."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will I see visible hair transplant results?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair growth is gradual. New growth commonly starts around 3 to 4 months, improves steadily, and final density is typically assessed between 10 to 12 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I book a consultation from Amritsar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 . Our team will guide you regarding appointment scheduling at IHT Ludhiana and evaluation steps."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>
