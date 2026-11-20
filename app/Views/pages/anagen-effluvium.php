@@ -505,4 +505,81 @@
 </section>
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/anagen-effluvium",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "1. What is anagen effluvium hair loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anagen effluvium is a form of rapid hair loss that happens when hair follicles are impacted during the active growth phase of the hair cycle. This can result in sudden, widespread shedding of hair."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "2. What causes anagen effluvium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anagen effluvium is most often linked to chemotherapy and specific medical treatments that impact rapidly dividing cells. It can also happen because of medications, toxins, or serious illnesses."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "3. Does hair grow back after anagen effluvium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For many people, hair regrowth can start after the underlying cause is eliminated or treatment ends, since hair follicles are often not permanently harmed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "4. How soon does hair loss start in anagen effluvium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair shedding in anagen effluvium can start within a few weeks after exposure to the trigger, which makes it different from many other types of hair loss that develop gradually."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "5. When does hair grow back after chemotherapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair regrowth often starts within a few months after chemotherapy ends. The new hair might initially feel softer or have a slightly different texture before gradually returning to its normal growth pattern."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "6. Can chemotherapy cause permanent hair loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In most cases, hair loss from chemotherapy is temporary. Once the treatment cycle ends, hair follicles typically recover, and new hair gradually starts to grow over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "7. What is the cost of a hair transplant in India if the hair does not regrow?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant costs in India can vary based on factors like the number of grafts needed, hair loss pattern, and clinic expertise. Consulting specialists can help identify the best approach."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <?= $this->endSection() ?>

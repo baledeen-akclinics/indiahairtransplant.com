@@ -615,6 +615,75 @@
 
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/scalp-folliculitis",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What causes scalp folliculitis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scalp folliculitis occurs when hair follicles become inflamed due to bacterial infection, excess oil, blocked follicles, or scalp irritation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is scalp folliculitis contagious?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most cases of scalp folliculitis are not contagious, although certain infections may spread through shared personal items."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can scalp folliculitis come back after treatment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scalp folliculitis can recur, especially if the underlying triggers, such as excess oil, sweating, tight headwear, or scalp irritation, are not addressed. Maintaining good scalp hygiene and managing underlying scalp conditions can help reduce the chances of repeated outbreaks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can scalp folliculitis cause hair loss?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Scalp folliculitis usually causes temporary hair shedding if inflammation is severe, but it rarely leads to permanent hair loss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is scalp folliculitis treated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Treatment depends on the cause and may include medicated shampoos, topical treatments, or medical therapies recommended by a doctor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should I see a doctor for scalp folliculitis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You should seek medical advice if scalp bumps are painful, persistent, or associated with increased hair shedding."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>

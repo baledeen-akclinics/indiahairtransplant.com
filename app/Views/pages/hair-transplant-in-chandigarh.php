@@ -816,6 +816,91 @@
 
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-chandigarh",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a hair transplant painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A hair transplant is performed under local anaesthesia, which makes the procedure comfortable for most patients. Mild discomfort, tightness, or soreness may be felt after surgery and usually resolves within a few days with proper care."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cost of a hair transplant in Chandigarh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant prices in Chandigarh / Tricity commonly start around Rs. 50,000 and can go up to Rs. 3,50,000+ depending on the number of grafts needed, the area to be covered, the technique used, and the complexity of the procedure. A medical consultation is necessary to obtain an accurate estimate for your specific case."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can lifestyle and stress in Chandigarh / Tricity increase hair fall?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In some people, stress, irregular routines, poor sleep, and long screen hours can worsen dryness, breakage, or visible hair fall. If hair fall is ongoing or you notice thinning, a doctor evaluation helps confirm whether it is temporary shedding or pattern hair loss and guides the right treatment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is the best hair transplant surgeon in Chandigarh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best hair transplant surgeon is someone who focuses on medical safety, hands-on involvement, and honest planning. While choosing a surgeon, check if the doctor personally assesses your case, plans the hairline, and stays involved in the key surgical steps. Also look for real patient results and transparent graft based pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I avoid for 7 days after a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For the first 7 days after a hair transplant, follow your post-op instructions carefully. In general, avoid touching or scratching the grafts, heavy workouts, swimming, wearing tight caps or helmets, smoking, alcohol, and direct sun exposure. Your surgeon will guide you based on your healing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are technicians allowed to perform hair transplant surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant is a medical procedure and critical steps require medical training and judgment. At IHT, key surgical steps are performed by qualified surgeons and are not delegated to unqualified staff."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a beard or eyebrow hair transplant available in Chandigarh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, procedures such as beard, moustache, and eyebrow hair transplant are available. These are precision-based procedures and are recommended only after proper medical evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I book a consultation for a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 to discuss your hair loss concern and available treatment options with our medical team."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>

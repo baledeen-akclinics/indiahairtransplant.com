@@ -461,4 +461,73 @@
 </section>
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/traction-alopecia",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "1. What is traction alopecia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Traction alopecia is a type of hair loss caused by continuous pulling or tension on the hair follicles, often due to tight hairstyles or repeated stress on the scalp."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "2. Can traction alopecia grow back?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, hair may grow back if the condition is identified early and the tension on the hair follicles is reduced. Long-term traction, however, may cause permanent follicle damage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "3. What hairstyles can cause traction alopecia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tight hairstyles such as ponytails, braids, buns, cornrows, hair extensions, or tightly tied turbans can place continuous stress on the hair roots, contributing to traction alopecia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "4. Is traction alopecia common in men who wear turbans?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In regions like North India, especially Punjab, traction alopecia may sometimes be seen in men who regularly tie tight turbans, as constant tension can affect the frontal hairline and temples."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "5. How can traction alopecia be prevented?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reducing tension on the hair, avoiding very tight hairstyles, and maintaining gentle hair care practices can help lower the risk of traction-related hair loss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "6. When should I consult a specialist for traction alopecia?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you notice persistent thinning along the hairline, hair breakage, or progressive hair loss despite changing hairstyles, it may be helpful to consult a specialist for proper evaluation."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <?= $this->endSection() ?>
