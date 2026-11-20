@@ -113,7 +113,7 @@
 <section class="celeb-story">
   <div class="container">
 
-    <h2 class="results-title">Best Hair Transplant Clinic in India</h2>
+    <h2 class="results-title">Surgeon-Led Hair Transplant Care You Can Trust</h2>
 
     <div class="results-divider" aria-hidden="true">
       <span class="line"></span>
@@ -753,26 +753,82 @@
         "@type": "FAQPage",
         "mainEntity": [{
             "@type": "Question",
-            "name": "Is hair transplant safe?",
+            "name": "Is hair transplant in India safe?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Hair transplant is safe when performed by an experienced doctor with proper planning and medical standards."
+              "text": "Yes, when performed by an experienced hair transplant surgeon with proper hygiene protocols. Safety depends on surgeon involvement, sterile standards, and correct planning."
             }
           },
           {
             "@type": "Question",
-            "name": "How much does hair transplant cost in India?",
+            "name": "How much does a hair transplant cost in India?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Hair transplant cost in India depends on graft requirement, technique, and clinic standards. Final cost is decided after consultation."
+              "text": "Hair transplant cost in India typically ranges from Rs. 60,000 to Rs. 4,50,000 but the final cost varies based on graft count, technique (FUE/Bio-FUE), surgeon expertise, and OT standard. A precise estimate is possible only after evaluating hair loss pattern and donor area strength."
             }
           },
           {
             "@type": "Question",
-            "name": "When will I see results after hair transplant?",
+            "name": "Is hair transplant cost in India calculated per graft?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Hair growth usually starts after a few months, with visible improvement between 6 to 9 months."
+              "text": "Many clinics quote per-graft pricing, but the final cost also depends on the technique used, the complexity of the case, and who performs the key surgical steps, so it is important to ask what is included in the package."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many grafts do I need for a hair transplant?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "It depends on baldness level, donor capacity, hair calibre, and density goals. Many cases fall around 1,500 to 3,500+ grafts, but the final plan is decided after a doctor's assessment."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which technique is better in India: FUE or Bio-FUE?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Both FUE and Bio-FUE are effective when planned correctly. The better technique depends on individual scalp condition, hair loss pattern, and medical assessment, not a one-size-fits-all choice."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who is the right candidate for a hair transplant?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Suitable candidates are generally between 25 and 65 years of age, have a stable pattern of hair loss, a healthy donor area, and realistic expectations about density and coverage. Final suitability depends on hair loss type, donor availability, scalp condition, and future hair loss progression, assessed during consultation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does recovery take after a hair transplant?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most people return to desk work in 2 to 4 days. Scabs usually shed by day 10 to 14. Exercise and heavy sweating are typically restricted for a short period as advised by the doctor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "When will I see hair transplant results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Most visible hair transplant growth begins after 3 to 4 months. Noticeable improvement is usually seen between 6 to 9 months, while full results may continue to develop up to 12 months or longer depending on the case."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are hair transplant results permanent?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Transplanted follicles are typically resistant to hair loss, but existing non-transplanted hair can continue to thin with age. Long-term results depend on proper planning and donor management."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I choose the best hair transplant clinic in India?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Look for experienced surgeons, medically compliant OT standards, transparent counselling, documented before-after cases, and clear aftercare. Avoid clinics that promise guaranteed density or unusually cheap packages."
             }
           }
         ]

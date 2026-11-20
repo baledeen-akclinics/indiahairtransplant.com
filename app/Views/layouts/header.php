@@ -94,6 +94,7 @@
         <div class="dd">
           <ul class="dd-list">
             <li><a href="<?= base_url('hair-transplant-cost') ?>">Hair Transplant Cost in India</a></li>
+            <li><a href="<?= base_url('hair-transplant-cost-calculator') ?>">Graft Calculator</a></li>
             <li><a href="<?= base_url('faqs') ?>">Hair Transplant FAQs</a></li>
             <li><a href="<?= base_url('hair-transplant-safety-and-recovery') ?>">Hair Transplant Safety &amp; Recovery</a></li>
           </ul>
@@ -287,7 +288,7 @@
       </div>
       <div class="msub">
         <a class="mitem" href="<?= base_url('hair-transplant-cost') ?>"><span class="label">Hair Transplant Cost in India</span></a>
-        <a class="mitem" href="#"><span class="label">Graft Calculator</span></a>
+        <a class="mitem" href="<?= base_url('hair-transplant-cost-calculator') ?>"><span class="label">Graft Calculator</span></a>
         <a class="mitem" href="#"><span class="label">EMI on Hair Transplant</span></a>
         <a class="mitem" href="<?= base_url('faqs') ?>"><span class="label">Hair Transplant FAQs</span></a>
         <a class="mitem" href="<?= base_url('hair-transplant-safety-and-recovery') ?>"><span class="label">Hair Transplant Safety &amp; Recovery</span></a>
