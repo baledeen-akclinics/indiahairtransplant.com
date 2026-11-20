@@ -734,6 +734,13 @@
           "addressCountry": "IN"
         },
 
+        "sameAs": [
+          "https://www.facebook.com/AKClinics",
+          "https://www.instagram.com/ak.clinics/",
+          "https://www.youtube.com/@AKClinics",
+          "https://www.linkedin.com/company/ak-clinics/"
+        ],
+
         "medicalSpecialty": [
           "http://schema.org/Dermatologic"
         ],
@@ -745,6 +752,66 @@
           {
             "@type": "MedicalProcedure",
             "name": "Bio-FUE Hair Transplant"
+          }
+        ],
+
+        "department": [
+          {
+            "@type": "MedicalClinic",
+            "name": "IHT Clinic, Delhi",
+            "url": "https://indiahairtransplant.com/hair-transplant-in-delhi",
+            "telephone": "+91-8699003797",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "M-20, GK-I, Near M Block Market",
+              "addressLocality": "Delhi",
+              "addressRegion": "Delhi",
+              "postalCode": "110048",
+              "addressCountry": "IN"
+            },
+            "openingHours": "Mo-Su 10:30-18:30"
+          },
+          {
+            "@type": "MedicalClinic",
+            "name": "IHT Clinic, Ludhiana (Kips Market)",
+            "url": "https://indiahairtransplant.com/hair-transplant-in-ludhiana",
+            "telephone": "+91-8699003797",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "51-E, Sarabha Nagar, Opp Kipps Market",
+              "addressLocality": "Ludhiana",
+              "addressRegion": "Punjab",
+              "addressCountry": "IN"
+            },
+            "openingHours": "Mo-Su 10:30-18:30"
+          },
+          {
+            "@type": "MedicalClinic",
+            "name": "IHT Clinic, Ludhiana (South City)",
+            "url": "https://indiahairtransplant.com/hair-transplant-in-ludhiana",
+            "telephone": "+91-8699003797",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "60, Canal Road, South End, Aggar Nagar",
+              "addressLocality": "Ludhiana",
+              "addressRegion": "Punjab",
+              "addressCountry": "IN"
+            },
+            "openingHours": "Mo-Su 10:30-18:30"
+          },
+          {
+            "@type": "MedicalClinic",
+            "name": "IHT Clinic, Bangalore",
+            "url": "https://indiahairtransplant.com/hair-transplant-in-bangalore",
+            "telephone": "+91-8699003797",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "149, 10th Cross Road, Indira Nagar",
+              "addressLocality": "Bangalore",
+              "addressRegion": "Karnataka",
+              "addressCountry": "IN"
+            },
+            "openingHours": "Mo-Su 10:30-18:30"
           }
         ]
       },
