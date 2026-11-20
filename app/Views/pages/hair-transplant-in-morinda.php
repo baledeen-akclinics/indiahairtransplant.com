@@ -650,7 +650,7 @@
         <div class="cs-content">
 
           <p class="cs-text">
-            India Hair Transplant (IHT) is a specialised hair restoration centre associated with <a href="https://akclinics.com/">AK Clinics</a> (founded in 2007). Patients from Morinda often visit IHT Chandigarh or IHT Ludhiana for medical evaluation, graft planning, and technique guidance focused on natural looking results and donor safety.
+            India Hair Transplant (IHT) is a specialised hair restoration centre associated with <a href="https://akclinics.com/">AK Clinics</a> (founded in 2007). Patients from Morinda often visit IHT Ludhiana for medical evaluation, graft planning, and technique guidance focused on natural looking results and donor safety.
           </p>
 
           <!-- Accordion -->
@@ -719,5 +719,212 @@
                       <span class="iht-acc-title">After Care and Follow Up Support</span>
                       <span class="iht-acc-ico" aria-hidden="true"></span>
                     </button>
+                    <div class="iht-acc-a" hidden="">
+                      <p>
+                        Clear post procedure instructions and follow up guidance help patients understand healing, shedding phases, and realistic timelines for growth.
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div><!-- /.iht-acc-cols -->
+            </div><!-- /.iht-acc-shell -->
+          </div><!-- /.iht-acc -->
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="iht-cta-strip">
+    <div class="container iht-cta-wrap">
+      <p class="iht-cta-text">
+        👉 From Morinda, you can book an appointment for in-person scalp assessment, graft estimation, and technique guidance at our Ludhiana clinic.
+      </p>
+      <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
+    </div>
+  </section>
+
+
+  <?= $this->include('partials/location') ?>
+
+
+  <section class="results-section faq-sec faq--light">
+    <div class="container">
+      <h2 class="results-title">Hair Transplant FAQs for Patients from Morinda</h2>
+      <div class="results-divider">
+        <span class="line"></span><span class="cross">+</span><span class="line"></span>
+      </div>
+
+      <div class="faq-list" id="faqList">
+
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>Is Morinda a good place to get a hair transplant?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            Morinda has limited local options for hair transplant surgery. The right choice depends on whether the clinic provides proper scalp evaluation, donor mapping, and clear doctor involvement. Many patients travel to IHT Ludhiana for surgical planning standards.
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>What is the typical hair transplant cost in Morinda?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            Costs vary based on graft requirement, baldness stage, donor density, and technique. Many patients see ranges between Rs. 50,000 and Rs. 4,20,000, but an accurate estimate is shared only after scalp and donor assessment.
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>How do doctors decide the number of grafts?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            Graft count is decided by measuring the area that needs coverage, checking existing density, and evaluating donor strength. The plan also considers long term progression so donor capacity is protected.
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>How many days should I plan for the procedure if I am based in Morinda?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            Most patients plan a short stay around the procedure date. The exact duration depends on the case plan and the number of grafts. Follow up guidance is often managed remotely, while scheduled reviews are advised as needed.
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>When will I see visible hair growth after transplant?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            Growth is gradual. New hair growth commonly starts around 3 to 4 months, improves over the next months, and final results are usually assessed around 10 to 12 months.
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>What should I avoid during the first week after hair transplant?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            Avoid scratching the grafted area, heavy workouts, swimming, tight helmets or caps, smoking, alcohol, and direct sun exposure. Follow the personalised post operative instructions shared during discharge.
+          </div>
+        </article>
+
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>How can I book a consultation from Morinda?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            You can book a consultation by calling or WhatsApping <strong>+91-97799-44207</strong>. Our team will guide you regarding evaluation steps and appointment scheduling.
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <aside class="faq-author faq-author--ak">
+      <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua icon">
+      <div class="fa-meta">
+        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
+        <p class="fa-row"><strong>Updated on:</strong> February 19, 2026</p>
+      </div>
+    </aside>
+  </section>
+
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-morinda",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Morinda a good place to get a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Morinda has limited local options for hair transplant surgery. The right choice depends on whether the clinic provides proper scalp evaluation, donor mapping, and clear doctor involvement. Many patients travel to IHT Ludhiana for surgical planning standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the typical hair transplant cost in Morinda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Costs vary based on graft requirement, baldness stage, donor density, and technique. Many patients see ranges between Rs. 50,000 and Rs. 4,20,000, but an accurate estimate is shared only after scalp and donor assessment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do doctors decide the number of grafts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Graft count is decided by measuring the area that needs coverage, checking existing density, and evaluating donor strength. The plan also considers long term progression so donor capacity is protected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many days should I plan for the procedure if I am based in Morinda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients plan a short stay around the procedure date. The exact duration depends on the case plan and the number of grafts. Follow up guidance is often managed remotely, while scheduled reviews are advised as needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will I see visible hair growth after transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Growth is gradual. New hair growth commonly starts around 3 to 4 months, improves over the next months, and final results are usually assessed around 10 to 12 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I avoid during the first week after hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avoid scratching the grafted area, heavy workouts, swimming, tight helmets or caps, smoking, alcohol, and direct sun exposure. Follow the personalised post operative instructions shared during discharge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I book a consultation from Morinda?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 . Our team will guide you regarding evaluation steps and appointment scheduling."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- Footer File Include -->
 
 <?= $this->endSection() ?>

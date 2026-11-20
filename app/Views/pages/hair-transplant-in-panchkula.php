@@ -649,7 +649,7 @@
         <div class="cs-content">
 
           <p class="cs-text">
-            India Hair Transplant (IHT) is a specialised hair restoration centre associated with <a href="https://akclinics.com/">AK Clinics</a> (founded in 2007). Patients from Panchkula often visit IHT Chandigarh for medical evaluation, graft planning, and technique guidance focused on natural looking results and donor safety.
+            India Hair Transplant (IHT) is a specialised hair restoration centre associated with <a href="https://akclinics.com/">AK Clinics</a> (founded in 2007). Patients from Panchkula often visit IHT Ludhiana for medical evaluation, graft planning, and technique guidance focused on natural looking results and donor safety.
           </p>
 
           <!-- Accordion -->
@@ -741,7 +741,7 @@
   <section class="iht-cta-strip">
     <div class="container iht-cta-wrap">
       <p class="iht-cta-text">
-        👉 From Panchkula, you can book an appointment for in-person scalp assessment, graft estimation, and technique guidance at our Chandigarh clinic.
+        👉 From Panchkula, you can book an appointment for in-person scalp assessment, graft estimation, and technique guidance at our Ludhiana clinic.
       </p>
       <a href="tel:+919779944207" class="iht-cta-btn">Call +91-97799-44207</a>
     </div>
@@ -846,6 +846,83 @@
   </section>
 
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-panchkula",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is Panchkula a good place to get a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Panchkula and the Tricity region have multiple clinics. The right choice depends on whether the clinic provides proper scalp evaluation, donor mapping, and clear doctor involvement. If your case is advanced, you may also compare nearby centres for surgical planning standards."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the typical hair transplant cost in Panchkula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Costs vary based on graft requirement, baldness stage, donor density, and technique. Many patients see ranges between Rs. 50,000 and Rs. 4,20,000, but an accurate estimate is shared only after scalp and donor assessment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do doctors decide the number of grafts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Graft count is decided by measuring the area that needs coverage, checking existing density, and evaluating donor strength. The plan also considers long term progression so donor capacity is protected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many days should I plan for the procedure if I am based in Panchkula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients plan a short stay around the procedure date. The exact duration depends on the case plan and the number of grafts. Follow up guidance is often managed remotely, while scheduled reviews are advised as needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will I see visible hair growth after transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Growth is gradual. New hair growth commonly starts around 3 to 4 months, improves over the next months, and final results are usually assessed around 10 to 12 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I avoid during the first week after hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avoid scratching the grafted area, heavy workouts, swimming, tight helmets or caps, smoking, alcohol, and direct sun exposure. Follow the personalised post operative instructions shared during discharge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I book a consultation from Panchkula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 . Our team will guide you regarding evaluation steps and appointment scheduling."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
 <!-- Footer File Include -->
 

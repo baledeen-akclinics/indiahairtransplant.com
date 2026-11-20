@@ -847,6 +847,83 @@
 
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-fazilka",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can a doctor tell if I need a hair transplant or treatment in Fazilka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A proper consultation checks your hair loss pattern, donor density, scalp condition, and whether hair loss is stable. Some people are better suited for medical treatment first, while others may benefit from transplant planning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do patients from Fazilka travel to Ludhiana or Delhi for hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many patients prefer visiting established centres like Ludhiana or Delhi for structured evaluation, consistent OT protocols, and direct surgeon involvement. The best option depends on your case complexity and comfort with available facilities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the hair transplant cost for patients from Fazilka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cost depends on graft requirement, baldness stage, donor density, and technique used. Many patients may see estimates ranging from Rs. 50,000 to Rs. 4,20,000, but an accurate range is shared only after scalp and donor assessment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many days should I plan if I am travelling from Fazilka for surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients plan a short stay around the procedure date. The exact duration depends on the case plan and doctor advice. Follow up guidance is often managed remotely, while scheduled reviews are advised as needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will hair start growing after transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Growth is gradual. New hair growth commonly starts around 3 to 4 months, becomes more noticeable over the next months, and final results are usually assessed around 10 to 12 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I avoid in the first week after hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avoid scratching the grafted area, heavy workouts, swimming, tight helmets or caps, smoking, alcohol, and direct sun exposure. Follow the personalised post operative instructions shared during discharge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I book a consultation if I am coming from Fazilka?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 . Our team will guide you regarding evaluation steps and appointment scheduling."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>

@@ -841,6 +841,99 @@
 
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-patiala",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is hair transplant a good option for people in Patiala with early hair thinning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It can be, but only after a surgeon confirms whether the thinning is stable pattern hair loss or temporary shedding. Many early cases do well with medical treatment first. If recession or crown loss is progressing and donor hair is strong, a planned transplant may be recommended."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the average hair transplant cost for Patiala patients?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Patiala patients, hair transplant cost commonly starts around Rs. 50,000 and may go up to Rs. 3,50,000+ depending on graft requirement, technique, and case complexity. The correct graft range and final estimate can only be confirmed after scalp and donor area evaluation by a qualified surgeon."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many grafts are usually needed for hairline or crown restoration?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Graft requirement varies by hair loss stage and coverage goal. Hairline and temples may need 1200-2500 grafts in many cases, while crown restoration can require higher graft counts depending on the bald area and donor strength. A proper evaluation is needed for an accurate plan."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a hair transplant painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant is performed under local anaesthesia, so the procedure is comfortable for most patients. Mild soreness or tightness can occur after surgery for a few days and is usually manageable with prescribed medicines and proper aftercare."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I choose the right hair transplant clinic if I’m from Patiala?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Focus on surgeon involvement and medical planning. Check if the doctor personally assesses you, designs the hairline, calculates grafts, and stays involved in extraction and implantation. Also verify real results, hygiene standards, donor management, and transparent graft-based pricing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I avoid for the first 7 days after a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avoid scratching or rubbing the grafts, heavy workouts, swimming, smoking, alcohol, direct sun exposure, and tight helmets/caps. Follow your surgeon’s wash routine and aftercare instructions closely, as early healing affects graft survival."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are technicians allowed to perform hair transplant surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hair transplant is a medical procedure and the critical steps require medical training and clinical judgment. At IHT, key surgical steps are performed by qualified surgeons and are not delegated to unqualified staff."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I also get beard or eyebrow hair transplant if needed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Beard, moustache, and eyebrow transplants are available, but they are precision procedures and should be planned only after a proper evaluation of donor suitability, hair characteristics, and realistic density goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can Patiala patients book a consultation at IHT?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 . Our team will guide you for appointment scheduling and the next steps for scalp and donor assessment."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>

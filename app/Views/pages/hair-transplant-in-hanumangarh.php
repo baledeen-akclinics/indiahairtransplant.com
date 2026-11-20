@@ -847,6 +847,75 @@
 
 </div>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "url": "https://indiahairtransplant.com/hair-transplant-in-hanumangarh",
+      "isPartOf": {
+        "@type": "WebSite",
+        "url": "https://indiahairtransplant.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can a hair transplant fix crown thinning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, crown thinning can be treated with a hair transplant in suitable candidates. However, the crown usually needs more grafts for visible density, and outcomes depend on donor strength, hair calibre, and realistic planning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a dermatologist evaluation before choosing surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A medical evaluation is important to confirm whether the hair loss is genetic pattern baldness or another treatable cause. This helps avoid unnecessary surgery and ensures correct timing and graft planning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many days should I plan if travelling from Hanumangarh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many patients plan a consultation visit and then schedule surgery on a separate date. Some may combine consultation and procedure depending on suitability and appointment availability. Follow-ups can often be guided remotely."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the typical hair transplant cost range for my case?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cost is based on graft requirement, donor capacity, technique used, and case complexity. Many patients see ranges between Rs. 45,000 to Rs. 4,50,000, but accurate estimation needs scalp and donor evaluation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When can I return to work after the procedure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many patients return to desk work within a few days, depending on swelling and comfort. Strenuous activity is usually restricted for at least 10 to 14 days. Your doctor will guide you based on your recovery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I book a consultation from Hanumangarh?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 . Our team will guide you regarding appointment scheduling and the evaluation process."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
 <!-- Footer File Include -->
 
 <?= $this->endSection() ?>
