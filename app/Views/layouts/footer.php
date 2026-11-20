@@ -84,6 +84,35 @@
       </ul>
     </div>
 
+    <!-- Locations -->
+    <div class="ft-col">
+      <h4>Locations</h4>
+      <ul class="ft-list">
+        <li><a href="<?= base_url('hair-transplant-in-delhi') ?>">Hair Transplant in Delhi</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-ludhiana') ?>">Hair Transplant in Ludhiana</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-bangalore') ?>">Hair Transplant in Bangalore</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-chandigarh') ?>">Hair Transplant in Chandigarh</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-gurgaon') ?>">Hair Transplant in Gurgaon</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-mohali') ?>">Hair Transplant in Mohali</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-panchkula') ?>">Hair Transplant in Panchkula</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-zirakpur') ?>">Hair Transplant in Zirakpur</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-jalandhar') ?>">Hair Transplant in Jalandhar</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-patiala') ?>">Hair Transplant in Patiala</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-amritsar') ?>">Hair Transplant in Amritsar</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-bathinda') ?>">Hair Transplant in Bathinda</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-morinda') ?>">Hair Transplant in Morinda</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-fazilka') ?>">Hair Transplant in Fazilka</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-sri-ganganagar') ?>">Hair Transplant in Sri Ganganagar</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-hanumangarh') ?>">Hair Transplant in Hanumangarh</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-shri-muktsar-sahib') ?>">Hair Transplant in Shri Muktsar Sahib</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-kota') ?>">Hair Transplant in Kota</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-jaipur') ?>">Hair Transplant in Jaipur</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-noida') ?>">Hair Transplant in Noida</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-meerut') ?>">Hair Transplant in Meerut</a></li>
+        <li><a href="<?= base_url('hair-transplant-in-agra') ?>">Hair Transplant in Agra</a></li>
+      </ul>
+    </div>
+
   </nav>
 </section>
 

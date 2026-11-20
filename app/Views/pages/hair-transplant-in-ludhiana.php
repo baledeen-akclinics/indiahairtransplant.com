@@ -1176,7 +1176,7 @@
     <aside class="faq-author faq-author--ak">
       <img src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua | Hair Transplant Surgeon, IHT Ludhiana">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> Dr. Kapil Dua</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS | Chairman &amp; Chief Hair Transplant Surgeon | ISHRS Member | 20+ Years Experience</p>
         <p class="fa-row"><strong>Updated on:</strong> April 11, 2026</p>
       </div>

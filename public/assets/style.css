@@ -674,8 +674,8 @@ img{max-width:100%;display:block}
 /* ===== Link columns ===== */
 .ft-links{padding:28px 0}
 .ft-grid{
-  display:grid;gap:26px;
-  grid-template-columns:repeat(5,minmax(160px,1fr))
+  display:grid;gap:22px;
+  grid-template-columns:repeat(6,minmax(140px,1fr))
 }
 @media(max-width:1100px){ .ft-grid{grid-template-columns:repeat(3,1fr)} }
 @media(max-width:680px){ .ft-grid{grid-template-columns:repeat(2,1fr)} }
