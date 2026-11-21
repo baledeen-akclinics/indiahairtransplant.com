@@ -106,7 +106,7 @@
             <span class="docp-badge">President, AAHRS 2024</span>
             <span class="docp-badge">ABHRS Diplomate</span>
             <span class="docp-badge">FISHRS, USA</span>
-            <span class="docp-badge">25+ Years Experience</span>
+            <span class="docp-badge">20+ Years Experience</span>
             <span class="docp-badge">5M+ Follicles</span>
           </div>
         </div>
@@ -126,7 +126,7 @@
       <div class="cs-wrap">
         <div class="cs-content">
           <p class="cs-text">
-           Dr Kapil Dua is the Chairman and Chief Hair Transplant Surgeon at IHT Clinics, with more than 25 years of clinical experience in hair restoration surgery and planning. His experience spans all stages of surgical hair restoration, from carefully designed hairlines in early-stage cases to complex, multi-session planning for advanced Grade 6 and Grade 7 baldness, which demands a high level of donor management expertise and long-term strategic thinking. 
+           Dr Kapil Dua is the Chairman and Chief Hair Transplant Surgeon at IHT Clinics, with more than 20 years of clinical experience in hair restoration surgery and planning. His experience spans all stages of surgical hair restoration, from carefully designed hairlines in early-stage cases to complex, multi-session planning for advanced Grade 6 and Grade 7 baldness, which demands a high level of donor management expertise and long-term strategic thinking. 
           </p>
           <p class="cs-text">
             He is widely recognised as one of the early adopters of FUE (Follicular Unit Extraction), the stripless hair transplant method, in India, having begun work with the technique in 2007 at a time when it was largely unfamiliar to practitioners in the country. His early focus on mastering FUE, combined with a commitment to refining the procedure through ongoing clinical research and international collaboration, placed him at the forefront of the technique's adoption across South Asia.
@@ -471,7 +471,7 @@
         <div class="fa-meta">
           <div class="fa-row"><strong>Dr. Kapil Dua</strong></div>
           <div class="fa-row">MBBS, MS | Chairman, IHT Clinics</div>
-          <div class="fa-row" style="margin-top:4px; color:#64748b;">Past President, ISHRS USA · President, AAHRS 2024 · 25+ Years Experience</div>
+          <div class="fa-row" style="margin-top:4px; color:#64748b;">Past President, ISHRS USA · President, AAHRS 2024 · 20+ Years Experience</div>
         </div>
       </div>
 
@@ -499,7 +499,7 @@
     "@type": "Person",
     "name": "Dr. Kapil Dua",
     "jobTitle": "Chairman and Chief Hair Transplant Surgeon",
-    "description": "India's most credentialed hair transplant surgeon. Past President of ISHRS (USA) 2022-23, the first Indian to hold this global position. President of AAHRS (Asia) 2024. Over 25 years of surgical experience with 5 million plus follicles transplanted. Practices at IHT Clinics in Delhi, Ludhiana, and Bangalore.",
+    "description": "India's most credentialed hair transplant surgeon. Past President of ISHRS (USA) 2022-23, the first Indian to hold this global position. President of AAHRS (Asia) 2024. Over 20 years of surgical experience with 5 million plus follicles transplanted. Practices at IHT Clinics in Delhi, Ludhiana, and Bangalore.",
     "image": "https://indiahairtransplant.com/assets/images/dr-kapil-dua.webp",
     "url": "https://indiahairtransplant.com/dr-kapil-dua",
     "telephone": "+918699003797",
