@@ -129,8 +129,8 @@ switch ($url) {
             break;
         
         case 'hair-transplant-in-gurgaon':
-            $metaHtml  = '<title>Hair Transplant Clinic in Gurgaon – Cost & Expert Surgeons</title>';
-            $metaHtml .= '<meta name="description" content="Trusted hair transplant clinic in Gurgaon offering advanced Bio-FUE and FUE procedures by experienced surgeons. Transparent graft cost and personalised planning. Book your free consultation today.">';
+            $metaHtml  = '<title>Hair Transplant Cost in Gurgaon – Planning & Consultation</title>';
+            $metaHtml .= '<meta name="description" content="Understand hair transplant cost factors for Gurgaon patients, who consult and undergo treatment at IHT\'s Delhi clinic with experienced surgeons. Book a free consultation.">';
             $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/hair-transplant-in-gurgaon" />';
             break;
         
