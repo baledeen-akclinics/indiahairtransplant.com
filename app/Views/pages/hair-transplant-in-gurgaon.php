@@ -7,7 +7,7 @@
   <div class="brand-accent" aria-hidden="true"></div>
 
   <!-- ============ BANNER ============ -->
-  <section class="page-hero" role="banner" aria-label="Hair Transplant in Gurgaon Banner">
+  <section class="page-hero" role="banner" aria-label="Hair Transplant Cost in Gurgaon Banner">
     <div class="container wrap">
       <nav class="breadcrumb" aria-label="Breadcrumb">
         <a href="<?= base_url() ?>">Home</a>
@@ -16,11 +16,11 @@
         <a href="<?= base_url('hair-transplant') ?>">Hair Transplant</a>
         <span class="sep">›</span>
 
-        <span aria-current="page">Hair Transplant in Gurgaon</span>
+        <span aria-current="page">Hair Transplant Cost in Gurgaon</span>
       </nav>
 
-      <h1 class="page-title">Hair Transplant in Gurgaon</h1>
-      <p class="page-sub">Looking for safe hair transplant options in Gurgaon? At IHT (India Hair Transplant) Clinic, every procedure is carefully planned and performed by qualified surgeons using advanced hair restoration techniques.</p>
+      <h1 class="page-title">Hair Transplant Cost in Gurgaon</h1>
+      <p class="page-sub">Looking for a safe, medically planned hair transplant if you live in Gurgaon? Many Gurgaon patients consult and undergo treatment at IHT’s Delhi clinic, where every procedure is planned and performed by qualified surgeons using advanced hair restoration techniques.</p>
       <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
@@ -29,7 +29,7 @@
   <section class="internal-white">
     <div class="container">
 
-      <h2 class="results-title">Hair Transplant in Gurgaon: Modern Techniques &amp; Reputed Clinics</h2>
+      <h2 class="results-title">Hair Transplant Cost and Planning for Patients From Gurgaon</h2>
 
       <div class="results-divider" aria-hidden="true">
         <span class="line"></span>
@@ -42,11 +42,11 @@
 
           <p class="cs-text">Gurgaon (Gurugram) has grown rapidly over the last decade, bringing fast-paced work culture, long screen hours, high stress, irregular routines, and increasing exposure to dust and pollution. These lifestyle factors can contribute to visible hair thinning and increased hair fall in many individuals. Along with genetic pattern baldness, such triggers have increased the demand for medically planned hair restoration in the region.</p>
 
-          <p class="cs-text">With this growth, Gurgaon has also developed strong access to healthcare through reputed clinics and specialist doctors. Many people now consider hair transplant in Gurgaon as a long-term solution when thinning becomes noticeable, the hairline starts receding, or the crown begins to open up.</p>
+          <p class="cs-text">With this growth, many people now consider hair transplant as a long-term solution when thinning becomes noticeable, the hairline starts receding, or the crown begins to open up.</p>
 
-          <p class="cs-text">However, results depend mainly on choosing the right clinic and experienced surgeons who do a proper evaluation, recommend the right technique, and plan for long-term stability rather than short-term cosmetic promises. If you are considering any hair restoration treatment in Gurgaon, scheduling a detailed consultation is an essential first step.</p>
+          <p class="cs-text">However, results depend mainly on choosing the right clinic and experienced surgeons who do a proper evaluation, recommend the right technique, and plan for long-term stability rather than short-term cosmetic promises. If you are considering hair restoration treatment, scheduling a detailed consultation is an essential first step.</p>
 
-          <p class="cs-text">India Hair Transplant (IHT) is one of the leading hair transplant clinics serving Gurgaon patients, known for medically planned procedures, advanced techniques, and consistently natural-looking results. The clinic has gained the trust of patients and public figures through its focus on surgical precision, ethical treatment options, and maintaining the long-term health of the donor area.</p>
+          <p class="cs-text">Patients from Gurgaon who choose IHT typically consult and undergo treatment at IHT’s Delhi clinic, which is within comfortable travelling distance. The clinic is known for medically planned procedures, advanced techniques, and consistently natural-looking results, with surgical precision and ethical treatment practices maintained for every patient regardless of where they travel from.</p>
 
         </div>
       </div>
@@ -102,9 +102,11 @@
         <button class="rc-arrow rc-next" aria-label="Next results" type="button">›</button>
       </div>
 
-      <div class="results-cta">
+      <!-- "See More Results" button commented out: no results/gallery page exists yet to link to.
+           Re-enable once that page is built, with its real URL in place of #results. -->
+      <!-- <div class="results-cta">
         <a class="results-button" href="#results">See More Results</a>
-      </div>
+      </div> -->
 
       <p class="results-text">The results of hair transplant procedures at IHT demonstrate the skill and careful planning involved in each case. These results are supported by genuine patient reviews and testimonials from individuals who have received treatment at our clinic. Patient stories highlight real outcomes, recovery timelines, and long-term satisfaction, helping new patients clearly understand what to expect from hair transplant surgery for Gurgaon patients. When expectations match the results, meaningful and lasting success stories are created.</p>
     </div>
@@ -292,9 +294,9 @@
       <section class="iht-cta-strip">
         <div class="container iht-cta-wrap">
           <p class="iht-cta-text">
-            👉 Considering a hair transplant in Gurgaon? Book a detailed consultation with our experienced surgical team.
+            Considering a hair transplant and live in Gurgaon? Book a detailed consultation with our experienced surgical team at IHT’s Delhi clinic.
           </p>
-          <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
+          <a href="tel:+918699003797" class="iht-cta-btn">Call +91 86990 03797</a>
         </div>
       </section>
 
@@ -429,7 +431,7 @@
   <section class="internal-white">
     <div class="container">
 
-      <h2 class="results-title">Average Hair Transplant Cost in Gurgaon Based on Graft Requirement</h2>
+      <h2 class="results-title">What Determines Hair Transplant Cost for Gurgaon Patients</h2>
 
       <div class="results-divider" aria-hidden="true">
         <span class="line"></span>
@@ -441,60 +443,20 @@
         <div class="cs-content">
 
           <p class="cs-text">
-            The cost of a hair transplant in Gurgaon usually varies from Rs. 70,000 to Rs. 3,00,000+, depending on factors like the number of grafts needed, the technique (such as FUE or Bio-FUE), and the case's complexity. Reputed clinics typically charge a per-graft rate based on medical evaluation and surgeon expertise.
+            Hair transplant cost depends on the number of grafts needed, the technique used (FUE or Bio-FUE), the complexity of the case, and the number of sessions required. At IHT, costs start from ₹50,000 onwards, with the final cost depending on graft requirement and patient expectations, confirmed only after a detailed consultation.
           </p>
           <p class="cs-text">
             The total cost is primarily determined by your stage of hair loss, the area that needs coverage, and the strength of the donor region. A detailed scalp evaluation is essential to calculate the exact graft requirement and provide an accurate cost estimate.
           </p>
 
-          <div class="iht-table-wrap" role="region" aria-label="Hair transplant graft-wise cost table - Gurgaon" tabindex="0">
-            <table class="iht-cost-table">
-              <thead>
-                <tr>
-                  <th>Number of Grafts</th>
-                  <th>Cost on Lower Side (Rs.)</th>
-                  <th>Cost on Higher Side (Rs.)</th>
-                  <th>No. of Sittings</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1000–1500 grafts</td>
-                  <td>Rs. 40,000</td>
-                  <td>Rs. 1,20,000</td>
-                  <td>1 Sitting</td>
-                </tr>
-                <tr>
-                  <td>1800–2200 grafts</td>
-                  <td>Rs. 60,000</td>
-                  <td>Rs. 1,80,000</td>
-                  <td>1 Sitting</td>
-                </tr>
-                <tr>
-                  <td>2200–2800 grafts</td>
-                  <td>Rs. 80,000</td>
-                  <td>Rs. 2,20,000</td>
-                  <td>1 Sitting</td>
-                </tr>
-                <tr>
-                  <td>3500–4000 grafts</td>
-                  <td>Rs. 1,30,000</td>
-                  <td>Rs. 3,20,000</td>
-                  <td>2 Sittings</td>
-                </tr>
-                <tr>
-                  <td>4500–5500 grafts</td>
-                  <td>Rs. 1,70,000</td>
-                  <td>Rs. 4,50,000</td>
-                  <td>2 Sittings</td>
-                </tr>
-                <tr>
-                  <td>5500+ grafts</td>
-                  <td colspan="2">Final cost decided after detailed surgeon evaluation</td>
-                  <td>2 Sittings</td>
-                </tr>
-              </tbody>
-            </table>
+          <div class="iht-table-wrap" role="region" aria-label="Factors affecting hair transplant cost" tabindex="0">
+            <ul class="feature-list">
+              <li>Number of grafts required</li>
+              <li>Technique used (FUE or Bio-FUE)</li>
+              <li>Number of sessions needed</li>
+              <li>Complexity of the case and donor area condition</li>
+              <li>Surgeon expertise and clinic protocols</li>
+            </ul>
           </div>
 
         </div>
@@ -503,54 +465,7 @@
       <div class="cs-content">
 
         <p class="cs-text">
-          Gurgaon’s hair transplant pricing can vary based on clinic standards, surgeon involvement, and the infrastructure used during surgery. Instead of comparing only price, it’s safer to compare the planning quality, medical protocols, and real patient outcomes.
-        </p>
-        <p class="cs-text">
-          The table below provides a rough cost comparison across cities to help patients understand general price variations.
-        </p>
-
-        <!-- ✅ City-wise table updated: NO Gurgaon row (avoid repeating page city) -->
-        <div class="iht-table-wrap" role="region" aria-label="City-wise hair transplant cost comparison table (excluding Gurgaon)" tabindex="0">
-          <table class="iht-cost-table">
-            <thead>
-              <tr>
-                <th>City</th>
-                <th>Cost on Lower Side (Rs.)</th>
-                <th>Cost on Higher Side (Rs.)</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Delhi</td>
-                <td>Rs. 70,000</td>
-                <td>Rs. 3,50,000+</td>
-              </tr>
-              <tr>
-                <td>Mumbai</td>
-                <td>Rs. 90,000</td>
-                <td>Rs. 4,50,000+</td>
-              </tr>
-              <tr>
-                <td>Bangalore</td>
-                <td>Rs. 85,000</td>
-                <td>Rs. 4,00,000+</td>
-              </tr>
-              <tr>
-                <td>Chandigarh / Tricity</td>
-                <td>Rs. 50,000</td>
-                <td>Rs. 3,50,000+</td>
-              </tr>
-              <tr>
-                <td>Ludhiana</td>
-                <td>Rs. 50,000</td>
-                <td>Rs. 4,50,000+</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <p class="cs-text">
-          <strong>Important:</strong> The above cost ranges are indicative averages meant only for general understanding. The exact graft requirement and final cost are determined after a detailed scalp analysis and donor area assessment.
+          <strong>Important:</strong> Exact graft requirement and final cost are determined only after a detailed scalp analysis and donor area assessment during consultation.
         </p>
       </div>
 
@@ -564,7 +479,7 @@
   <section class="celeb-story-white">
     <div class="container">
 
-      <h2 class="results-title">How to Choose the Right Hair Transplant Clinic in Gurgaon</h2>
+      <h2 class="results-title">How to Choose the Right Hair Transplant Clinic When Travelling From Gurgaon</h2>
 
       <div class="results-divider" aria-hidden="true">
         <span class="line"></span>
@@ -575,13 +490,13 @@
       <div class="cs-wrap">
 
         <div class="cs-img">
-          <img loading="lazy" src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="How to choose the right hair transplant clinic in Gurgaon">
+          <img loading="lazy" src="<?= base_url('assets/images/right-hair-transplant-clinic.webp') ?>" alt="How to choose the right hair transplant clinic when travelling from Gurgaon">
         </div>
 
         <div class="cs-content">
 
           <p class="cs-text">
-            In Gurgaon, many clinics claim to be the best for hair transplants, but it’s important to remember that hair transplantation is a medical procedure, not a salon service. The quality of your results depends on who plans the surgery, performs the critical steps, and manages the donor area safely. Before selecting a clinic in Gurgaon, it’s essential to verify a few key points:
+            Many clinics claim to be the best for hair transplants, but it’s important to remember that hair transplantation is a medical procedure, not a salon service. The quality of your results depends on who plans the surgery, performs the critical steps, and manages the donor area safely. Before selecting a clinic, it’s essential to verify a few key points:
           </p>
           <ul class="feature-list">
             <li>Who performs the procedure, especially key surgical steps?</li>
@@ -610,7 +525,7 @@
   <section class="internal-white">
     <div class="container">
 
-      <h2 class="results-title">Why Choose IHT for Hair Transplant in Gurgaon</h2>
+      <h2 class="results-title">Why Gurgaon Patients Choose IHT’s Delhi Clinic</h2>
       <div class="results-divider" aria-hidden="true">
         <span class="line"></span><span class="cross">✚</span><span class="line"></span>
       </div>
@@ -619,7 +534,7 @@
         <div class="cs-content">
 
           <p class="cs-text">
-            India Hair Transplant (IHT) is a trusted hair transplant clinic for Gurgaon patients, with all procedures carried out by skilled surgeons using medically planned protocols. Founded in 2007, IHT is a sister branch of <a href="https://akclinics.com/">AK Clinics</a> and has a track record of providing safe, natural-looking results through carefully planned and ethically conducted procedures.
+            India Hair Transplant (IHT) serves Gurgaon patients through its Delhi clinic, with all procedures carried out by skilled surgeons using medically planned protocols. Founded in 2007, IHT works alongside <a href="https://akclinics.com/">AK Clinics</a> and has a track record of providing safe, natural-looking results through carefully planned and ethically conducted procedures.
           </p>
 
           <!-- Accordion -->
@@ -711,9 +626,9 @@
   <section class="iht-cta-strip">
     <div class="container iht-cta-wrap">
       <p class="iht-cta-text">
-        👉 Schedule a detailed hair transplant consultation for Gurgaon and get a personalised scalp and donor assessment.
+        Schedule a detailed hair transplant consultation and get a personalised scalp and donor assessment at IHT’s Delhi clinic.
       </p>
-      <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
+      <a href="tel:+918699003797" class="iht-cta-btn">Call +91 86990 03797</a>
     </div>
   </section>
 
@@ -746,7 +661,7 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            Hair transplant prices in Gurgaon commonly start around Rs. 70,000 and can go up to Rs. 3,00,000+ depending on the number of grafts needed, the area to be covered, the technique used, and the complexity of the procedure. A medical consultation is necessary to obtain an accurate estimate for your specific case.
+            Hair transplant costs at IHT start from ₹50,000 onwards. The exact cost depends on the number of grafts needed, the area to be covered, the technique used, and the complexity of the procedure, and is confirmed only after a medical consultation.
           </div>
         </article>
 
@@ -820,7 +735,7 @@
       <div class="fa-meta">
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
         <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
-        <p class="fa-row"><strong>Updated on:</strong> February 13, 2026</p>
+        <p class="fa-row"><strong>Updated on:</strong> November 21, 2026</p>
       </div>
     </aside>
   </section>
@@ -855,7 +770,7 @@
           "name": "What is the cost of a hair transplant in Gurgaon?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Hair transplant prices in Gurgaon commonly start around Rs. 70,000 and can go up to Rs. 3,00,000+ depending on the number of grafts needed, the area to be covered, the technique used, and the complexity of the procedure. A medical consultation is necessary to obtain an accurate estimate for your specific case."
+            "text": "Hair transplant costs at IHT start from Rs. 50,000 onwards. The exact cost depends on the number of grafts needed, the area to be covered, the technique used, and the complexity of the procedure, and is confirmed only after a medical consultation."
           }
         },
         {
@@ -903,7 +818,7 @@
           "name": "How do I book a consultation for a hair transplant?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You can book a consultation by calling or WhatsApping +91-97799-44207 to discuss your hair loss concern and available treatment options with our medical team."
+            "text": "You can book a consultation by calling or WhatsApping +91-86990-03797 to discuss your hair loss concern and available treatment options with our medical team."
           }
         }
       ]

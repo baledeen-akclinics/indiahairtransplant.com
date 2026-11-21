@@ -520,7 +520,7 @@
             <section id="ncr-access" data-toc>
               <h2>Accessing Hair Transplant Consultations Across Delhi and the NCR</h2>
               <p>
-                Patients from across Delhi and the NCR have access to IHT consultation options without needing to travel far. Patients in <a href="/hair-transplant-in-gurgaon">Gurgaon</a> can access IHT's Gurgaon clinic directly. Patients in <a href="/hair-transplant-in-noida">Noida</a> and east Delhi are served through IHT's Noida consultations. For patients in central and south Delhi, our <a href="/hair-transplant-in-delhi">Delhi clinic</a> remains the primary consultation and treatment location.
+                Patients from across Delhi and the NCR have access to IHT consultation options without needing to travel far. Patients in <a href="/hair-transplant-in-gurgaon">Gurgaon</a> typically consult and undergo treatment at IHT's Delhi clinic. Patients in <a href="/hair-transplant-in-noida">Noida</a> and east Delhi are served through IHT's Noida consultations. For patients in central and south Delhi, our <a href="/hair-transplant-in-delhi">Delhi clinic</a> remains the primary consultation and treatment location.
               </p>
               <p>
                 When evaluating clinics, the quality of the consultation itself is a reliable indicator of a clinic's overall standard. A thorough consultation covers your hair loss history, a physical scalp assessment, evaluation of the donor area, a discussion of your hair loss stage and likely future progression, an honest estimate of what is achievable, and a clear explanation of the recommended approach and its cost.
