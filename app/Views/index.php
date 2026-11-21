@@ -280,7 +280,7 @@
         <ul class="feature-list">
           <li>20+ Years of Surgical Experience</li>
           <li>10,000+ Successful Hair Transplants</li>
-          <li>Past President, ISHRS (USA) and AAHRS (Asia); Former President, AHRS (India)</li>
+          <li>Fellow &amp; Past President, ISHRS · President, AAHRS (2024) · ABHRS Diplomate · Founder &amp; Past President, AHRS (India)</li>
           <li>Trusted by patients, professionals, and public figures</li>
         </ul>
 
