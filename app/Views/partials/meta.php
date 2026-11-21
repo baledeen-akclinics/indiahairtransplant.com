@@ -476,9 +476,9 @@ switch ($url) {
             break;
 
     default:
-        $metaHtml  = '<title>Hair Transplant Clinic in India | Experienced Hair Transplant Surgeons at IHT</title>';
-        $metaHtml .= '<meta name="description" content="IHT is a doctor-led hair transplant clinic in India providing advanced hair restoration with personalised planning, modern techniques, and medical supervision.">';
-        $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com" />';
+        $metaHtml  = '<title>Hair Transplant Clinic in India | IHT Clinics</title>';
+        $metaHtml .= '<meta name="description" content="Doctor-led hair transplant clinic in India offering FUE and Bio-FUE procedures with personalised planning and experienced surgeons.">';
+        $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/" />';
         break;
 }
 

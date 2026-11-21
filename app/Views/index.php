@@ -48,6 +48,9 @@
 
 <section class="results-section" aria-labelledby="resultsHeading">
   <div class="container">
+    <p class="why-intro">
+      India Hair Transplant (IHT) is a doctor-led hair transplant clinic in India offering hair transplants using advanced techniques to deliver better natural results. Each procedure is properly planned by reputed surgeons based only on the patient's hair loss pattern and donor area before deciding on technique and graft count, across IHT's clinics in Delhi, Ludhiana, and Bangalore.
+    </p>
     <h2 id="resultsHeading" class="results-title">Hair Transplant Results Delivered at IHT</h2>
 
     <div class="results-divider" aria-hidden="true">
@@ -93,9 +96,11 @@
       <button class="rc-arrow rc-next" aria-label="Next results" type="button">›</button>
     </div>
 
-    <div class="results-cta">
+    <!-- "See More Results" button commented out: no results/gallery page exists yet to link to.
+         Re-enable once that page is built, with its real URL in place of #results. -->
+    <!-- <div class="results-cta">
       <a class="results-button" href="#results">See More Results</a>
-    </div>
+    </div> -->
 
     <p class="results-text">
       The results shown here reflect proper medical planning and execution by experienced hair transplant surgeons at IHT Clinic, a trusted <a href="<?= base_url('hair-transplant') ?>">hair transplant clinic in India</a>. Each procedure is customised based on individual hair loss patterns, donor area strength, and long-term restoration goals. The focus remains on natural hairline design, responsible graft placement, and results that develop gradually over time. Outcomes may vary depending on individual factors.
@@ -148,7 +153,7 @@
           <li>Clear communication with realistic expectations and outcomes</li>
         </ul>
 
-        <a href="tel:08699003797" class="btn-cta">Call 08699003797</a>
+        <a href="tel:+918699003797" class="btn-cta">Call +91 86990 03797</a>
       </div>
 
     </div>
@@ -225,9 +230,9 @@
     <section class="iht-cta-strip">
       <div class="container iht-cta-wrap">
         <p class="iht-cta-text">
-          👉 Looking for the best hair transplant clinic in India? Call now to book a free consultation with our experienced team.
+          Looking for the best hair transplant clinic in India? Book a free consultation with our experienced team.
         </p>
-        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
+        <a href="#" data-popup="consult" class="iht-cta-btn" role="button">Book a Free Consultation</a>
       </div>
     </section>
 
@@ -275,12 +280,11 @@
         <ul class="feature-list">
           <li>20+ Years of Surgical Experience</li>
           <li>10,000+ Successful Hair Transplants</li>
-          <li>Former President – AHRS India</li>
-          <li>Active member of leading International Hair Restoration Societies</li>
+          <li>Past President, ISHRS (USA) and AAHRS (Asia); Former President, AHRS (India)</li>
           <li>Trusted by patients, professionals, and public figures</li>
         </ul>
 
-        <a href="tel:08699003797" class="btn-cta">Call 08699003797</a>
+        <a href="tel:+918699003797" class="btn-cta">Call +91 86990 03797</a>
 
       </div>
 
@@ -500,7 +504,7 @@
 
         <!-- <div class="htw-cta-box">
           <p class="htw-cta-text">Still have doubts and queries?</p>
-          <a class="htw-cta-btn" href="tel:08699003797">Call 08699003797</a>-->
+          <a class="htw-cta-btn" href="tel:+918699003797">Call +91 86990 03797</a>-->
       </div>
     </div>
   </div>
@@ -573,7 +577,7 @@
 
     <div class="htw-cta-box">
       <p class="htw-cta-text">Explore If Hair Transplant Is Right for You</p>
-      <a class="htw-cta-btn" href="tel:08699003797">Call 08699003797</a>
+      <a class="htw-cta-btn" href="tel:+918699003797">Call +91 86990 03797</a>
     </div>
   </div>
 </section>
@@ -711,7 +715,7 @@
     <div class="fa-meta">
       <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
       <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
-      <p class="fa-row"><strong>Updated on:</strong> March 26, 2026</p>
+      <p class="fa-row"><strong>Updated on:</strong> November 20, 2026</p>
     </div>
   </aside>
 
