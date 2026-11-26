@@ -470,7 +470,7 @@
           <li>PRP procedures performed only by qualified doctors, not technicians</li>
           <li>Strict hygiene and sterile protocols followed during every procedure</li>
           <li>Controlled microneedling used only when clinically required</li>
-          <li>PRP support with Bio-FUE hair transplant where needed to support healing and recovery</li>
+          <li>PRP support with <a href="<?= base_url('hair-transplant') ?>">Bio-FUE hair transplant</a> where needed to support healing and recovery</li>
         </ul>
 <br/>
         <p class="cs-text">

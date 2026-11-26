@@ -136,8 +136,8 @@
         </p>
 
         <p class="cs-text">
-          For this reason, it is often used as a preventive or supportive treatment and may also be advised alongside 
-          <a href="<?= base_url('hair-loss-treatment/') ?>">other hair loss treatments</a>, depending on clinical evaluation.
+          For this reason, it is often used as a preventive or supportive treatment and may also be advised alongside
+          <a href="<?= base_url('hair-transplant') ?>">a hair transplant</a>, depending on clinical evaluation.
         </p>
 
       </div>
