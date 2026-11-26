@@ -38,9 +38,12 @@
   <!-- ============ WHAT IS GFC ============ -->
   <section class="internal-white">
     <div class="container">
-      <h2 class="results-title">What Is GFC Therapy?</h2>
+      
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
       <div class="cs-wrap">
+        <div class="cs-img">
+          <img loading="lazy" src="<?= base_url('assets/images/gfc-therapy-benefits.png') ?>" alt="Benefits of GFC therapy for hair loss treatment">
+        </div>
         <div class="cs-content">
           <p class="cs-text">
             Growth Factor Concentrate (GFC) therapy uses a concentrated preparation of growth factors derived from a patient's own blood, injected into the scalp to support weakened but still active hair follicles. It is used as a standalone option for early-stage thinning or alongside a hair transplant to help support the scalp's existing hair. At IHT's Bangalore clinic, GFC is recommended only after a dermatologist evaluates the pattern and stage of hair loss, since it is not suitable for every type of hair loss.
@@ -56,9 +59,12 @@
   <!-- ============ CANDIDACY ============ -->
   <section class="internal-grey">
     <div class="container">
-      <h2 class="results-title">Who Is a Suitable Candidate for GFC in Bangalore?</h2>
+      ?</h2>
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
       <div class="cs-wrap">
+        <div class="cs-img">
+          <img loading="lazy" src="<?= base_url('assets/images/gfc-therapy-candidates.png') ?>" alt="Who should consider GFC therapy for hair loss">
+        </div>
         <div class="cs-content">
           <ul class="feature-list">
             <li>Patients with early to moderate hair thinning where hair follicles are still active</li>
@@ -138,9 +144,12 @@
   <!-- ============ CLINIC DETAILS ============ -->
   <section class="internal-grey">
     <div class="container">
-      <h2 class="results-title">IHT's GFC Clinic in Bangalore</h2>
+      <h2 class="results-title"> in Bangalore</h2>
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
       <div class="cs-wrap">
+        <div class="cs-img">
+          <img loading="lazy" src="<?= base_url('assets/images/about-iht-clinic.png') ?>" alt="IHT hair transplant and dermatology clinic">
+        </div>
         <div class="cs-content">
           <p class="cs-text">
             IHT's Bangalore clinic is located at 149, 10th Cross Rd, Indira Nagar, Indiranagar, Bangalore, and is open Monday to Sunday, 10:30 AM to 6:30 PM. Patients can call +91 86990 03797 to book a GFC consultation.
