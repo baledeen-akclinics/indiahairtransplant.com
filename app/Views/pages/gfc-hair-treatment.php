@@ -566,6 +566,22 @@
 
 
 
+<section class="internal-grey">
+  <div class="container">
+    <h2 class="results-title">GFC Therapy at IHT's Clinics</h2>
+    <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+    <div class="cs-wrap">
+      <div class="cs-content">
+        <ul class="feature-list">
+          <li><a href="<?= base_url('gfc-hair-treatment-in-delhi') ?>">GFC Therapy in Delhi</a></li>
+          <li><a href="<?= base_url('gfc-hair-treatment-in-ludhiana') ?>">GFC Therapy in Ludhiana</a></li>
+          <li><a href="<?= base_url('gfc-hair-treatment-in-bangalore') ?>">GFC Therapy in Bangalore</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 <?= $this->include('partials/location') ?>
 
 

@@ -499,6 +499,22 @@
 
 
 
+<section class="internal-grey">
+  <div class="container">
+    <h2 class="results-title">PRP Hair Treatment at IHT's Clinics</h2>
+    <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+    <div class="cs-wrap">
+      <div class="cs-content">
+        <ul class="feature-list">
+          <li><a href="<?= base_url('prp-hair-treatment-in-delhi') ?>">PRP Hair Treatment in Delhi</a></li>
+          <li><a href="<?= base_url('prp-hair-treatment-in-ludhiana') ?>">PRP Hair Treatment in Ludhiana</a></li>
+          <li><a href="<?= base_url('prp-hair-treatment-in-bangalore') ?>">PRP Hair Treatment in Bangalore</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 <?= $this->include('partials/location') ?>
 
 <section class="results-section faq-sec faq--light">
