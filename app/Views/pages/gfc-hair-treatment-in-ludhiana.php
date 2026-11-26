@@ -17,7 +17,7 @@
       </nav>
 
       <h1 class="page-title">GFC Therapy in Ludhiana</h1>
-      <p class="page-sub">Doctor-supervised GFC therapy for early hair thinning and increased hair fall, available at IHT's two Ludhiana clinics (Sarabha Nagar and South City).</p>
+      <p class="page-sub">Doctor-supervised GFC therapy for early hair thinning and increased hair fall, available at IHT's Sarabha Nagar and South City clinics in Ludhiana.</p>
       <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
@@ -28,38 +28,98 @@
       <div class="cs-wrap">
         <div class="cs-content">
           <p class="cs-text">
-            <strong>Quick answer:</strong> GFC therapy is available at both of IHT's Ludhiana clinics, Sarabha Nagar (Kips Market) and South City. A scalp assessment decides whether GFC therapy is appropriate before any session is booked. It is a non-surgical, supportive treatment for early hair thinning with active hair follicles, not a substitute for a hair transplant in areas of complete baldness.
+            <strong>Quick answer:</strong> GFC therapy is available at both of IHT's Ludhiana clinics, Sarabha Nagar and South City, where a detailed scalp assessment decides whether GFC therapy is appropriate before any session is booked. A single session with LLT typically costs Rs. 11,999, with a 3-session package typically costing Rs. 30,000. It is a non-surgical, supportive treatment for early hair thinning with active hair follicles, not a substitute for a hair transplant in areas of complete baldness.
           </p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- ============ WHAT IS GFC ============ -->
   <section class="internal-white">
     <div class="container">
-      <h2 class="results-title">GFC Therapy at IHT's Ludhiana Clinics</h2>
+      <h2 class="results-title">What Is GFC Therapy?</h2>
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
       <div class="cs-wrap">
         <div class="cs-content">
           <p class="cs-text">
-            Patients in Ludhiana can access GFC therapy at either of IHT's two clinics: Sarabha Nagar, opposite Kips Market, or South City, on Canal Road. As with every IHT location, GFC is advised only after a scalp and hair assessment confirms it is a suitable option, and it is performed under proper clinical supervision rather than by technicians.
+            Growth Factor Concentrate (GFC) therapy uses a concentrated preparation of growth factors derived from a patient's own blood, injected into the scalp to support weakened but still active hair follicles. It is used as a standalone option for early-stage thinning or alongside a hair transplant to help support the scalp's existing hair. At IHT's Ludhiana clinics, GFC is recommended only after a dermatologist evaluates the pattern and stage of hair loss, since it is not suitable for every type of hair loss.
           </p>
           <p class="cs-text">
-            For the full procedure, candidacy details, benefits, and safety information, see the main <a href="<?= base_url('gfc-hair-treatment') ?>">GFC therapy</a> page.
+            For the full procedure explanation, candidacy criteria, and safety information that apply across all IHT clinics, see the main <a href="<?= base_url('gfc-hair-treatment') ?>">GFC therapy</a> page.
           </p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- ============ CANDIDACY ============ -->
   <section class="internal-grey">
+    <div class="container">
+      <h2 class="results-title">Who Is a Suitable Candidate for GFC in Ludhiana?</h2>
+      <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+      <div class="cs-wrap">
+        <div class="cs-content">
+          <ul class="feature-list">
+            <li>Patients with early to moderate hair thinning where hair follicles are still active</li>
+            <li>Patients experiencing increased hair fall due to stress, seasonal shedding, or early androgenetic alopecia</li>
+            <li>Patients who have had a hair transplant and want supportive care for their existing hair</li>
+            <li>Patients who are not suitable candidates for a hair transplant at this stage but want to slow further thinning</li>
+          </ul>
+          <p class="cs-text">
+            Patients with completely bald areas, active scalp infections, or certain blood disorders are typically not suitable candidates. A consultation at either Ludhiana clinic confirms candidacy before any session is scheduled.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROCEDURE ============ -->
+  <section class="internal-white">
+    <div class="container">
+      <h2 class="results-title">How the GFC Procedure Works at IHT Ludhiana</h2>
+      <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+      <div class="cs-wrap">
+        <div class="cs-content">
+          <ul class="feature-list">
+            <li><strong>Scalp assessment:</strong> A dermatologist examines the scalp and hair loss pattern to confirm GFC is suitable.</li>
+            <li><strong>Blood draw:</strong> A small sample of the patient's own blood is drawn, similar to a routine blood test.</li>
+            <li><strong>Centrifugation:</strong> The sample is processed to separate and concentrate the platelet-rich plasma.</li>
+            <li><strong>Scalp injection:</strong> The concentrated plasma is injected into the treatment areas of the scalp.</li>
+            <li><strong>Follow-up plan:</strong> The doctor advises the number of sessions and the interval between them based on the response.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COST FACTORS ============ -->
+  <section class="internal-grey">
+    <div class="container">
+      <h2 class="results-title">What Affects GFC Therapy Cost in Ludhiana?</h2>
+      <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+      <div class="cs-wrap">
+        <div class="cs-content">
+          <ul class="feature-list">
+            <li><strong>Extent and stage of hair loss:</strong> More extensive thinning may require a longer course of sessions.</li>
+            <li><strong>Number of sessions advised:</strong> A single session costs less than a planned multi-session package.</li>
+            <li><strong>Doctor-led protocol:</strong> A clinically supervised, doctor-advised GFC protocol is priced differently from GFC administered without a prior scalp assessment.</li>
+            <li><strong>Combination with other treatments:</strong> GFC advised alongside a hair transplant or other treatment may be priced as part of a combined plan.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COST ============ -->
+  <section class="internal-white">
     <div class="container">
       <h2 class="results-title">GFC Therapy Cost in Ludhiana</h2>
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
       <div class="cs-wrap">
         <div class="cs-content">
           <p class="cs-text">
-            A single GFC therapy session (with LLT) at IHT typically costs INR 11,999. A package of 3 sessions typically costs INR 30,000. The exact cost depends on the treatment plan advised after a clinical evaluation of your scalp and hair loss stage.
+            A single GFC session with LLT at IHT typically costs Rs. 11,999. When planned as a course, a 3-session package typically costs Rs. 30,000. The exact cost depends on the treatment plan advised after a clinical evaluation of your scalp and hair loss stage, and is the same whether you visit the Sarabha Nagar or South City clinic.
           </p>
         </div>
       </div>
@@ -69,9 +129,30 @@
   <section class="iht-cta-strip">
     <div class="container iht-cta-wrap">
       <p class="iht-cta-text">
-        Book a consultation at IHT's Ludhiana clinics to find out whether GFC therapy is right for you.
+        Book a consultation at IHT's Sarabha Nagar or South City clinic in Ludhiana to find out whether GFC therapy is right for you.
       </p>
       <a href="tel:+918699003797" class="iht-cta-btn">Call +91 86990 03797</a>
+    </div>
+  </section>
+
+  <!-- ============ CLINIC DETAILS ============ -->
+  <section class="internal-grey">
+    <div class="container">
+      <h2 class="results-title">IHT's GFC Clinics in Ludhiana</h2>
+      <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+      <div class="cs-wrap">
+        <div class="cs-content">
+          <p class="cs-text">
+            <strong>Sarabha Nagar:</strong> 51-E, Sarabha Nagar, Opp Kipps Market, Ludhiana, Punjab 141001. Open Monday to Sunday, 10:30 AM to 6:30 PM.
+          </p>
+          <p class="cs-text">
+            <strong>South City:</strong> 60, Canal Rd, South End, Aggar Nagar, Ludhiana, Punjab 141001. Open Monday to Sunday, 10:30 AM to 6:30 PM.
+          </p>
+          <p class="cs-text">
+            Patients can call +91 86990 03797 to book a GFC consultation at either clinic.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -83,11 +164,11 @@
       <div class="faq-list" id="faqList">
         <article class="faq-item">
           <button class="faq-q" aria-expanded="false">
-            <span>Where are IHT's GFC therapy clinics in Ludhiana located?</span>
+            <span>Which IHT clinics in Ludhiana offer GFC therapy?</span>
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            IHT has two clinics in Ludhiana: 51-E, Sarabha Nagar, opposite Kips Market, and 60, Canal Road, South End, Aggar Nagar. Both are open Monday to Sunday, 10:30 AM to 6:30 PM.
+            GFC therapy is available at both IHT clinics in Ludhiana: Sarabha Nagar (51-E, Opp Kipps Market) and South City (60, Canal Rd, Aggar Nagar). Both are open Monday to Sunday, 10:30 AM to 6:30 PM.
           </div>
         </article>
         <article class="faq-item">
@@ -96,7 +177,34 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            Yes. A scalp and hair assessment is required before GFC is advised, so booking a consultation in advance at either clinic ensures the doctor has time for a proper evaluation.
+            Yes. A scalp and hair assessment is required before GFC is advised, so booking a consultation in advance ensures the doctor has time for a proper evaluation at either clinic.
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>How many GFC sessions will I need?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            The number of sessions depends on the stage and extent of hair thinning, and is decided after a scalp assessment. Many patients are advised a course of 3 sessions, spaced roughly a month apart.
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>Is GFC painful?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            A topical numbing gel is typically applied to the scalp before the injections, so most patients experience only mild discomfort during the session.
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>Can GFC be combined with a hair transplant?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            Yes. GFC is sometimes advised alongside a <a href="<?= base_url('hair-transplant') ?>">hair transplant</a> to support the scalp's existing hair, where the doctor considers it clinically useful.
           </div>
         </article>
         <article class="faq-item">
@@ -130,8 +238,23 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "MedicalWebPage",
+      "name": "GFC Therapy in Ludhiana",
+      "url": "https://indiahairtransplant.com/gfc-hair-treatment-in-ludhiana",
+      "about": {
+        "@type": "MedicalProcedure",
+        "name": "GFC Hair Treatment",
+        "procedureType": "Non-invasive procedure",
+        "howPerformed": "Platelet-rich plasma derived from the patient's own blood is injected into the scalp to support active hair follicles, following a clinical scalp assessment.",
+        "status": "https://schema.org/CompletedActionStatus"
+      },
+      "author": { "@type": "Organization", "name": "IHT Medical Team" },
+      "reviewedBy": { "@type": "Person", "name": "Dr. Kapil Dua" },
+      "lastReviewed": "2026-11-26"
+    },
+    {
       "@type": "MedicalBusiness",
-      "name": "IHT Clinic Ludhiana (Sarabha Nagar) | GFC Therapy",
+      "name": "IHT Clinic Ludhiana (Sarabha Nagar) | GFC Hair Treatment",
       "url": "https://indiahairtransplant.com/gfc-hair-treatment-in-ludhiana",
       "telephone": "+918699003797",
       "priceRange": "₹₹",
@@ -145,11 +268,7 @@
         "postalCode": "141001",
         "addressCountry": "IN"
       },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 30.9010,
-        "longitude": 75.8573
-      },
+      "geo": { "@type": "GeoCoordinates", "latitude": 30.9010, "longitude": 75.8573 },
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
         "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
@@ -160,9 +279,11 @@
     },
     {
       "@type": "MedicalBusiness",
-      "name": "IHT Clinic Ludhiana (South City) | GFC Therapy",
+      "name": "IHT Clinic Ludhiana (South City) | GFC Hair Treatment",
       "url": "https://indiahairtransplant.com/gfc-hair-treatment-in-ludhiana",
       "telephone": "+918699003797",
+      "priceRange": "₹₹",
+      "currenciesAccepted": "INR",
       "medicalSpecialty": "Dermatology",
       "address": {
         "@type": "PostalAddress",
@@ -185,10 +306,10 @@
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Where are IHT's GFC therapy clinics in Ludhiana located?",
+          "name": "Which IHT clinics in Ludhiana offer GFC therapy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "IHT has two clinics in Ludhiana: 51-E, Sarabha Nagar, opposite Kips Market, and 60, Canal Road, South End, Aggar Nagar. Both are open Monday to Sunday, 10:30 AM to 6:30 PM."
+            "text": "GFC therapy is available at both IHT clinics in Ludhiana: Sarabha Nagar (51-E, Opp Kipps Market) and South City (60, Canal Rd, Aggar Nagar). Both are open Monday to Sunday, 10:30 AM to 6:30 PM."
           }
         },
         {
@@ -196,7 +317,31 @@
           "name": "Do I need an appointment for a GFC consultation in Ludhiana?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. A scalp and hair assessment is required before GFC is advised, so booking a consultation in advance at either clinic ensures the doctor has time for a proper evaluation."
+            "text": "Yes. A scalp and hair assessment is required before GFC is advised, so booking a consultation in advance ensures the doctor has time for a proper evaluation at either clinic."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many GFC sessions will I need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The number of sessions depends on the stage and extent of hair thinning, and is decided after a scalp assessment. Many patients are advised a course of 3 sessions, spaced roughly a month apart."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is GFC painful?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A topical numbing gel is typically applied to the scalp before the injections, so most patients experience only mild discomfort during the session."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can GFC be combined with a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. GFC is sometimes advised alongside a hair transplant to support the scalp's existing hair, where the doctor considers it clinically useful."
           }
         },
         {
