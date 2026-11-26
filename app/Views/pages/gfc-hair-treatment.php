@@ -24,6 +24,19 @@
     </div>
   </section>
 
+  <!-- ============ QUICK ANSWER ============ -->
+  <section class="internal-grey">
+    <div class="container">
+      <div class="cs-wrap">
+        <div class="cs-content">
+          <p class="cs-text">
+            <strong>Quick answer:</strong> GFC (Growth Factor Concentrate) therapy is a non-surgical treatment that uses purified, cell-free growth factors from a patient's own blood to strengthen existing, weakening hair follicles. It is suited to early to mid-stage hair thinning and does not create new follicles, so it is not an alternative to a hair transplant in areas of complete baldness.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ MEDIA INTRO (image + text) ============ -->
 <section class="internal-white">
   <!-- change to internal-grey if needed -->
@@ -80,7 +93,7 @@
         </ul>
 
         <p class="cs-text">
-          Clinical observations suggest that <strong>nearly 60% of men and 40% of women</strong> experience noticeable hair thinning at some point, often beginning in their 20s or 30s. If left untreated, this gradual weakening of follicles can progress to permanent thinning or bald patches.
+          Clinical observations suggest that noticeable hair thinning is common in both men and women, often beginning in their 20s or 30s. If left untreated, this gradual weakening of follicles can progress to permanent thinning or bald patches.
         </p>
 
         <p class="cs-text">
@@ -304,7 +317,7 @@
       <div class="cs-content">
 
         <p class="cs-text">
-          PRP and GFC therapies are both regenerative treatments used to manage hair thinning and support follicular health. However, they differ in how growth factors are prepared, released, and delivered to the scalp. Understanding these differences helps patients and dermatologists choose the most suitable treatment approach based on the stage of hair loss.
+          <a href="<?= base_url('prp-hair-treatment') ?>">PRP</a> and GFC therapies are both regenerative treatments used to manage hair thinning and support follicular health. However, they differ in how growth factors are prepared, released, and delivered to the scalp. Understanding these differences helps patients and dermatologists choose the most suitable treatment approach based on the stage of hair loss.
         </p>
 
         <div class="iht-table-wrap" role="region" aria-label="PRP vs GFC therapy comparison table" tabindex="0">
@@ -514,11 +527,11 @@
       <div class="cs-content">
 
         <p class="cs-text">
-          The effectiveness of GFC therapy is supported by its foundation in <strong>regenerative medicine and growth factor research</strong>, which has been widely studied in dermatology and tissue repair. Clinical studies on platelet-derived growth factors have shown their role in improving <strong>follicular cell activity, blood supply, and scalp tissue repair</strong>, all of which are critical for maintaining healthy hair growth.
+          The effectiveness of GFC therapy is supported by its foundation in <strong>regenerative medicine and growth factor research</strong>, which has been studied in dermatology and tissue repair. Growth-factor-based therapies are generally understood to support <strong>follicular cell activity, blood supply, and scalp tissue repair</strong>, which are relevant to maintaining healthy hair growth.
         </p>
 
         <p class="cs-text">
-          In addition, studies by the <strong>American Academy of Dermatology (AAD)</strong> recognise growth-factor–based therapies as supportive treatments for early hair thinning, where follicles are still viable. These findings explain why GFC therapy is used clinically to <strong>reduce hair fall, improve hair calibre, and stabilise ongoing hair loss</strong>, rather than as a guaranteed regrowth solution.
+          GFC therapy is used clinically to <strong>reduce hair fall, improve hair calibre, and stabilise ongoing hair loss</strong>, rather than as a guaranteed regrowth solution. Individual response varies, and outcomes are assessed through follow-up consultation rather than promised in advance.
         </p>
 
         <p class="cs-text">
@@ -526,9 +539,8 @@
         </p>
 
         <ul class="iht-acc-list">
-          <li>Care led by <strong>India’s best dermatologists</strong></li>
+          <li>Care led by experienced, qualified dermatologists</li>
           <li>Strong experience in medical hair loss management</li>
-          <li>Accreditation with medical standards and protocols</li>
           <li>Specialised expertise in GFC therapy (including correct processing, platelet activation, and injection technique)</li>
           <li>Personalised planning based on hair loss stage and follicular health</li>
         </ul>
@@ -543,9 +555,9 @@
 <section class="iht-cta-strip">
       <div class="container iht-cta-wrap">
         <p class="iht-cta-text">
-          👉 Book a consultation with our experts to understand whether GFC therapy is the right treatment option for you.
+          Book a consultation with our experts to understand whether GFC therapy is the right treatment option for you.
         </p>
-        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
+        <a href="tel:+918699003797" class="iht-cta-btn">Call +91 86990 03797</a>
       </div>
     </section>
     
@@ -654,11 +666,12 @@
 
 <section>
     <aside class="faq-author faq-author--ak">
-      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-aman-dua.webp') ?>" alt="Dr. Aman Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
-        <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
-        <p class="fa-row"><strong>Updated on:</strong> March 09, 2026</p>
+        <p class="fa-row"><strong>Authored by:</strong> <a href="<?= base_url('dr-aman-dua') ?>">Dr. Aman Dua</a></p>
+        <p class="fa-row">MBBS, MD Dermatology - Chief Dermatologist</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a>, MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
+        <p class="fa-row"><strong>Updated on:</strong> November 26, 2026</p>
       </div>
     </aside>
   
@@ -671,12 +684,29 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "WebPage",
+      "@type": "MedicalWebPage",
       "url": "https://indiahairtransplant.com/gfc-hair-treatment",
+      "name": "GFC Therapy for Hair Loss in India",
       "isPartOf": {
         "@type": "WebSite",
         "url": "https://indiahairtransplant.com/"
-      }
+      },
+      "about": {
+        "@type": "MedicalProcedure",
+        "name": "GFC (Growth Factor Concentrate) Therapy",
+        "procedureType": "https://schema.org/NoninvasiveProcedure",
+        "howPerformed": "Purified, cell-free growth factors are prepared from a small blood sample and injected into the scalp to support existing, weakening hair follicles.",
+        "status": "Non-surgical supportive therapy; not a substitute for hair transplant surgery in areas of complete baldness."
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Dr. Aman Dua"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Dr. Kapil Dua"
+      },
+      "lastReviewed": "2026-11-26"
     },
     {
       "@type": "FAQPage",
