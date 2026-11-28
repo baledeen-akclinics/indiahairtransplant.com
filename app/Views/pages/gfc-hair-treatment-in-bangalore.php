@@ -42,7 +42,7 @@
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
       <div class="cs-wrap">
         <div class="cs-img">
-          <img loading="lazy" src="<?= base_url('assets/images/gfc-therapy-benefits.png') ?>" alt="Benefits of GFC therapy for hair loss treatment">
+          <img loading="lazy" src="<?= base_url('assets/images/gfc-therapy-benefits.png') ?>" alt="Benefits of GFC therapy for hair loss treatment" style="aspect-ratio:4/3;object-fit:cover;border-radius:12px">
         </div>
         <div class="cs-content">
           <p class="cs-text">
@@ -63,7 +63,7 @@
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
       <div class="cs-wrap">
         <div class="cs-img">
-          <img loading="lazy" src="<?= base_url('assets/images/gfc-therapy-candidates.png') ?>" alt="Who should consider GFC therapy for hair loss">
+          <img loading="lazy" src="<?= base_url('assets/images/gfc-therapy-candidates.png') ?>" alt="Who should consider GFC therapy for hair loss" style="aspect-ratio:4/3;object-fit:cover;border-radius:12px">
         </div>
         <div class="cs-content">
           <ul class="feature-list">
@@ -148,7 +148,7 @@
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
       <div class="cs-wrap">
         <div class="cs-img">
-          <img loading="lazy" src="<?= base_url('assets/images/about-iht-clinic.png') ?>" alt="IHT hair transplant and dermatology clinic">
+          <img loading="lazy" src="<?= base_url('assets/images/about-iht-clinic.png') ?>" alt="IHT hair transplant and dermatology clinic" style="aspect-ratio:4/3;object-fit:cover;border-radius:12px">
         </div>
         <div class="cs-content">
           <p class="cs-text">

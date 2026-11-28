@@ -42,7 +42,7 @@
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
       <div class="cs-wrap">
         <div class="cs-img">
-          <img loading="lazy" src="<?= base_url('assets/images/prp-benefits.png') ?>" alt="PRP hair treatment results">
+          <img loading="lazy" src="<?= base_url('assets/images/prp-benefits.png') ?>" alt="PRP hair treatment results" style="aspect-ratio:4/3;object-fit:cover;border-radius:12px">
         </div>
         <div class="cs-content">
           <p class="cs-text">
@@ -63,7 +63,7 @@
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
       <div class="cs-wrap">
         <div class="cs-img">
-          <img loading="lazy" src="<?= base_url('assets/images/is-prp-safe.png') ?>" alt="PRP hair treatment safety and results">
+          <img loading="lazy" src="<?= base_url('assets/images/is-prp-safe.png') ?>" alt="PRP hair treatment safety and results" style="aspect-ratio:4/3;object-fit:cover;border-radius:12px">
         </div>
         <div class="cs-content">
           <ul class="feature-list">
@@ -148,7 +148,7 @@
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
       <div class="cs-wrap">
         <div class="cs-img">
-          <img loading="lazy" src="<?= base_url('assets/images/about-iht-clinic.png') ?>" alt="IHT hair transplant and dermatology clinic">
+          <img loading="lazy" src="<?= base_url('assets/images/about-iht-clinic.png') ?>" alt="IHT hair transplant and dermatology clinic" style="aspect-ratio:4/3;object-fit:cover;border-radius:12px">
         </div>
         <div class="cs-content">
           <p class="cs-text">
