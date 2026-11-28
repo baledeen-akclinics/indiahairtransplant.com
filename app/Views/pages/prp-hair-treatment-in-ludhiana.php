@@ -165,6 +165,25 @@
     </div>
   </section>
 
+  <!-- ============ OTHER TREATMENTS ============ -->
+  <section class="internal-white">
+    <div class="container">
+      <h2 class="results-title">Other Treatments at IHT's Ludhiana Clinic</h2>
+      <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+      <div class="cs-wrap">
+        <div class="cs-content">
+          <p class="cs-text">
+            IHT's Ludhiana clinic also offers the following hair loss treatments, depending on your stage of hair loss and what a consultation recommends:
+          </p>
+          <ul class="feature-list">
+            <li><a href="<?= base_url('hair-transplant-in-ludhiana') ?>">Hair Transplant in Ludhiana</a> — for patients with more extensive or permanent hair loss</li>
+            <li><a href="<?= base_url('gfc-hair-treatment-in-ludhiana') ?>">GFC Therapy in Ludhiana</a> — an alternative option worth discussing at your consultation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="results-section faq-sec faq--light">
     <div class="container">
       <h2 class="results-title">Frequently Asked Questions – PRP Hair Treatment in Ludhiana</h2>
@@ -177,7 +196,7 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            PRP hair treatment is available at both IHT clinics in Ludhiana: Sarabha Nagar (51-E, Opp Kipps Market) and South City (60, Canal Rd, Aggar Nagar). Both are open Monday to Sunday, 10:30 AM to 6:30 PM.
+            PRP hair treatment is available at both of IHT's clinics in Ludhiana, Sarabha Nagar and South City, which follow the same clinical protocol and are open Monday to Sunday, 10:30 AM to 6:30 PM.
           </div>
         </article>
         <article class="faq-item">
@@ -235,7 +254,7 @@
       <div class="fa-meta">
         <p class="fa-row"><strong>Authored by:</strong> IHT Medical Team</p>
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a>, MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
-        <p class="fa-row"><strong>Updated on:</strong> November 26, 2026</p>
+        <p class="fa-row"><strong>Updated on:</strong> November 28, 2026</p>
       </div>
     </aside>
   </section>
@@ -259,7 +278,7 @@
       },
       "author": { "@type": "Organization", "name": "IHT Medical Team" },
       "reviewedBy": { "@type": "Person", "name": "Dr. Kapil Dua" },
-      "lastReviewed": "2026-11-26"
+      "lastReviewed": "2026-11-28"
     },
     {
       "@type": "MedicalBusiness",
@@ -318,7 +337,7 @@
           "name": "Which IHT clinics in Ludhiana offer PRP hair treatment?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "PRP hair treatment is available at both IHT clinics in Ludhiana: Sarabha Nagar (51-E, Opp Kipps Market) and South City (60, Canal Rd, Aggar Nagar). Both are open Monday to Sunday, 10:30 AM to 6:30 PM."
+            "text": "PRP hair treatment is available at both of IHT's clinics in Ludhiana, Sarabha Nagar and South City, which follow the same clinical protocol and are open Monday to Sunday, 10:30 AM to 6:30 PM."
           }
         },
         {

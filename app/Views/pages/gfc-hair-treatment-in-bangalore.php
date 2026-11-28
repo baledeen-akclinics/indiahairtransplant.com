@@ -159,6 +159,25 @@
     </div>
   </section>
 
+  <!-- ============ OTHER TREATMENTS ============ -->
+  <section class="internal-white">
+    <div class="container">
+      <h2 class="results-title">Other Treatments at IHT's Bangalore Clinic</h2>
+      <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+      <div class="cs-wrap">
+        <div class="cs-content">
+          <p class="cs-text">
+            IHT's Bangalore clinic also offers the following hair loss treatments, depending on your stage of hair loss and what a consultation recommends:
+          </p>
+          <ul class="feature-list">
+            <li><a href="<?= base_url('hair-transplant-in-bangalore') ?>">Hair Transplant in Bangalore</a> — for patients with more extensive or permanent hair loss</li>
+            <li><a href="<?= base_url('prp-hair-treatment-in-bangalore') ?>">PRP Hair Treatment in Bangalore</a> — an alternative option worth discussing at your consultation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="results-section faq-sec faq--light">
     <div class="container">
       <h2 class="results-title">Frequently Asked Questions – GFC Therapy in Bangalore</h2>
@@ -229,7 +248,7 @@
       <div class="fa-meta">
         <p class="fa-row"><strong>Authored by:</strong> IHT Medical Team</p>
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a>, MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
-        <p class="fa-row"><strong>Updated on:</strong> November 26, 2026</p>
+        <p class="fa-row"><strong>Updated on:</strong> November 28, 2026</p>
       </div>
     </aside>
   </section>
@@ -253,7 +272,7 @@
       },
       "author": { "@type": "Organization", "name": "IHT Medical Team" },
       "reviewedBy": { "@type": "Person", "name": "Dr. Kapil Dua" },
-      "lastReviewed": "2026-11-26"
+      "lastReviewed": "2026-11-28"
     },
     {
       "@type": "MedicalBusiness",
