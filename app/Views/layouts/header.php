@@ -18,8 +18,8 @@
 
 <!-- FIX 2: CSS loaded asynchronously — removes 710ms render-blocking delay.
      Bug fix also applied: was style.css?=d98 (invalid query string), corrected to style.css?d98 -->
-<link rel="preload" href="<?= base_url('assets/style.css?d100') ?>" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="<?= base_url('assets/style.css?d100') ?>"></noscript>
+<link rel="preload" href="<?= base_url('assets/style.css?d101') ?>" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="<?= base_url('assets/style.css?d101') ?>"></noscript>
 
 <!-- Google tag (gtag.js) — kept async, no change needed -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GCE5B37X39"></script>

@@ -17,116 +17,251 @@
       </nav>
 
       <h1 class="page-title">GFC Therapy in Bangalore</h1>
-      <p class="page-sub">Doctor-supervised GFC therapy for early hair thinning and increased hair fall, available at IHT's Bangalore clinic in Indiranagar.</p>
+      <p class="page-sub">Dermatologist-supervised GFC therapy for early hair thinning and increased hair fall at IHT's Bangalore clinic in Indiranagar.</p>
       <?= $this->include('partials/hero-consult-cta') ?>
     </div>
   </section>
 
-  <!-- ============ QUICK ANSWER ============ -->
-  <section class="internal-grey">
+  <!-- ============ QUICK FACTS ============ -->
+  <section class="lp-sec lp-sec--tint" aria-label="GFC Therapy in Bangalore at a glance">
     <div class="container">
-      <div class="cs-wrap">
-        <div class="cs-content">
-          <p class="cs-text">
-            <strong>Quick answer:</strong> GFC therapy is available at IHT's Bangalore clinic in Indiranagar, where a detailed scalp assessment decides whether GFC therapy is appropriate before any session is booked. A single session with LLT typically costs Rs. 11,999, with a 3-session package typically costing Rs. 30,000. It is a non-surgical, supportive treatment for early hair thinning with active hair follicles, not a substitute for a hair transplant in areas of complete baldness.
-          </p>
-        </div>
+      <div class="lp-facts">
+        <div class="lp-fact"><span class="lp-fact-label">Treatment</span><span class="lp-fact-value">Non-surgical, dermatologist-supervised</span></div>
+        <div class="lp-fact"><span class="lp-fact-label">Anaesthesia</span><span class="lp-fact-value">Local, for comfort</span></div>
+        <div class="lp-fact"><span class="lp-fact-label">Typical course</span><span class="lp-fact-value">3 to 4 sessions, 4 to 6 weeks apart</span></div>
+        <div class="lp-fact"><span class="lp-fact-label">Cost per session</span><span class="lp-fact-value">Rs. 11,999 (with LLT)</span></div>
+        <div class="lp-fact"><span class="lp-fact-label">Downtime</span><span class="lp-fact-value">Usually none</span></div>
       </div>
+      <p class="lp-answer"><strong>Quick answer:</strong> GFC therapy is available at IHT's Bangalore clinic in Indiranagar. A dermatologist assesses your scalp first, and 3 to 4 sessions spaced 4 to 6 weeks apart are commonly advised. A single session with LLT typically costs Rs. 11,999, or Rs. 30,000 for a 3-session package. GFC supports weakened but active follicles and is not suited to areas of advanced baldness.</p>
     </div>
   </section>
 
-  <!-- ============ WHAT IS GFC ============ -->
-  <section class="celeb-story-white">
+  <!-- ============ WHAT IS ============ -->
+  <section class="lp-sec">
     <div class="container">
       <h2 class="results-title">What Is GFC Therapy?</h2>
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
-      <div class="cs-wrap">
-        <div class="cs-img">
-          <img loading="lazy" src="<?= base_url('assets/images/gfc-therapy-benefits.png') ?>" alt="Benefits of GFC therapy for hair loss treatment" style="aspect-ratio:4/3;object-fit:cover;border-radius:12px">
-        </div>
-        <div class="cs-content">
-          <p class="cs-text">
-            Growth Factor Concentrate (GFC) therapy uses a concentrated preparation of growth factors derived from a patient's own blood, injected into the scalp to support weakened but still active hair follicles. It is used as a standalone option for early-stage thinning or alongside a hair transplant to help support the scalp's existing hair. At IHT's Bangalore clinic, GFC is recommended only after a dermatologist evaluates the pattern and stage of hair loss, since it is not suitable for every type of hair loss.
-          </p>
-          <p class="cs-text">
-            For the full procedure explanation, candidacy criteria, and safety information that apply across all IHT clinics, see the main <a href="<?= base_url('gfc-hair-treatment') ?>">GFC therapy</a> page.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ CANDIDACY ============ -->
-  <section class="celeb-story">
-    <div class="container">
-      <h2 class="results-title">Who Is a Suitable Candidate for GFC in Bangalore?</h2>
-      <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
-      <div class="cs-wrap">
-        <div class="cs-img">
-          <img loading="lazy" src="<?= base_url('assets/images/gfc-therapy-candidates.png') ?>" alt="Who should consider GFC therapy for hair loss" style="aspect-ratio:4/3;object-fit:cover;border-radius:12px">
-        </div>
-        <div class="cs-content">
-          <ul class="feature-list">
-            <li>Patients with early to moderate hair thinning where hair follicles are still active</li>
-            <li>Patients experiencing increased hair fall due to stress, seasonal shedding, or early androgenetic alopecia</li>
-            <li>Patients who have had a hair transplant and want supportive care for their existing hair</li>
-            <li>Patients who are not suitable candidates for a hair transplant at this stage but want to slow further thinning</li>
-          </ul>
-          <p class="cs-text">
-            Patients with completely bald areas, active scalp infections, or certain blood disorders are typically not suitable candidates. A consultation at IHT's Bangalore clinic confirms candidacy before any session is scheduled.
-          </p>
+      <div class="lp-split">
+        <div class="lp-media"><img loading="lazy" src="<?= base_url('assets/images/placeholders/gfc-procedure.webp') ?>" alt="GFC therapy session at IHT"></div>
+        <div class="lp-body">
+          <p>Growth Factor Concentrate (GFC) therapy uses growth factors taken from your own blood. The platelets are activated and processed before injection to produce a purified, cell-free concentrate, which is injected into areas of the scalp where follicles are present but weakened.</p>
+          <p>At IHT's Bangalore clinic, GFC therapy is planned by a dermatologist after a scalp assessment, including session scheduling, injection depth, spacing and scalp coverage based on your pattern of hair loss.</p>
+          <p>For a detailed clinical overview, read our main guide to <a href="<?= base_url('gfc-hair-treatment') ?>">GFC therapy for hair loss</a>.</p>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ============ PROCEDURE ============ -->
-  <section class="internal-white">
+  <section class="lp-sec lp-sec--tint">
     <div class="container">
-      <h2 class="results-title">How the GFC Procedure Works at IHT Bangalore</h2>
+      <h2 class="results-title">How GFC Therapy Works at IHT Bangalore</h2>
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
-      <div class="cs-wrap">
-        <div class="cs-content">
+      <p class="lp-lead">GFC therapy at IHT follows a controlled, multi-step medical process overseen by a dermatologist.</p>
+      <ol class="lp-steps">
+        <li class="lp-step"><h3>Scalp assessment</h3><p>A dermatologist confirms suitability and plans session scheduling, injection depth and scalp coverage.</p></li>
+        <li class="lp-step"><h3>Blood collection</h3><p>Approximately 12 to 16 ml of blood is collected under sterile conditions and prepared for platelet activation.</p></li>
+        <li class="lp-step"><h3>Processing and separation</h3><p>Growth factors are separated from red blood cells and other components to produce a cell-free concentrate.</p></li>
+        <li class="lp-step"><h3>Targeted injection</h3><p>Under local anaesthesia, the concentrate is injected where follicles are present but weakened.</p></li>
+        <li class="lp-step"><h3>Follow-up</h3><p>3 to 4 sessions are commonly advised, usually 4 to 6 weeks apart, with progress reviewed at each visit.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ BENEFITS ============ -->
+  <section class="lp-sec">
+    <div class="container">
+      <h2 class="results-title">Benefits of GFC Therapy</h2>
+      <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+      <div class="lp-split lp-split--flip">
+        <div class="lp-media lp-media--framed"><img loading="lazy" src="<?= base_url('assets/images/gfc-therapy-benefits.png') ?>" alt="Benefits of GFC therapy for hair loss"></div>
+        <div class="lp-body">
+          <p>GFC therapy supports hair health without surgery, so it fits easily into a long-term hair management plan for people who want to address thinning without cuts, stitches or visible healing signs.</p>
           <ul class="feature-list">
-            <li><strong>Scalp assessment:</strong> A dermatologist examines the scalp and hair loss pattern to confirm GFC is suitable.</li>
-            <li><strong>Blood draw:</strong> A small sample of the patient's own blood is drawn, similar to a routine blood test.</li>
-            <li><strong>Centrifugation:</strong> The sample is processed to separate and concentrate the platelet-rich plasma.</li>
-            <li><strong>Scalp injection:</strong> The concentrated plasma is injected into the treatment areas of the scalp.</li>
-            <li><strong>Follow-up plan:</strong> The doctor advises the number of sessions and the interval between them based on the response.</li>
+            <li>Helps reduce ongoing hair fall by supporting weakened follicles</li>
+            <li>Minimal downtime, so daily activities can be resumed quickly</li>
+            <li>Low risk of infection, as the treatment uses your own blood</li>
+            <li>No stitches, cuts or scarring, and no hospitalisation required</li>
+            <li>Supports overall scalp health and hair quality</li>
+            <li>Can be used alongside other hair loss treatments</li>
           </ul>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============ COST FACTORS ============ -->
-  <section class="internal-grey">
+  <!-- ============ SUITABILITY ============ -->
+  <section class="lp-sec lp-sec--tint">
     <div class="container">
-      <h2 class="results-title">What Affects GFC Therapy Cost in Bangalore?</h2>
+      <h2 class="results-title">Is GFC Therapy Right for You?</h2>
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
-      <div class="cs-wrap">
-        <div class="cs-content">
-          <ul class="feature-list">
-            <li><strong>Extent and stage of hair loss:</strong> More extensive thinning may require a longer course of sessions.</li>
-            <li><strong>Number of sessions advised:</strong> A single session costs less than a planned multi-session package.</li>
-            <li><strong>Doctor-led protocol:</strong> A clinically supervised, doctor-advised GFC protocol is priced differently from GFC administered without a prior scalp assessment.</li>
-            <li><strong>Combination with other treatments:</strong> GFC advised alongside a hair transplant or other treatment may be priced as part of a combined plan.</li>
+      <div class="lp-cards">
+        <div class="lp-card lp-card--good">
+          <h3>GFC may be suitable if you</h3>
+          <ul>
+            <li>Are experiencing early hair thinning or increased hair fall</li>
+            <li>Have <a href="<?= base_url('androgenetic-alopecia') ?>">androgenetic alopecia</a>, also known as pattern hair loss</li>
+            <li>Notice a receding hairline or thinning at the crown</li>
+            <li>Have diffuse thinning across the scalp</li>
+            <li>Are looking for a non-surgical hair loss treatment</li>
+            <li>Have had a hair transplant and want to support graft health and overall density</li>
+          </ul>
+        </div>
+        <div class="lp-card lp-card--caution">
+          <h3>GFC is usually not advised for</h3>
+          <ul>
+            <li>Advanced baldness where hair follicles are no longer active; a hair transplant may be discussed instead</li>
+            <li>Anyone expecting guaranteed regrowth, as GFC is used to reduce hair fall and stabilise hair loss, and response varies</li>
+            <li>Any situation where the dermatologist, after reviewing your scalp and medical history, does not consider GFC appropriate</li>
           </ul>
         </div>
       </div>
+      <p class="lp-note">Suitability is confirmed only after a scalp assessment at IHT's Bangalore clinic.</p>
+    </div>
+  </section>
+
+  <!-- ============ BEFORE AND AFTER ============ -->
+  <section class="lp-sec">
+    <div class="container">
+      <h2 class="results-title">Before and After Your GFC Session</h2>
+      <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+      <div class="lp-cards">
+        <div class="lp-card">
+          <h3>Before your session</h3>
+          <ul>
+            <li>Avoid blood-thinning medicines for at least 7 days before the procedure, unless your doctor advises otherwise</li>
+            <li>Avoid alcohol and smoking for 4 to 5 days before treatment</li>
+            <li>Wash your hair with a mild shampoo before the procedure</li>
+            <li>Tell the clinic about any existing medical conditions or ongoing medicines</li>
+          </ul>
+        </div>
+        <div class="lp-card">
+          <h3>After your session</h3>
+          <ul>
+            <li>Avoid washing your hair for 24 hours after the procedure</li>
+            <li>Wear a clean cap or head covering for 24 hours to avoid dust</li>
+            <li>Avoid direct sunlight for the first few days</li>
+            <li>Take any prescribed anti-allergy or supportive medicine as advised</li>
+            <li>Mild redness or swelling at injection sites usually settles within a short period</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT TO EXPECT ============ -->
+  <section class="lp-sec lp-sec--tint">
+    <div class="container">
+      <h2 class="results-title">What to Expect After GFC Therapy</h2>
+      <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+      <div class="iht-table-wrap" role="region" aria-label="What to Expect After GFC Therapy" tabindex="0">
+        <table class="iht-cost-table">
+          <thead><tr><th>Stage</th><th>What to expect</th></tr></thead>
+          <tbody>
+              <tr><td><strong>During the session</strong></td><td>Local anaesthesia is applied to the scalp to minimise discomfort during the injections.</td></tr>
+              <tr><td><strong>Same day or next day</strong></td><td>Normal daily activities can usually be resumed, as advised by the dermatologist.</td></tr>
+              <tr><td><strong>Within 4 to 6 weeks</strong></td><td>A reduction in excessive hair fall is often seen.</td></tr>
+              <tr><td><strong>Over 2 to 3 months</strong></td><td>Improvement in hair texture and strength.</td></tr>
+              <tr><td><strong>Over time</strong></td><td>Stabilisation of hair loss progression, reviewed at follow-up.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="lp-note">GFC therapy does not produce instant regrowth. Individual response varies, and outcomes are assessed at follow-up rather than promised in advance.</p>
+    </div>
+  </section>
+
+  <!-- ============ SAFETY ============ -->
+  <section class="lp-sec">
+    <div class="container">
+      <h2 class="results-title">Is GFC Therapy Safe?</h2>
+      <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+      <div class="lp-split">
+        <div class="lp-media lp-media--framed"><img loading="lazy" src="<?= base_url('assets/images/gfc-therapy-candidates.png') ?>" alt="GFC therapy for hair loss"></div>
+        <div class="lp-body">
+          <p>GFC therapy is performed under local anaesthesia using growth factors from your own blood, collected and prepared under sterile conditions.</p>
+          <ul class="feature-list">
+            <li>Low risk of infection, as the treatment uses your own blood</li>
+            <li>The cell-free concentrate is associated with a lower inflammatory response than PRP</li>
+            <li>No stitches, cuts or scarring</li>
+            <li>No hospitalisation required</li>
+            <li>Mild redness or swelling at injection sites may be noticed and usually settles within a short period</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRP VS GFC ============ -->
+  <section class="lp-sec lp-sec--tint">
+    <div class="container">
+      <h2 class="results-title">PRP vs GFC: Which Is Right for You?</h2>
+      <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+      <p class="lp-lead"><a href="<?= base_url('prp-hair-treatment') ?>">PRP</a> and GFC therapy are both regenerative treatments that use your own blood, but they differ in how the growth factors are prepared and delivered.</p>
+      <div class="iht-table-wrap" role="region" aria-label="PRP vs GFC comparison" tabindex="0">
+        <table class="iht-cost-table lp-table--compare">
+          <thead><tr><th>Aspect</th><th>PRP Hair Treatment</th><th>GFC Therapy</th></tr></thead>
+          <tbody>
+              <tr><td><strong>Type of treatment</strong></td><td>Platelet-based regenerative therapy</td><td>Purified growth factor therapy</td></tr>
+              <tr><td><strong>Preparation method</strong></td><td>Platelets concentrated from your blood</td><td>Platelets activated and processed to isolate growth factors</td></tr>
+              <tr><td><strong>Solution</strong></td><td>Contains platelets and other cellular components</td><td>Cell-free solution of purified growth factors</td></tr>
+              <tr><td><strong>Inflammatory response</strong></td><td>Mild inflammation may occur</td><td>Lower, due to the purified concentrate</td></tr>
+              <tr><td><strong>Suitability</strong></td><td>Men and women with early to moderate hair loss</td><td>Selected patients needing refined growth factor therapy</td></tr>
+              <tr><td><strong>Typical course</strong></td><td>3 sessions, 1 month apart</td><td>3 to 4 sessions, 4 to 6 weeks apart</td></tr>
+              <tr><td><strong>Cost per session at IHT</strong></td><td>Rs. 10,000 to Rs. 12,000</td><td>Rs. 11,999 (with LLT)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="lp-note">Dermatologists may recommend PRP, GFC therapy or a combination of treatments, depending on your stage of hair loss, follicular health and long-term hair restoration plan.</p>
     </div>
   </section>
 
   <!-- ============ COST ============ -->
-  <section class="internal-white">
+  <section class="lp-sec">
     <div class="container">
       <h2 class="results-title">GFC Therapy Cost in Bangalore</h2>
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
-      <div class="cs-wrap">
-        <div class="cs-content">
-          <p class="cs-text">
-            A single GFC session with LLT at IHT typically costs Rs. 11,999. When planned as a course, a 3-session package typically costs Rs. 30,000. The exact cost depends on the treatment plan advised after a clinical evaluation of your scalp and hair loss stage.
-          </p>
+      <div class="lp-cards">
+        <div class="lp-card">
+          <h3>Typical cost at IHT</h3>
+          <div class="iht-table-wrap" role="region" aria-label="GFC Therapy Cost in Bangalore" tabindex="0">
+            <table class="iht-cost-table">
+              <thead><tr><th>Treatment</th><th>Typical cost</th></tr></thead>
+              <tbody>
+              <tr><td>Single GFC session with LLT</td><td><strong>Rs. 11,999</strong></td></tr>
+              <tr><td>Package of 3 GFC sessions with LLT</td><td><strong>Rs. 30,000</strong></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="lp-note">The exact cost is confirmed after a clinical evaluation of your scalp and stage of hair loss.</p>
+        </div>
+        <div class="lp-card">
+          <h3>What affects the cost</h3>
+          <ul>
+            <li>The stage and extent of your hair loss</li>
+            <li>The number of sessions required</li>
+            <li>Whether GFC is combined with other treatment, such as a hair transplant</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY IHT ============ -->
+  <section class="lp-sec lp-sec--dark">
+    <div class="container">
+      <h2 class="results-title">Why Choose IHT for GFC Therapy in Bangalore</h2>
+      <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+      <div class="lp-split">
+        <div class="lp-media lp-media--framed"><img loading="lazy" src="<?= base_url('assets/images/about-iht-clinic.png') ?>" alt="Treatment room at an IHT clinic"></div>
+        <div class="lp-body">
+          <p>At IHT, GFC therapy is offered under dermatologist supervision with a standardised clinical protocol.</p>
+          <ul class="feature-list">
+            <li>Care led by experienced, qualified dermatologists</li>
+            <li>Specialised expertise in GFC therapy, including correct processing, platelet activation and injection technique</li>
+            <li>Personalised planning based on your stage of hair loss and follicular health</li>
+            <li>Blood collection and preparation under sterile conditions</li>
+            <li>Outcomes assessed at follow-up consultations rather than promised in advance</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -141,39 +276,40 @@
     </div>
   </section>
 
-  <!-- ============ CLINIC DETAILS ============ -->
-  <section class="celeb-story">
+  <!-- ============ CLINICS ============ -->
+  <section class="lp-sec lp-sec--tint">
     <div class="container">
-      <h2 class="results-title">IHT's GFC Clinic in Bangalore</h2>
+      <h2 class="results-title">IHT's Clinic in Bangalore</h2>
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
-      <div class="cs-wrap">
-        <div class="cs-img">
-          <img loading="lazy" src="<?= base_url('assets/images/about-iht-clinic.png') ?>" alt="IHT hair transplant and dermatology clinic" style="aspect-ratio:4/3;object-fit:cover;border-radius:12px">
-        </div>
-        <div class="cs-content">
-          <p class="cs-text">
-            IHT's Bangalore clinic is located at 149, 10th Cross Rd, Indira Nagar, Indiranagar, Bangalore, and is open Monday to Sunday, 10:30 AM to 6:30 PM. Patients can call +91 86990 03797 to book a GFC consultation.
-          </p>
-        </div>
+      <p class="lp-lead">GFC therapy in Bangalore is offered at IHT's clinic on 10th Cross Road, Indiranagar.</p>
+      <div class="lp-clinics lp-clinics--single">
+        <article class="clinic-card">
+          <div class="lp-clinic-img"><img loading="lazy" src="<?= base_url('assets/images/placeholders/clinic-bangalore.webp') ?>" alt="IHT Clinic, Bangalore (Indiranagar)"></div>
+          <h3 class="clinic-title">IHT Clinic, Bangalore (Indiranagar)</h3>
+          <div class="clinic-body">
+            <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5Z" fill="currentColor" /></svg></span>149, 10th Cross Rd, Indira Nagar, Indiranagar, Bangalore</p>
+            <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1.3 1.3 0 0 1 1.3-.3 10.2 10.2 0 0 0 3.3.5 1.3 1.3 0 0 1 1.3 1.3v3.7a1.3 1.3 0 0 1-1.3 1.3A18.7 18.7 0 0 1 3 5.4 1.3 1.3 0 0 1 4.3 4h3.7A1.3 1.3 0 0 1 9.3 5.3c0 1.1.2 2.2.5 3.3.1.4 0 .9-.3 1.3l-2.9 2.9Z" fill="currentColor" /></svg></span><a href="tel:+918699003797">+91 86990 03797</a></p>
+            <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" /><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg></span>Mon to Sun: 10:30 AM to 6:30 PM</p>
+          </div>
+          <footer class="clinic-foot">
+            <a class="btn btn--primary btn--sm" href="tel:+918699003797">Call Now</a>
+            <a class="btn btn--outline btn--sm" target="_blank" rel="noopener" href="https://maps.app.goo.gl/qgX83P9UfZ3YUXfo9">Get Directions</a>
+          </footer>
+        </article>
       </div>
     </div>
   </section>
 
   <!-- ============ OTHER TREATMENTS ============ -->
-  <section class="internal-white">
+  <section class="lp-sec">
     <div class="container">
       <h2 class="results-title">Other Treatments at IHT's Bangalore Clinic</h2>
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
-      <div class="cs-wrap">
-        <div class="cs-content">
-          <p class="cs-text">
-            IHT's Bangalore clinic also offers the following hair loss treatments, depending on your stage of hair loss and what a consultation recommends:
-          </p>
-          <ul class="feature-list">
-            <li><a href="<?= base_url('hair-transplant-in-bangalore') ?>">Hair Transplant in Bangalore</a> — for patients with more extensive or permanent hair loss</li>
-            <li><a href="<?= base_url('prp-hair-treatment-in-bangalore') ?>">PRP Hair Treatment in Bangalore</a> — an alternative option worth discussing at your consultation</li>
-          </ul>
-        </div>
+      <p class="lp-lead">Depending on your stage of hair loss, your consultation may point to a different treatment.</p>
+      <div class="lp-links">
+        <a class="lp-link" href="<?= base_url('hair-transplant-in-bangalore') ?>"><strong>Hair Transplant in Bangalore</strong><span>For more extensive or advanced hair loss where follicles are no longer active.</span></a>
+        <a class="lp-link" href="<?= base_url('prp-hair-treatment-in-bangalore') ?>"><strong>PRP Hair Treatment in Bangalore</strong><span>A platelet-rich plasma treatment for early thinning; your doctor can advise which suits you.</span></a>
+        <a class="lp-link" href="<?= base_url('hair-loss-assessment') ?>"><strong>Hair Loss Assessment</strong><span>Answer 5 simple questions to estimate your Norwood stage before your consultation.</span></a>
       </div>
     </div>
   </section>
@@ -186,20 +322,20 @@
       <div class="faq-list" id="faqList">
         <article class="faq-item">
           <button class="faq-q" aria-expanded="false">
-            <span>Where is IHT's GFC therapy clinic in Bangalore located?</span>
+            <span>Where is IHT's GFC clinic in Bangalore?</span>
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            IHT's Bangalore clinic is located at 149, 10th Cross Rd, Indira Nagar, Indiranagar, Bangalore. The clinic is open Monday to Sunday, 10:30 AM to 6:30 PM.
+            IHT's Bangalore clinic is at 149, 10th Cross Road, Indiranagar, Bangalore. It is open Monday to Sunday, 10:30 AM to 6:30 PM.
           </div>
         </article>
         <article class="faq-item">
           <button class="faq-q" aria-expanded="false">
-            <span>Do I need an appointment for a GFC consultation in Bangalore?</span>
+            <span>How much does GFC therapy cost in Bangalore?</span>
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            Yes. A scalp and hair assessment is required before GFC is advised, so booking a consultation in advance ensures the doctor has time for a proper evaluation.
+            A single GFC session with LLT typically costs Rs. 11,999, and a package of 3 sessions typically costs Rs. 30,000. The final plan and cost are confirmed after your scalp assessment.
           </div>
         </article>
         <article class="faq-item">
@@ -208,34 +344,70 @@
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            The number of sessions depends on the stage and extent of hair thinning, and is decided after a scalp assessment. Many patients are advised a course of 3 sessions, spaced roughly a month apart.
+            3 to 4 sessions are commonly advised, usually spaced 4 to 6 weeks apart. The exact number is decided after a scalp and hair assessment and reviewed at follow-up.
           </div>
         </article>
         <article class="faq-item">
           <button class="faq-q" aria-expanded="false">
-            <span>Is GFC painful?</span>
+            <span>When will I see results from GFC therapy?</span>
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            A topical numbing gel is typically applied to the scalp before the injections, so most patients experience only mild discomfort during the session.
+            GFC therapy does not produce instant regrowth. A reduction in excessive hair fall is often seen within 4 to 6 weeks, with improvement in hair texture and strength over 2 to 3 months. Response varies from person to person.
           </div>
         </article>
         <article class="faq-item">
           <button class="faq-q" aria-expanded="false">
-            <span>Can GFC be combined with a hair transplant?</span>
+            <span>Is GFC therapy painful?</span>
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            Yes. GFC is sometimes advised alongside a <a href="<?= base_url('hair-transplant') ?>">hair transplant</a> to support the scalp's existing hair, where the doctor considers it clinically useful.
+            Local anaesthesia is applied to the scalp before the injections to minimise discomfort.
           </div>
         </article>
         <article class="faq-item">
           <button class="faq-q" aria-expanded="false">
-            <span>Is GFC therapy at IHT Bangalore the same as at IHT's other clinics?</span>
+            <span>Are there any side effects of GFC therapy?</span>
             <i class="faq-ico" aria-hidden="true"></i>
           </button>
           <div class="faq-a" hidden="">
-            Yes, the same clinical protocol, hygiene standards, and doctor-led evaluation process are followed at every IHT location, including Delhi, Ludhiana, and Bangalore.
+            Mild redness or swelling at the injection sites may be noticed and usually settles within a short period. As GFC uses your own blood, the risk of infection is low.
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>Can GFC therapy regrow hair on completely bald areas?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            No. GFC therapy works on follicles that are present but weakened, so it is not suited to areas of advanced baldness where follicles are inactive. In that situation, the doctor may discuss a hair transplant instead.
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>What is the difference between GFC and PRP?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            PRP uses platelets concentrated from your own blood, which release growth factors gradually after injection. GFC therapy activates and processes the platelets first to produce a cell-free concentrate of growth factors. Your dermatologist can advise which suits your stage of hair loss.
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>Can GFC therapy be used after a hair transplant?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            Yes. GFC therapy can be used as a supportive treatment after a <a href="<?= base_url('hair-transplant') ?>">hair transplant</a> to support graft health and overall density. Your dermatologist will advise whether it is useful in your case.
+          </div>
+        </article>
+        <article class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>Do I need an appointment for GFC therapy in Bangalore?</span>
+            <i class="faq-ico" aria-hidden="true"></i>
+          </button>
+          <div class="faq-a" hidden="">
+            Yes. Every patient has a scalp and hair assessment before GFC therapy is advised, so please book a consultation in advance by calling +91 86990 03797.
           </div>
         </article>
       </div>
@@ -244,7 +416,7 @@
 
   <section>
     <aside class="faq-author faq-author--ak">
-      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="IHT Medical Team">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua, medical reviewer">
       <div class="fa-meta">
         <p class="fa-row"><strong>Authored by:</strong> IHT Medical Team</p>
         <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a>, MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
@@ -262,22 +434,52 @@
     {
       "@type": "MedicalWebPage",
       "name": "GFC Therapy in Bangalore",
-      "url": "https://indiahairtransplant.com/gfc-hair-treatment-in-delhi",
+      "url": "https://indiahairtransplant.com/gfc-hair-treatment-in-bangalore",
       "about": {
         "@type": "MedicalProcedure",
-        "name": "GFC Hair Treatment",
-        "procedureType": "Non-invasive procedure",
-        "howPerformed": "Platelet-rich plasma derived from the patient's own blood is injected into the scalp to support active hair follicles, following a clinical scalp assessment.",
-        "status": "https://schema.org/CompletedActionStatus"
+        "name": "GFC Therapy",
+        "procedureType": "https://schema.org/PercutaneousProcedure",
+        "bodyLocation": "Scalp",
+        "howPerformed": "Growth factors are activated and separated from the patient's own blood to produce a cell-free concentrate, which is injected into the scalp under local anaesthesia following a dermatologist's assessment.",
+        "followup": "3 to 4 sessions are commonly advised, usually 4 to 6 weeks apart, reviewed at follow-up."
       },
-      "author": { "@type": "Organization", "name": "IHT Medical Team" },
-      "reviewedBy": { "@type": "Person", "name": "Dr. Kapil Dua" },
+      "author": {
+        "@type": "Organization",
+        "name": "IHT Medical Team"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Dr. Kapil Dua"
+      },
       "lastReviewed": "2026-11-28"
     },
     {
-      "@type": "MedicalBusiness",
-      "name": "IHT Clinic Bangalore | GFC Hair Treatment",
-      "url": "https://indiahairtransplant.com/gfc-hair-treatment-in-delhi",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://indiahairtransplant.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "GFC Therapy",
+          "item": "https://indiahairtransplant.com/gfc-hair-treatment"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "GFC Therapy in Bangalore",
+          "item": "https://indiahairtransplant.com/gfc-hair-treatment-in-bangalore"
+        }
+      ]
+    },
+    {
+      "@type": "MedicalClinic",
+      "name": "IHT Clinic, Bangalore (Indiranagar) | GFC Therapy",
+      "url": "https://indiahairtransplant.com/gfc-hair-treatment-in-bangalore",
       "telephone": "+918699003797",
       "priceRange": "₹₹",
       "currenciesAccepted": "INR",
@@ -286,33 +488,46 @@
         "@type": "PostalAddress",
         "streetAddress": "149, 10th Cross Rd, Indira Nagar",
         "addressLocality": "Bangalore",
+        "addressRegion": "Karnataka",
         "addressCountry": "IN"
       },
+      "hasMap": "https://maps.app.goo.gl/qgX83P9UfZ3YUXfo9",
       "openingHoursSpecification": {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
         "opens": "10:30",
         "closes": "18:30"
       },
-      "areaServed": { "@type": "City", "name": "Bangalore" }
+      "areaServed": {
+        "@type": "City",
+        "name": "Bangalore"
+      }
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Where is IHT's GFC therapy clinic in Bangalore located?",
+          "name": "Where is IHT's GFC clinic in Bangalore?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "IHT's Bangalore clinic is located at 149, 10th Cross Rd, Indira Nagar, Indiranagar, Bangalore. The clinic is open Monday to Sunday, 10:30 AM to 6:30 PM."
+            "text": "IHT's Bangalore clinic is at 149, 10th Cross Road, Indiranagar, Bangalore. It is open Monday to Sunday, 10:30 AM to 6:30 PM."
           }
         },
         {
           "@type": "Question",
-          "name": "Do I need an appointment for a GFC consultation in Bangalore?",
+          "name": "How much does GFC therapy cost in Bangalore?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. A scalp and hair assessment is required before GFC is advised, so booking a consultation in advance ensures the doctor has time for a proper evaluation."
+            "text": "A single GFC session with LLT typically costs Rs. 11,999, and a package of 3 sessions typically costs Rs. 30,000. The final plan and cost are confirmed after your scalp assessment."
           }
         },
         {
@@ -320,31 +535,63 @@
           "name": "How many GFC sessions will I need?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The number of sessions depends on the stage and extent of hair thinning, and is decided after a scalp assessment. Many patients are advised a course of 3 sessions, spaced roughly a month apart."
+            "text": "3 to 4 sessions are commonly advised, usually spaced 4 to 6 weeks apart. The exact number is decided after a scalp and hair assessment and reviewed at follow-up."
           }
         },
         {
           "@type": "Question",
-          "name": "Is GFC painful?",
+          "name": "When will I see results from GFC therapy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A topical numbing gel is typically applied to the scalp before the injections, so most patients experience only mild discomfort during the session."
+            "text": "GFC therapy does not produce instant regrowth. A reduction in excessive hair fall is often seen within 4 to 6 weeks, with improvement in hair texture and strength over 2 to 3 months. Response varies from person to person."
           }
         },
         {
           "@type": "Question",
-          "name": "Can GFC be combined with a hair transplant?",
+          "name": "Is GFC therapy painful?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. GFC is sometimes advised alongside a hair transplant to support the scalp's existing hair, where the doctor considers it clinically useful."
+            "text": "Local anaesthesia is applied to the scalp before the injections to minimise discomfort."
           }
         },
         {
           "@type": "Question",
-          "name": "Is GFC therapy at IHT Bangalore the same as at IHT's other clinics?",
+          "name": "Are there any side effects of GFC therapy?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, the same clinical protocol, hygiene standards, and doctor-led evaluation process are followed at every IHT location, including Delhi, Ludhiana, and Bangalore."
+            "text": "Mild redness or swelling at the injection sites may be noticed and usually settles within a short period. As GFC uses your own blood, the risk of infection is low."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can GFC therapy regrow hair on completely bald areas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. GFC therapy works on follicles that are present but weakened, so it is not suited to areas of advanced baldness where follicles are inactive. In that situation, the doctor may discuss a hair transplant instead."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between GFC and PRP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PRP uses platelets concentrated from your own blood, which release growth factors gradually after injection. GFC therapy activates and processes the platelets first to produce a cell-free concentrate of growth factors. Your dermatologist can advise which suits your stage of hair loss."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can GFC therapy be used after a hair transplant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. GFC therapy can be used as a supportive treatment after a \">hair transplant to support graft health and overall density. Your dermatologist will advise whether it is useful in your case."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need an appointment for GFC therapy in Bangalore?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Every patient has a scalp and hair assessment before GFC therapy is advised, so please book a consultation in advance by calling +91 86990 03797."
           }
         }
       ]

@@ -499,18 +499,39 @@
 
 
 
-<section class="internal-grey">
+<section class="lp-sec lp-sec--tint">
   <div class="container">
     <h2 class="results-title">PRP Hair Treatment at IHT's Clinics</h2>
     <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
-    <div class="cs-wrap">
-      <div class="cs-content">
-        <ul class="feature-list">
-          <li><a href="<?= base_url('prp-hair-treatment-in-delhi') ?>">PRP Hair Treatment in Delhi</a></li>
-          <li><a href="<?= base_url('prp-hair-treatment-in-ludhiana') ?>">PRP Hair Treatment in Ludhiana</a></li>
-          <li><a href="<?= base_url('prp-hair-treatment-in-bangalore') ?>">PRP Hair Treatment in Bangalore</a></li>
-        </ul>
-      </div>
+    <p class="lp-lead">PRP hair treatment is available at IHT's clinics in Delhi, Ludhiana and Bangalore. Choose your city for local costs, clinic details and answers to common questions.</p>
+    <div class="lp-locs">
+      <a class="lp-loc" href="<?= base_url('prp-hair-treatment-in-delhi') ?>">
+        <div class="lp-loc-img"><img loading="lazy" src="<?= base_url('assets/images/placeholders/clinic-delhi.webp') ?>" alt="IHT clinic in Delhi"></div>
+        <div class="lp-loc-body">
+          <h3>PRP Hair Treatment in Delhi</h3>
+          <p class="lp-loc-meta">GK-I, near M Block Market</p>
+          <p class="lp-loc-meta">Mon to Sun: 10:30 AM to 6:30 PM</p>
+          <span class="lp-loc-cta">View PRP hair treatment in Delhi</span>
+        </div>
+      </a>
+      <a class="lp-loc" href="<?= base_url('prp-hair-treatment-in-ludhiana') ?>">
+        <div class="lp-loc-img"><img loading="lazy" src="<?= base_url('assets/images/placeholders/clinic-ludhiana-sarabha-nagar.webp') ?>" alt="IHT clinic in Ludhiana"></div>
+        <div class="lp-loc-body">
+          <h3>PRP Hair Treatment in Ludhiana</h3>
+          <p class="lp-loc-meta">Two clinics: Sarabha Nagar and South City</p>
+          <p class="lp-loc-meta">Mon to Sun: 10:30 AM to 6:30 PM</p>
+          <span class="lp-loc-cta">View PRP hair treatment in Ludhiana</span>
+        </div>
+      </a>
+      <a class="lp-loc" href="<?= base_url('prp-hair-treatment-in-bangalore') ?>">
+        <div class="lp-loc-img"><img loading="lazy" src="<?= base_url('assets/images/placeholders/clinic-bangalore.webp') ?>" alt="IHT clinic in Bangalore"></div>
+        <div class="lp-loc-body">
+          <h3>PRP Hair Treatment in Bangalore</h3>
+          <p class="lp-loc-meta">10th Cross Road, Indiranagar</p>
+          <p class="lp-loc-meta">Mon to Sun: 10:30 AM to 6:30 PM</p>
+          <span class="lp-loc-cta">View PRP hair treatment in Bangalore</span>
+        </div>
+      </a>
     </div>
   </div>
 </section>
