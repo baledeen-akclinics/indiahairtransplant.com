@@ -54,9 +54,27 @@ switch ($url) {
         break;
 
     case 'prp-hair-treatment':
-        $metaHtml  = '<title>PRP Hair Treatment in India | Cost, Procedure, Benefits & Results at IHT</title>';
-        $metaHtml .= '<meta name="description" content="Looking for PRP hair treatment in India? Learn about the cost, procedure, and benefits of PRP hair treatment. Find out who it is suitable for and what results you can realistically expect.">';
+        $metaHtml  = '<title>PRP Hair Treatment in India | Cost &amp; Benefits | IHT</title>';
+        $metaHtml .= '<meta name="description" content="PRP hair treatment in India: cost, procedure, candidacy, and realistic results, explained by IHT\'s dermatologists.">';
         $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/prp-hair-treatment" />';
+        break;
+
+    case 'prp-hair-treatment-in-delhi':
+        $metaHtml  = '<title>PRP Hair Treatment in Delhi | Cost | IHT</title>';
+        $metaHtml .= '<meta name="description" content="PRP hair treatment at IHT\'s Delhi clinic (GK-I): cost, candidacy, and what to expect. Book a consultation.">';
+        $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/prp-hair-treatment-in-delhi" />';
+        break;
+
+    case 'prp-hair-treatment-in-ludhiana':
+        $metaHtml  = '<title>PRP Hair Treatment in Ludhiana | Cost | IHT</title>';
+        $metaHtml .= '<meta name="description" content="PRP hair treatment at IHT\'s Ludhiana clinics (Sarabha Nagar &amp; South City): cost, candidacy, and what to expect.">';
+        $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/prp-hair-treatment-in-ludhiana" />';
+        break;
+
+    case 'prp-hair-treatment-in-bangalore':
+        $metaHtml  = '<title>PRP Hair Treatment in Bangalore | Cost | IHT</title>';
+        $metaHtml .= '<meta name="description" content="PRP hair treatment at IHT\'s Bangalore clinic (Indiranagar): cost, candidacy, and what to expect. Book a consultation.">';
+        $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/prp-hair-treatment-in-bangalore" />';
         break;
 
     case 'beard-transplant':
@@ -245,9 +263,27 @@ switch ($url) {
             break;
 
         case 'gfc-hair-treatment':
-            $metaHtml  = '<title>GFC Therapy for Hair Loss in India | Cost, Benefits & Results | IHT Clinic</title>';
-            $metaHtml .= '<meta name="description" content="Learn how GFC therapy helps reduce hair fall and support existing hair follicles. Explore benefits, procedure, cost, and results at India Hair Transplant (IHT).">';
+            $metaHtml  = '<title>GFC Therapy for Hair Loss in India | Cost | IHT</title>';
+            $metaHtml .= '<meta name="description" content="GFC therapy for hair loss: how it works, cost, candidacy, and what results to realistically expect at IHT.">';
             $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/gfc-hair-treatment" />';
+            break;
+
+        case 'gfc-hair-treatment-in-delhi':
+            $metaHtml  = '<title>GFC Therapy in Delhi | Cost | IHT</title>';
+            $metaHtml .= '<meta name="description" content="GFC therapy at IHT\'s Delhi clinic (GK-I): cost, candidacy, and what to expect. Book a consultation.">';
+            $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/gfc-hair-treatment-in-delhi" />';
+            break;
+
+        case 'gfc-hair-treatment-in-ludhiana':
+            $metaHtml  = '<title>GFC Therapy in Ludhiana | Cost | IHT</title>';
+            $metaHtml .= '<meta name="description" content="GFC therapy at IHT\'s Ludhiana clinics (Sarabha Nagar &amp; South City): cost, candidacy, and what to expect.">';
+            $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/gfc-hair-treatment-in-ludhiana" />';
+            break;
+
+        case 'gfc-hair-treatment-in-bangalore':
+            $metaHtml  = '<title>GFC Therapy in Bangalore | Cost | IHT</title>';
+            $metaHtml .= '<meta name="description" content="GFC therapy at IHT\'s Bangalore clinic (Indiranagar): cost, candidacy, and what to expect. Book a consultation.">';
+            $metaHtml .= '<link rel="canonical" href="https://indiahairtransplant.com/gfc-hair-treatment-in-bangalore" />';
             break;
         case 'unshaven-hair-transplant':
             $metaHtml  = '<title>Unshaven FUE Hair Transplant | No-Shave & Long Hair Transplant – IHT Clinic</title>';

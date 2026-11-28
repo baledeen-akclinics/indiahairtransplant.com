@@ -1,3 +1,11 @@
+<?php
+// "Know More" goes to the matching treatment city page on the PRP / GFC
+// main pages; everywhere else it goes to the hair transplant city page.
+$clinicPage = trim(uri_string(), '/');
+$clinicLinkPrefix = in_array($clinicPage, ['prp-hair-treatment', 'gfc-hair-treatment'], true)
+    ? $clinicPage . '-in-'
+    : 'hair-transplant-in-';
+?>
 <section class="results-section clinics clinics--white" aria-labelledby="clinicsHeading">
   <div class="container">
     <h2 class="results-title" id="clinicsHeading">Check Your Nearest IHT Clinic</h2>
@@ -21,11 +29,11 @@
                     <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1.3 1.3 0 0 1 1.3-.3 10.2 10.2 0 0 0 3.3.5 1.3 1.3 0 0 1 1.3 1.3v3.7a1.3 1.3 0 0 1-1.3 1.3A18.7 18.7 0 0 1 3 5.4 1.3 1.3 0 0 1 4.3 4h3.7A1.3 1.3 0 0 1 9.3 5.3c0 1.1.2 2.2.5 3.3.1.4 0 .9-.3 1.3l-2.9 2.9Z" fill="currentColor" />
                   </svg></span><a href="tel:+918699003797">+91 86990 03797</a></p>
               <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 11h5v-2h-4V6h-2v7Z" fill="currentColor" />
+                    <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" /><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                   </svg></span>Mon–Sun: 10:30 AM – 6:30 PM</p>
             </div>
             <footer class="clinic-foot">
-              <a class="btn btn--ghost btn--sm" href="<?= base_url('hair-transplant-in-delhi') ?>">Know More</a>
+              <a class="btn btn--ghost btn--sm" href="<?= base_url($clinicLinkPrefix . 'delhi') ?>">Know More</a>
               <a class="btn btn--outline btn--sm" target="_blank" href="https://www.google.com/maps/dir//AK+Clinics+-+Hair+Transplant+Delhi+-+Best+Hair+Transplant+Clinic+In+Delhi+NCR+M+20,+Hansraj+Gupta+Rd,+near+M+Block+Market,+Greater+Kailash-1,+M+Block,+Greater+Kailash+I,+Greater+Kailash+New+Delhi,+Delhi+110048/@28.5493619,77.2347296,14z/data=!4m5!4m4!1m0!1m2!1m1!1s0x391a83c5cd3f06e9:0x86a558e406078cfd">Get Direction</a>
             </footer>
           </article>
@@ -43,11 +51,11 @@
                     <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1.3 1.3 0 0 1 1.3-.3 10.2 10.2 0 0 0 3.3.5 1.3 1.3 0 0 1 1.3 1.3v3.7a1.3 1.3 0 0 1-1.3 1.3A18.7 18.7 0 0 1 3 5.4 1.3 1.3 0 0 1 4.3 4h3.7A1.3 1.3 0 0 1 9.3 5.3c0 1.1.2 2.2.5 3.3.1.4 0 .9-.3 1.3l-2.9 2.9Z" fill="currentColor" />
                   </svg></span><a href="tel:+918699003797">+91 86990 03797</a></p>
               <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 11h5v-2h-4V6h-2v7Z" fill="currentColor" />
+                    <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" /><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                   </svg></span>Mon–Sun: 10:30 AM – 6:30 PM</p>
             </div>
             <footer class="clinic-foot">
-              <a class="btn btn--ghost btn--sm" href="<?= base_url('hair-transplant-in-ludhiana') ?>">Know More</a>
+              <a class="btn btn--ghost btn--sm" href="<?= base_url($clinicLinkPrefix . 'ludhiana') ?>">Know More</a>
               <a class="btn btn--outline btn--sm" target="_blank" href="https://maps.app.goo.gl/YVDA7hQoYqQEeLEt7">Get Direction</a>
             </footer>
           </article>
@@ -65,11 +73,11 @@
                     <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1.3 1.3 0 0 1 1.3-.3 10.2 10.2 0 0 0 3.3.5 1.3 1.3 0 0 1 1.3 1.3v3.7a1.3 1.3 0 0 1-1.3 1.3A18.7 18.7 0 0 1 3 5.4 1.3 1.3 0 0 1 4.3 4h3.7A1.3 1.3 0 0 1 9.3 5.3c0 1.1.2 2.2.5 3.3.1.4 0 .9-.3 1.3l-2.9 2.9Z" fill="currentColor" />
                   </svg></span><a href="tel:+918699003797">+91 86990 03797</a></p>
               <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 11h5v-2h-4V6h-2v7Z" fill="currentColor" />
+                    <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" /><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                   </svg></span>Mon–Sun: 10:30 AM – 6:30 PM</p>
             </div>
             <footer class="clinic-foot">
-              <a class="btn btn--ghost btn--sm" href="<?= base_url('hair-transplant-in-ludhiana') ?>">Know More</a>
+              <a class="btn btn--ghost btn--sm" href="<?= base_url($clinicLinkPrefix . 'ludhiana') ?>">Know More</a>
               <a class="btn btn--outline btn--sm" target="_blank" href="https://maps.app.goo.gl/dm1sDLoYsLvfBfKB8">Get Direction</a>
             </footer>
           </article>
@@ -87,11 +95,11 @@
                     <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1.3 1.3 0 0 1 1.3-.3 10.2 10.2 0 0 0 3.3.5 1.3 1.3 0 0 1 1.3 1.3v3.7a1.3 1.3 0 0 1-1.3 1.3A18.7 18.7 0 0 1 3 5.4 1.3 1.3 0 0 1 4.3 4h3.7A1.3 1.3 0 0 1 9.3 5.3c0 1.1.2 2.2.5 3.3.1.4 0 .9-.3 1.3l-2.9 2.9Z" fill="currentColor" />
                   </svg></span><a href="tel:+918699003797">+91 86990 03797</a></p>
               <p class="clinic-row"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M12 2a10 10 0 1 0 .001 20.001A10 10 0 0 0 12 2Zm1 11h5v-2h-4V6h-2v7Z" fill="currentColor" />
+                    <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2" /><path d="M12 7v5l3.5 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                   </svg></span>Mon–Sun: 10:30 AM – 6:30 PM</p>
             </div>
             <footer class="clinic-foot">
-              <a class="btn btn--ghost btn--sm" href="<?= base_url('hair-transplant-in-bangalore') ?>">Know More</a>
+              <a class="btn btn--ghost btn--sm" href="<?= base_url($clinicLinkPrefix . 'bangalore') ?>">Know More</a>
               <a class="btn btn--outline btn--sm" target="_blank" href="https://maps.app.goo.gl/qgX83P9UfZ3YUXfo9">Get Direction</a>
             </footer>
           </article>

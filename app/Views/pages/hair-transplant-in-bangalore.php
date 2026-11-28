@@ -474,7 +474,7 @@
         <h3>Bio-FUE Hair Transplant Cost in Bangalore</h3>
 
         <p class="cs-text">
-         The cost of a Bio-FUE hair transplant in Bangalore typically ranges from Rs. 80,000 to Rs. 4,50,000. The final cost depends on the number of grafts required, the area to be covered, the complexity of surgical planning, and overall donor availability. A detailed medical consultation is essential to provide an accurate and personalised cost estimate.
+         Hair transplant cost at IHT in Bangalore starts from ₹50,000 onwards. The cost of a Bio-FUE hair transplant depends on the number of grafts required, the area to be covered, the complexity of surgical planning and overall donor availability, and is confirmed only after a detailed medical consultation.
         </p>
 
       </div>
@@ -729,7 +729,7 @@
           <i class="faq-ico" aria-hidden="true"></i>
         </button>
         <div class="faq-a" hidden="">
-          Hair transplant cost in Bangalore generally ranges from Rs. 80,000 to Rs. 4,50,000, depending on factors such as the technique used, the number of grafts required, the surgeon's involvement, and the extent of hair loss. A medical consultation is required to provide an accurate cost estimate.
+          Hair transplant cost in Bangalore starts from ₹50,000 onwards. The final cost depends on the number of grafts required, the technique used, the extent of hair loss and your expectations, and is confirmed only after a medical consultation.
         </div>
       </article>
 
@@ -829,7 +829,7 @@
           <i class="faq-ico" aria-hidden="true"></i>
         </button>
         <div class="faq-a" hidden="">
-          Hair transplant cost in Bangalore generally ranges from Rs. 80,000 to Rs. 4,50,000, depending on factors such as the technique used, the number of grafts required, the surgeon's involvement, and the extent of hair loss. A medical consultation is required to provide an accurate cost estimate.
+          Hair transplant cost in Bangalore starts from ₹50,000 onwards. The final cost depends on the number of grafts required, the technique used, the extent of hair loss and your expectations, and is confirmed only after a medical consultation.
         </div>
       </article>
 
@@ -955,7 +955,7 @@
           "name": "How much does a hair transplant cost in Bangalore?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Hair transplant cost in Bangalore generally ranges from Rs. 80,000 to Rs. 4,50,000, depending on factors such as the technique used, the number of grafts required, the surgeon's involvement, and the extent of hair loss. A medical consultation is required to provide an accurate cost estimate."
+            "text": "Hair transplant cost in Bangalore starts from ₹50,000 onwards. The final cost depends on the number of grafts required, the technique used, the extent of hair loss and your expectations, and is confirmed only after a medical consultation."
           }
         },
         {
@@ -1011,7 +1011,7 @@
           "name": "How much does a hair transplant cost in Bangalore?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Hair transplant cost in Bangalore generally ranges from Rs. 80,000 to Rs. 4,50,000, depending on factors such as the technique used, the number of grafts required, the surgeon's involvement, and the extent of hair loss. A medical consultation is required to provide an accurate cost estimate."
+            "text": "Hair transplant cost in Bangalore starts from ₹50,000 onwards. The final cost depends on the number of grafts required, the technique used, the extent of hair loss and your expectations, and is confirmed only after a medical consultation."
           }
         },
         {

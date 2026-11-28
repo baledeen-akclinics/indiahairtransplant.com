@@ -24,6 +24,19 @@
     </div>
   </section>
 
+  <!-- ============ QUICK ANSWER ============ -->
+  <section class="internal-grey">
+    <div class="container">
+      <div class="cs-wrap">
+        <div class="cs-content">
+          <p class="cs-text">
+            <strong>Quick answer:</strong> PRP (Platelet-Rich Plasma) hair treatment uses platelets from a patient's own blood to support existing, still-active hair follicles. It is a non-surgical, doctor-supervised therapy for early hair thinning and diffuse hair loss. It does not create new follicles and is not suitable for completely bald areas, where a hair transplant is considered instead.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ MEDIA INTRO (image + text) ============ -->
 <section class="internal-white">
   <!-- change to internal-grey if needed -->
@@ -230,7 +243,7 @@
         <ul class="iht-acc-list">
           <li>Early hair thinning or increased hair fall</li>
           <li>Diffuse hair loss with reduced density</li>
-          <li>Early-stage androgenetic alopecia</li>
+          <li>Early-stage <a href="<?= base_url('androgenetic-alopecia') ?>">androgenetic alopecia</a></li>
           <li>Patients seeking a non-surgical treatment option</li>
           <li>Supportive care after a hair transplant</li>
         </ul>
@@ -457,7 +470,7 @@
           <li>PRP procedures performed only by qualified doctors, not technicians</li>
           <li>Strict hygiene and sterile protocols followed during every procedure</li>
           <li>Controlled microneedling used only when clinically required</li>
-          <li>PRP support with Bio-FUE hair transplant where needed to support healing and recovery</li>
+          <li>PRP support with <a href="<?= base_url('hair-transplant') ?>">Bio-FUE hair transplant</a> where needed to support healing and recovery</li>
         </ul>
 <br/>
         <p class="cs-text">
@@ -475,9 +488,9 @@
 <section class="iht-cta-strip">
       <div class="container iht-cta-wrap">
         <p class="iht-cta-text">
-          👉 Book a consultation with our experts to understand whether a hair transplant is the right option for your hair loss.
+          Book a consultation with our experts to understand whether PRP hair treatment is the right option for your hair loss.
         </p>
-        <a href="tel:08699003797" class="iht-cta-btn">Call 08699003797</a>
+        <a href="tel:+918699003797" class="iht-cta-btn">Call +91 86990 03797</a>
       </div>
     </section>
     
@@ -485,6 +498,43 @@
 
 
 
+
+<section class="lp-sec lp-sec--tint">
+  <div class="container">
+    <h2 class="results-title">PRP Hair Treatment at IHT's Clinics</h2>
+    <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
+    <p class="lp-lead">PRP hair treatment is available at IHT's clinics in Delhi, Ludhiana and Bangalore. Choose your city for local costs, clinic details and answers to common questions.</p>
+    <div class="lp-locs">
+      <a class="lp-loc" href="<?= base_url('prp-hair-treatment-in-delhi') ?>">
+        <div class="lp-loc-img"><img loading="lazy" src="<?= base_url('assets/images/placeholders/clinic-delhi.webp') ?>" alt="IHT clinic in Delhi"></div>
+        <div class="lp-loc-body">
+          <h3>PRP Hair Treatment in Delhi</h3>
+          <p class="lp-loc-meta">GK-I, near M Block Market</p>
+          <p class="lp-loc-meta">Mon to Sun: 10:30 AM to 6:30 PM</p>
+          <span class="lp-loc-cta">View PRP hair treatment in Delhi</span>
+        </div>
+      </a>
+      <a class="lp-loc" href="<?= base_url('prp-hair-treatment-in-ludhiana') ?>">
+        <div class="lp-loc-img"><img loading="lazy" src="<?= base_url('assets/images/placeholders/clinic-ludhiana-sarabha-nagar.webp') ?>" alt="IHT clinic in Ludhiana"></div>
+        <div class="lp-loc-body">
+          <h3>PRP Hair Treatment in Ludhiana</h3>
+          <p class="lp-loc-meta">Two clinics: Sarabha Nagar and South City</p>
+          <p class="lp-loc-meta">Mon to Sun: 10:30 AM to 6:30 PM</p>
+          <span class="lp-loc-cta">View PRP hair treatment in Ludhiana</span>
+        </div>
+      </a>
+      <a class="lp-loc" href="<?= base_url('prp-hair-treatment-in-bangalore') ?>">
+        <div class="lp-loc-img"><img loading="lazy" src="<?= base_url('assets/images/placeholders/clinic-bangalore.webp') ?>" alt="IHT clinic in Bangalore"></div>
+        <div class="lp-loc-body">
+          <h3>PRP Hair Treatment in Bangalore</h3>
+          <p class="lp-loc-meta">10th Cross Road, Indiranagar</p>
+          <p class="lp-loc-meta">Mon to Sun: 10:30 AM to 6:30 PM</p>
+          <span class="lp-loc-cta">View PRP hair treatment in Bangalore</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
 
 <?= $this->include('partials/location') ?>
 
@@ -541,7 +591,7 @@
           <i class="faq-ico" aria-hidden="true"></i>
         </button>
         <div class="faq-a" hidden="">
-          Both PRP and GFC are advanced supportive treatments. PRP uses platelets derived from the patient’s own blood, while GFC involves processed growth factors. The choice depends on scalp condition, stage of hair loss, and the doctor’s clinical recommendation after evaluation.
+          Both PRP and <a href="<?= base_url('gfc-hair-treatment') ?>">GFC therapy</a> are advanced supportive treatments. PRP uses platelets derived from the patient’s own blood, while GFC involves processed growth factors. The choice depends on scalp condition, stage of hair loss, and the doctor’s clinical recommendation after evaluation.
         </div>
       </article>
 
@@ -572,11 +622,12 @@
 
 
     <aside class="faq-author faq-author--ak">
-      <img loading="lazy" src="<?= base_url('assets/images/dr-kapil-dua-icon.png') ?>" alt="Dr. Kapil Dua">
+      <img loading="lazy" src="<?= base_url('assets/images/dr-aman-dua.webp') ?>" alt="Dr. Aman Dua">
       <div class="fa-meta">
-        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a></p>
-        <p class="fa-row">MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
-        <p class="fa-row"><strong>Updated on:</strong> January 27, 2026</p>
+        <p class="fa-row"><strong>Authored by:</strong> <a href="<?= base_url('dr-aman-dua') ?>">Dr. Aman Dua</a></p>
+        <p class="fa-row">MBBS, MD Dermatology - Chief Dermatologist</p>
+        <p class="fa-row"><strong>Reviewed by:</strong> <a href="<?= base_url('dr-kapil-dua') ?>">Dr. Kapil Dua</a>, MBBS, MS - Chairman &amp; Chief Hair Transplant Surgeon</p>
+        <p class="fa-row"><strong>Updated on:</strong> November 26, 2026</p>
       </div>
     </aside>
   
@@ -589,12 +640,29 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "WebPage",
+      "@type": "MedicalWebPage",
       "url": "https://indiahairtransplant.com/prp-hair-treatment",
+      "name": "PRP Hair Treatment in India",
       "isPartOf": {
         "@type": "WebSite",
         "url": "https://indiahairtransplant.com/"
-      }
+      },
+      "about": {
+        "@type": "MedicalProcedure",
+        "name": "PRP Hair Treatment",
+        "procedureType": "https://schema.org/NoninvasiveProcedure",
+        "howPerformed": "Platelet-rich plasma is prepared from a small blood sample via centrifugation and injected into the scalp to support existing, active hair follicles.",
+        "status": "Non-surgical supportive therapy; not a substitute for hair transplant surgery in areas of complete baldness."
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Dr. Aman Dua"
+      },
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Dr. Kapil Dua"
+      },
+      "lastReviewed": "2026-11-26"
     },
     {
       "@type": "FAQPage",
