@@ -599,7 +599,7 @@
 
     <!-- Hair Loss Medication -->
     <figure class="rc-slide">
-      <a href="<?= base_url('medical-hair-loss-treatment') ?>" class="svc-link">
+      <a href="<?= base_url('minoxidil-for-hair-loss') ?>" class="svc-link">
         <div class="svc-card">
           <span class="svc-ico">
             <img loading="lazy" src="<?= base_url('assets/images/hair-loss-medication.png') ?>" alt="Hair loss medication treatment">
