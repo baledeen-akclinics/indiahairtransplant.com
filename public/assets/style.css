@@ -745,7 +745,7 @@ img{max-width:100%;display:block}
 
     background:
         linear-gradient(180deg, rgba(255, 255, 255, .88), rgba(255, 255, 255, .88)),
-        url('https://img.freepik.com/free-photo/abstract-studio-background-texture-light-blue-gray-gradient-wall-flat-floor-product_1258-88214.jpg?semt=ais_hybrid&w=1600&q=80') center / cover no-repeat;
+        url('images/page-hero-bg.webp') center / cover no-repeat;
 }
 
 .iht-about .page-hero .wrap {
