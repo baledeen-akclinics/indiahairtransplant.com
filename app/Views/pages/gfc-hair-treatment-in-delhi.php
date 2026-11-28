@@ -36,7 +36,7 @@
   </section>
 
   <!-- ============ WHAT IS GFC ============ -->
-  <section class="internal-white">
+  <section class="celeb-story-white">
     <div class="container">
       <h2 class="results-title">What Is GFC Therapy?</h2>
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
@@ -57,7 +57,7 @@
   </section>
 
   <!-- ============ CANDIDACY ============ -->
-  <section class="internal-grey">
+  <section class="celeb-story">
     <div class="container">
       <h2 class="results-title">Who Is a Suitable Candidate for GFC in Delhi?</h2>
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
@@ -142,7 +142,7 @@
   </section>
 
   <!-- ============ CLINIC DETAILS ============ -->
-  <section class="internal-grey">
+  <section class="celeb-story">
     <div class="container">
       <h2 class="results-title">IHT's GFC Clinic in Delhi</h2>
       <div class="results-divider" aria-hidden="true"><span class="line"></span><span class="cross">✚</span><span class="line"></span></div>
